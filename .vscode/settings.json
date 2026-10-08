@@ -1,0 +1,18 @@
+{
+    "workbench.editorAssociations": {
+        "*.copilotmd": "vscode.markdown.preview.editor",
+        "*.parquet": "duckdb.dataFileViewer",
+        "*.csv": "duckdb.dataFileViewer",
+        "*.tsv": "duckdb.dataFileViewer",
+        "*.xlsx": "duckdb.dataFileViewer"
+    },
+    "duckdb.databases": [
+        {
+            "alias": "trends",
+            "type": "file",
+            "path": "d:\\Study\\University\\Big data\\Đồ án\\IS405.R11-Big-Data\\data\\warehouse\\trends.duckdb",
+            "attached": true
+        }
+    ],
+    "duckdb.defaultDatabase": "trends"
+}

@@ -1,0 +1,23 @@
+{
+  "completed_batches": [
+    "majors_it_batch_1",
+    "majors_it_batch_2",
+    "majors_it_batch_3",
+    "universities_it_batch_1",
+    "universities_it_batch_2",
+    "universities_it_batch_3",
+    "universities_it_batch_4",
+    "admission_signals_batch_1",
+    "admission_signals_batch_2",
+    "admission_signals_batch_3",
+    "job_market_signals_batch_1",
+    "job_market_signals_batch_2",
+    "majors_it_1y_batch_1",
+    "majors_it_1y_batch_2",
+    "majors_it_1y_batch_3",
+    "majors_it_3m_batch_1",
+    "majors_it_3m_batch_2",
+    "majors_it_3m_batch_3"
+  ],
+  "last_updated": "2026-10-08T14:33:24.300096"
+}

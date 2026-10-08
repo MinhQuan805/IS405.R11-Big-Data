@@ -1,0 +1,61 @@
+# Danh mục Từ khóa Phân tích Tín hiệu Xã hội & Tuyển sinh CNTT (Google Trends)
+anchor_keyword: "Công nghệ thông tin"
+
+categories:
+  majors_it:
+    description: "Các ngành đào tạo thuộc khối Công nghệ thông tin & Máy tính (sử dụng tên đầy đủ rõ nghĩa)"
+    keywords:
+      - "Khoa học máy tính"
+      - "Kỹ thuật phần mềm"
+      - "Trí tuệ nhân tạo"
+      - "Khoa học dữ liệu"
+      - "An toàn thông tin"
+      - "Hệ thống thông tin"
+      - "Thiết kế vi mạch"
+      - "Vi mạch bán dẫn"
+      - "Kỹ thuật máy tính"
+      - "Mạng máy tính"
+
+  universities_it:
+    description: "Các trường đại học đào tạo CNTT trọng điểm tại Việt Nam (gắn liền chữ 'Đại học' hoặc 'Học viện' để tránh trùng lắp dịch vụ/doanh nghiệp)"
+    keywords:
+      - "UIT"
+      - "Đại học Công nghệ Thông tin"
+      - "Đại học FPT"
+      - "HUST"
+      - "Bách Khoa Hà Nội"
+      - "HCMUT"
+      - "Bách Khoa TP.HCM"
+      - "HCMUS"
+      - "Khoa học Tự nhiên"
+      - "PTIT"
+      - "Bưu chính Viễn thông"
+      - "HCMUTE"
+      - "Sư phạm Kỹ thuật"
+      - "UET"
+      - "Đại học Công nghệ ĐHQGHN"
+
+  admission_signals:
+    description: "Tín hiệu tìm kiếm trực tiếp mùa xét tuyển, điểm chuẩn và nguyện vọng đại học"
+    keywords:
+      - "Điểm chuẩn đại học"
+      - "Điểm chuẩn CNTT"
+      - "Điểm chuẩn UIT"
+      - "Điểm chuẩn Bách Khoa"
+      - "Điểm chuẩn FPT"
+      - "Xét tuyển đại học"
+      - "Thi tốt nghiệp THPT"
+      - "Nguyện vọng đại học"
+      - "Phổ điểm đại học"
+
+  job_market_signals:
+    description: "Tín hiệu về nhu cầu thị trường lao động, việc làm và mức lương ngành IT"
+    keywords:
+      - "Việc làm IT"
+      - "Lập trình viên"
+      - "Kỹ sư phần mềm"
+      - "Software Engineer"
+      - "Thực tập sinh IT"
+      - "IT Intern"
+      - "Lương IT"
+      - "Lương ngành CNTT"

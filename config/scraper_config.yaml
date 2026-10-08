@@ -1,0 +1,28 @@
+# Cấu hình Scraper Google Trends (Fast Mode Optimized)
+
+google_trends:
+  hl: "vi-VN"
+  tz: 420                # GMT+7 (Việt Nam)
+  geo: "VN"              # Phạm vi toàn quốc Việt Nam
+  cat: 0                 # 0 = Tất cả danh mục
+  timeframe: "today 5-y" # 5 năm gần nhất (dữ liệu theo tuần)
+
+rate_limit:
+  min_delay_sec: 1.5     # Tối ưu thời gian chờ tối thiểu (giây)
+  max_delay_sec: 3.0     # Tối ưu thời gian chờ tối đa (giây)
+  max_retries: 5         # Số lần retry khi gặp HTTP 429
+  backoff_base_sec: 10.0 # Thời gian ngủ cơ bản khi dính rate limit
+
+features:
+  fetch_interest_over_time: true
+  fetch_interest_by_region: true
+  fetch_related_queries: false  # Tắt related queries để tăng tốc gấp 3 lần và hạn chế dính 429
+
+storage:
+  lake_raw_dir: "data/lake/raw"
+  lake_normalized_dir: "data/lake/normalized"
+  warehouse_duckdb_path: "data/warehouse/trends.duckdb"
+  save_formats:
+    - "parquet"
+    - "csv"
+  enable_duckdb_sync: true
