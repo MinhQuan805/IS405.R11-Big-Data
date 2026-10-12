@@ -1,0 +1,20 @@
+{
+  "query_terms": [
+    "python"
+  ],
+  "date_range": "all",
+  "geo": "VN",
+  "interest_over_time": null,
+  "interest_by_region": null,
+  "commonly_searched_queries": null,
+  "scraped_at": "2026-10-12T17:56:32.985984",
+  "status": "failed",
+  "errors": [
+    "Attempt 1 failed: RuntimeError - Live page rendered empty widgets (Google silent throttling or blocked landing state).",
+    "Attempt 2 failed: RuntimeError - Live page rendered empty widgets (Google silent throttling or blocked landing state).",
+    "Attempt 3 failed: RuntimeError - Live page rendered empty widgets (Google silent throttling or blocked landing state)."
+  ],
+  "metadata": {
+    "url": "https://trends.google.com/explore?q=python&hl=en&date=all&geo=VN"
+  }
+}

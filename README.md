@@ -11,12 +11,14 @@
 
 ## Quy tắc
 
-- Mọi path và các thông số khác đều cấu hình trung gian qua `config/`.
+- Mọi path đều cấu hình trung gian qua `config\dirs.yaml`.
 - Phong cách lập trình notebook và unit scripts là hướng cấu trúc (structural oriented), không phải OOP.
 - Đánh dấu `# export` trước mỗi node có thể xuất ra thành script chính.
 - Mọi dependency hữu ích cần được khai báo trong `requirements.txt`.
 
 ## Shortcuts
+
+_Note_: Nên kích hoạt venv và chỉ làm việc trong môi trường venv.
 
 Kích hoạt môi trường venv (Windows):
 
@@ -30,4 +32,8 @@ Tải dependencies:
 pip install -r requirements.txt
 ```
 
-Nên kích hoạt venv và chỉ làm việc trong môi trường venv.
+Cài đặt Chromium browser driver (nếu cần sử dụng `helpers\crawl_trend_data.py` - Playwright):
+
+```sh
+playwright install chromium
+```
