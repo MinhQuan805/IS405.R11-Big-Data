@@ -1,0 +1,33 @@
+# Cấu hình các địa chỉ dùng trong dự án
+
+# Tệp cấu hình tham số
+configs:
+  keywords: "config/keywords_it.yaml"
+  scraper_config: "config/scraper_config.yaml"
+
+# Dữ liệu thô (Raw Data)
+raw_data:
+  cutoff_scores: "data-raw/admission-cutoff-score/cutoff-scores.csv"
+  majors: "data-raw/admission-cutoff-score/majors.csv"
+  score_blocks: "data-raw/admission-cutoff-score/score-blocks.csv"
+  trend_topics: "data-raw/google-trends/trend_topics.csv"
+
+# Dữ liệu đã làm sạch / chuẩn hóa (Cleaned Data)
+cleaned_data:
+  cutoff_scores: "data-cleaned/admission-cutoff-score/cutoff-scores.csv"
+  majors: "data-cleaned/admission-cutoff-score/majors.csv"
+  score_blocks: "data-cleaned/admission-cutoff-score/score-blocks.csv"
+  trend_topics: "data-cleaned/google-trends/trend_topics.csv"
+
+# Script công cụ hỗ trợ
+supporting_scripts:
+  convert_notebook_2_unit_script: "helpers/convert_notebook_2_unit_script.py"
+
+# Script thu thập dữ liệu (Fetching Scripts)
+fetching_scripts:
+
+# Unit Script xử lý dữ liệu (Processing Unit Scripts)
+unit_scripts:
+  cutoff_scores: "scripts-processing/unit-scripts/cutoff_scores.py"
+  majors: "scripts-processing/unit-scripts/majors.py"
+  score_blocks: "scripts-processing/unit-scripts/score_blocks.py"
