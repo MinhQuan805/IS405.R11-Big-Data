@@ -11,7 +11,7 @@
       "alias": "trends",
       "type": "file",
       "path": "d:\\Study\\University\\Big data\\Đồ án\\IS405.R11-Big-Data\\data\\warehouse\\trends.duckdb",
-      "attached": true
+      "attached": false
     }
   ],
   "duckdb.defaultDatabase": "trends",

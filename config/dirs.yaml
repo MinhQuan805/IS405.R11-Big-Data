@@ -12,6 +12,7 @@ raw_data:
   score_blocks: "data-raw/admission-cutoff-score/score-blocks.csv"
   trend_topics: "data-raw/google-trends/trend_topics.csv"
   trends: "data-raw/google-trends/trends.json"
+  trends_cache: "data-raw/google-trends/trends-cache.sqlite3"
 
 # Dữ liệu đã làm sạch / chuẩn hóa (Cleaned Data)
 cleaned_data:
@@ -24,6 +25,10 @@ cleaned_data:
 supporting_scripts:
   convert_notebook_2_unit_script: "helpers/convert_notebook_2_unit_script.py"
   crawl_trend_data: "helpers/crawl_trend_data.py"
+
+# Log chạy pipeline
+logs:
+  google_trends: "logs/google-trends.log"
 
 # Unit Script xử lý dữ liệu (Processing Unit Scripts)
 unit_scripts:

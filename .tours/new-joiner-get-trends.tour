@@ -1,0 +1,68 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Google Trends crawler — Luồng xử lý từ CSV đến JSON",
+  "description": "Dành cho người mới: theo dõi cách script gom mid, gọi Google Trends, retry, chạy song song và lưu checkpoint.",
+  "ref": "main",
+  "steps": [
+    {
+      "file": "scripts-fetching/unit-scripts/get_trends.py",
+      "line": 27,
+      "title": "1. Đầu vào, đầu ra và tham số mặc định",
+      "description": "Script lấy đường dẫn từ config/dirs.yaml thay vì ghi cứng. Mặc định truy vấn Việt Nam (geo=VI), toàn bộ lịch sử (date=all), dùng 2 worker và lưu sau mỗi 20 mid. TZ=-420 là quy ước offset của pytrends cho UTC+7."
+    },
+    {
+      "file": "scripts-fetching/unit-scripts/get_trends.py",
+      "line": 51,
+      "title": "2. Đọc CSV và gom theo mid",
+      "description": "Một mid có thể xuất hiện ở nhiều dòng với keyword hoặc keyword_type khác nhau. Hàm loại mid rỗng, chuẩn hóa chuỗi và gom toàn bộ metadata thành đúng một task cho mỗi mid; nhờ vậy cùng một chủ đề không bị gọi Google nhiều lần."
+    },
+    {
+      "file": "scripts-fetching/unit-scripts/get_trends.py",
+      "line": 110,
+      "title": "3. Mỗi thread có một phiên pytrends riêng",
+      "description": "threading.local() giữ một TrendReq riêng cho từng worker. Điều này tránh nhiều thread dùng chung một session không an toàn. Khi gặp rate limit, session của thread đó được xóa để lần sau tạo lại."
+    },
+    {
+      "file": "scripts-fetching/unit-scripts/get_trends.py",
+      "line": 130,
+      "title": "4. Gửi truy vấn cho một mid",
+      "description": "build_payload dùng chính mã chủ đề Google (mid), timeframe và geo. Một payload chỉ chứa một mid nên các điểm 0–100 là tương đối trong chính truy vấn đó, không thể mặc nhiên so sánh tuyệt đối giữa các mid khác nhau."
+    },
+    {
+      "file": "scripts-fetching/unit-scripts/get_trends.py",
+      "line": 140,
+      "title": "5. Bóc tách ba nhóm dữ liệu",
+      "description": "Script lần lượt lấy interest_over_time, interest_by_region và related_queries. Lỗi ở từng nhóm bị nuốt và biến thành danh sách rỗng, vì vậy record vẫn có thể mang status=success dù một phần dữ liệu bên trong trống. Đây là điểm cần chú ý khi đánh giá chất lượng dữ liệu."
+    },
+    {
+      "file": "scripts-fetching/unit-scripts/get_trends.py",
+      "line": 206,
+      "title": "6. Chuẩn hóa một record JSON",
+      "description": "Kết quả kết hợp metadata từ CSV với dữ liệu Trends, thời điểm thu thập, phạm vi thời gian, khu vực và nguồn dữ liệu. Cấu trúc cố định giúp bước phân tích phía sau đọc được cả record có hoặc không có dữ liệu."
+    },
+    {
+      "file": "scripts-fetching/unit-scripts/get_trends.py",
+      "line": 238,
+      "title": "7. Retry và exponential backoff",
+      "description": "Mỗi mid được thử tối đa 3 lần. Thời gian chờ tăng theo 2^attempt và thêm jitter; lỗi 429 chờ gấp đôi rồi reset session. Hết số lần thử, hàm trả về record status=failed thay vì làm chết toàn bộ pipeline."
+    },
+    {
+      "file": "scripts-fetching/unit-scripts/get_trends.py",
+      "line": 295,
+      "title": "8. Resume và ghi file an toàn",
+      "description": "Khi chạy lại, chỉ các record status=success được xem là hoàn tất; record failed sẽ được thử lại. Khi lưu, script ghi vào trends.tmp trước rồi replace trends.json, giảm nguy cơ làm hỏng file chính nếu tiến trình dừng giữa lúc ghi."
+    },
+    {
+      "file": "scripts-fetching/unit-scripts/get_trends.py",
+      "line": 327,
+      "title": "9. Bộ điều phối chạy song song",
+      "description": "run_pipeline tải task, bỏ qua mid đã thành công, áp dụng limit rồi đưa phần còn lại vào ThreadPoolExecutor. Kết quả hoàn thành không đảm bảo cùng thứ tự đầu vào. Lock bảo vệ việc cập nhật map, đếm tiến độ và lưu checkpoint khỏi xung đột giữa các worker."
+    },
+    {
+      "file": "scripts-fetching/unit-scripts/get_trends.py",
+      "line": 457,
+      "title": "10. Điểm vào dòng lệnh",
+      "description": "CLI hỗ trợ --limit để thử nhanh, --workers để chỉnh mức song song, --geo/--date để đổi phạm vi và --no-resume để bỏ checkpoint. Cách chạy an toàn đầu tiên là: python scripts-fetching/unit-scripts/get_trends.py --limit 5 --workers 1."
+    }
+  ]
+}

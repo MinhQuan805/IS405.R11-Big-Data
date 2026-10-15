@@ -18,6 +18,14 @@ import sys
 from pathlib import Path
 from typing import Optional, Union
 
+# Ensure UTF-8 output on Windows terminal
+if sys.platform == "win32" and hasattr(sys.stdout, "reconfigure"):
+    try:
+        sys.stdout.reconfigure(encoding="utf-8")
+        sys.stderr.reconfigure(encoding="utf-8")
+    except Exception:
+        pass
+
 PathLike = Union[str, Path]
 
 # File này nằm ở <root>/helpers/ -> thư mục gốc dự án là parents[1]

@@ -9,6 +9,6 @@ tqdm>=4.66.0
 lxml>=4.9.0
 matplotlib>=3.7.0
 seaborn>=0.12.0
-pytrends-modern
+pytrends-modern>=0.2.13,<1.0.0
 playwright
 beautifulsoup4
