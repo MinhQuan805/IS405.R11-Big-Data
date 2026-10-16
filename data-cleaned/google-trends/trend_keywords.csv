@@ -1,0 +1,928 @@
+query_id,keyword,keyword_type,selected_mid,selected_title,relevance_score,selection_reason,candidate_count
+576c7703888248f9225b,Trường Cao Đẳng Kỹ Thuật Cao Thắng,school,/g/122jr9l6,Trường Cao đẳng Kỹ thuật Cao Thắng,1.0,best_relevant_topic,3
+7aeda7a997d1621c90e5,Trường Cao Đẳng Công Thương TPHCM,school,/m/0vb4j37,Cao Đẳng Công Thương TP.HCM,0.721264,best_relevant_topic,4
+c6101f1ddd43806c57c3,Đại Học Kinh Tế Quốc Dân,school,/m/0bwj_9k,Trường Đại học Kinh tế Quốc dân,1.0,best_relevant_topic,3
+fc528cf82e4f1c4bf86c,Đại Học Bách Khoa Hà Nội,school,/m/027jq68,Đại Học Bách Khoa Hà Nội,1.0,best_relevant_topic,5
+fbe89dcaba60c2b51b5a,Học Viện Tài chính,school,/m/0vb3p87,Học Viện Tài Chính,1.0,best_relevant_topic,4
+6a9f2547223d4e0a922d,Học Viện Ngân Hàng,school,/g/1231rrgh,Học Viện Ngân Hàng,1.0,best_relevant_topic,3
+6a9f2547223d4e0a922d,Học Viện Ngân Hàng (Phân Viện Bắc Ninh),school,/g/1231rrgh,Học Viện Ngân Hàng,0.758831,best_relevant_topic,1
+6a9f2547223d4e0a922d,Học Viện Ngân Hàng (Phân Viện Phú Yên),school,/g/1231rrgh,Học Viện Ngân Hàng,0.764286,best_relevant_topic,1
+6b03c6d296ce7e7f852d,Trường Đại học Ngoại thương,school,/m/02r1qvb,Trường Đại học Ngoại thương,1.0,best_relevant_topic,3
+6b03c6d296ce7e7f852d,Trường Đại học Ngoại thương (Cơ sở II),school,/m/02r1qvb,Trường Đại học Ngoại thương,0.877357,best_relevant_topic,2
+4b13e18465b1e7f658ee,Trường Đại Học Bách Khoa HCM,school,/g/11cjgd_bmr,Khoa Cơ Khí Trường Đại học Bách Khoa Tp HCM,0.885507,best_relevant_topic,4
+90e002a1a997cc87794b,Trường Đại Học Y Hà Nội,school,/m/03wf35r,Trường Đại học Y Hà Nội (HMU),1.0,best_relevant_topic,5
+1aa8d27b960ac0cc8971,Học Viện Công Nghệ Bưu Chính Viễn Thông,school,/g/12168p16,Học viện Công nghệ Bưu chính viễn thông,1.0,best_relevant_topic,5
+48d455eae125647f0f2d,Trường Đại Học Sư Phạm Hà Nội,school,/m/03qp6jc,Trường Đại Học Sư Phạm Hà Nội,1.0,best_relevant_topic,5
+48d455eae125647f0f2d,Trường Đại Học Sư Phạm Hà Nội 2,school,/m/03qp6jc,Trường Đại Học Sư Phạm Hà Nội,1.0,best_relevant_topic,2
+1d3acb46917f75467d38,Trường Đại Học Thương Mại,school,/m/0vb3m9z,Trường Đại học Thương mại,1.0,best_relevant_topic,3
+21610e5d7be7e40300f0,Trường Đại Học Sư Phạm TPHCM,school,/m/02qqm8l,Trường Đại học Sư phạm Thành phố Hồ Chí Minh,0.779719,best_relevant_topic,4
+c8f73a974411a10007f0,Đại Học Y Dược TPHCM,school,/m/02pz1f3,Trường Đại học Y Dược Thành phố Hồ Chí Minh,0.683055,best_relevant_topic,2
+ae3742143ce30558e517,Trường Đại Học Công Nghệ – Đại Học Quốc Gia Hà Nội,school,/g/1224n74q,"Trường Đại học Công nghệ, Đại học Quốc gia Hà Nội",1.0,best_relevant_topic,5
+56089887601bb86452e6,Trường Đại học Thủ Đô Hà Nội,school,/g/1tj98gpp,Trường Đại học Thủ đô Hà Nội,1.0,best_relevant_topic,3
+cb5c5e1795e1ec868053,Trường Đại Học Giao Thông Vận Tải,school,/m/0vb3l_2,Trường Đại Học Giao Thông Vận Tải,1.0,best_relevant_topic,5
+7d626c5c6b5157decf65,Học Viện Kỹ Thuật Mật Mã,school,/g/122wnfm9,Học viện Kỹ thuật mật mã,1.0,best_relevant_topic,1
+e74c670605e90cf3c21d,Đại Học Công Nghiệp Hà Nội,school,/m/0vb3l31,Trường Đại học Công nghiệp Hà Nội,1.0,best_relevant_topic,3
+e163d5d5717b41135ccb,Trường Đại Học Y Dược Hải Phòng,school,/g/11fxb5nbl8,Nhà B Trường Đại Học Y Dược Hải Phòng,1.0,best_relevant_topic,1
+56804cee89e6f798391f,Trường Đại Học Công Nghiệp TPHCM,school,/m/0vb3q34,Trường Đại học Công Thương TP. Hồ Chí Minh (HUIT),0.669737,best_relevant_topic,5
+56804cee89e6f798391f,Trường Đại Học Công Thương TPHCM,school,/m/0vb3q34,Trường Đại học Công Thương TP. Hồ Chí Minh (HUIT),0.799681,best_relevant_topic,2
+0349378e571170eca056,Trường Đại Học Dược Hà Nội,school,/m/0cr482c,Trường Đại học Dược Hà Nội,1.0,best_relevant_topic,3
+4ab14a2ac2f15f95b70b,Học Viện An Ninh Nhân Dân,school,/g/11b76b2nqq,Học Viện An ninh Nhân Dân,1.0,best_relevant_topic,2
+3ca14f7038c74062b9b0,Trường Đại Học Kỹ Thuật Y Tế Hải Dương,school,/g/121gdcmc,Đại học Kỹ thuật Y tế Hải Dương,1.0,best_relevant_topic,2
+df8e04316cdcafdb2ca4,Trường Đại Học Giao Thông Vận Tải TPHCM,school,/g/1219msrk,Phân hiệu Trường Đại học GTVT tại Tp. Hồ Chí Minh,0.564216,keyword_fallback,2
+aff045ab48e9b17e6d92,Học Viện Y Dược Học Cổ Truyền Việt Nam,school,/g/1222zn25,Học viện Y Dược học Cổ truyền Việt Nam,1.0,best_relevant_topic,1
+b16bcc33079e88a687ff,Học Viện Cảnh Sát Nhân Dân,school,/m/0vb3l8k,Học viện Cảnh sát nhân dân (T02) Bộ Công an,0.969254,best_relevant_topic,1
+2d353f1c28ae90b8595e,Trường Đại Học Kinh Tế Kỹ Thuật Công Nghiệp,school,/m/0vb3mr5,Trường Đại Học Kinh Tế Kỹ Thuật Công Nghiệp,1.0,best_relevant_topic,5
+a15635a73887090b3c6e,Trường Sĩ Quan Lục Quân 1 - Đại học Trần Quốc Tuấn,school,/g/1q69jdvg4,Trường Sĩ quan Lục Quân 1,0.7375,best_relevant_topic,1
+c8c41cce3c4767a2a26d,Học Viện Hải Quân,school,/m/0hzpxcc,Học viện Hải quân,1.0,best_relevant_topic,5
+7333bbd27f9a1ff6de2d,Học Viện Hàng không Việt Nam,school,/m/02pyz92,Học viện Hàng không Việt Nam,1.0,best_relevant_topic,4
+4e99fe3dbf408a06dc5f,Đại Học Phenikaa,school,/g/11q8g71fw4,Đại học Phenikaa,1.0,best_relevant_topic,5
+ccf6971d09d23975c507,Học Viện Phòng Không – Không Quân,school,/g/1216r9rx,Học Viện Phòng Không - Không Quân,1.0,best_relevant_topic,3
+1ef4b54eee193679cc49,Trường Đại Học Cảnh Sát Nhân Dân,school,/g/11b6t1mk6c,Trường Đại Học Cảnh Sát Nhân Dân,1.0,best_relevant_topic,5
+f1fab5cb11f7d14d6b82,Trường Đại Học Hà Nội,school,/m/0465nmd,Trường Đại học Hà Nội,1.0,best_relevant_topic,5
+ca3c44e02c8db5242928,Học Viện Kỹ Thuật Quân Sự - Hệ Quân sự,school,/g/121d6h5_,Học Viện Hậu Cần,0.402137,keyword_fallback,4
+8fd7312dfd35730a59ec,Trường Đại Học Y Tế Công Cộng,school,/m/02836qs,Trường Đại học Y tế công cộng,1.0,best_relevant_topic,3
+61b89656ba1ec7653c12,Học Viện Ngoại Giao,school,/g/122kcrr6,Học viện Ngoại giao,1.0,best_relevant_topic,4
+66f6f666701af2fff4f8,Trường Đại Học An Ninh Nhân Dân,school,/g/11c5rv1mpv,Học Viện An Ninh Nhân Dân - Phân hiệu TP.HCM,0.633333,best_relevant_topic,1
+f7d48087c0b52a77887e,Trường Đại Học Y Dược Cần Thơ,school,/g/11b7jqjfpd,Đại Học Y Dược Cần Thơ,1.0,best_relevant_topic,1
+f7d48087c0b52a77887e,Y - Dược,major_group,/g/11b7jqjfpd,Đại Học Y Dược Cần Thơ,0.716667,best_relevant_topic,5
+ed3516c3fa4ce3a397fd,Trường Đại học Thủ Dầu Một,school,/g/1221mxql,Trường Đại học Thủ Dầu Một,1.0,best_relevant_topic,1
+58bf29a6b3c244b69cef,Trường Đại Học Y Khoa Phạm Ngọc Thạch,school,/m/0z8y9w8,Trường Đại học Y khoa Phạm Ngọc Thạch,1.0,best_relevant_topic,2
+7f4fe7fc7535f396f5c5,Trường Đại Học Thăng Long,school,/g/1229qpy7,Trường Đại học Thăng Long,1.0,best_relevant_topic,1
+1e2ecc95e44cb659f736,Trường Đại Học Thủy Lợi,school,/m/02r3ch_,Trường Đại học Thủy lợi,1.0,best_relevant_topic,5
+548c38e91a3948f912c2,Trường Đại Học Khoa Học Tự Nhiên TPHCM,school,/m/02r129r,Trường Đại học Khoa học Tự nhiên - Đại học Quốc gia TP.HCM,0.825025,best_relevant_topic,2
+510b7f2587c545b415a3,Trường Đại Học Văn Hóa Hà Nội,school,/g/1236yr_p,Trường Đại học Văn hóa Hà Nội,1.0,best_relevant_topic,1
+ea09c7aad52a0c68c0aa,Trường Đại Học Tôn Đức Thắng,school,/g/11cs23yctq,Sân vận động Trường Đại học Tôn Đức Thắng,0.998958,best_relevant_topic,3
+99ce30d6fc1226e7fd1f,Học Viện Nông Nghiệp Việt Nam,school,/m/0cr4831,Học viện Nông Nghiệp Việt Nam,1.0,best_relevant_topic,4
+a25ea688f84f433745e8,Trường Đại Học Khoa Học Xã Hội và Nhân Văn Hà Nội,school,/m/0vb3pcg,Trường Đại học Khoa học Xã hội và Nhân văn - Đại học Quốc gia Hà Nội,0.954945,best_relevant_topic,3
+bfdd33e89a0c8470f32e,Trường Đại Học Luật Hà Nội,school,/m/0vb3ly0,Trường Đại Học Luật Hà Nội.,1.0,best_relevant_topic,2
+6cd35287edc90763b8ed,Trường Đại Học Ngoại Ngữ - ĐH Quốc gia Hà Nội,school,/m/04qbm6h,"Trường THPT Chuyên Ngoại ngữ, Đại học Quốc gia Hà Nội",0.876957,best_relevant_topic,1
+940930653ee5d63e029e,Học viện Báo chí và Tuyên truyền,school,/m/0wzq62q,Học viện Báo chí và Tuyên truyền,1.0,best_relevant_topic,1
+e618f86e42a8cc88abd5,Trường Đại Học Khoa Học Tự Nhiên Hà Nội,school,/m/04gjt_4,"Trường Đại học Khoa học Tự nhiên, Đại học Quốc gia Hà Nội",0.931739,best_relevant_topic,2
+1d5814a5fc03f3f0afbb,Đại Học Sư Phạm Thái Nguyên,school,/g/121qsmgz,Trường Đại học Sư phạm Thái Nguyên,1.0,best_relevant_topic,1
+277f66980c1878f92e17,Trường Sĩ Quan Chính Trị - Đại Học Chính Trị,school,/g/121_c8fd,Trường ĐH Sĩ Quan Chính Trị,0.747388,best_relevant_topic,5
+be146ae441c77e7f28d7,Đại Học Cần Thơ,school,/m/02r6wmy,Đại học Cần Thơ,1.0,best_relevant_topic,5
+dec5a5bae94a76be8e69,Học Viện Biên Phòng,school,/g/120wxbfd,Học viện Biên Phòng,1.0,best_relevant_topic,2
+38b696a6691b052514ed,Trường Đại Học Sư Phạm Huế,school,/m/0cpbhg7,Trường Đại học Sư phạm Huế,1.0,best_relevant_topic,1
+216ac67c2d35052e66c8,Trường Đại Học Công Nghệ Thông Tin - ĐHQG TPHCM,school,/m/02qqlmm,Trường Đại học Công nghệ Thông tin - ĐHQG TP.HCM,0.951393,best_relevant_topic,1
+216ac67c2d35052e66c8,Trường Đại học Công Nghệ TPHCM,school,/m/02qqlmm,Trường Đại học Công nghệ Thông tin - ĐHQG TP.HCM,0.79011,best_relevant_topic,5
+5c36e44fd54f9901b3e9,Trường Đại Học Sài Gòn,school,/m/02qvnkv,Trường Đại học Sài Gòn,1.0,best_relevant_topic,5
+4f302878458ce088abc1,Học Viện Khoa Học Quân Sự - Hệ Quân sự,school,/g/122xqm0r,Học viện Khoa học Quân sự - Military Science Academy,0.756266,best_relevant_topic,5
+4f302878458ce088abc1,Học Viện Khoa Học Quân Sự - Hệ Dân sự,school,/g/122xqm0r,Học viện Khoa học Quân sự - Military Science Academy,0.707059,best_relevant_topic,3
+f7f3572008060fb54197,Học viện Tòa án,school,/g/11bv5sy3v6,Học viện Tòa án,1.0,best_relevant_topic,5
+d6174452aaaaf576e648,Trường Đại Học Sư Phạm - Đại Học Đà Nẵng,school,/m/0cp4mpk,Trường Đại học Sư phạm - Đại học Đà Nẵng,1.0,best_relevant_topic,3
+21683ec6e964ad4313ca,Trường Đại Học Giáo Dục - ĐHQG Hà Nội,school,/m/0n5vl3r,Xếp hạng trường trung học phổ thông Việt Nam,0.386245,keyword_fallback,2
+8876e0cef914d3ef07a4,Trường Đại Học Văn Hóa TPHCM,school,/m/02pyydk,Trường Đại học Văn hóa TP.HCM - Cơ sở 1,0.46829,keyword_fallback,2
+327ab873e6fc82fbe5a8,Trường Đại Học Công nghệ Kỹ thuật TP HCM,school,/m/02pz17z,Trường Đại học Công nghệ Kỹ thuật Thành phố Hồ Chí Minh (HCM-UTE),0.815303,best_relevant_topic,1
+1c608084f4d3ee79489d,Học Viện Thanh Thiếu Niên Việt Nam,school,/g/1tdbnbtf,Học Viện Thanh Thiếu Niên Việt Nam,1.0,best_relevant_topic,1
+5e7e2fe2541f66e2ab3a,Học Viện Quân Y - Hệ Quân sự,school,/g/11yvh2dlnn,Tour 1 ngày Học viện Quân sự West Point + Đại học Yale,0.543573,keyword_fallback,5
+3a39d7b74c7f0eb74907,Học Viện Hậu Cần - Hệ Quân sự,school,/g/121d6h5_,Học Viện Hậu Cần,0.799169,best_relevant_topic,1
+3a39d7b74c7f0eb74907,Học Viện Hậu Cần - Hệ Dân sự,school,/g/121d6h5_,Học Viện Hậu Cần,0.807143,best_relevant_topic,1
+77df67e562e52d3efe8e,Trường Đại Học Luật TPHCM,school,/m/02pz1xy,Trường Đại học Luật TP.HCM,0.885102,best_relevant_topic,2
+052bc9a882b10e065269,Trường Đại Học Ngoại Ngữ Đà Nẵng,school,/g/120ql100,Trường Đại học Ngoại ngữ - Đại học Đà Nẵng,1.0,best_relevant_topic,3
+181692d50a86b6077fca,Đại Học Kinh Tế TPHCM,school,/m/02qq622,Trường Đại học Quốc Tế - Đại học Quốc gia TP.HCM,0.545,keyword_fallback,5
+6dcbda9a785917efe60e,Trường Đại Học Bách Khoa Đà Nẵng,school,/g/11bc5p3frd,"Trường Đại học Bách khoa, Đại học Đà Nẵng",1.0,best_relevant_topic,4
+1edff24c7e1622e0aff5,Trường Đại Học Ngoại Ngữ Huế,school,/m/0g5qw1_,Trường Đại Học Ngoại Ngữ Huế,1.0,best_relevant_topic,1
+d954b7f940bdf744e0bb,Trường Đại Học Tài Chính Marketing,school,/g/11gbwyvcc2,Đại Học Tài Chính - Marketing,1.0,best_relevant_topic,5
+e08e02cd4c3841cd4169,Trường Đại Học Giao Thông Vận Tải (Cơ sở 2),school,/g/1219msrk,Phân hiệu Trường Đại học GTVT tại Tp. Hồ Chí Minh,0.49568,keyword_fallback,3
+701820e04c5bfcc21da8,Trường Đại Học Nha Trang,school,/m/02v_762,Trường Đại học Nha Trang,1.0,best_relevant_topic,4
+311413436a962a6a8702,Trường Sĩ Quan Lục Quân 2 - Đại học Nguyễn Huệ,school,/g/122r_kcc,Trường Sĩ quan Lục quân 2 (Đại học Nguyễn Huệ),1.0,best_relevant_topic,1
+2747049d979543a38b4e,Học Viện Công Nghệ Bưu Chính Viễn Thông (Cơ sở TP.HCM),school,/m/0119w781,Học viện Công nghệ Bưu Chính Viễn Thông cơ sở tại TP.HCM,1.0,best_relevant_topic,3
+2d6db10603a232d46fa0,Trường Đại Học Y Khoa Vinh,school,/m/0p3rc9_,Trường Đại học Y khoa Vinh,1.0,best_relevant_topic,4
+610e22d2aba4be33e7be,Trường Đại học Kỹ thuật Y Dược Đà Nẵng,school,/g/11h4r8cd73,Trường Đại học Kỹ thuật Y - Dược Đà Nẵng,1.0,best_relevant_topic,3
+5595b1a709fda34bbb3d,Trường Đại Học Y Dược Thái Nguyên,school,/g/11y04cgb3z,Trường Đại Học Y Dược Đại Học Thái Nguyên,1.0,best_relevant_topic,2
+bde6a7e87586ccc28b9c,Trường Đại Học Y Dược Huế,school,/g/1hcb0gpqm,Bệnh viện Trường Đại Học Y Dược Huế,1.0,best_relevant_topic,4
+f574fef715b46aca5cfd,Trường Y Dược Đà Nẵng,school,/g/11cs3zmv94,Trường Y Dược - Đại học Đà Nẵng,0.925836,best_relevant_topic,2
+5e76ba71dc852ed73abb,Trường Đại Học Kiến Trúc TPHCM,school,/m/02pydq7,Trường Đại học Kiến trúc TP.HCM (UAH),0.867063,best_relevant_topic,2
+655c2639df4b3cb111d4,Học Viện Chính Trị Công An Nhân Dân,school,/g/11b6bd_7y_,Học viện Chính trị Công an nhân dân,1.0,best_relevant_topic,5
+9e2d54faa0a0e9a740f5,Trường Đại học Khoa học sức khỏe TPHCM,school,/m/02pz1f3,Trường Đại học Y Dược Thành phố Hồ Chí Minh,0.49349,keyword_fallback,3
+93726e4786b110eb2c28,Trường Đại Học Quốc Tế - ĐHQG TPHCM,school,/m/02qq622,Trường Đại học Quốc Tế - Đại học Quốc gia TP.HCM,0.772,best_relevant_topic,2
+091526286d710745f23d,Trường Đại Học Hùng Vương,school,/g/11w3bk38jg,TRƯỜNG ĐẠI HỌC HÙNG VƯƠNG TP. HCM,1.0,best_relevant_topic,2
+091526286d710745f23d,Trường Đại học Hùng Vương TPHCM,school,/g/11w3bk38jg,TRƯỜNG ĐẠI HỌC HÙNG VƯƠNG TP. HCM,0.90929,best_relevant_topic,1
+bbc1dfa2c6b2292064f8,Trường Đại Học Hải Phòng,school,/m/03ctj2r,Trường Đại học Hải Phòng,1.0,best_relevant_topic,2
+f7d600086b9f82b2d7e3,Học Viện Chính Sách và Phát Triển,school,/g/11jft7f6vz,Học viện Chính sách và Phát triển,1.0,best_relevant_topic,3
+0a036a930652f9a2a7a9,Trường Đại Học Mở Hà Nội,school,/g/11fs9vqb54,Trường Đại học Mở Hà Nội (HOU),1.0,best_relevant_topic,4
+21f8ae0f302828e8615e,Trường Đại Học Công Đoàn,school,/g/122rvzw1,Trường Đại Học Công Đoàn,1.0,best_relevant_topic,2
+c7c9766a8bf8ed778ad0,Trường Đại Học Hàng Hải Việt Nam,school,/m/02x17dg,Trường Đại học Hàng hải Việt Nam,1.0,best_relevant_topic,4
+e4a4321e8b84541e122b,Trường Đại Học Vinh,school,/m/012wn10q,Trường Đại học Vinh,1.0,best_relevant_topic,5
+d4e3b01a1696d93ac659,Trường Đại Học An Giang,school,/m/03nt3_y,Trường Đại học An Giang - Đại học Quốc gia Tp. HCM,0.906633,best_relevant_topic,3
+c95090ad13d765b8ea89,Học Viện Hành Chính và Quản trị công,school,/g/12q4q6zpc,Học viện Hành chính và Quản trị công,1.0,best_relevant_topic,4
+276220e119c37a4c408c,Trường Đại Học Đồng Tháp,school,/m/0cp4b58,Trường Đại học Đồng Tháp,1.0,best_relevant_topic,1
+24e13507ae4343909fc7,Trường Khoa học liên ngành và Nghệ thuật Hà Nội,school,/g/11v9vs0gg1,"Trường Khoa học Liên ngành và Nghệ thuật, Đại học Quốc gia Hà Nội VNU-SIS",0.891808,best_relevant_topic,3
+bc3999565f324a2889c0,Trường Đại Học Tây Nguyên,school,/g/121t17yf,Trường Đại học Tây Nguyên,1.0,best_relevant_topic,2
+f4d709a239a6fad61940,Trường Đại Học Quy Nhơn,school,/g/120ylnmc,Trường Đại Học Quy Nhơn,1.0,best_relevant_topic,1
+2c6a6d6bde51ee079bb5,Khoa Giáo Dục Thể Chất Huế,school,/g/11gnrlwhtd,"Khoa Giáo Dục Thể Chất, Đại học Huế",0.89661,best_relevant_topic,3
+e552db0321ad48bb3511,Trường Đại Học Sư Phạm Nghệ Thuật Trung Ương,school,/g/11g6_02cpz,Hải Thuận,0.138462,keyword_fallback,2
+c95ce4a50a67dc2529c3,Trường Đại Học Kinh Tế – Đại Học Đà Nẵng,school,/m/02qgt4g,Trường Đại học Kinh tế - Đại học Đà Nẵng,1.0,best_relevant_topic,2
+e4efe2818da21767c8c7,Trường Ngoại Ngữ Thái Nguyên,school,/g/11b7c7xs1k,Trường Ngoại ngữ - Đại học Thái Nguyên,0.942857,best_relevant_topic,1
+5f51c43d5dd19da42431,Trường Đại Học Hạ Long,school,/g/11hy_5l_7r,Trường Đại Học Hạ Long,1.0,best_relevant_topic,3
+ab931852e269caa47cee,Trường Đại Học Hải Dương,school,/g/11btrr75h3,Trường Đại Học Hải Dương,1.0,best_relevant_topic,5
+09201b0b978d38a486e9,Trường Đại Học Quảng Bình,school,/m/047llm,Đại học Quốc tế Nhật Bản,0.395083,keyword_fallback,3
+b4dcc78e715e29f3e6e8,Trường Đại Học Phạm Văn Đồng,school,/g/12148w_s,Trường Đại học Phạm Văn Đồng,1.0,best_relevant_topic,5
+ea7dc483e2b72ecf48cc,Trường Đại Học Hà Tĩnh,school,/g/120_98jg,Trường Đại học Hà Tĩnh,1.0,best_relevant_topic,1
+aa37e48361028200c9c0,Trường Đại học Tài Nguyên và Môi Trường Hà Nội,school,/g/11b6dylw9c,Trường Đại học Tài nguyên và Môi trường Hà Nội,1.0,best_relevant_topic,4
+a1d58161c7a43d3fd254,Trường Đại Học Ngân Hàng TPHCM,school,/g/11c57n08yx,KTX Đại học Ngân Hàng TPHCM,0.827251,best_relevant_topic,3
+791e2946b03fa72463fa,Trường Đại Học Lao Động – Xã Hội,school,/g/121lbdv0,Trường Đại học Lao động - Xã hội,1.0,best_relevant_topic,3
+60902f5dad2a463e4e2b,Trường Đại Học Bạc Liêu,school,/g/122lkln0,Trường Đại học Bạc Liêu,1.0,best_relevant_topic,3
+c458d6875141722de715,Trường Đại Học Quảng Nam,school,/g/1237q55v,Trường Đại học Quảng Nam,1.0,best_relevant_topic,5
+d4a8ef39b671bcc28c09,Trường Đại Học Lao Động – Xã Hội (Cơ sở II),school,/g/11ksh2646,Trường Đại học Lao động Xã hội - Cơ sở 2,0.960143,best_relevant_topic,1
+3ed023e22563732bf65f,Trường Đại Học Phú Yên,school,/g/1215prh0,Trường Đại học Phú Yên,1.0,best_relevant_topic,2
+174f762edd9cdd9ea4cc,Phân Hiệu Đại Học Đà Nẵng tại Kon Tum,school,/g/11c7hgzf3n,"Cơ sở 2, Phân hiệu Đại học Đà Nẵng tại Kon Tum",0.703846,best_relevant_topic,2
+4c0a00ca4065baa08b40,Trường Đại Học Sư Phạm Thể Dục Thể Thao Hà Nội,school,/g/121rpy13,Trường Đại học Sư phạm Thể dục Thể thao Hà Nội,1.0,best_relevant_topic,1
+d81cce3df6353848acda,Trường Đại học Kỹ Thuật Công Nghệ Cần Thơ,school,/g/11b7jqjfpd,Đại Học Y Dược Cần Thơ,0.558611,keyword_fallback,2
+38050d01cdcef62ccea4,Trường Quốc Tế - ĐHQG Hà Nội,school,/g/11scs709ck,Trường Quốc Tế ĐHQGHN Hòa Lạc,0.665252,best_relevant_topic,1
+54734ee63e8c00b8c507,Trường Đại Học Khoa Học Và Công Nghệ Hà Nội,school,/g/11x6rhhm34,Trường Đại học Khoa học và Công nghệ Hà Nội,1.0,best_relevant_topic,5
+352da49c875e4bdc3aaf,Trường Đại học Công nghiệp Vinh,school,/g/1yqcctbf7,Trường Đại học Công Nghiệp Vinh,1.0,best_relevant_topic,5
+b6f12357b995c7d1d87b,Đại Học Trà Vinh,school,/g/1tfd9z68,Trường Đại học Trà Vinh (Khu IV),0.921104,best_relevant_topic,4
+2c95cab303a5a5251170,Học viện cán bộ TPHCM,school,/g/1tgnz924,Học viện Cán bộ Thành phố Hồ Chí Minh,0.735862,best_relevant_topic,3
+b63310f1a90c008e09d1,Trường Đại Học Xây Dựng Hà Nội,school,/m/09gpvp0,Trường Đại Học Xây Dựng Hà Nội - HUCE,1.0,best_relevant_topic,1
+8d631096b6a3b8c93c9f,Trường Đại Học Sư Phạm Kỹ Thuật Hưng Yên,school,/g/1thkz9_c,Trường Đại học Sư Phạm Kỹ Thuật Hưng Yên,1.0,best_relevant_topic,3
+851bc7b3fa405bc890a9,Trường Đại Học Mở TPHCM,school,/g/11lzpd9w6f,HCMCOU-ELO,0.084375,keyword_fallback,1
+c73810b52ed1f30d301f,Trường Đại học Công nghệ Giao thông vận tải,school,/g/1vzv14kw,Trường Đại học Công nghệ Giao thông Vận tải,1.0,best_relevant_topic,4
+794d80d623743daebb68,Trường Đại Học Mỏ Địa Chất,school,/m/0tkhxpt,Trường Đại học Mỏ - Địa chất,1.0,best_relevant_topic,1
+794d80d623743daebb68,Mỏ - Địa chất,major_group,/m/0tkhxpt,Trường Đại học Mỏ - Địa chất,0.814706,best_relevant_topic,3
+2ef041a499b00f5c27fb,Trường Đại Học Điện Lực,school,/m/0by1q__,Trường Đại học Điện Lực,1.0,best_relevant_topic,3
+ceda7fcb5f435baa5b8f,Trường Đại Học Thể Dục Thể Thao TPHCM,school,/g/122_9mc8,Trường Đại học Sư phạm Thể dục Thể thao Tp. Hồ Chí Minh,0.806353,best_relevant_topic,2
+ceda7fcb5f435baa5b8f,Trường Đại Học Sư Phạm Thể Dục Thể Thao TPHCM,school,/g/122_9mc8,Trường Đại học Sư phạm Thể dục Thể thao Tp. Hồ Chí Minh,0.892435,best_relevant_topic,1
+c58f135aace6565ca6ae,Trường Đại Học Phương Đông,school,/g/12372n2x,Trường Đại học Phương Đông,1.0,best_relevant_topic,4
+330b7a45172515d1f7e8,Trường Đại học Công nghệ kỹ thuật Vĩnh Long,school,/g/11hcz1s0zx,Trường Đại học Công nghệ Kỹ thuật Vĩnh Long,1.0,best_relevant_topic,1
+330b7a45172515d1f7e8,Công nghệ kỹ thuật,major,/g/11hcz1s0zx,Trường Đại học Công nghệ Kỹ thuật Vĩnh Long,0.808889,best_relevant_topic,5
+5d6b08c6b3d30060e607,Trường Đại Học Kiến Trúc Đà Nẵng,school,/m/02r7_y6,Trường Đại học Kiến trúc Đà Nẵng,1.0,best_relevant_topic,2
+171cc121ee65d78d57a1,Trường Đại Học Kinh Doanh và Công Nghệ Hà Nội,school,/g/120pb1rx,Trường Đại học Kinh doanh và Công nghệ Hà Nội,1.0,best_relevant_topic,3
+d0abe71d594f89e4c54d,Trường Đại Học Kỹ Thuật Công Nghiệp Thái Nguyên,school,/g/11dxlg2vld,Hội trường lớn đại học kỹ thuật công nghiệp - thái nguyên,0.977636,best_relevant_topic,4
+bb795f56a2416f9b157c,Trường Đại học Khánh Hòa,school,/g/11cnc6gpsp,Trường Đại học Khánh Hoà,1.0,best_relevant_topic,3
+744a38aab571698d231a,Trường Đại học Sư phạm Kỹ thuật - Đại học Đà Nẵng,school,/g/12326dg0,Trường Đại học Sư Phạm Kỹ thuật - Đại học Đà Nẵng,1.0,best_relevant_topic,1
+e528ba450dfe37cca2c4,Khoa Quốc tế - Đại học Huế,school,/g/11ggr7sk6v,"Trường Đại học Kinh tế, Đại học Huế",0.661515,best_relevant_topic,5
+e528ba450dfe37cca2c4,Trường Đại Học Kinh Tế - Đại Học Huế,school,/g/11ggr7sk6v,"Trường Đại học Kinh tế, Đại học Huế",1.0,best_relevant_topic,2
+3ad29feeb7bf05a16948,Trường Đại Học CMC,school,/g/11yn2brk2c,Trường Đại học CMC,1.0,best_relevant_topic,5
+34ff416ecfc3efa1592f,Trường Đại Học Nguyễn Tất Thành,school,/g/121r_cqn,Trường Đại học Nguyễn Tất Thành,1.0,best_relevant_topic,5
+243a4be3becc0b9dba2c,Trường Du Lịch - Đại Học Huế,school,/g/121v2j9d,Trường Đại học Phú Xuân,0.606383,keyword_fallback,3
+e9b81a672360256f10df,Trường Sĩ Quan Không Quân - Hệ Đại học,school,/g/11mr0dj4hx,Hệ thống Trường Quân sự Camilo Cienfuegos,0.455861,keyword_fallback,1
+dec4791a7235544031a9,Trường Sĩ Quan Phòng Hóa,school,/g/120zpfyx,Trường Sĩ quan Phòng hóa,1.0,best_relevant_topic,5
+208dab806c68d3542263,Trường Sĩ Quan Tăng - Thiết Giáp,school,/g/121r6zmr,Trường Sĩ quan Tăng Thiết giáp,1.0,best_relevant_topic,5
+0ff49028463be36d9388,Học Viện Quản Lý Giáo Dục,school,/g/1211chsr,Học viện Quản lý Giáo dục,1.0,best_relevant_topic,3
+b3aa3c5a7dfdd3e5f942,Đại Học Duy Tân,school,/m/0280rl_,Trường Đại Học Duy Tân,1.0,best_relevant_topic,3
+b3aa3c5a7dfdd3e5f942,Trường Đại học Tân Trào,school,/m/0280rl_,Trường Đại Học Duy Tân,0.819147,best_relevant_topic,5
+dfa2699c5f87647fbf95,Trường Đại học Nam Cần Thơ,school,/g/11hd5fbp56,Trường Đại học Nam Cần Thơ,1.0,best_relevant_topic,4
+0e60adb729bb6dbbd2dc,Trường Đại Học Quốc Tế Hồng Bàng,school,/m/02pyzch,Trường Đại học Quốc tế Hồng Bàng,1.0,best_relevant_topic,3
+0ceb7af2da7fd1b6aac6,Trường Đại học Tân Tạo,school,/m/0h97lk2,Trường Đại học Tân Tạo,1.0,best_relevant_topic,5
+b29af2f077ad81b1246a,Trường Đại Học Thể Dục Thể Thao Đà Nẵng,school,/g/121zpm9w,Trường Đại học Thể dục Thể thao Đà Nẵng,1.0,best_relevant_topic,2
+b29af2f077ad81b1246a,Thể dục - Thể thao,major_group,/g/121zpm9w,Trường Đại học Thể dục Thể thao Đà Nẵng,0.796698,best_relevant_topic,5
+86faf87c8fb5935960b4,Trường Đại Học Cửu Long,school,/g/120qwhr2,Trường Đại học Cửu Long,1.0,best_relevant_topic,1
+d1f9d5c123ccd4377550,Trường Đại Học Văn Lang,school,/m/02q2c0x,Đại học Văn Lang,0.904865,best_relevant_topic,4
+669eb87f01455fff1b6d,Trường Đại Học Phan Châu Trinh,school,/g/122l8fn_,Trường Đại Học Phan Châu Trinh,1.0,best_relevant_topic,5
+2bd355f3c14658e8a3a6,Trường Đại Học Kinh Bắc,school,/g/1ylhlcdnz,Trường Đại học Kinh Bắc,1.0,best_relevant_topic,4
+1375ec11d0dd8e6c87a8,Trường Đại Học Hòa Bình,school,/g/122z_vxx,Trường Đại Học Victoria Hòa Bình,0.940252,best_relevant_topic,5
+c727d401444ddc0b9ca3,Trường Đại Học Đại Nam,school,/g/122wbp53,Trường Đại Học Đại Nam,1.0,best_relevant_topic,5
+ace65a885d2c7680649c,Trường Đại Học Võ Trường Toản,school,/g/120yrvk0,Trường Đại Học Võ Trường Toản,1.0,best_relevant_topic,2
+36a9d3e527d77d51db62,Trường Đại Học Đông Á,school,/g/120ktg5z,Trường Đại học Đông Á,1.0,best_relevant_topic,5
+c5dfb935612cd6557599,Trường Sĩ Quan Đặc Công,school,/g/11cmf1l642,Trường Sĩ Quan Đặc Công Khu A,1.0,best_relevant_topic,2
+9573e205a1424c8aa2f9,Trường Sĩ Quan Pháo Binh,school,/g/1216lr9t,Trường Sĩ Quan Pháo Binh,1.0,best_relevant_topic,5
+23eb3b163f850a0106bd,Đại học Kinh Tế TPHCM - Phân hiệu Vĩnh Long,school,/m/02pyl3y,Trường Đại học Kinh tế TP.HCM - Cơ sở A,0.169415,keyword_fallback,1
+21eca6be5bc5ee3da630,Trường Đại Học Việt Đức,school,/m/0g9y6j9,Trường Đại học Việt Đức (VGU),1.0,best_relevant_topic,5
+d8da6db82262b4c7de32,Trường Đại Học Thủy Lợi (Cơ sở 2),school,/m/0ct38c6,Trường Đại học Thủy lợi - Cơ sở 2 - Thành phố Hồ Chí Minh,0.952345,best_relevant_topic,2
+b4884e54a0a788dd328e,Trường Đại học Sao Đỏ,school,/g/12333ptc,Trường Đại học Sao Đỏ,1.0,best_relevant_topic,3
+ba30a8089965d39b050f,Học viện Phòng cháy chữa cháy và Cứu nạn cứu hộ,school,/g/1pyqhr1mw,Học viện Phòng cháy chữa cháy và Cứu nạn cứu hộ,1.0,best_relevant_topic,2
+ba30a8089965d39b050f,"Phòng cháy chữa cháy và cứu nạn, cứu hộ",major,/g/1pyqhr1mw,Học viện Phòng cháy chữa cháy và Cứu nạn cứu hộ,1.0,best_relevant_topic,4
+6df0afeac2cd2238eaf5,Trường Đại Học Tây Đô,school,/g/121y52h8,Trường Đại Học Tây Đô,1.0,best_relevant_topic,5
+dfc942731756e57f0dfd,Trường Đại Học Đông Đô,school,/g/121k874r,Trường Đại học Đông Đô,1.0,best_relevant_topic,1
+89c36c233e02f04e8b59,Trường Đại Học Lạc Hồng,school,/g/1pp2tzcs3,Trường Đại học Lạc Hồng Cơ sở 5,0.655769,best_relevant_topic,5
+a404db65b7dda7e4a4e0,Trường Đại Học Thành Đông,school,/g/1hhj615nz,Trường Đại học Thành Đông,1.0,best_relevant_topic,5
+9f3743caf8b8b989ef81,Trường Đại học Luật Huế,school,/g/11gt__l9vb,"Trường Đại học Luật, Đại học Huế",0.988235,best_relevant_topic,1
+0b853fb27ab0e064356b,Trường Đại Học Yersin Đà Lạt,school,/g/122_mcvd,Trường Đại Học Yersin Đà Lạt,1.0,best_relevant_topic,2
+6e37b4985f2a89e5ef74,Trường Đại học Thành Đô,school,/g/120l36ss,Trường Đại học Thành Đô,1.0,best_relevant_topic,3
+a38f6aa0bbcf0d92ec26,Trường Đại Học Bình Dương,school,/g/122srzfq,Trường Đại học Thái Bình Dương,0.974214,best_relevant_topic,5
+a38f6aa0bbcf0d92ec26,Trường Đại Học Thái Bình Dương,school,/g/122srzfq,Trường Đại học Thái Bình Dương,1.0,best_relevant_topic,5
+add4ea3ac6eec0432c2f,Trường Đại Học Lương Thế Vinh,school,/g/1212gxlm,Trường Đại học Lương Thế Vinh,1.0,best_relevant_topic,4
+c38d0741ddbc3cecf269,Trường Đại Học Bà Rịa – Vũng Tàu,school,/g/11bw4765nm,"Trường Đại học Bà Rịa–Vũng Tàu, Cơ sở 3",0.428601,keyword_fallback,2
+fa430ff4264a1c1c8cac,Trường Đại Học Nghệ Thuật Huế,school,/m/0cpdtmm,Trường Đại học Nghệ thuật Huế,1.0,best_relevant_topic,5
+70fd870ab541df282a6d,Trường Đại học Công nghệ Miền Đông,school,/g/122_mcvd,Trường Đại Học Yersin Đà Lạt,0.53931,keyword_fallback,5
+dbb6649f2add7f5e3975,Trường Đại Học FPT,school,/m/02rsytm,Trường Đại học FPT Hà Nội,1.0,best_relevant_topic,4
+3a5e0dcd35afaacd5d2e,Trường Đại Học Kinh Tế Kỹ Thuật Bình Dương,school,/g/1hc0g6qnp,Trường Đại học Kinh tế - Kỹ thuật Bình Dương,1.0,best_relevant_topic,4
+d5fd7ee813d1b91be815,Trường Đại học Tài chính Quản trị kinh doanh,school,/g/1tv3l4dh,Trường Đại học Tài chính - Quản trị Kinh Doanh Cơ sở 2,0.711702,best_relevant_topic,5
+05fb41d864ef6dc6b4a7,Trường Đại Học Tiền Giang,school,/g/120wxbg8,Trường Đại học Tiền Giang,1.0,best_relevant_topic,3
+2b7d604259b5814da6ca,Trường Đại học Kinh tế và Quản trị kinh doanh Thái Nguyên,school,/g/122cc5s8,Trường Đại học Kinh tế và Quản trị kinh doanh - Đại học Thái Nguyên,1.0,best_relevant_topic,2
+baf4ea74f69ae17c7f08,Trường Đại Học Dầu Khí Việt Nam,school,/m/0tkhxpt,Trường Đại học Mỏ - Địa chất,0.56,keyword_fallback,4
+ac39122b850f47f5f775,Trường Đại Học Sư Phạm Kỹ Thuật Vinh,school,/g/11yzt_gqss,Trường Đại Học Sư Phạm Kỹ Thuật Vinh,1.0,best_relevant_topic,3
+4df8b4da671f9f4acef1,Trường Đại học Nghệ An,school,/g/1td67c4h,Trường Đại học Nghệ An,1.0,best_relevant_topic,5
+73fafb6f2f0449dd0279,Trường Đại Học Lâm nghiệp,school,/g/122lf054,Trường Đại học Lâm nghiệp Việt Nam,1.0,best_relevant_topic,3
+d5731f1afa8adc8cba23,Trường Đại Học Văn Hiến,school,/m/02qdphv,Trường Đại học Văn Hiến,1.0,best_relevant_topic,5
+a668b40b3ecfd25f7359,Trường Đại Học Quang Trung,school,/g/1224hgh1,Trường Đại học Quang Trung,1.0,best_relevant_topic,5
+dda5730ae959598baceb,Trường Đại Học Hoa Sen,school,/m/02qpgpq,Trường Đại học Hoa Sen (HSU),1.0,best_relevant_topic,5
+1ad2ca2d1ff4199683f3,Trường Đại Học Phan Thiết,school,/g/122qgqrl,Trường Đại học Phan Thiết,1.0,best_relevant_topic,5
+22a919b13f3f28c5073a,Trường Đại Học Trưng Vương,school,/g/1pp2v1ldt,Trường Đại học Trưng Vương,1.0,best_relevant_topic,5
+1d0f1009b13b1c0195b7,Trường Đại Học Điều Dưỡng Nam Định,school,/g/1219616q,Trường Đại học Điều dưỡng Nam Định,1.0,best_relevant_topic,3
+7ba0a2488e764edc2e3f,Trường Đại học Y khoa Tokyo Việt Nam,school,/g/11nvjkrmlz,Trường Đại học Y khoa Tokyo Việt Nam,1.0,best_relevant_topic,3
+b27a9f1afa02f23e4828,Trường Đại Học Công Nghệ Đồng Nai,school,/g/119pgn4rs,Trường Đại Học Công Nghệ Đồng Nai,1.0,best_relevant_topic,5
+21d1681c17a1f22ade75,Trường Đại Học Quốc Tế Miền Đông,school,/m/02rtwnx,Trường Đại Học Đà Lạt,0.560544,keyword_fallback,5
+e279127d8e8b5d47e11e,Viện nghiên cứu và đào tạo Việt Anh - Đại học Đà Nẵng,school,/g/11b697yvwh,"Viện Nghiên cứu và Đào tạo Việt - Anh, Đại học Đà Nẵng",1.0,best_relevant_topic,1
+00915d3eea2ee26827e9,Trường Đại Học Thể Dục Thể Thao Bắc Ninh,school,/g/121cm80_,Trường Đại học Thể dục Thể thao Bắc Ninh,1.0,best_relevant_topic,1
+03067caae01e2b2fc585,Khoa Kỹ thuật và Công nghệ - Đại học Huế,school,/g/122pdjyh,Phan Xuân Dũng,0.141176,keyword_fallback,1
+03b3093adccf457b5bcb,Trường Đại Học Thái Bình,school,/g/121316ms,Trường Đại học Thái Bình,1.0,best_relevant_topic,5
+32fff48e78fd3f2b2296,Học Viện Dân Tộc,school,/g/120_xj09,Viện Dân tộc học,0.8875,best_relevant_topic,4
+fd4d23b236ed2115251d,Trường Đại Học Khoa Học Huế,school,/m/0cp4843,Trường Đại học Y khoa Huế,0.962667,best_relevant_topic,2
+092e17c7e58155d6199a,Trường Đại Học Khoa Học Thái Nguyên,school,/g/121jyw0w,Trường Đại học Khoa học,0.870238,best_relevant_topic,1
+afc22b55c6f981b4d9e9,Trường Đại Học Hồng Đức,school,/m/0cpbjml,Trường Đại Học Hồng Đức,1.0,best_relevant_topic,3
+fbfed9bf0777e4d861d3,Trường Đại Học Đồng Nai,school,/g/11bzyp9_5t,Trường Đại học Đồng Nai,1.0,best_relevant_topic,4
+2852fc1666de9b280de7,Trường Đại học Tài Nguyên và Môi Trường TPHCM,school,/g/1hh_qhkrq,Trường Đại học Tài nguyên và Môi trường TP.HCM,0.941194,best_relevant_topic,1
+a4f7cab9eb2b91d3ef2f,Trường Đại học Công nghiệp và Thương mại Hà Nội,school,/g/122m8ss0,Hồ Thiệu Trị,0.139655,keyword_fallback,1
+2f9ad9278da06206344f,Trường Đại Học Nguyễn Trãi,school,/g/1tp05kvw,Trường Đại học Nguyễn Trãi,1.0,best_relevant_topic,4
+c13c3bcbddfc513d8b60,Trường Đại Học Công Nghiệp Việt Trì,school,/g/1z264ls86,Trường Đại Học Công Nghiệp Việt Trì cơ sở Lâm Thao,0.645947,best_relevant_topic,1
+6d1395c761fcb9d09294,Trường Đại Học Nông Lâm Huế,school,/g/11ksg5crf,Trường Đại học Nông Lâm Huế,1.0,best_relevant_topic,3
+dc74fdebd47644e69c0c,Khoa Quốc Tế - Đại Học Thái Nguyên,school,/g/11b7c0hsmm,Khoa Quốc tế - Đại học Thái Nguyên,1.0,best_relevant_topic,5
+c0b75454ce577bb3a758,Trường Đại học Quốc Tế Sài Gòn,school,/m/0wxvcv1,Trường Đại học Quốc tế Sài Gòn SIU,1.0,best_relevant_topic,5
+f6664bca13d8c258907f,Trường Đại học Intracom,school,/g/122b4fgq,Trường Đại học INTRACOM,1.0,best_relevant_topic,1
+7c92a63ff8036cf004eb,Trường Đại Học Kinh Tế Công Nghiệp Long An,school,/g/11w27jyl9l,Tiến Lên Sinh Viên Trường Đại Học Kinh Tế Công Nghiệp Long An,1.0,best_relevant_topic,5
+57b03d5d7489077e2981,Trường Đại Học Quốc Tế Bắc Hà,school,/m/0wxpl5_,Đại học Quốc tế Bắc Hà,1.0,best_relevant_topic,4
+87e16601f87acbb57907,Trường Đại Học Sư Phạm Kỹ Thuật Nam Định,school,/g/122jxhcf,Trường Đại học Sư phạm Kỹ thuật Nam Định,1.0,best_relevant_topic,3
+c51e28e416da0a7b817c,Trường Đại Học Nông Lâm Thái Nguyên,school,/g/121v8ml1,Trường Đại học Nông Lâm,0.896429,best_relevant_topic,1
+bf26a2646c6363df33fe,Trường Đại học Quản lý và công nghệ TPHCM,school,/m/03nt3_y,Trường Đại học An Giang - Đại học Quốc gia Tp. HCM,0.503137,keyword_fallback,3
+b04f46130869cdc7717b,Trường Đại Học Công Nghệ và Quản Lý Hữu Nghị,school,/g/1pp2ths16,Trường Đại học Công nghệ và Quản lý Hữu Nghị - UTM,1.0,best_relevant_topic,2
+8693127d14a0963234a9,Phân Hiệu Đại Học Huế tại Quảng Trị,school,/g/11gnrlwtx6,Phân hiệu Đại học Huế tại Quảng Trị,1.0,best_relevant_topic,1
+42d8c72a53f1e9cf034e,Trường Đại Học Kinh tế công nghệ Thái Nguyên,school,/g/11xtzmmzkd,Trường Đại học Kinh tế - Công nghệ Thái Nguyên,1.0,best_relevant_topic,3
+f5c5e548c980345b3cc8,Trường Đại Học Phú Xuân,school,/m/0cp3klp,Trường Đại học Phú Xuân,1.0,best_relevant_topic,5
+2be8dfa739847a7e4f26,Trường Đại học Quản lý và Công nghệ Hải Phòng,school,/g/121cxqrv,Đại học Quản lý và Công nghệ Hải Phòng,1.0,best_relevant_topic,4
+606d2e52ea54d88cadfc,Trường Đại Học Xây Dựng Miền Tây,school,/g/11hd5fbzbp,Trường Đại học Xây dựng Miền Tây,1.0,best_relevant_topic,4
+0eedf3d31fe08128adf5,Trường Đại Học Công Nghiệp Việt - Hung,school,/g/11h1p66zc1,Trường Đại học Công nghiệp Việt - Hung,1.0,best_relevant_topic,2
+014f26eece68a6fefcb3,Trường Đại học Tài Chính Kế Toán,school,/g/11b60_8rcs,Trường Đại học Tài chính – Marketing phân hiệu Quảng Ngãi,0.690392,best_relevant_topic,2
+d57e63a41136205e4ac9,Trường Đại Học Gia Định,school,/g/11jzr1lz_3,Trường Đại học Gia Định,1.0,best_relevant_topic,5
+34365858b0961ea82bfd,Trường Đại Học Công Nghiệp Quảng Ninh,school,/g/122z_vxw,Trường Đại học Công nghiệp Quảng Ninh,1.0,best_relevant_topic,4
+045468a171248fbb830d,Trường Đại Học Xây Dựng Miền Trung,school,/g/1hd_2vhdg,Trường Đại học Xây dựng Miền Trung,1.0,best_relevant_topic,5
+a27c8fa94b09f3355201,Trường Đại Học Công Nghệ Sài Gòn,school,/m/02x4g7t,Trường Đại học Công nghệ Sài Gòn,1.0,best_relevant_topic,5
+987f6703ebf6e9b5e806,Trường Đại học Nông Lâm Bắc Giang,school,/g/11xc2kgzw,Trường Đại học Nông - Lâm Bắc Giang,1.0,best_relevant_topic,1
+115714fe92c358d17342,Trường Đại Học Tây Bắc,school,/m/0cpbmqw,Trường Đại học Tây Bắc,1.0,best_relevant_topic,2
+10d217886edecca0644d,Trường Đại Học Đà Lạt,school,/m/02rtwnx,Trường Đại Học Đà Lạt,1.0,best_relevant_topic,3
+105b4b74a7d1319f158c,Phân Hiệu Đại Học Thái Nguyên Tại Lào Cai,school,/g/11cjhcr527,Phân hiệu Đại Học Thái Nguyên Tại Tỉnh Lào Cai,1.0,best_relevant_topic,1
+c6f34fc0ae106eb3c076,Trường Đại học Kiên Giang,school,/g/11h5q787z7,Trường Đại học Kiên Giang,1.0,best_relevant_topic,1
+03f9649d809192c72c91,"Trường Đại Học Văn Hóa, Thể Thao Và Du Lịch Thanh Hóa",school,/g/12307jj4,Trường Đại Học Văn Hóa Thể Thao Và Du Lịch Thanh Hoá,1.0,best_relevant_topic,5
+f3998c6761fb5fc8a432,Trường Đại Học Hoa Lư,school,/g/120x0xr2,Trường Đại học Hoa Lư,1.0,best_relevant_topic,5
+c757a3b9db66a2c997df,Học Viện Âm Nhạc Huế,school,/g/121slm29,Học viện Âm nhạc Huế,1.0,best_relevant_topic,5
+821c63a48999914f308a,Học Viện Âm Nhạc Quốc Gia Việt Nam,school,/m/0284g1q,Học Viện Âm Nhạc Quốc Gia Việt Nam,1.0,best_relevant_topic,4
+164e49b6f42ccc77215e,Nhạc Viện TPHCM,school,/m/02pz200,Nhạc viện Thành phố Hồ Chí Minh,0.626812,best_relevant_topic,1
+62b63e916c2d2fbfe481,Trường Đại Học Công Nghệ Vạn Xuân,school,/m/07s4kyl,Trường Đại học Công nghệ Vạn Xuân,1.0,best_relevant_topic,2
+a1ad0913ae35a15d6805,Trường Đại Học Hà Hoa Tiên,school,/g/120hnt0_,Trường đại học Hà Hoa Tiên,1.0,best_relevant_topic,5
+96e68c6cbe41350e9f2e,Trường Đại Học Mỹ Thuật Công Nghiệp,school,/g/120_xj04,Trường Đại học Mỹ thuật Công nghiệp,1.0,best_relevant_topic,5
+932cf05287cbe4b8abc9,Trường Đại Học Mỹ Thuật TPHCM,school,/m/02pydq7,Trường Đại học Kiến trúc TP.HCM (UAH),0.613416,keyword_fallback,2
+7ea70149a8f127faf6a0,Trường Đại Học Mỹ Thuật Việt Nam,school,/m/03d3x6l,Trường Đại học Mỹ thuật Việt Nam,1.0,best_relevant_topic,5
+39114584e08b100346cc,Trường Đại học Văn hóa Nghệ thuật Quân đội,school,/g/122kzp2g,Trường Đại học Văn hóa Nghệ thuật Quân đội,1.0,best_relevant_topic,2
+e26f14c0935df7675617,Trường Đại học Nội vụ Hà Nội,school,/g/11c7t44_9z,"Trường Đại học Nội vụ Hà Nội - Trung tâm đào tạo, bồi dưỡng",0.9,best_relevant_topic,4
+d07a25dfb2273e61b7da,Trường Đại Học Sân Khấu Điện Ảnh TPHCM,school,/g/122v3xsg,Trường Đại học Sân khấu - Điện ảnh Thành phố Hồ Chí Minh,0.832124,best_relevant_topic,1
+c0cd2bb4800a63e04254,Trường Đại Học Công Nghệ Đông Á,school,/g/11y04t3j9g,Trường Đại Học Công Nghệ Đông Á,1.0,best_relevant_topic,5
+9060919e72b28d40040a,Trường Đại học Y Dược Buôn Ma Thuột,school,/g/1hc5mbdd8,Trường Đại học Y Dược Buôn Ma Thuột,1.0,best_relevant_topic,2
+01c851ac72244b2e8d1e,Khoa Giáo dục thể chất Đà Nẵng,school,/g/11cnwg7csl,Khoa Giáo dục Thể chất - Đại học Đà Nẵng,0.907094,best_relevant_topic,1
+58300ecda8ce8f326e5e,Trường Đại học Công nghệ Thông tin và Truyền thông Việt Hàn - Đại học Đà Nẵng,school,/g/1yjg80dyy,"Trường Đại học Công nghệ Thông tin và Truyền thông Việt - Hàn, Đại học Đà Nẵng",1.0,best_relevant_topic,1
+f1483353bb3df647ae65,Học Viện Kỹ Thuật Quân Sự - Hệ Dân sự,school,/g/121d6h5_,Học Viện Hậu Cần,0.389265,keyword_fallback,4
+71c28c506c23f64a8cba,Học Viện Quân Y - Hệ Dân sự,school,/m/0ksbkk,Trần Tế Đường,0.195946,keyword_fallback,4
+d92d06cc987cfe7bb215,Kế toán - Kiểm toán,major_group,/g/11jnp58f5k,Công ty dịch vụ kế toán - kiểm toán,0.841714,best_relevant_topic,5
+375a105d9c500226b429,Kinh tế - Quản trị kinh doanh - Thương Mại,major_group,/m/02pwsry,Trung tâm Thương mại Quốc tế,0.414545,keyword_fallback,4
+47ca428d9a508b9f7267,Công nghệ thông tin - Tin học,major_group,/m/066tq7,Đại học Công nghệ thông tin Copenhagen,0.802232,best_relevant_topic,5
+b25486bf90112a20c649,Công nghiệp bán dẫn,major_group,/m/02wk2l,Công nghiệp bán dẫn,1.0,best_relevant_topic,5
+b25486bf90112a20c649,Công nghệ bán dẫn,major,/m/02wk2l,Công nghiệp bán dẫn,0.8075,best_relevant_topic,3
+20c9ef21d8568a791d13,Sư phạm - Giáo dục,major_group,/m/019v9k,Giáo dục đại học,0.473925,keyword_fallback,2
+0f47a7a1a6aff13af833,Bác sĩ thú y,major_group,/m/01hbsc,Bác sĩ thú y,1.0,best_relevant_topic,5
+8688f06d87ec5a759eb1,Thiết kế đồ họa - Game - Đa phương tiện,major_group,/g/11l250j75d,trò chơi lái ô tô Sim 2024,0.225832,keyword_fallback,5
+e60146bb3f2047a32f36,Xây dựng - Kiến trúc - Giao thông,major_group,/g/11ggvz1_7h,Bộ trưởng Bộ Xây dựng Việt Nam,0.354972,keyword_fallback,4
+feab19e246d6114c7da2,Ngoại giao - Ngoại ngữ,major_group,/m/0bvsx,Ngoại giao,0.766667,best_relevant_topic,4
+8f4f81f0dc521a07ac3c,Ngoại thương - Xuất nhập khẩu - Kinh Tế quốc tế,major_group,/m/01sr3q,Xuất khẩu,0.293269,keyword_fallback,2
+6bfacd03fa47738db6f4,Du lịch-Khách sạn,major_group,/m/03pty,Khách sạn,0.686538,best_relevant_topic,5
+2b58851959ebc2d1a511,Ô tô - Cơ khí - Chế tạo,major_group,/g/11jjl9m3hy,Trò chơi Lái Xe Ô tô Chở khách,0.370408,keyword_fallback,5
+ee9b8008b94fceecd7b9,Điện lạnh - Điện tử - Điện - Tự động hóa,major_group,/g/11vj9vl663,"Tour Riêng 2 Ngày Lệ Giang – Phố Cổ, Núi Tuyết, Biểu Diễn",0.13012,keyword_fallback,3
+3072f57307484d030214,Hàng không - Vũ trụ - Hạt nhân,major_group,/m/06wc7k_,Viện nghiên cứu không gian quốc gia,0.237295,keyword_fallback,5
+295c444d7a9dede03455,Công nghệ vật liệu,major_group,/g/11c4bd1dmg,Khoa Công nghệ Vật liệu,1.0,best_relevant_topic,2
+295c444d7a9dede03455,Công nghệ vật liệu,major,/g/11c4bd1dmg,Khoa Công nghệ Vật liệu,1.0,best_relevant_topic,2
+7ccca4725b211636f833,Công nghệ chế biến thực phẩm,major_group,/m/06lv41c,Công nghệ chế biến thực phẩm,1.0,best_relevant_topic,4
+cf52459ba28486b60464,Công nghệ In - Giấy,major_group,/g/11zxxpft0g,Bộ Giấy Ảnh Canon 3214C001 Giấy In cho Công Nghệ In Zero Ink,0.586364,keyword_fallback,5
+ad1c5858e2e37b5a74b8,Công nghệ sinh - Hóa,major_group,/g/11fflzb1c6,Công ty TNHH Kỹ Nghệ Sinh Hóa Thịnh Long,0.718199,best_relevant_topic,4
+26cf4dc0b85737fec0c1,Luật - Tòa án,major_group,/m/06s545,Tòa án Quốc tế về Luật Biển,0.57782,keyword_fallback,5
+51aa9d7fba0501326675,Mỹ thuật - Âm nhạc - Nghệ thuật,major_group,/m/0jjw,Nghệ thuật,0.563243,keyword_fallback,5
+c44a12db0b7c1bf4139f,Tài nguyên - Môi trường,major_group,/m/0vb3n0m,Bộ Tài nguyên và Môi trường,0.877083,best_relevant_topic,5
+c44a12db0b7c1bf4139f,Tài nguyên và Môi trường,major,/m/0vb3n0m,Bộ Tài nguyên và Môi trường,1.0,best_relevant_topic,5
+c44a12db0b7c1bf4139f,Tài nguyên nước và môi trường,major,/m/0vb3n0m,Bộ Tài nguyên và Môi trường,0.820238,best_relevant_topic,5
+c64feb021cb5e3b41c90,Tâm lý,major_group,/m/05qfh,Tâm lý học,0.920833,best_relevant_topic,5
+c64feb021cb5e3b41c90,Tâm lý học,major,/m/05qfh,Tâm lý học,1.0,best_relevant_topic,5
+f5b08d434b4e73f27349,Thời trang - May mặc,major_group,/m/03p26ck,Tập đoàn Thời trang May mặc G-III,0.874,best_relevant_topic,5
+cd8de4a9b66f1e6d5a1c,Thủy sản - Lâm Nghiệp - Nông nghiệp,major_group,/m/05b4wn7,"Bộ Nông nghiệp, Lâm nghiệp và Thủy sản",0.678151,best_relevant_topic,4
+24384d28fc5a0c16d00c,Toán học và thống kê,major_group,/m/03l_zb,Thống kê toán học,0.634595,best_relevant_topic,5
+4821fdc0c68e399bcc35,Nhân sự - Hành chính,major_group,/g/11w3hbbjky,Action Figures Các Lựa Chọn Hàng Đầu Của Chuỗi Sự Kiện Chính Của Wwe Seth Rollins Nhân Vật Hành Động 2024 Wave 4,0.470739,keyword_fallback,2
+fa509d24d0cc41dbc99a,Văn hóa - Chính trị - Khoa học Xã hội,major_group,/m/09n9j4,Hiệp hội Khoa học Chính trị Quốc tế,0.547894,keyword_fallback,5
+1c4449ddb70db9595f76,Khoa học tự nhiên khác,major_group,/g/11rn6v6yg7,Khác Khoa Học & Đồ Chơi Tự Nhiên Khoa Học Spin Spin Spins & Đảo Ngược Của Chính Nó,0.623469,best_relevant_topic,5
+7b545ad170a157cdba34,Chăm sóc sắc đẹp - Chăm sóc gia đình,major_group,/g/11w80mtf47,Angel Health - Angel Beauty | Trải nghiệm Massage chăm sóc sức khỏe | Chuyên gia Chăm Sóc Da Mặt | Liệu pháp chăm sóc mắt...,0.361751,keyword_fallback,5
+e7658c7bd95c9a25bdac,Quản trị tài chính kế toán,major,/m/0blyw,Kế toán quản trị,0.538095,keyword_fallback,5
+95fa744cfc0f5bcb565d,Kế toán,major,/m/0_jm,Kế toán,1.0,best_relevant_topic,5
+658a1ebe861b797cd146,Kiểm toán,major,/m/01gr0x,Kiểm toán,1.0,best_relevant_topic,5
+fa70d803f772a5cea8bd,Kinh tế và quản lý bất động sản,major,/g/11c1x4qpzz,Công nghệ bất động sản,0.455956,keyword_fallback,2
+5df9ecabefe7a2a26e12,Tài chính,major,/m/02_7t,Tài chính,1.0,best_relevant_topic,5
+2ed6accd4a58cfa78464,Ngân hàng,major,/m/017ql,Ngân hàng,1.0,best_relevant_topic,5
+5e4608f74f1ce4cdbd8c,Tài chính - Ngân hàng,major,/g/11cnbw8h00,Tài chính ngân hàng,1.0,best_relevant_topic,5
+eea567f84f089c87f8e5,Bảo hiểm,major,/m/03xks,Bảo hiểm,1.0,best_relevant_topic,5
+3f2a0140dbc706773c93,Bất động sản,major,/m/06k1r,Bất động sản,1.0,best_relevant_topic,5
+bd8c9147c4bccf0d0df5,Công nghệ tài chính,major,/m/012c1cfr,Công nghệ tài chính,1.0,best_relevant_topic,3
+af21fe24e408855c7355,Thị trường chứng khoán,major,/m/0drqp,Thị trường chứng khoán,1.0,best_relevant_topic,5
+027289324a43115a1ec0,Đầu tư tài chính,major,/g/11fy1r9_ww,CTCP Chứng khoán Đầu tư tài chính Việt Nam,0.77996,best_relevant_topic,5
+e371e7b55cf1a452fcf4,Phân tích dữ liệu kinh doanh,major,/m/02q3c56,Phân tích dữ liệu kinh doanh,1.0,best_relevant_topic,5
+91af85c2ef50c008c345,Kinh tế đầu tư,major,/g/11bzt_3jd_,Cục Kinh tế - Quản lý đầu tư xây dựng,0.687825,best_relevant_topic,5
+456ec81a8fa177c89ffe,Quản lý tài chính công,major,/m/05f7h_k,Giám đốc Quản lý tài chính Các tài khoản công bang Texas,0.698052,best_relevant_topic,5
+76987a2f0d99c847be99,Quản trị doanh nghiệp,major,/g/11c5wx_nhs,Dịch vụ quản trị doanh nghiệp,0.961333,best_relevant_topic,5
+b300156f6f2f6dcc6085,Quản trị logistics,major,/g/11b6_1mtmg,Quản trị quân sự,0.598039,keyword_fallback,3
+ff017ef78fd495b03d83,Thống kê kinh tế,major,/m/02rb8qw,Phân loại Thống kê các Hoạt động Kinh tế trong Cộng đồng châu Âu,0.596154,keyword_fallback,5
+004086408464556b3261,Kinh doanh số,major,/m/0gt9mg,Chỉ số thuận lợi kinh doanh,0.675,best_relevant_topic,5
+c65a763094db91b569d8,Thương mại số,major,/m/01tfwf,Trung tâm Thương mại Thế giới số 7,0.673936,best_relevant_topic,5
+f5cf6e0aa2548787f37d,Kinh doanh,major,/g/121jnq1m,Kinh doanh,1.0,best_relevant_topic,5
+ca2299d89e527dc7cf44,Kinh tế,major,/m/0gfps3,Kinh tế,1.0,best_relevant_topic,5
+bd5927fc20a1cbad518a,Quản trị kinh doanh,major,/g/11h108nqwq,Quản trị kinh doanh,1.0,best_relevant_topic,5
+641253ab3df7e34ee5fe,Logistics và chuỗi cung ứng,major,/m/019h6j,Chuỗi cung ứng,0.737317,best_relevant_topic,5
+80260e9a8bc9e8feeacb,Kinh tế phát triển,major,/m/06w96t5,Tạp chí Kinh tế phát triển,0.951515,best_relevant_topic,5
+304faa9a3feb6c6c5d29,Kinh tế quốc tế,major,/m/08wzgt,Kinh doanh quốc tế,0.854545,best_relevant_topic,5
+304faa9a3feb6c6c5d29,Kinh doanh quốc tế,major,/m/08wzgt,Kinh doanh quốc tế,1.0,best_relevant_topic,5
+4823e5cf350be961901a,Kinh tế số,major,/m/02plw6y,Kinh tế kỹ thuật số,0.780345,best_relevant_topic,5
+bece71f2164d36bd6e19,Kinh tế vận tải,major,/g/11c57q30g1,Khoa Kinh tế vận tải,0.995714,best_relevant_topic,4
+02e238c2f067e39457de,"Phân tích kinh doanh, tài chính",major,/g/11j317vhzr,Phân tích tài chính kế hoạch kinh doanh,0.76087,best_relevant_topic,5
+d23a9086f93863e9e69e,Hệ thống thông tin quản lý,major,/m/01jg9y,Hệ thống thông tin quản lý,1.0,best_relevant_topic,5
+b03e7b324be55461d260,"Quản lý, quản trị",major,/m/02nbg,Quản lý giá trị thu được,0.75,best_relevant_topic,5
+b8a6d69bb9e94b8fa62f,Khoa học quản lý,major,/m/012hrdph,Khoa học quản lý,1.0,best_relevant_topic,5
+1e492e4403beb961536e,Quản trị và phân tích dữ liệu,major,/m/02y7np,Quản trị tiếp thị bằng cơ sở dữ liệu,0.585128,keyword_fallback,2
+41f9e2abe448200d9b1a,Thẩm định giá và quản trị tài sản,major,/m/02p51_s,Thẩm định giá doanh nghiệp,0.459671,keyword_fallback,3
+d6043b1d9b9413efaa72,Truyền thông doanh nghiệp,major,/m/0dgxq3,Truyền thông doanh nghiệp,1.0,best_relevant_topic,5
+5ce996f5e3397e6fe81c,Thương mại điện tử,major,/m/02m96,Thương mại điện tử,1.0,best_relevant_topic,5
+a1e617db8b5c5f1af97e,Tin học,major,/m/06_vc07,Tin học,1.0,best_relevant_topic,5
+a1e617db8b5c5f1af97e,Tin học,subject,/m/06_vc07,Tin học,1.0,best_relevant_topic,5
+2dbefbaf98720258b19c,An toàn dữ liệu và an ninh mạng,major,/m/02t9t3,An ninh mạng,0.586877,keyword_fallback,5
+0e966bc7eeed32832870,Công nghệ phần mềm,major,/m/06q83,Công nghệ phần mềm,1.0,best_relevant_topic,5
+5f4d12979d3bd6706322,Công nghệ thông tin,major,/m/03ytc,Công nghệ thông tin,1.0,best_relevant_topic,5
+b398a23a9f845f82f130,An toàn thông tin,major,/m/03whm,An toàn thông tin,1.0,best_relevant_topic,4
+4592d5a9af89ced38c67,Công nghệ đa phương tiện,major,/g/11j317lmgx,Công nghệ đa phương tiện trên máy tính,0.92,best_relevant_topic,5
+2ce3542baed6704fb97a,Khoa học Máy tính,major,/m/01mkq,Khoa học máy tính,1.0,best_relevant_topic,5
+c2439d48854614350b8d,Trí tuệ nhân tạo,major,/m/0mkz,Trí tuệ nhân tạo,1.0,best_relevant_topic,5
+3eb4600d195679e8108e,Công nghệ kỹ thuật điện tử - viễn thông,major,/m/03x9w,Ủy ban kỹ thuật điện quốc tế,0.438393,keyword_fallback,5
+60748e2ab4260ec52925,Công nghệ kỹ thuật máy tính,major,/m/06q83,Công nghệ phần mềm,0.446667,keyword_fallback,5
+cf408d2f230ac6725628,Công nghệ và đổi mới sáng tạo,major,/g/11vfb9pxj1,"Trung tâm Khoa học, Công nghệ và Đổi mới sáng tạo tỉnh Tuyên Quang",0.823913,best_relevant_topic,3
+f5e37fcccc67257cb8be,Hệ thống nhúng và IoT,major,/m/09g9zkw,Thành phố thông minh,0.314512,keyword_fallback,5
+4eedc7ff7008c2a22c65,Hệ thống thông tin,major,/g/120pytmm,Hệ thống thông tin,1.0,best_relevant_topic,5
+91f5344d8449e8911aa3,Khoa học dữ liệu và Trí tuệ nhân tạo,major,/m/01hyh_,Học máy,0.16354,keyword_fallback,1
+fb419a3e880af0b64e14,Kỹ thuật dữ liệu,major,/g/11ghcd2m83,Nhiệt kế kỹ thuật số Max/Min và giữ dữ liệu,0.666795,best_relevant_topic,5
+e6e67ec50413f55abd08,Kỹ thuật điện tử - viễn thông,major,/m/01g1rg,Kỹ thuật Điện tử,0.795935,best_relevant_topic,2
+dd5a4626c032f837b5a3,Kỹ thuật Máy tính,major,/m/0db86,Kỹ thuật máy tính,1.0,best_relevant_topic,5
+5d1102d35c97e7b037c6,Kỹ thuật phần mềm,major,/g/11f3y2jb3q,Kỹ thuật Phần mềm Nghiên cứu,0.923333,best_relevant_topic,5
+0ebf88381854e9b51fd0,Mạng máy tính & truyền thông dữ liệu,major,/g/11rvcpf8mh,VPN nhanh - Proxy an toàn,0.173684,keyword_fallback,5
+e645cf9063fe9c718e3e,Quản lý thông tin,major,/m/02crfr,Quản lý thông tin,1.0,best_relevant_topic,5
+56ee3a4ca198fa4ba4d0,Robot và trí tuệ nhân tạo,major,/m/011xg5,AI – Trí tuệ nhân tạo,0.715801,best_relevant_topic,4
+1ada62368777eae9a0c8,Thiết kế vi mạch,major,/m/08fpkl,Thiết kế vi mạch,1.0,best_relevant_topic,3
+119972d4c191a11eaeae,Truyền thông đa phương tiện,major,/m/02vl0fm,Tổng công ty Truyền thông đa phương tiện VTC,0.900242,best_relevant_topic,3
+dbcc621192cdd1ab8310,Cơ học,major,/m/04y7b,Cơ học,1.0,best_relevant_topic,5
+d47dc1d1cb8b5a91565b,Hóa học,major,/m/01lj9,Hóa học,1.0,best_relevant_topic,5
+d47dc1d1cb8b5a91565b,Hóa học,subject,/m/01lj9,Hóa học,1.0,best_relevant_topic,5
+61f816b06e1257793d2d,Khoa học tính toán,major,/m/05hy9n,Khoa học tính toán,1.0,best_relevant_topic,5
+aa7d9cedef3970bbdd57,Kỹ thuật vật liệu kim loại,major,/m/077kn9,Nhựa kỹ thuật,0.358425,keyword_fallback,1
+8e37eee49aec861ea03b,An ninh mạng và phòng chống tội phạm công nghệ cao,major,/g/11b6bqq8j1,"Cục An ninh mạng, Bộ Công an",0.434266,keyword_fallback,2
+bf1e247ff00a06b378e3,Công nghệ kỹ thuật cơ khí,major,/m/01zd04,Kỹ thuật ô tô,0.427193,keyword_fallback,4
+badde69a4b10104d1ca6,Kỹ thuật cơ điện tử,major,/m/01sblz,Cơ điện tử,0.73,best_relevant_topic,3
+3fa6f59efea2696ab791,Kỹ thuật cơ khí,major,/m/04x_3,Kỹ thuật cơ khí,1.0,best_relevant_topic,3
+3fa6f59efea2696ab791,Cơ Kỹ thuật,major,/m/04x_3,Kỹ thuật cơ khí,0.776923,best_relevant_topic,5
+3fa6f59efea2696ab791,Kỹ thuật Robot,major,/m/04x_3,Kỹ thuật cơ khí,0.623678,best_relevant_topic,5
+3fa6f59efea2696ab791,Kỹ thuật cơ khí động lực,major,/m/04x_3,Kỹ thuật cơ khí,0.82193,best_relevant_topic,4
+21766ffba28e408957d8,Vật lý Kỹ thuật,major,/m/037b_5,Vật lý kỹ thuật,1.0,best_relevant_topic,5
+4a371cb5a255422364f4,Kỹ thuật công nghiệp,major,/m/01bt59,Kỹ thuật công nghiệp,1.0,best_relevant_topic,5
+5ba7105886d2295d33e7,Công nghệ kỹ thuật cơ điện tử,major,/m/01sblz,Cơ điện tử,0.554633,keyword_fallback,5
+3a75f2bed2b075394927,"Công nghệ kỹ thuật điện, điện tử",major,/m/0fpjj,Hội Kỹ sư Điện và Điện tử,0.535897,keyword_fallback,2
+a93ee2825656e2e98961,Công nghệ kỹ thuật điều khiển và tự động hóa,major,/g/120ktg5z,Trường Đại học Đông Á,0.211581,keyword_fallback,4
+a702716749ac8e7ca7fe,Kỹ thuật điện,major,/m/02lp1,Kỹ thuật điện,1.0,best_relevant_topic,5
+08b7050cdf554f0c85a8,Kỹ thuật Nhiệt,major,/g/11jz21l5m3,Ampe kìm kỹ thuật số có cặp nhiệt điện,0.663725,best_relevant_topic,5
+650705ed240959583ac8,Công nghệ kỹ thuật nhiệt,major,/m/026nvz8,Viện kỹ thuật nhiệt Moscow,0.583714,keyword_fallback,1
+bae713b630fcecc1d9c3,Kỹ thuật Điện - Điện tử,major,/m/0gh7s_4,Kỹ thuật viên điện tử,0.948462,best_relevant_topic,5
+ca3ce2782a946ec14dcb,Kỹ thuật Vật liệu,major,/g/11f010ggv8,Công ty Cổ phần Kỹ thuật Xây dựng và Vật liệu Xây dựng,0.63822,best_relevant_topic,2
+11cece12950bcf509265,Khoa học Vật liệu,major,/m/04ytq,Khoa học vật liệu,1.0,best_relevant_topic,5
+e58a412a3616747788b4,Công nghệ kỹ thuật hoá học,major,/m/03fgvw,Đại học vật lý kỹ thuật Moskva,0.464091,keyword_fallback,1
+9336137a98ee78e51b78,Kỹ thuật Hóa học,major,/m/01tbp,Kỹ thuật Hóa học,1.0,best_relevant_topic,5
+7b44ce9b1a665c2c8ef6,Vật lý học,major,/m/028jjs,Tâm vật lý học,0.975,best_relevant_topic,5
+d69e5e217258f5dfd922,Công nghệ truyền thông,major,/g/11cnchlp1g,Cục Công nghệ Truyền thông và Internet,0.894286,best_relevant_topic,5
+f8044c1ad3e3e3b2824b,Quay phim,major,/m/01cbh9,Máy quay phim,0.951515,best_relevant_topic,5
+f11d8db956617d0ef642,Nhiếp ảnh báo chí,major,/m/0h3rg9h,Hiệp hội Nhiếp ảnh Báo chí,0.939147,best_relevant_topic,5
+4daf5a286dbef749fec3,Quản trị Marketing,major,/m/01m0h6,Quản trị thương hiệu,0.597544,keyword_fallback,5
+07bde2cf743082b72b82,Tổ chức sự kiện,major,/m/08w09k,Tổ chức sự kiện,1.0,best_relevant_topic,5
+5a7b6cb83437e1c3ff1a,Báo chí,major,/m/041y2,Báo chí,1.0,best_relevant_topic,5
+6659177ba879da7518ac,Marketing,major,/m/0g4gr,Marketing,1.0,best_relevant_topic,5
+d1fbbf0b8ec715131558,Truyền thông Marketing,major,/m/02z7p94,Truyền thông hợp nhất,0.627287,best_relevant_topic,5
+5c40894bb63e1bba32ca,Quan hệ công chúng,major,/m/062zr,Quan hệ công chúng,1.0,best_relevant_topic,5
+af83d554baf7fa320257,Quản lí giải trí và sự kiện,major,/g/11llfjlp9f,APAN Music Awards,0.163636,keyword_fallback,2
+aa9f16d844f43f3c2673,Quản trị kinh doanh & Marketing,major,/g/12353sgm,"Trường Quản trị và Kinh doanh, Đại học Quốc gia Hà Nội",0.597094,keyword_fallback,5
+784c543f3768d3a4dfef,Quản trị thương hiệu,major,/m/01m0h6,Quản trị thương hiệu,1.0,best_relevant_topic,2
+09e98204034452f9d180,"Truyền thông, quảng cáo",major,/g/11csrxz59v,Công Ty TNHH Truyền Thông Quảng Cáo Nam Long,0.838889,best_relevant_topic,5
+b0fa6846af1ae0f352cf,Xuất bản và kinh doanh xuất bản phẩm,major,/m/0334g5,Nền đạo đức Tin Lành và tinh thần của chủ nghĩa tư bản,0.211787,keyword_fallback,2
+88d932834efca775add8,Quan hệ quốc tế,major,/m/0l5mz,Quan hệ quốc tế,1.0,best_relevant_topic,5
+e6d06f5959f0470a3433,Digital Marketing,major,/g/11jpgbdfp3,Học Digital Marketing & SEO,0.914286,best_relevant_topic,5
+56b81a8d5bb9c031c8ba,Công nghệ giáo dục,major,/m/067_f8,Công nghệ giáo dục,1.0,best_relevant_topic,5
+6d76f411849727e6a5ff,Sư phạm Toán,major,/m/02x6v81,"Trường THPT chuyên, Đại học Sư phạm Hà Nội",0.429103,keyword_fallback,1
+75bc0d509bf10cfdd7d1,Sư phạm Vật lý,major,/m/037jpb,Sư phạm phê phán,0.511667,keyword_fallback,1
+6ec5ffcfc7ef9711ed48,Sư phạm Ngữ văn,major,/m/063zld9,Trường Đại Học Ngoại Ngữ - ĐHQGHN,0.314268,keyword_fallback,1
+c71d5744827d8b54c871,Sư phạm Tiếng Anh,major,/g/11c5657sdj,Khoa Sư phạm Tiếng Anh,1.0,best_relevant_topic,3
+7052513de23556df4a87,Sư phạm Hóa học,major,/m/0dr_jzx,Đại học Sư phạm Quốc gia Moskva,0.5775,keyword_fallback,2
+7c5a597eb3e243f3adb6,Sư phạm Sinh học,major,/g/11bw7hx0r2,Ký túc xá sinh viên Đại học Sư Phạm,0.564889,keyword_fallback,2
+ed9c04a71c129c86a140,Sư phạm Lịch sử,major,/m/063zld9,Trường Đại Học Ngoại Ngữ - ĐHQGHN,0.081818,keyword_fallback,1
+93c33e8cae067c5ee20e,Sư phạm Địa lý,major,/g/11qst8d_y3,Tony Pham,0.332045,keyword_fallback,3
+e6b67450871d8eb7b98d,Sư phạm Lịch sử - Địa lý,major,/m/04cxkm2,Abkhazia State University,0.117391,keyword_fallback,3
+67952bd78c325533b909,Sư phạm Khoa học tự nhiên,major,/g/11cs5vqg56,Khoa Sư Phạm Khoa Học Tự nhiên,1.0,best_relevant_topic,5
+90db4358281ebb58bc3f,Sư phạm Âm nhạc,major,/g/1229w681,Nhà sư phạm âm nhạc,1.0,best_relevant_topic,4
+d2cb34de8f0c8916749e,Sư phạm Công nghệ,major,/g/11b73sltp0,Trường Đại Học Sư Phạm - Đại học Đà Nẵng,0.409829,keyword_fallback,5
+540782c4050ca5c4da25,Sư phạm Mỹ thuật,major,/m/0kff3,Báo sư tử,0.300833,keyword_fallback,5
+15d5403226ca3a6a9e84,Sư phạm Tiếng Đức,major,/g/120q71kw,Thích Tuệ Sỹ,0.160714,keyword_fallback,5
+cd9f33696449a1f82747,Sư phạm Tiếng Hàn Quốc,major,/m/0glnysb,Trường Đại học Quốc gia Kongju,0.266471,keyword_fallback,3
+e589bc86b5daf316d727,Sư phạm Tiếng Nga,major,/g/11hbc4j3gs,Bùi Hiền,0.216,keyword_fallback,5
+9732081a041de218944a,Sư phạm Tiếng Nhật,major,/m/02ryyfg,Vô Chuẩn Sư Phạm,0.426961,keyword_fallback,5
+4530bf54699a37be00a0,Sư phạm Tiếng Pháp,major,/g/121srgjx,Bài ca sư phạm,0.438542,keyword_fallback,3
+4fe380278e9ddb0c01db,Sư phạm Tiếng Trung,major,/m/01hz06,Đại học Sư phạm Hoa Đông,0.444512,keyword_fallback,2
+74a2d92d946b88b44909,Sư phạm Tin học,major,/m/03qp6jc,Trường Đại Học Sư Phạm Hà Nội,0.525872,keyword_fallback,1
+a30ec7a0cbe7d365312c,Giáo dục Chính trị,major,/g/11cs60djmn,Khoa Giáo Dục Chính Trị,1.0,best_relevant_topic,3
+f51c5652af6b5deadd1e,Giáo dục Công dân,major,/m/018c8m,Giáo dục công dân,1.0,best_relevant_topic,3
+e4c15ca411b918d739d2,Giáo dục Đặc biệt,major,/m/028dgn,Giáo dục đặc biệt,1.0,best_relevant_topic,5
+4c31e4b47657ad77300d,Giáo dục học,major,/m/019v9k,Giáo dục đại học,0.9,best_relevant_topic,5
+37a52ba87bc9e6d43303,Giáo dục Mầm non,major,/g/11fsrbkdvb,Giáo dục mầm non,1.0,best_relevant_topic,5
+2de3103f058ca18c8d75,Giáo dục pháp luật,major,/g/11tp9rg7zy,"Luật Phổ biến, giáo dục pháp luật 2012",0.858831,best_relevant_topic,1
+42299c741aa05fdb72a6,Giáo dục Quốc phòng - An ninh,major,/g/11g6bzq5ls,Trung tâm giáo dục Quốc phòng - An ninh sinh viên Bắc Giang,0.839286,best_relevant_topic,5
+2002e1bddebd405cddb3,Giáo dục Thể chất,major,/m/01ftfn,Giáo dục thể chất,1.0,best_relevant_topic,5
+3fb6a5e8bca350a24ab5,Giáo dục Tiểu học,major,/m/02rq2k1,Giáo dục tiểu học,1.0,best_relevant_topic,5
+fec9627b00c8e5db2882,Hỗ trợ giáo dục người khuyết tật,major,/g/11yrp4t71d,[Đoàn hỗ trợ đặt vé] Tour 1 ngày khu vực phía Bắc núi Trường Bạch + hồ Thiê,0.306176,keyword_fallback,2
+1bbb1bc6b1f59d1a1862,Khoa học Giáo dục và Khác,major,/m/04q9gnv,Kinh tế học giáo dục,0.55,keyword_fallback,5
+0729378f15f13c2b5f0d,Quản lý giáo dục,major,/g/11shnm_xht,quản lý giáo dục,1.0,best_relevant_topic,5
+e6ac31cba9b6bc4f3b73,Kỹ thuật phục hình răng,major,/g/11njcrt4py,Chuyên gia văn sử | Thuyết minh chuyên sâu Bảo tàng Tam Hiệp | Nhóm nhỏ 15,0.135484,keyword_fallback,1
+fb4a98bf1cd8b60e010c,Kỹ thuật Xét nghiệm Y học,major,/m/0czcgg1,Kỹ thuật viên y tế,0.543023,keyword_fallback,5
+fd6994dbef90fa101900,Y khoa,major,/m/0123cp,Siêu âm y khoa,0.82,best_relevant_topic,5
+91a20e12970e474eccec,Răng Hàm Mặt,major,/g/1tf4bj8r,Bệnh viện Răng Hàm Mặt TP. HCM,0.799129,best_relevant_topic,5
+8ddd19ed0eb8ef6793ff,Dược học,major,/g/11clsyl62y,dược học,1.0,best_relevant_topic,5
+ec63c96c7d79f01ccae0,Điều dưỡng,major,/g/120s1x7w,Điều dưỡng,1.0,best_relevant_topic,5
+5573a434bb109a05bc59,Y học cổ truyền,major,/m/02bwfg,Y học cổ truyền,1.0,best_relevant_topic,5
+a9b5b3803f0cf84e3061,Y học dự phòng,major,/m/0400g4,Y học dự phòng,1.0,best_relevant_topic,2
+c64aab05290be2fc91ec,Y tế công cộng,major,/m/02cm61,Y tế công cộng,1.0,best_relevant_topic,5
+84dcd14d87c8acac6492,Dinh dưỡng,major,/g/121d1smg,Dinh dưỡng,1.0,best_relevant_topic,5
+6d732d4ba6640eb5733e,Hóa dược,major,/m/03rrcl,Hóa dược,1.0,best_relevant_topic,3
+95594d249c8b5eaf4461,Hộ Sinh,major,/m/04xht,Hộ sinh,1.0,best_relevant_topic,5
+b178d67593bd6ed2f1f9,Khoa học và Công nghệ y khoa,major,/m/03kw73,"Bộ Giáo dục, Văn hóa, Thể thao, Khoa học và Công nghệ",0.610897,keyword_fallback,5
+8c0317ec5db000c6544d,Kỹ thuật hình ảnh y học,major,/m/0dk388,Kỹ thuật viên hình ảnh y học,0.927311,best_relevant_topic,5
+f033a0e4fbe936e1f82d,Kỹ Thuật Phục Hồi Chức Năng,major,/m/0bfytp,Kỹ thuật viên phục hồi chức năng,0.933293,best_relevant_topic,5
+c507aaff6921dc75c2a9,Quản lý bệnh viện,major,/g/11mz05lghn,Quản lý Bệnh Viện,1.0,best_relevant_topic,5
+650883f0e308bb949a5c,Vật lý Y khoa,major,/m/01csfj,Vật lý y khoa,1.0,best_relevant_topic,5
+2730571afd38cfd5ed49,Công nghệ sinh học Y Dược,major,/m/01ftz,Công nghệ sinh học,0.843411,best_relevant_topic,5
+2730571afd38cfd5ed49,Công nghệ Sinh học,major,/m/01ftz,Công nghệ sinh học,1.0,best_relevant_topic,5
+efceda1acc790be2dd06,Dược liệu và hợp chất thiên nhiên,major,/g/11nw13ts4w,Trải nghiệm massage thư giãn bằng tinh dầu tại Đà Nẵng | Phòng riêng + Tinh dầu thiên nhiên,0.301513,keyword_fallback,5
+d684645285f775ce3920,Khúc xạ nhãn khoa,major,/m/018rtl,Khúc xạ nhãn khoa,1.0,best_relevant_topic,5
+cabeb8e57d91c1627749,Công nghệ kỹ thuật điện tử y sinh,major,/m/0fpjj,Hội Kỹ sư Điện và Điện tử,0.414886,keyword_fallback,5
+b7fb0fdc639fd238da60,Thú y,major,/m/07__r,Thú y,1.0,best_relevant_topic,5
+19b04ab327f711d610f6,Chăn nuôi,major,/m/01g37j,Chăn nuôi,1.0,best_relevant_topic,5
+882c24440f6a1ec4ecfe,Chăn nuôi thú y,major,/g/11gzlyjxf,Cục Chăn nuôi và Thú y,0.848198,best_relevant_topic,5
+7e63bf336cd7940f934d,Biên phòng,major,/g/11gnrlzmp1,Biên phòng,1.0,best_relevant_topic,5
+4aefed5ff0ba00a93eb3,Chỉ huy kỹ thuật Công binh,major,/m/0b__j72,Thượng tướng Công binh,0.429167,keyword_fallback,5
+6248aee2867096e06fb5,Chỉ huy Kỹ thuật hóa học,major,/g/11x8qpwb0p,Khảo cổ mô phỏng + Chế tác đồ đồng thủ công cổ Thục + Kỹ thuật chế tác ngọc,0.332437,keyword_fallback,5
+80d3f425f5f698f0ef57,Chỉ huy Tham mưu - thông tin,major,/m/04zm7_,Bộ tham mưu,0.392728,keyword_fallback,5
+a3b1a5bcded6351b9479,Chỉ huy tham mưu Đặc công,major,/m/04zm7_,Bộ tham mưu,0.405238,keyword_fallback,5
+fc7e8daf04534417df4d,Chỉ huy tham mưu Hải quân,major,/m/01_ttm,Chủ tịch Hội đồng Tham mưu trưởng Liên quân Hoa Kỳ,0.4611,keyword_fallback,5
+02376f23607a3c194283,Chỉ huy tham mưu không quân (Phi công quân sự),major,/m/029zy1,Nguyễn Ngọc Loan,0.12,keyword_fallback,2
+dcd17c3eb8f170fd23e4,Chỉ huy tham mưu Lục quân,major,/m/0257t,Chỉ huy trưởng Thủy quân lục chiến Hoa Kỳ,0.537879,keyword_fallback,5
+5163aad8af913d88ab51,Chỉ huy tham mưu Pháo binh,major,/m/04m7xh,Cuộc vây hãm Paris,0.225,keyword_fallback,5
+b8b2feb62646f562d794,Chỉ huy tham mưu Tăng Thiết giáp,major,/g/119pfyx8c,Lục quân Quân đội nhân dân Việt Nam,0.190909,keyword_fallback,3
+3decb9697f51c8c8774f,Chỉ huy quản lý kỹ thuật,major,/g/11b7lpqm2h,"Cục Cơ yếu, Quân đội nhân dân Việt Nam",0.267619,keyword_fallback,5
+6bf7271a4277cbe01513,Hậu cần quân sự,major,/g/11h3vb0wjz,Hậu cần quân sự,1.0,best_relevant_topic,5
+8a9568b6d040e9b960d7,Kỹ thuật - Hậu cần,major,/g/11b66c_rhw,Tổng cục Hậu cần - Kỹ thuật,0.658943,best_relevant_topic,1
+cf79d724ca83db60f982,Nghiệp vụ an ninh,major,/m/022x_,An ninh mạng,0.472241,keyword_fallback,1
+8632fdb203bcccc609cc,Trinh sát kỹ thuật,major,/g/11jjl3syy8,VCOMSAT - GIAM SAT HANH TRINH,0.332143,keyword_fallback,5
+144b6d6fc4dd8a71f474,Thiết kế mỹ thuật hoạt hình,major,/g/11cs5bkqr7,Giải Liên hoan phim Việt Nam cho Thiết kế mỹ thuật xuất sắc nhất - Phim hoạt hình,0.654245,best_relevant_topic,5
+980f0431d70abba4085d,Thiết kế Đồ hoạ,major,/g/11lp6k1kr2,Thiết Kế Logo Thiết Kế đồ Hoạ!,0.91,best_relevant_topic,4
+e75a5aecc4b871c82dd9,Thiết kế Mỹ thuật số,major,/g/11t514sc4f,Thiết kế Mỹ thuật số Văn Lang,0.960204,best_relevant_topic,5
+63a72d9716ca77b49067,Thiết kế Công nghiệp,major,/g/11j8qrhhw2,Thiết kế công nghiệp,1.0,best_relevant_topic,5
+e1ae59954c2d7fe401a5,Kỹ thuật an toàn giao thông,major,/g/11zxzk5lwf,Lansboter Áo phản quang kỹ thuật Giao thông phản quang an toàn Áo ghi lê,0.622727,best_relevant_topic,5
+20f492fc45b0d9546db4,Xây dựng dân dụng và công nghiệp,major,/g/1224nm_8,Kỹ thuật xây dựng dân dụng,0.513793,keyword_fallback,1
+87999e0b345811cac1b4,Kinh tế Xây dựng,major,/g/1tfc429k,Viện Khoa học Công nghệ và Kinh tế Xây dựng Hà Nội,0.734848,best_relevant_topic,4
+433162e6b5033cf59a39,Kỹ thuật xây dựng,major,/m/0dd9b,Kỹ thuật xây dựng,1.0,best_relevant_topic,5
+2cb62c2526caab55a143,Công nghệ kỹ thuật Xây dựng,major,/m/07c1v,Công nghệ,0.508333,keyword_fallback,2
+8ed19adc1bc0f9ff91da,Công nghệ kỹ thuật giao thông,major,/m/055vspc,Công dân kỹ thuật số,0.562245,keyword_fallback,5
+8cf6c45821221fa79c64,Kiến trúc,major,/m/03nfmq,Kiến trúc,1.0,best_relevant_topic,5
+969a0e20f7854f7df788,Kiến trúc Cảnh quan,major,/m/0j__6,Kiến trúc cảnh quan,1.0,best_relevant_topic,5
+b3874792497a64e8cfc8,Kiến trúc nội thất,major,/m/04gvhz,Kiến trúc nội thất,1.0,best_relevant_topic,5
+25cce7c80939d74f7b12,Kỹ thuật cơ sở hạ tầng,major,/m/0654t7,Ngành kỹ thuật cơ sở hạ tầng,1.0,best_relevant_topic,5
+e7e177c9af076c63986c,Kỹ thuật xây dựng công trình giao thông,major,/g/1224nm_8,Kỹ thuật xây dựng dân dụng,0.540812,keyword_fallback,2
+08eb6ce2e85713c34de6,Thiết kế nội thất,major,/m/02rfdq,Thiết kế nội thất,1.0,best_relevant_topic,5
+9f2cde64e928fa01109e,Quản lý xây dựng,major,/m/06g2cq,Quản lý xây dựng,1.0,best_relevant_topic,5
+3af17b4cc98aab591e49,"Đô thị, mỹ thuật đô thị",major,/g/11j8_38cf2,Đô thị lõi,0.503276,keyword_fallback,5
+66374a867dda9430c63f,Quản lý phát triển đô thị và bất động sản,major,/m/04gqkg_,Công ty đầu tư phát triển doanh nghiệp,0.308158,keyword_fallback,3
+29dfa84f5e01ce8efd92,Quy hoạch vùng và đô thị,major,/m/01w65s,Vùng đô thị Chicago,0.480226,keyword_fallback,5
+e50721f92f83aeff61ff,"Thiết kế, quản trị đô thị",major,/m/03nfmq,Kiến trúc,0.16875,keyword_fallback,5
+5d0e64101e9a610e3254,"Xây dựng, quản lý Cầu - đường sắt",major,/g/11ytl7tjkb,Game xây dựng thực tế JCB,0.35303,keyword_fallback,5
+dfc81de98e6e8025a25b,Xây dựng công trình,major,/g/11rtq73vwj,Xây dựng công trình phụ,1.0,best_relevant_topic,5
+778a915f817d3302c4f2,Xây dựng và quản lý hạ tầng đô thị,major,/g/11x5njscr3,Trùm xây dựng thành phố,0.336111,keyword_fallback,3
+334d372c9c3c7dcbbbc0,Kỹ thuật xây dựng công trình thủy,major,/m/0h30t_,Công trình xây dựng,0.521978,keyword_fallback,5
+cacb2f560f1f13224bcb,Ngôn ngữ Tây Ban Nha,major,/g/11zyskqkfn,Ngôn ngữ Tây Ban Nha,1.0,best_relevant_topic,5
+f9df477751656fccdbaa,Tiếng Anh du lịch,major,/g/11ywvw_pn7,Tiếng Anh Du Lịch,1.0,best_relevant_topic,5
+54d9f1e46fcdefe15690,Ngôn ngữ Anh,major,/m/01zc2w,Ngôn ngữ Anh,1.0,best_relevant_topic,5
+dc88572fa535bbdb8caa,Ngôn ngữ Trung Quốc,major,/g/11c5b2drt0,Khoa Ngôn Ngữ Trung Quốc,1.0,best_relevant_topic,4
+aa615c0b780caadaacb6,Ngôn ngữ Đức,major,/m/03jbc,Nhóm ngôn ngữ Đức cao địa,0.841176,best_relevant_topic,5
+9f019aae70cdb395034a,Ngôn ngữ Nga,major,/m/0118c91n,Ngôn ngữ tại Nga,0.885714,best_relevant_topic,5
+1eea85b5d748cffb7230,Ngôn ngữ Nhật,major,/m/02hxmtm,Ngôn ngữ ký hiệu Nhật,0.814118,best_relevant_topic,5
+e59d081f6ff99a3b6be7,Ngôn ngữ Pháp,major,/m/09wy7d,ngôn ngữ lai Pháp,0.89,best_relevant_topic,5
+a73328910a98d143a7f8,Ngôn ngữ Ả Rập,major,/g/11jp_grrhp,Ngôn ngữ Ả Rập,1.0,best_relevant_topic,5
+e8e92bde2113c116100a,Thương mại quốc tế,major,/m/03rv_,Thương mại quốc tế,1.0,best_relevant_topic,5
+365ef72a81974061e7b6,Ngôn ngữ Bồ Đào Nha,major,/g/120qkkvb,Nhóm ngôn ngữ Galicia-Bồ Đào Nha,0.823469,best_relevant_topic,5
+b1aafffc6af2a04d140c,Ngôn ngữ Hàn Quốc,major,/g/11y4fm24dd,Trường Ngôn ngữ Hàn Quốc Sejong,0.902083,best_relevant_topic,5
+912d53c44608b4936eb4,Ngôn ngữ Italia,major,/m/06x0q,Ngôn ngữ ký hiệu,0.603656,keyword_fallback,5
+c649dce88570efabb247,Ngôn ngữ Khmer,major,/m/01q6w3,Nhóm ngôn ngữ Môn-Khmer,0.810541,best_relevant_topic,5
+f1366a91e4d3618c8046,Ngôn ngữ Thái Lan,major,/m/0nbsmw2,Ngôn ngữ tại Thái Lan,0.912632,best_relevant_topic,5
+885df92c8e52d55964a8,Ngôn ngữ và Văn hóa các dân tộc thiểu số Việt Nam,major,/g/11fqsgqfs8,Việt Nam hóa,0.255533,keyword_fallback,4
+1616a01b67a38813bc6b,Quản trị kinh doanh & Luật,major,/m/011y0v,Quản lý quy trình kinh doanh,0.613846,keyword_fallback,5
+8bc5a79b5c543e730ee5,Tiếng Anh chuyên nghiệp quốc tế,major,/g/11yvpgm70x,Tiếng Anh Chuyên Ngành Cơ Khí,0.556667,keyword_fallback,5
+59375d4cb04a39e6cf79,Tiếng Anh Thương mại,major,/m/04x6_2,Tiếng Anh Thương mại,1.0,best_relevant_topic,5
+63d300e12d5b25e107fa,Tiếng Nhật thương mại,major,/g/11rgbwh2pj,Tiếng nhật thương mại cho ngườ,0.953922,best_relevant_topic,4
+93019469a4139baaf480,Tiếng Pháp thương mại,major,/g/11yvpfdqcd,Tiếng Anh thương mại,0.777622,best_relevant_topic,5
+dd91b438f2ff5276b0d1,Tiếng Trung Thương mại,major,/g/1tk6mtvr,Trung Tâm Tiếng Trung Hoa Văn Thương Mại Thành Phố 2 (SHZ Ba Tháng Hai Quận 10),0.6,keyword_fallback,1
+68e835213079e09ad938,Văn hóa và truyền thông xuyên quốc gia,major,/g/11zfsrd3l8,Tour Riêng Bảo Tàng Lịch Sử và Văn Hóa Người Mỹ Gốc Phi,0.329099,keyword_fallback,5
+77da177dfc5563c74d40,Logistics,major,/g/11bc58w4wm,CEVA Logistics,0.902174,best_relevant_topic,5
+0e0b1967c1a2cf694f96,Logistics và Quản lý chuỗi cung ứng,major,/m/02r_ltr,Phần mềm quản lý chuỗi cung ứng,0.688384,best_relevant_topic,5
+303ff6d739bf6c3a553b,Kinh tế đối ngoại,major,/m/0cpbd4m,Trường cao đẳng Kinh Tế Đối Ngoại,0.870669,best_relevant_topic,4
+2474df1b3c6988ab0ab3,Tài chính quốc tế,major,/m/05xysy,Tài chính quốc tế,1.0,best_relevant_topic,5
+14e8ea94c8fc410b9d68,Hải quan và Logistics,major,/g/11r_hv_2h,MIQ Logistics,0.445147,keyword_fallback,5
+3743c25a07b3839b5d58,Quản trị Hải quan - Ngoại thương,major,/m/03pxy_,Đại học Ngoại ngữ Thượng Hải,0.553421,keyword_fallback,4
+ada3cf230cc36c6f103f,Quản trị và Kinh doanh Quốc tế,major,/m/0bwj_9k,Trường Đại học Kinh tế Quốc dân,0.444545,keyword_fallback,5
+8f5a92e195936178591e,Truyền thông quốc tế,major,/m/02x9pwl,Hiệp hội Truyền thông Quốc tế,0.95068,best_relevant_topic,5
+70bcebf324dbec924e61,"Quản trị lữ hành, khách sạn",major,/g/11rcjkxkyf,"Triển lãm ảo ""ĐI ĐÂU ĐÓ""",0.14,keyword_fallback,3
+906ce60beba8681c5c7a,Du lịch,major,/m/014dsx,Du lịch,1.0,best_relevant_topic,5
+0383747a437dbfe1a6b0,Hướng dẫn du lịch,major,/g/11k6x0g_k8,Riga hướng dẫn du lịch,1.0,best_relevant_topic,5
+7210a487c6a8eb6ef506,Quản trị du lịch và khách sạn,major,/m/05slzx,Đại học Mahasarakham,0.16875,keyword_fallback,5
+c6c72064b1be851de158,Quản trị khách sạn,major,/g/11j2fv6dgh,Quản trị nhà hàng khách sạn,0.843333,best_relevant_topic,3
+c6c72064b1be851de158,Quản trị nhà hàng - khách sạn,major,/g/11j2fv6dgh,Quản trị nhà hàng khách sạn,1.0,best_relevant_topic,2
+5f419b53c87583bc2523,Quản trị nhà hàng và dịch vụ ăn uống,major,/m/0gzgp8,Ngành Quản trị nhà hàng và dịch vụ ăn uống,1.0,best_relevant_topic,2
+ff200e891dd74ff953f2,Quản trị sự kiện,major,/g/11zz4nmtx1,TDiepf Vui Vẽ Hội Đồng Quản Trị Hình Clip Tóc 1PC Đầy Màu Sắc Sáng Tạo Đồ Trang Trí Tóc Cho Cô Gái Theo Chủ Đề Tổ Chức Sự Kiện Mũ,0.479714,keyword_fallback,2
+3b414e979478be7de16d,Quốc tế học,major,/m/022fj_,Đại học Quốc tế Florida,0.715455,best_relevant_topic,5
+8cffce831fa11b6b9ef9,Tài nguyên và Du lịch sinh thái,major,/g/11wtkz257c,vé vào cửa Khu du lịch sinh thái Thung Nham - Ninh Bình Người lớn (không ph,0.434338,keyword_fallback,5
+8caf2cdb86ca115291b8,Văn hóa Du lịch,major,/m/01x7__,Du lịch văn hoá,0.76,best_relevant_topic,5
+489c29fa82362d8cc088,Địa lý học,major,/m/01z40l,Cổ địa lý học,0.985714,best_relevant_topic,5
+91d5524f786d9065e349,công nghệ ô tô điện,major,/g/11p1d4x7y2,RQZN Giá Đỡ Điện Thoại Ô Tô 2025 Công Nghệ Đế Hút Chân Không,0.570923,keyword_fallback,5
+7013e6e9a3cb906bb7aa,Cơ điện tử ô tô,major,/m/05q3t_6,Hệ thống điện ô tô,0.586037,keyword_fallback,5
+b03e0c17b7b9b2c4d9bf,Quản lý công nghiệp,major,/g/11j317mxg4,Quản lý tài sản công nghiệp,0.855072,best_relevant_topic,5
+7f07e5003af0a6c37ded,Công nghệ kỹ thuật ô tô,major,/m/01zd04,Kỹ thuật ô tô,0.791667,best_relevant_topic,1
+7f07e5003af0a6c37ded,Kỹ thuật ô tô,major,/m/01zd04,Kỹ thuật ô tô,1.0,best_relevant_topic,5
+8400fc0897e7802d5274,Công nghệ chế tạo máy,major,/g/11c312bn_r,C8 - 107 Bộ môn Công nghệ chế tạo máy,0.898611,best_relevant_topic,2
+6b3ac5e953fd57931cc2,Kỹ thuật hệ thống công nghiệp,major,/g/11c57y2jv8,Bộ môn Kỹ thuật Hệ thống Công nghiệp,1.0,best_relevant_topic,5
+40c6d5b5aca9f6789a80,Năng lượng tái tạo,major,/m/06fhs,Năng lượng tái tạo,1.0,best_relevant_topic,5
+0264e1911fefdc572d00,Công nghệ sản xuất tự động,major,/g/11b6hy3v99,Nhà Máy Sản Xuất Cơ Khí Chính Xác Cty Cp Công Nghệ Tự Động Tân Phát,0.583242,keyword_fallback,5
+07349d4deab44748079a,Điện,major,/m/02lts,Điện,1.0,best_relevant_topic,5
+425aeb6a47c86b49b557,Kỹ thuật robot và trí tuệ nhân tạo,major,/g/11l2y70l8b,Bàn phím chat trí tuệ nhân tạo,0.54304,keyword_fallback,5
+ab58390dede59a3b020c,Công nghệ kỹ thuật năng lượng,major,/g/11vqf3s_90,"Elo e628053 5553L 55"" Màn Hình Kỹ Thuật Số Tương Tác Công Nghệ Đèn LED Hỗ Trợ Màn Hình Cảm Ứng USB HDMI RS232 Chứng Nhận Năng Lượng Ethernet",0.534564,keyword_fallback,5
+7138c730eb6b3c812ec3,Tự động hóa,major,/m/017cmr,Tự động hóa,1.0,best_relevant_topic,5
+628d0a66b5b4cb324283,Điện tự động,major,/m/01frn6,Tự động hóa thiết kế điện tử,0.6,keyword_fallback,5
+e28843f2bac56d0f2760,"Kỹ thuật cơ khí, cơ điện",major,/g/11p1fzk5cs,Que Hàn Đồng Hợp Kim Hàn Ống Đồng Hàn Nối Đồng Dùng Trong Cơ Khí Điện Máy Và Kỹ Thuật,0.48657,keyword_fallback,5
+7c099a7f9652bf93aa4b,Quản lý năng lượng,major,/g/11j2fvfbpm,Quản lý năng lượng nhà máy,0.951515,best_relevant_topic,5
+afe88b6dd4eb7aa72a9c,Vi mạch bán dẫn,major,/m/03xcw,Vi mạch,0.661364,best_relevant_topic,5
+0369ddf79af2872f90a4,Khoa học hàng hải,major,/g/11g81h9s2g,Khoa CNTT Trường Đại học Hàng hải Việt Nam,0.702682,best_relevant_topic,4
+c51a67b49fcec249d8dd,Biến đổi khí hậu và Phát triển bền vững,major,/m/01fn7v,Nông nghiệp bền vững,0.300348,keyword_fallback,1
+e5f7136fadb91aff6f00,Khí tượng và Khí hậu học,major,/m/011yl4,Khí hậu học,0.712857,best_relevant_topic,5
+fd5e82634ae344adafc8,"Kinh tế, kỹ thuật, quản lý Hàng Hải",major,/g/120ktg5z,Trường Đại học Đông Á,0.121154,keyword_fallback,2
+3251e83ca8be8fd01d77,Điều khiển tàu biển,major,/g/11zz4np24_,Cáp Chuyển Đổi Corsair RGB Sang ARGB 4Pin Sang 3Pin Cho Bộ Điều Khiển Tàu Cướp Biển QL/LL120 iCUE Phụ Kiện Phần Cứng PC Tương Thích,0.490973,keyword_fallback,2
+0f800716124f1957bfa2,Hải dương học,major,/m/0c0g3,Hải dương học,1.0,best_relevant_topic,5
+359970d916bc1dd9bc99,Khai thác máy tàu biển,major,/m/0ddd__h,Tổng công ty Công nghiệp Tàu thủy,0.220909,keyword_fallback,5
+d460fd476ed9402dadd1,Kỹ thuật biển,major,/g/11j8qrq545,Kỹ thuật công trình biển,0.786216,best_relevant_topic,5
+181907babe8d4901d554,Kỹ thuật Tài nguyên nước,major,/m/0b92vn,Kỹ thuật sông,0.474234,keyword_fallback,5
+e0d68293e71d8abbee41,Kỹ thuật Tàu thủy,major,/g/11xfds2z5f,Kỹ Thuật Tàu Thủy Tây Nam Bộ,0.904286,best_relevant_topic,5
+591de95f5e91f28514c1,Thủy văn học,major,/m/03hfg,Thủy văn học,1.0,best_relevant_topic,5
+e81ed2d4b2ff76777faf,Xây dựng công trình thủy,major,/m/0h30t_,Công trình xây dựng,0.691163,best_relevant_topic,2
+f97676960a970ba99b1f,"Kỹ thuật, công nghệ Hàng không",major,/g/121qytbq,Kỹ thuật hàng không,0.722917,best_relevant_topic,5
+e4c680ac6b082b69a41a,Kỹ thuật hạt nhân,major,/m/098n_,Kỹ thuật hạt nhân,1.0,best_relevant_topic,5
+f9fa860a3b87992f832e,Quản lý hoạt động bay,major,/g/1tfprrz0,Công ty Quản lý bay Miền Nam,0.482917,keyword_fallback,5
+af78f2543314dd764829,Phi công quân sự,major,/g/121ln4dt,Trường Phi công Quân sự Kacha,0.903333,best_relevant_topic,5
+fa72eac0a50b60013a2d,Khoa học thông tin địa không gian,major,/m/04zw29,Địa tin học,0.407143,keyword_fallback,5
+64d459ba4708cdc7b149,Quản trị kinh doanh hàng không,major,/m/011y0v,Quản lý quy trình kinh doanh,0.536494,keyword_fallback,2
+38371b5798d93fdff167,Công nghệ kỹ thuật Vật liệu xây dựng,major,/m/04f55y,Kỹ sư thiết kế xây dựng,0.445117,keyword_fallback,4
+497868ec234a887eeddc,Khoa học Vũ trụ và Công nghệ Vệ tinh,major,/g/12hkjqgc6,Trung tâm Vũ trụ Việt Nam,0.285596,keyword_fallback,5
+b16341c0b5cccc47ba6a,Khoa học Y Sinh,major,/m/0_xclll,Tạp chí Khoa học Y sinh,0.938596,best_relevant_topic,5
+9a8d56b26d81cb7a530e,Vật liệu thông minh và trí tuệ nhân tạo,major,/g/11tjkxf2qg,Dự án Galileo,0.121154,keyword_fallback,5
+f89c8a0464ba55b84692,Vật liệu tiên tiến và công nghệ nano,major,/g/11yp47zvb2,Cong Nghe Nano,0.587714,keyword_fallback,5
+6a76cb5f089ba0092b68,Công nghệ Thực phẩm,major,/m/05jkqm,Công nghệ thực phẩm,1.0,best_relevant_topic,5
+13b0b80c3695030ce002,Đảm bảo chất lượng và an toàn thực phẩm,major,/m/01fn90,Chất lượng thực phẩm,0.554789,keyword_fallback,2
+c7d5c7dddf15d6c25564,Kỹ thuật thực phẩm,major,/g/11j317vqc_,Kỹ thuật thực phẩm,1.0,best_relevant_topic,5
+cccd474cb141dd301f99,Quản trị kinh doanh thực phẩm,major,/g/120_g7k7,Quản trị bán hàng,0.44058,keyword_fallback,2
+2a47648b4e3284205ce5,Khoa học chế biến món ăn,major,/m/01h4bv,Cá ăn muỗi,0.242157,keyword_fallback,5
+c8d613af6e7cd06fe490,Công nghệ kỹ thuật in,major,/m/07c1v,Công nghệ,0.59,keyword_fallback,5
+b2b55d423c72e5fc9576,Kỹ thuật in,major,/m/03q9y1p,In kỹ thuật số,0.824,best_relevant_topic,5
+3e7adc040e5c93ccc595,Hóa học mỹ phẩm,major,/m/014trl,Mỹ phẩm,0.661364,best_relevant_topic,5
+871ba4f65b57dbd2a5e0,Công nghệ hóa học,major,/g/121hrc3p,Tạp chí Công nghệ Hóa học Ba Lan,0.862245,best_relevant_topic,5
+53e4952adcf75e13709e,Sinh học,major,/m/01540,Sinh học,1.0,best_relevant_topic,5
+53e4952adcf75e13709e,Sinh học,subject,/m/01540,Sinh học,1.0,best_relevant_topic,5
+340523df1018186c743d,Hoá học,major,/m/0jd29,Hóa học thiên thể,0.8125,best_relevant_topic,5
+db6621587214c40ee87d,Kỹ thuật Sinh học,major,/m/01lfwv,Kỹ thuật sinh học,1.0,best_relevant_topic,5
+15e81c837d6d3515d440,Kỹ thuật Y Sinh,major,/m/01jj2,Kỹ thuật y sinh,1.0,best_relevant_topic,4
+cda6075c8c2e261da26c,Sinh học ứng dụng,major,/g/11yvwf0lmw,Viện Công nghệ Sinh học Ứng dụng,0.876531,best_relevant_topic,2
+22d37a1db741b7546592,Luật dân sự và tố tụng dân sự,major,/m/064p_,Luật tố tụng,0.538415,keyword_fallback,2
+25ee1239eab5b22ba43a,Luật hiến pháp và luật hành chính,major,/m/07shb,Tu chính án thứ 3 Hiến pháp Hoa Kỳ,0.439925,keyword_fallback,5
+9e1b2f1caeaa28a32d43,Luật,major,/m/09nsvb,Luật nhập cư,0.741667,best_relevant_topic,5
+6128220816d1a5cb24d4,Luật hàng hải,major,/m/0k8zt,Luật hàng hải,1.0,best_relevant_topic,4
+fc4f1778419bea367cd8,Luật hình sự và tố tụng hình sự,major,/m/0998x,Tố tụng hình sự,0.760145,best_relevant_topic,3
+d57dfaaa97d492cc44c3,Luật kinh doanh,major,/g/11j7ys1zqj,Luật kinh doanh,1.0,best_relevant_topic,5
+b1d39f32641194791b1c,Luật kinh tế,major,/m/01rjy1,Luật pháp và kinh tế học,0.75,best_relevant_topic,5
+f96f7d6cf79ebb090193,Luật quốc tế,major,/m/026vs_r,Luật quốc tế,1.0,best_relevant_topic,5
+6a6c5aab58153e8fc705,Luật thương mại quốc tế,major,/m/03k205,Luật thương mại quốc tế,1.0,best_relevant_topic,5
+24b3a4b647f3b6ad7794,Quản trị - Luật,major,/m/04f5f9r,Đại học Luật và Quản trị Châu Âu,0.65,best_relevant_topic,5
+76c4010685d3aaf28258,Tài chính ngân hàng & Luật,major,/m/0ddgjd3,Thị trưởng Đặc khu Columbia,0.162,keyword_fallback,5
+87c4fc16f51bf42e88e6,Kỹ thuật trắc địa - bản đồ,major,/g/11nhzzkrmj,Điểm đánh dấu trên bản đồ UTM,0.37803,keyword_fallback,5
+0e5b68bc4986b868dcac,Kỹ thuật địa chất,major,/m/03bm4k,Kỹ thuật địa chất,1.0,best_relevant_topic,5
+55393fe6cb81482124c9,Địa chất học,major,/m/036hv,Địa chất học,1.0,best_relevant_topic,5
+af3fa49a23e5cf95affc,"Công nghệ, kỹ thuật dầu khí",major,/m/08lhbh,Đại học Công nghệ Yangon,0.381519,keyword_fallback,5
+55f59054a961d09b708a,Kỹ thuật mỏ,major,/g/11p_38whd7,Kìm mũi nhọn kỹ thuật mini mỏ cong 150mm Fujiya MP8-150,0.55,keyword_fallback,5
+aeaf54e151a78108f590,Kỹ thuật địa vật lý,major,/m/0379c,Địa kỹ thuật,0.578276,keyword_fallback,5
+788ffbc90c72ff8dda6c,Kỹ thuật tuyển khoáng,major,/g/11z9j0jv8v,Tour Riêng Nghệ Thuật Đường Phố Atlanta,0.321059,keyword_fallback,2
+4aa1209bae20bc2f5612,Biên đạo múa,major,/m/02h6n_q,Biên đạo múa,1.0,best_relevant_topic,5
+a6b2b259722473f52e45,Sáng tác âm nhạc,major,/g/11bwdlggpf,Tác phẩm âm nhạc,0.691875,best_relevant_topic,5
+c2638f5122ce058a3ed1,Chỉ huy âm nhạc,major,/g/120z_ppx,chỉ huy âm nhạc,1.0,best_relevant_topic,5
+f9b67ee3541847fb6314,Biểu diễn nhạc cụ phương Tây,major,/m/04szw,Nhạc cụ,0.463333,keyword_fallback,5
+7307b38092b3c27be55c,Nhạc Jazz,major,/m/03_d0,Nhạc Jazz,1.0,best_relevant_topic,5
+a143129b818dda523f77,Nghệ thuật thị giác,major,/m/0p9xx,Nghệ thuật thị giác,1.0,best_relevant_topic,5
+0af96d78ff4a583cb6ba,Thiết kế sáng tạo,major,/g/11vkk99tzk,Thiết kế thiệp mời sáng tạo,0.831061,best_relevant_topic,5
+92f944e52343bee03081,"Công nghệ điện ảnh, truyền hình",major,/m/021ny,Công nghệ mô phỏng hình ảnh bằng máy tính,0.576061,keyword_fallback,5
+49c3258ab60bcae491d0,Diễn viên Kịch - Điện ảnh,major,/m/0gkfwh1,Giải Sự lựa chọn của Giới trẻ cho Nữ diễn viên điện ảnh được yêu thích nhất: Hài kịch,0.549747,keyword_fallback,5
+9eb2d0c6b8112970c86e,"Đạo diễn Điện ảnh, Truyền hình",major,/g/11b6gl08k1,Giải Mai Vàng cho Đạo diễn điện ảnh – phim truyền hình,0.774675,best_relevant_topic,5
+3217bfa854bb9753fd88,Piano,major,/m/0522sk0,Piano pedagogy,0.786842,best_relevant_topic,5
+f36863616a0220293bdf,Thanh nhạc,major,/m/0y4f8,Thanh nhạc,1.0,best_relevant_topic,5
+82ca633d6da4f3f87394,Điêu khắc,major,/m/06msq,Điêu khắc,1.0,best_relevant_topic,5
+e0c9e87179745f08d108,Hội họa,major,/m/05qdh,Hội họa,1.0,best_relevant_topic,5
+ac1b671a4a7a4cca8197,Nhiếp ảnh nghệ thuật,major,/m/09_y_n,Liên đoàn Nhiếp ảnh Nghệ thuật Quốc tế,0.865789,best_relevant_topic,5
+32be06803f8c98a0bfbd,Âm nhạc,major,/m/04rlf,Âm nhạc,1.0,best_relevant_topic,5
+f0cfa6adbdb4ba04ac48,Digital Art,major,/g/11lf5lk_b1,Meural Canvas II Digital Art Frame,0.736667,best_relevant_topic,5
+1ac39e37ec99cc695e8a,Biểu diễn nhạc cụ truyền thống,major,/g/11nj1j9ks9,Kyoto: Buổi biểu diễn nhạc cụ truyền thống Nhật Bản & Trải nghiệm,0.843478,best_relevant_topic,5
+56c8c1e3ca2fbfbbe302,Nghệ thuật học,major,/m/018dgm,Nghệ thuật quang học,0.870588,best_relevant_topic,5
+a2c4e020fc31a3618049,Nghệ thuật tạo hình đương đại,major,/g/120w3m6t,Nghệ thuật Đại Việt thời Trần,0.454394,keyword_fallback,5
+d555a56e876a78ecfa25,Công nghệ kĩ thuật môi trường,major,/g/1pzycl_k1,Công Ty TNHH Kĩ Thuật Công Nghệ Môi Trường Trường Vũ,0.705556,best_relevant_topic,5
+c6d027070bd22135305a,Khoa học môi trường,major,/m/0h8zl,Khoa học môi trường,1.0,best_relevant_topic,5
+6e027d0e7ad38b0bee20,Kỹ thuật môi trường,major,/m/0dd8y,Kỹ thuật môi trường,1.0,best_relevant_topic,3
+5f63f082221fb262ae4f,Kỹ thuật cấp thoát nước,major,/m/0654t7,Ngành kỹ thuật cơ sở hạ tầng,0.444706,keyword_fallback,3
+a1113e6497f0efae8f88,Quản lý tài nguyên rừng,major,/g/11c1rsd0dq,Khoa Quản lý tài nguyên rừng và môi trường,0.879573,best_relevant_topic,5
+a1113e6497f0efae8f88,Quản lý tài nguyên và môi trường,major,/g/11c1rsd0dq,Khoa Quản lý tài nguyên rừng và môi trường,0.894745,best_relevant_topic,3
+e2cbbcb641d65634f0b3,Quản lý đất đai,major,/m/048z24,Quản lý đất đai,1.0,best_relevant_topic,5
+06241414dc74f81eef5f,Quản lý tài nguyên,major,/m/010f51km,quản lý tài nguyên,1.0,best_relevant_topic,5
+4caf21eabfd88344a859,"Bảo hộ, an toàn lao động",major,/g/11n54b65sp,DIC Mũ bảo hộ lưới Aero Mesh SYA-X an toàn lao động 390g,0.692857,best_relevant_topic,5
+ff2ad4c387e1d02aecdc,Kỹ thuật khí thiên nhiên,major,/m/0fphjnh,Brick Breaker: Thiên nhiên,0.49102,keyword_fallback,5
+46ea27ad5f917d616244,Kỹ thuật môi trường đô thị,major,/g/1224nm_8,Kỹ thuật xây dựng dân dụng,0.425817,keyword_fallback,5
+988e248ac4f4f42617f3,Quản lý biển,major,/m/085mmx,Quản lý bờ biển,0.9,best_relevant_topic,5
+75598e0b00dc6fbc7164,Tâm lý học giáo dục,major,/m/02sx_,Tâm lý học giáo dục,1.0,best_relevant_topic,3
+9adad3cf33946da89f08,Huấn luyện thể thao,major,/m/05tr1r,Nhà huấn luyện thể thao,1.0,best_relevant_topic,5
+a2ca17e396c83193747b,Quản lý thể dục thể thao,major,/m/01hp22,Thể dục nghệ thuật,0.497143,keyword_fallback,5
+4d6a3a9162cf475c384e,Công nghệ Dệt May,major,/g/11zdv7272l,Áo Croptop Bra Thể Thao Nữ Tập Gym Yoga Công Nghệ Dệt 3D Không Đường May Vải Thoáng Khí Áo Compression Nữ Cao Cấp,0.504968,keyword_fallback,1
+161fbab054a67171ff9b,Công nghệ may,major,/g/11f011sn9_,Công nghệ Wondershare,0.62451,best_relevant_topic,5
+8918067ef413c8333814,Công nghệ sợi dệt,major,/g/11zxtwq06t,Khăn Quấn Ủ Tóc Lau Khô Siêu Tốc Công Nghệ Sợi Dệt Mây Nhung Siêu Thấm Hút,0.671465,best_relevant_topic,5
+a07d474a5bdd936ffb01,Thiết kế thời trang,major,/m/02qqd4n,Thiết kế thời trang,1.0,best_relevant_topic,5
+143e2cdbf477e2e698ff,Công nghệ nông nghiệp,major,/g/11h03gyyg6,CÔNG TY CP NÔNG NGHIỆP CÔNG NGHỆ CAO TRUNG AN,0.670707,best_relevant_topic,4
+143e2cdbf477e2e698ff,Công nghệ nông nghiệp,subject,/g/11h03gyyg6,CÔNG TY CP NÔNG NGHIỆP CÔNG NGHỆ CAO TRUNG AN,0.670707,best_relevant_topic,4
+4ea26c176da8b40fe139,Công nghệ chế biến thủy sản,major,/m/02v_6wr,Chiết tách dầu đá phiến,0.128571,keyword_fallback,3
+5749a0b1b51b4cd8db26,Chăn nuôi thủy sản,major,/g/1pzpqxbrz,Hợp Tác Xã Chăn Nuôi Thủy Sản Bến Gầm,0.833434,best_relevant_topic,3
+58b8d700fe7e48a7b6ab,Lâm nghiệp,major,/m/0f38h,Lâm nghiệp,1.0,best_relevant_topic,5
+c150a9c83077d9ea3093,Lâm học,major,/m/0hdq2,Hóa học lâm sàng,0.606522,keyword_fallback,5
+c03bc6f6172bad5bdce5,Nông nghiệp,major,/m/0hkf,Nông nghiệp,1.0,best_relevant_topic,5
+a1e3f3894f945425822e,Nông học,major,/m/019jkv,Nông học,1.0,best_relevant_topic,5
+bcd9a7d2149e8b2ab042,Bảo vệ thực vật,major,/m/0cyg8,Thuốc bảo vệ thực vật,0.985,best_relevant_topic,5
+46fd41bf3087de4bb1b3,Khoa học cây trồng,major,/g/11zxzlgskj,Nuôi Trồng Cây Tinh Thể KDP/ADP Tại Nhà -Sản Phẩm Thí Nghiệm Khoa Học Dụng Cụ Thí Nghiệm Stem,0.50899,keyword_fallback,3
+48cf9094f45b02523149,Nuôi trồng thủy sản,major,/m/0rqg,Nuôi trồng thủy sản,1.0,best_relevant_topic,5
+5f558435ee0689432418,Phát triển nông thôn,major,/m/0272pyx,phát triển nông thôn,1.0,best_relevant_topic,5
+cc65c274235fde962832,Công nghệ chế biến lâm sản,major,/g/11zd2y4n8y,CÔNG TY CP CHẾ BIẾN VÀ XUẤT NHẬP KHẨU LÂM SẢN NGHỆ AN,0.692941,best_relevant_topic,1
+ccfff1d9fb83799364d6,Công nghệ sau thu hoạch,major,/g/11cn5sgqz9,Viện Cơ Điện Nông Nghiệp & Công Nghệ Sau Thu Hoạch,0.845714,best_relevant_topic,2
+87ac5791243a679fcbd2,Bệnh học thủy sản,major,/m/0c0knj,Thủy ngân (II) nitrat,0.291071,keyword_fallback,5
+f2bc842d2dd3b04c7735,Khoa học đất,major,/m/0g5v1,Khoa học đất,1.0,best_relevant_topic,5
+1fab636127c4bec6cb80,Khoa học thủy sản,major,/m/0p3pxry,Cử nhân Khoa học Thủy sản,0.947619,best_relevant_topic,2
+096db6cc973b64c15e38,Khuyến nông,major,/g/11c3ynmlqc,Trung tâm Khuyến nông Quốc gia,0.75813,best_relevant_topic,1
+b2d0961eab771889c2a6,Kỹ nghệ gỗ và nội thất,major,/g/11yvpfmqp5,Thiết kế đồ nội thất bằng gỗ,0.473776,keyword_fallback,5
+3109157e54ffc866f6ad,Toán học,major,/m/04rjg,Toán học,1.0,best_relevant_topic,5
+3109157e54ffc866f6ad,Toán,subject,/m/04rjg,Toán học,0.85,best_relevant_topic,5
+3109157e54ffc866f6ad,Toán,subject,/m/04rjg,Toán học,0.85,best_relevant_topic,5
+e9c3cae0f55a4e164c85,Toán Kinh tế,major,/m/0dd2w,Toán kinh tế,1.0,best_relevant_topic,3
+27c70e0bacdd12f7a191,Toán ứng dụng,major,/m/0pf2,Toán học ứng dụng,0.89,best_relevant_topic,5
+0227331b9e5a0058d684,Thống kê kinh doanh,major,/m/018t1,Thống kê kinh doanh,1.0,best_relevant_topic,5
+e87d0fc2a201e87ab26c,Toán tin,major,/g/11c52s31hr,Khoa Toán - Tin,0.92619,best_relevant_topic,5
+1b7a867e6500a8b8f7f9,Thống kê,major,/m/06mnr,Thống kê,1.0,best_relevant_topic,5
+cbab68b645b97445c1ac,Toán tài chính,major,/m/01l404,Toán tài chính,1.0,best_relevant_topic,5
+00c5c184b851ed1fb5bf,Quản lý công,major,/g/11k320ywhl,Quản lý Công việc ZohoProjects,0.827143,best_relevant_topic,5
+1e350532b54a7f34467d,Quản trị nhân lực,major,/m/03_499,Quản trị nhân sự,0.791591,best_relevant_topic,2
+4877686e5a7a2c9f851f,Quản trị văn phòng,major,/g/11cs31pbkv,Khoa Quản trị văn phòng,1.0,best_relevant_topic,3
+7d1b3d8800ddd0253317,Hệ thống hoạch định nguồn lực doanh nghiệp,major,/m/04gp8v0,Đặt hàng bằng tiền mặt,0.145161,keyword_fallback,4
+89beec665434a2b39eb9,Quan hệ lao động,major,/m/01ld_k,Quan hệ lao động,1.0,best_relevant_topic,5
+add0756feaba338da553,Di sản,major,/m/01tw7q,Quỹ Di sản,0.920833,best_relevant_topic,5
+881db320bdad0fcd18c0,Văn hóa học,major,/m/0862m,Tháp Văn hóa và Khoa học,0.732857,best_relevant_topic,5
+276143095afb07ab1b93,Quản lý văn hóa,major,/g/121cs2r7,Nhà quản lý văn hóa,1.0,best_relevant_topic,3
+93021902121456a3bd1d,Chính trị học,major,/m/062z7,Khoa học chính trị,0.76129,best_relevant_topic,5
+f0372529a4a8fbe24130,Văn học,major,/m/04g51,Văn học,1.0,best_relevant_topic,5
+42e4ce2640f0d94a57a4,Việt Nam Học,major,/m/07vqdz,Văn học Việt Nam,0.757143,best_relevant_topic,5
+6aa118c5e3eea7cfce4a,Xã hội học,major,/m/06ms6,Xã hội học,1.0,best_relevant_topic,5
+e13bafbeb27cca82ffb9,Đông phương học,major,/m/03nm8fy,Đông phương học,1.0,best_relevant_topic,5
+6745fcf7d0901948d174,"Công tác xã hội, thanh thiếu niên",major,/g/11rc90mrqw,Trung Tâm Công Tác Xã Hội Thanh Thiếu Niên (YSW),0.959231,best_relevant_topic,5
+cdc82d145f337652d2ed,Đông Nam Á học,major,/m/0g20v8,Đông Nam Á học,1.0,best_relevant_topic,5
+75359aa0614f644795c6,Lịch sử,major,/m/03g3w,Lịch sử,1.0,best_relevant_topic,5
+75359aa0614f644795c6,Lịch sử,subject,/m/03g3w,Lịch sử,1.0,best_relevant_topic,5
+75359aa0614f644795c6,Lịch sử,subject,/m/03g3w,Lịch sử,1.0,best_relevant_topic,5
+0b7cc8416ec96fb4b731,Ngôn ngữ học,major,/m/04g7x,Ngôn ngữ học,1.0,best_relevant_topic,5
+22188513e3eee5661787,Trung Quốc học,major,/m/0b13q4,Trung Quốc học,1.0,best_relevant_topic,5
+7e629b9d48372b8ece46,Hàn Quốc học,major,/m/03s785,Đại học Ngoại ngữ Hàn Quốc,0.644595,best_relevant_topic,5
+5f81d781090dea5bd252,Nhật Bản học,major,/m/030d45,Nhật Bản học,1.0,best_relevant_topic,5
+4b094ad166d3baee96b6,"Quản lý công, nhà nước",major,/m/0463g4z,Ủy ban Giám sát và Quản lý Tài sản Nhà nước Trung Quốc,0.553143,keyword_fallback,5
+4b77e8644f92f0bd09f5,Thông tin - Thư viện,major,/g/11cs18mztv,Trung Tâm Thông Tin - Thư viện Lương Định Của,0.808889,best_relevant_topic,5
+971d6c716a8a756471d3,Triết học,major,/m/037mh8,Triết học,1.0,best_relevant_topic,5
+b5c5ebe8b6bbdd2249a9,Kinh tế chính trị,major,/m/0cgx9,Kinh tế chính trị,1.0,best_relevant_topic,5
+f58819e33f78b169b664,Lưu trữ học,major,/m/07552c,Lưu trữ quang học,0.853571,best_relevant_topic,5
+2b7d84ebfddf8ad1271c,Tiếng Việt & Văn hóa Việt Nam,major,/g/11v0yl9ch2,Khám phá cà phê & văn hóa Việt Nam,0.643465,best_relevant_topic,5
+0ff414478c2e699357ab,Hán - Nôm,major,/g/11yfbx38p1,Kim Hán Nôm,0.933333,best_relevant_topic,5
+b5831aeb99f31a048f2e,Nhân học,major,/m/0zy7,nhân học,1.0,best_relevant_topic,5
+917306e41a01ef1efcc5,Bảo tàng học,major,/m/03gfrv,Bảo tàng học,1.0,best_relevant_topic,5
+74d260bd36809edc2721,Tôn giáo học,major,/m/017ty2,Nhân học tôn giáo,0.748276,best_relevant_topic,5
+f5d7798d9cea3fb1b765,Giới và phát triển,major,/m/01lr_q,Nghiên cứu và phát triển,0.705357,best_relevant_topic,5
+2972d4b388e8e5a26c0b,Nghiên cứu phát triển,major,/m/046d3s,Nghiên cứu phát triển,1.0,best_relevant_topic,5
+bc6d92081b4c2ec06050,Hoa Kỳ học,major,/m/0g8fs,Học viện Hải quân Hoa Kỳ,0.608824,keyword_fallback,5
+4bff768131f14bd4ad93,Quản lý phân tích dữ liệu khoa học trái đất,major,/m/04zw29,Địa tin học,0.190128,keyword_fallback,1
+81e46dbbe386a1819be3,Khoa học tự nhiên tích hợp,major,/m/01lgf,Toán học tổ hợp,0.430081,keyword_fallback,4
+4c3b71195da2a71b13ab,Công nghệ Vật lý điện tử và tin học,major,/m/03d28ql,Công nghệ nano DNA,0.356449,keyword_fallback,3
+d0bdbc025dbc4715da2a,"Công nghệ điện tử, vi mạch và bán dẫn",major,/m/03xcw,Vi mạch,0.372222,keyword_fallback,5
+769c7a4f3c3508bc9813,Điểm học bạ,admission_method,/g/11jjl0w4d0,eNetViet,0.1,keyword_fallback,2
+51918e3ec78ace251074,Điểm xét tuyển kết hợp,admission_method,/g/11ylkrlm9l,"Gói Khám Phá Ubud – Ruộng Bậc Thang, Đền Thờ và Điểm Ẩn",0.14588,keyword_fallback,1
+e97eba85b78564a87657,Chứng chỉ quốc tế,admission_method,/g/11w84y_mxx,Trải nghiệm lặn DSD (Khám phá đại dương + Đào tạo lặn + Chứng chỉ quốc tế),0.69148,best_relevant_topic,3
+ecbbefbfc5451da6f792,Điểm Đánh giá đầu vào V-SAT,admission_method,/m/012b_l,SAT,0.278571,keyword_fallback,3
+c394dbe4bb6c123fa803,Điểm thi riêng,admission_method,/g/11nr8qtth_,[Đoàn nhỏ xe riêng | Hai điểm tham quan] Đảo Ngô Châu Tam Á + biểu diễn Thi,0.512816,keyword_fallback,2
+a44dc25294a908c2dc72,Toán - Ngữ văn - Tiếng anh,subject_group,/g/11zz30pvx8,Combo Sổ Tay Kiến Thức Toán + Ngữ Văn + Tiếng Anh Trung Học Cơ Sở,0.765477,best_relevant_topic,5
+a44dc25294a908c2dc72,Ngữ văn - Toán - Tiếng trung,subject_group,/g/11zz30pvx8,Combo Sổ Tay Kiến Thức Toán + Ngữ Văn + Tiếng Anh Trung Học Cơ Sở,0.6281,best_relevant_topic,5
+9500ccfaab659f9c2cc0,Toán - Vật lí - Hóa học,subject_group,/g/11zz4w0cs8,Sách Tham Khảo Toán - Vật Lí - Hóa Học 11 (Dùng Chung Cho Các Bộ SGK Hiện Hành) (Lẻ combo tùy chọn) - HA,0.646782,best_relevant_topic,3
+284201a98f60a5b07051,Toán - Vật lí - Tiếng anh,subject_group,/g/11p1fzwmt8,Sách - Ứng dụng trí tuệ nhân tạo AI trong dạy và Học môn Toán Tiếng Anh Vật Lí Hoá Học KHTN,0.514545,keyword_fallback,2
+36f27752190d32b72bbf,Toán - Hóa học - Tiếng anh,subject_group,/g/11zz38p8x_,Sách: Combo 5 Cuốn Sổ Tay Kiến Thức Trung Học Phổ Thông (Toán Vật Lý Hóa Học Tiếng Anh Ngữ Văn),0.573684,keyword_fallback,5
+8d5b444034acd00cc98f,Toán - Hóa học - Sinh học,subject_group,/m/026099,Sinh học tiến hóa,0.571974,keyword_fallback,5
+822c86ce60aef4b85f3e,Ngữ văn - Lịch sử - Địa lí,subject_group,/g/11zxz20jxy,Sách - Đột phá tư duy lớp 12 -Toán Vật lí Hoá học Sinh học Ngữ văn Lịch sử Địa lí,0.711512,best_relevant_topic,2
+32222e9bd32b87a274de,Toán - Ngữ văn - Vật lí,subject_group,/g/11p1dq82zb,Sách - Đột phá tư duy kì thi tốt nghiệp THPT-Toán Vật lí Hoá học Sinh học Ngữ văn Lịch sử Địa lí,0.535457,keyword_fallback,1
+a2a9112a93e7e9117b15,Ngữ văn - Lịch sử - Tiếng anh,subject_group,/m/0d5st,Ngữ pháp tiếng Anh,0.574668,keyword_fallback,5
+b9cc19b657abf08058f4,Ngữ văn - Địa lí - Tiếng anh,subject_group,/m/0h1c8f_,Trường Trung học cơ sở Lam Sơn,0.101887,keyword_fallback,1
+4a8bb65e2e64227fdb11,Toán - Vật lí - Sinh học,subject_group,/m/05qjt,Vật lí học,0.63,best_relevant_topic,2
+4a8bb65e2e64227fdb11,Vật lí,subject,/m/05qjt,Vật lí học,0.920833,best_relevant_topic,5
+7661ccc4918674bedeb7,Ngữ văn - Toán - Tiếng pháp,subject_group,/g/11k0mfx92c,Kính thiên văn máy tính,0.327005,keyword_fallback,5
+dbd0ec48095a538be13a,Toán - Địa lí - Tiếng anh,subject_group,/m/0h1c8f_,Trường Trung học cơ sở Lam Sơn,0.126,keyword_fallback,1
+96aff463706f5d1fe5ed,Toán - Sinh học - Tiếng anh,subject_group,/g/11zx_0bk_4,Combo Bộ Lịch Công Thức Toán Học Tiếng Anh Tổng Hợp Kiến Thức Dành Cho Học Sinh Tiểu Học,0.558446,keyword_fallback,2
+a915de5d1d00c870b418,Ngữ văn - Toán - Tiếng nhật,subject_group,/g/11k0mfx92c,Kính thiên văn máy tính,0.327005,keyword_fallback,5
+f7a2ba8e4126390479a0,Toán - Lịch sử - Tiếng anh,subject_group,/g/11m_m39qjc,MochiVocab - Học tiếng Anh,0.471056,keyword_fallback,5
+c7a4c6bf75cdf9342475,Ngữ văn - Toán - Tiếng nga,subject_group,/g/11k0mb3fyk,Công Thức Toán Lite,0.336463,keyword_fallback,5
+4411b0b2173140a439aa,Ngữ văn - Toán - Tiếng đức,subject_group,/g/11k0mb3fyk,Công Thức Toán Lite,0.3425,keyword_fallback,5
+140fa5c1b2253500bd75,Toán - Ngữ văn - Hóa học,subject_group,/m/0gxzb2p,Duolingo,0.128571,keyword_fallback,1
+22374c46a7b9563c9588,Toán - Hóa học - Tiếng pháp,subject_group,/m/01hyh_,Học máy,0.253333,keyword_fallback,5
+1729b30e89a2edac2eae,Toán - Hóa học - Tiếng nhật,subject_group,/g/11v5wm64c0,Migii Skool - Ôn thi đại học,0.25875,keyword_fallback,5
+d2eb0e92c711857d043c,Ngữ văn - Hóa học - Tiếng đức,subject_group,/g/11jz94gc0n,Học & Nói Tiếng Anh Praktika,0.341111,keyword_fallback,5
+46556bea5b2617696b15,Toán - Vật lí - Tiếng trung,subject_group,/m/0h1c8f_,Trường Trung học cơ sở Lam Sơn,0.257993,keyword_fallback,1
+c9e004e1d0c523c3d0e8,Toán - Hóa học - Tiếng đức,subject_group,/m/01hhwl,Nguyên lý Hardy–Weinberg,0.143182,keyword_fallback,5
+de28efc0132289f642c9,Ngữ văn - Hóa học - Tiếng nga,subject_group,/m/02k1kj,Nga hóa,0.380208,keyword_fallback,5
+319d3e7213f11b250728,Toán - Hóa học - Tiếng nga,subject_group,/m/06g9yr,Chuyển tự Latinh tiếng Bulgaria,0.295996,keyword_fallback,5
+3d56098d583b2fdbda20,Toán - Hóa học - Tiếng trung,subject_group,/g/11zz38p8x_,Sách: Combo 5 Cuốn Sổ Tay Kiến Thức Trung Học Phổ Thông (Toán Vật Lý Hóa Học Tiếng Anh Ngữ Văn),0.562931,keyword_fallback,5
+f38799aa2969540f581d,Toán - Lịch sử - Địa lí,subject_group,/g/11zz3pvw7j,Sổ Tay Siêu Trọng Tâm Lớp 12 môn Toán Lí Hóa Anh Lịch Sử Địa Lí GDKT PL,0.592914,keyword_fallback,2
+554c8a530c34fa1260e7,Ngữ văn - Toán - Lịch sử,subject_group,/g/11p1dq82zb,Sách - Đột phá tư duy kì thi tốt nghiệp THPT-Toán Vật lí Hoá học Sinh học Ngữ văn Lịch sử Địa lí,0.518155,keyword_fallback,5
+a1e89eafd24a228d6827,Toán - Ngữ văn - Sinh học,subject_group,/m/01r_zn,Sinh ngôn ngữ tự nhiên,0.399302,keyword_fallback,2
+dacd47bfe3d55d3e371f,Ngữ văn - Hóa học - Sinh học,subject_group,/m/05c5cs,Khu vực văn hóa,0.404835,keyword_fallback,5
+8c3ca9c96b57c40f0d2e,Toán - Vật lí - Địa lí,subject_group,/g/11p1dq82zb,Sách - Đột phá tư duy kì thi tốt nghiệp THPT-Toán Vật lí Hoá học Sinh học Ngữ văn Lịch sử Địa lí,0.528462,keyword_fallback,1
+c607f39837aa9b72e1d3,Ngữ văn - Lịch sử - Năng khiếu,subject_group,/m/0h1c8f_,Trường Trung học cơ sở Lam Sơn,0.080357,keyword_fallback,1
+beef4cd43c73ce033b66,Ngữ văn - Vật lí - Tiếng anh,subject_group,/m/0h1c8f_,Trường Trung học cơ sở Lam Sơn,0.1,keyword_fallback,1
+d5b23c4e69f11eb6547e,Toán - Tiếng anh - Tin học,subject_group,/g/11yvpgff91,Tiếng Anh tài chính,0.50446,keyword_fallback,5
+1164837335ca010b0dda,Ngữ văn - Sinh học - Tiếng anh,subject_group,/g/11xkvpb4sy,ListenLeap – Học tiếng Anh,0.548714,keyword_fallback,5
+b0171a2412636be001e9,Toán - Hóa học - Lịch sử,subject_group,/m/05c6pz,Hóa học toán,0.555,keyword_fallback,5
+8f40ab28015ebb83ce2a,Toán - Năng khiếu 1 - Năng khiếu 2,subject_group,/m/023kk0,Năng khiếu trí tuệ,0.440893,keyword_fallback,5
+a02d70ba3fc072bf9a0b,Ngữ văn - Hóa học - Tiếng anh,subject_group,/m/0d5st,Ngữ pháp tiếng Anh,0.574668,keyword_fallback,5
+4e696b2a2776a10838f7,Ngữ văn - Địa lí - Tiếng trung,subject_group,/m/0h1c8f_,Trường Trung học cơ sở Lam Sơn,0.222273,keyword_fallback,2
+cee9f93ed84c88be2f07,Văn - Năng khiếu 1 - Năng khiếu 2,subject_group,/m/023kk0,Năng khiếu trí tuệ,0.446079,keyword_fallback,5
+fc138ceaeca711975380,Ngữ văn - Xướng âm - Biểu diễn nghệ thuật,subject_group,/m/03f54_h,Phạm Duy,0.08,keyword_fallback,1
+b4e7e429324d8f2242a0,Toán - Vật lí - Lịch sử,subject_group,/g/11p1dq82zb,Sách - Đột phá tư duy kì thi tốt nghiệp THPT-Toán Vật lí Hoá học Sinh học Ngữ văn Lịch sử Địa lí,0.551673,keyword_fallback,1
+da5575f6aa24ba290fce,Ngữ văn - Lịch sử - Tiếng nhật,subject_group,/g/11jrslgmqc,Học tiếng Nhật,0.44381,keyword_fallback,5
+92222549116e0857f803,Toán - Sinh học - Năng khiếu,subject_group,/g/119pgb7_v,Kỳ thi tuyển sinh đại học và cao đẳng,0.402147,keyword_fallback,5
+ca2e1142116bae31da4e,Vẽ mỹ thuật - Toán - Hóa,subject_group,/m/09845y,Tranh chỉ đinh,0.136364,keyword_fallback,1
+39ddf878266c35e3b112,Ngữ văn - Lịch sử - Tiếng pháp,subject_group,/m/0d5st,Ngữ pháp tiếng Anh,0.526623,keyword_fallback,5
+7658beb056e8ec0ab3f1,Toán - Địa lí - Tiếng trung,subject_group,/m/0h1c8f_,Trường Trung học cơ sở Lam Sơn,0.261259,keyword_fallback,1
+cf48f26829858f155ca5,Toán - Sinh học - Tiếng nga,subject_group,/g/11zx_vkvt1,Planwith Sổ Ghi Lỗi Toán và Tiếng Anh Ngang cho Học Sinh Trung Học Cơ Sở và Trung Học Phổ Thông B5,0.436015,keyword_fallback,5
+724b551f89129da0a864,Toán - Sinh học - Tiếng nhật,subject_group,/m/0284gfr,Đại học Sun Moon,0.325769,keyword_fallback,3
+1d8f9a0660be24cfc9e1,Toán - Sinh học - Tiếng pháp,subject_group,/g/122qym4s,Sinh trắc học,0.401261,keyword_fallback,1
+c15315dd2e697f88364b,Ngữ văn - Địa lí - Tiếng nga,subject_group,/m/0ftwg,Người Buryat,0.154286,keyword_fallback,1
+891967c0c21d07769b27,Toán - Hình họa - Trang trí,subject_group,/g/11g65f6ww5,Súng và danh vọng,0.18,keyword_fallback,3
+ec747ac604fe6099bcb7,Toán - Sinh học - Tiếng đức,subject_group,/m/0284gfr,Đại học Sun Moon,0.313919,keyword_fallback,5
+02dae133cdfaff46c0ca,Toán - Sinh học - Tiếng trung,subject_group,/g/11zy173cgw,SAIZHUO | Sách Bài Tập Học Sinh Toán Tiếng Trung Pinyin 36k,0.671397,best_relevant_topic,5
+b2da3257a9634113cd96,Ngữ văn - Vật lí - Tiếng trung,subject_group,/m/0h1c8f_,Trường Trung học cơ sở Lam Sơn,0.219643,keyword_fallback,1
+f3a4d78721a9b925cb9f,Ngữ văn - Lịch sử - Tiếng trung,subject_group,/m/01r2l,Tiếng Trung,0.54386,keyword_fallback,3
+266b942b8765eb4f31f0,Toán - Lịch sử - Sinh học,subject_group,/m/0jp97,Bài toán ngày sinh,0.427912,keyword_fallback,1
+5f071fcee048e97ccc90,Ngữ văn - Vật lí - Sinh học,subject_group,/g/11zxz20jxy,Sách - Đột phá tư duy lớp 12 -Toán Vật lí Hoá học Sinh học Ngữ văn Lịch sử Địa lí,0.598485,keyword_fallback,2
+b98e483d85834d5cdf9b,Ngữ văn - Lịch sử - Vật lí,subject_group,/g/11zxz20jxy,Sách - Đột phá tư duy lớp 12 -Toán Vật lí Hoá học Sinh học Ngữ văn Lịch sử Địa lí,0.60034,keyword_fallback,2
+a3d80c286cbf79b2d306,Ngữ văn - Địa lí - Vật lí,subject_group,/g/11zxz20jxy,Sách - Đột phá tư duy lớp 12 -Toán Vật lí Hoá học Sinh học Ngữ văn Lịch sử Địa lí,0.527431,keyword_fallback,2
+cada5469d5004261e33e,Ngữ văn - Lịch sử - Hóa học,subject_group,/m/01gchf,Lịch sử pháp lý,0.427193,keyword_fallback,5
+0766577308968933842b,Ngữ văn - Lịch sử - Sinh học,subject_group,/g/11zxz20jxy,Sách - Đột phá tư duy lớp 12 -Toán Vật lí Hoá học Sinh học Ngữ văn Lịch sử Địa lí,0.578667,keyword_fallback,5
+e92f7f2a7c7805ed9627,Ngữ văn - Lịch sử - Tiếng đức,subject_group,/g/11nh_06709,Quiz Lịch Sử,0.39881,keyword_fallback,5
+7daec919666569167f69,Ngữ văn - Lịch sử - Tiếng nga,subject_group,/g/11jpggfq34,Trình dịch từ tiếng Nga sang t,0.431212,keyword_fallback,5
+00962d2c77567f41d53d,Toán - Hóa học - Công nghệ công nghiệp,subject_group,/m/05720hc,Đại học Công nghệ Quốc phòng Trung Quốc,0.5225,keyword_fallback,4
+031a3688e0d75457ae72,Toán - Tiếng anh - Công nghệ công nghiệp,subject_group,/g/11my5d23lp,Từ vựng tiếng anh theo chủ đề,0.420218,keyword_fallback,5
+5b8f260e2adf116ab996,Toán - Hóa học - Công nghệ nông nghiệp,subject_group,/g/120ktg5z,Trường Đại học Đông Á,0.271955,keyword_fallback,3
+01ef7d96273439a23765,Toán - Sinh học - Công nghệ công nghiệp,subject_group,/g/122z_vxw,Trường Đại học Công nghiệp Quảng Ninh,0.539225,keyword_fallback,3
+1bd4dee31fb717418793,Toán - Sinh học - Tin học,subject_group,/m/01c62,Tin sinh học,0.7125,best_relevant_topic,5
+a9778d018d26982e43c4,Toán - Sinh học - Công nghệ nông nghiệp,subject_group,/g/120ktg5z,Trường Đại học Đông Á,0.284848,keyword_fallback,3
+faaaa1a5df114d6c5b3e,Toán - Lịch sử - Tiếng pháp,subject_group,/m/034l8,Lịch sử hình học,0.474066,keyword_fallback,5
+649b6fd0186541c570dd,Toán - Hoá - Tin,subject_group,/m/03g5n9,Hóa đơn,0.416667,keyword_fallback,2
+bbd24a943d24ff5b171d,Toán - Tiếng nhật - Tin học,subject_group,/m/0bbtmx9,Tương lai của toán học,0.35,keyword_fallback,5
+4384cb4b403936220c55,Ngữ văn - Hóa học - Tiếng trung,subject_group,/g/11jjl0_3yg,Từ Điển Học Tiếng Nhật | Mazii,0.406667,keyword_fallback,1
+4870459a52f34d2d18a8,Ngữ văn - Tiếng anh - Tin học,subject_group,/m/0d5st,Ngữ pháp tiếng Anh,0.574668,keyword_fallback,4
+85be67dacb2b322c2415,Toán - Ngữ văn - Công nghệ nông nghiệp,subject_group,/g/120ktg5z,Trường Đại học Đông Á,0.203774,keyword_fallback,1
+f35416de702132901e39,Ngữ văn - Lịch sử - Tin học,subject_group,/m/02ryxmb,Thì hiện tại lịch sử,0.391344,keyword_fallback,2
+93076d2aebea83b8e112,Toán - Khoa học xã hội - Tiếng anh,subject_group,/g/11hmdf_84j,ANTON Học ngôn ngữ và toán học,0.256364,keyword_fallback,5
+72c09670580d3f770796,Tư duy định lượng - Tư duy định tính - Khoa học,subject_group,/m/0qlwm,Nhận thức,0.126,keyword_fallback,1
+169d0e36d4a8cb7c9300,Tư duy định lượng - Tư duy định tính - Tiếng anh,subject_group,/g/11lvl4q4lk,Tour Riêng The Godfather kèm Thưởng Thức Bánh Cannoli Sicily,0.167647,keyword_fallback,2
+95ec0865ce3e569968e9,Ngữ văn - Toán - Tiếng hàn,subject_group,/g/11k0mb3fyk,Công Thức Toán Lite,0.336463,keyword_fallback,5
+e84d39d08800b8504101,Toán - Hóa học - Tiếng hàn,subject_group,/g/11mt1zjw4t,"Trải nghiệm Mahjong Thành Đô: Hướng dẫn viên tiếng Anh đồng hành, tận hưởng",0.226926,keyword_fallback,5
+95b820a0654a7ca487f3,Toán - Lịch sử - Tiếng hàn,subject_group,/g/11wgjgj6m_,Gia sư Toán bằng AI,0.387561,keyword_fallback,5
+b245540538232c0527c5,Toán - Lịch sử - Tiếng đức,subject_group,/g/11y46ly9zv,Tham Quan Các Đài Tưởng Niệm Acropolis – Hướng Dẫn Viên Tiếng Đức,0.353252,keyword_fallback,5
+ffa4668017c1422fc639,Toán - Lịch sử - Tiếng nga,subject_group,/g/11pdmr5cgs,Dịch Thuật,0.16875,keyword_fallback,5
+8cab9c06db0130772a27,Toán - Lịch sử - Tiếng nhật,subject_group,/g/11pck4z3sy,MochiKanji - Học tiếng Nhật,0.497143,keyword_fallback,5
+c5716153d233e212640e,Toán - Lịch sử - Tiếng trung,subject_group,/m/04ks61,Bộ lưu trữ lịch sử toán học MacTutor,0.495,keyword_fallback,5
+c9e4d0b6661cbd55df5e,Ngữ văn - Năng khiếu 1 - Năng khiếu 2,subject_group,/m/023kk0,Năng khiếu trí tuệ,0.396078,keyword_fallback,2
+07f897e340cc8456092f,Ngữ văn - Hóa học - Tiếng nhật,subject_group,/g/11k6x2zl83,Học Tiếng Nhật,0.69,best_relevant_topic,5
+07f897e340cc8456092f,Ngữ văn - Sinh học - Tiếng nhật,subject_group,/g/11k6x2zl83,Học Tiếng Nhật,0.682317,best_relevant_topic,5
+112041f2938b83558197,Ngữ văn - Hóa học - Tiếng pháp,subject_group,/m/0d5st,Ngữ pháp tiếng Anh,0.526623,keyword_fallback,4
+cbeb03d8341e4f82953e,Toán - Tin học - Tiếng trung,subject_group,/m/04ks61,Bộ lưu trữ lịch sử toán học MacTutor,0.356364,keyword_fallback,5
+4854832431768297696b,Toán - Công nghệ công nghiệp - Tiếng trung,subject_group,/g/11c32fyszc,Thao túng Internet,0.176786,keyword_fallback,5
+d80b192a7d3efb9638b2,Ngữ văn - Sinh học - Tiếng đức,subject_group,/g/11jlgrf8m4,Học tiếng Đức dễ dàng,0.49,keyword_fallback,5
+3c1391dcc430dc7509f5,Ngữ văn - Sinh học - Tiếng nga,subject_group,/m/0qmt_,Văn học Nga,0.542568,keyword_fallback,5
+22173fdc8cb8ce713b47,Ngữ văn - Sinh học - Tiếng pháp,subject_group,/g/11jjl0_3yg,Từ Điển Học Tiếng Nhật | Mazii,0.423333,keyword_fallback,3
+9c32d21beee0d39f557c,Ngữ văn - Sinh học - Tiếng trung,subject_group,/g/11k0mhnlsz,Học tiếng Trung dễ dàng,0.514706,keyword_fallback,3
+bba83806861916ada322,Ngữ văn - Hóa học - Tiếng hàn,subject_group,/g/11z7hzt_9k,Trải Nghiệm Văn Hóa Homestay & Học Tiếng Hàn Tại Seoul,0.663095,best_relevant_topic,5
+02dd40843210069dc9c6,Ngữ văn - Sinh học - Tiếng hàn,subject_group,/g/11z7hzt_9k,Trải Nghiệm Văn Hóa Homestay & Học Tiếng Hàn Tại Seoul,0.553846,keyword_fallback,4
+bb333daf3f0277cb9ffe,Toán - Tin học - Tiếng nga,subject_group,/g/11wr1jb21d,4000 Từ Tiếng Anh Thẻ Học,0.375934,keyword_fallback,5
+3bd11bf374233e75f383,Toán - Công nghệ công nghiệp - Tiếng nga,subject_group,/g/11y4y8x8cb,AI Chatbot - Bluu,0.088235,keyword_fallback,2
+be4746f660ea8b350e6e,Toán - Tin học - Tiếng đức,subject_group,/m/03pxy_,Đại học Ngoại ngữ Thượng Hải,0.29625,keyword_fallback,5
+7527f2eca4ff8f0590a1,Toán - Tin học - Tiếng pháp,subject_group,/g/11yvpfyjg5,KidsUP Pro – Bé Học Toàn Diện,0.382444,keyword_fallback,5
+f672d61ca87c7dacfedc,Ngữ văn - Địa - Năng khiếu,subject_group,/g/11_pkzpyw,Trường THPT Chuyên Bắc Ninh,0.1125,keyword_fallback,2
+2f7d0492d8149cfb886e,Ngữ văn - Ngoại ngữ - Năng khiếu,subject_group,/g/11c0y2ll0k,Trường THPT Chuyên Phan Ngọc Hiển,0.206557,keyword_fallback,3
+977b8aca17d7b6fe1e68,Toán - Công nghệ công nghiệp - Tiếng pháp,subject_group,/g/11y577mzyp,âm thanh giảm tiếng ồn AI,0.279741,keyword_fallback,5
+966cda8454f365437f1f,Toán - Tin học - Tiếng hàn,subject_group,/g/11k0mb3fyk,Công Thức Toán Lite,0.248659,keyword_fallback,3
+b21c9d77a883794e99c4,Ngữ văn - Tin học - Tiếng nga,subject_group,/g/11jlh63__1,Học tiếng Nga dễ dàng,0.504348,keyword_fallback,5
+49a4ef71efff3f9e6812,Ngữ văn - Công nghệ công nghiệp - Tiếng nga,subject_group,/g/11yzls3t46,Nhân bản giọng nói AI,0.165,keyword_fallback,5
+b9118f4f21b171710945,Ngữ văn - Tin học - Tiếng pháp,subject_group,/m/0d5st,Ngữ pháp tiếng Anh,0.526623,keyword_fallback,4
+15aaaab38f4faeb6eb93,Ngữ văn - Công nghệ công nghiệp - Tiếng pháp,subject_group,/m/017d2k,Fin de siècle,0.118868,keyword_fallback,5
+8efb2d2f2730a943034c,Ngữ văn - Công nghệ công nghiệp - Tiếng trung,subject_group,/g/11mkvhlvj3,Chuyến đi bộ khám phá văn hóa Đài Trung - Khu vườn Parkway Kinmei Eslite & Quảng trường công dân Đài Trung & Làng văn...,0.296892,keyword_fallback,5
+3a96c84b0c41adb490fe,Toán - Tin học - Công nghệ công nghiệp,subject_group,/g/122z_vxw,Trường Đại học Công nghiệp Quảng Ninh,0.543571,keyword_fallback,2
+7d7249e09bcc7fd4d035,Ngữ văn - Tin học - Tiếng đức,subject_group,/g/11jlgrf8m4,Học tiếng Đức dễ dàng,0.495455,keyword_fallback,5
+2efb2e4907b2662be3fe,Toán - Tin học - Công nghệ nông nghiệp,subject_group,/g/120ktg5z,Trường Đại học Đông Á,0.288937,keyword_fallback,1
+277a32f35c541ed34e00,Toán - Lịch sử - Công nghệ công nghiệp,subject_group,/g/121569y4,Cách mạng công nghiệp lần thứ ba,0.398485,keyword_fallback,1
+c4ba568f2993dc4b30e2,Ngữ văn - Công nghệ công nghiệp - Tiếng đức,subject_group,/g/11wx4vl67p,Cộng Đồng Do Thái Prague: Câu Chuyện Thành Công Đến 1938,0.210852,keyword_fallback,3
+5160af1414fbb01db02b,Toán - Lịch sử - Công nghệ nông nghiệp,subject_group,/g/11z9c72m4m,"Tour 4x4 – Văn Hóa, Thủ Công & Nông Nghiệp ở Raiatea",0.470635,keyword_fallback,2
+a448299f15d7a811508a,Toán - Lịch sử - Tin học,subject_group,/m/04ks61,Bộ lưu trữ lịch sử toán học MacTutor,0.626032,best_relevant_topic,2
+7db9bdf9345800a57b6f,Ngữ văn - Tin học - Tiếng nhật,subject_group,/g/11k0mn5d04,Học tiếng Nhật dễ dàng,0.5125,keyword_fallback,5
+e49dc962f0083f3522c5,Ngữ văn - Công nghệ công nghiệp - Tiếng nhật,subject_group,/g/11nqm8p_7d,Jim Thompson House – Tour Đa Ngôn Ngữ – Di Chuyển Riêng,0.1625,keyword_fallback,2
+538a076fae06c447d75b,Ngữ văn - Hóa học - Công nghệ công nghiệp,subject_group,/m/03shtx,Đại học Văn hóa Trung Quốc,0.39871,keyword_fallback,1
+1935979409d9f6a6595d,Ngữ văn - Tin học - Tiếng hàn,subject_group,/g/11kzq3gdg_,Học Nói Tiếng Hàn,0.539286,keyword_fallback,5
+bc784e93525cf5c6a118,Ngữ văn - Hóa học - Công nghệ nông nghiệp,subject_group,/m/03shtx,Đại học Văn hóa Trung Quốc,0.374505,keyword_fallback,5
+d50a88b165d7ec12014e,Ngữ văn - Công nghệ công nghiệp - Tiếng hàn,subject_group,/g/11yzls3t46,Nhân bản giọng nói AI,0.165,keyword_fallback,4
+89b194194b5033dbf1ef,Ngữ văn - Hóa học - Tin học,subject_group,/g/11btrrr5y7,Trung Tâm Ngoại Ngữ Tin Học Văn Hóa,0.64569,best_relevant_topic,5
+4a2d363f7ae3a24fc2c3,Ngữ văn - Lịch sử - Công nghệ nông nghiệp,subject_group,/g/11vry6390w,dịch vụ người thuyết minh riêng song ngữ Trung – Anh trung/cao cấp (bao gồm,0.210155,keyword_fallback,5
+3731ff08f1976faa2514,Ngữ văn - Sinh học - Công nghệ công nghiệp,subject_group,/g/11khkg2rwf,Trí tuệ nhân tạo tạo sinh,0.182468,keyword_fallback,1
+4a30933efa0340ea210d,Ngữ văn - Sinh học - Công nghệ nông nghiệp,subject_group,/g/120ktg5z,Trường Đại học Đông Á,0.281469,keyword_fallback,2
+dd844dbb54533d98049b,Ngữ văn - Sinh học - Tin học,subject_group,/m/063zld9,Trường Đại Học Ngoại Ngữ - ĐHQGHN,0.42218,keyword_fallback,5
+3ff5ac40af416a2364c8,Ngữ văn - Tiếng anh - Công nghệ công nghiệp,subject_group,/g/11twm659sd,Từ vựng tiếng Anh Mỹ - Awabe,0.371748,keyword_fallback,5
+c1307b79192703f175ce,Ngữ văn - Tin học - Công nghệ nông nghiệp,subject_group,/g/120ktg5z,Trường Đại học Đông Á,0.285417,keyword_fallback,1
+ecc95c0f9894f70635fc,Ngữ văn - Lịch sử - Tiếng hàn,subject_group,/g/11k0mbs5k2,Học tiếng Hàn,0.434336,keyword_fallback,5
+e3099ecff9ccc6ec8422,Toán - Sinh học - Tiếng hàn,subject_group,/m/0284gfr,Đại học Sun Moon,0.331842,keyword_fallback,5
+c65996515b02e73f369f,Ngữ văn,subject,/m/059dzs,Ngữ văn,1.0,best_relevant_topic,5
+c65996515b02e73f369f,Ngữ văn,subject,/m/059dzs,Ngữ văn,1.0,best_relevant_topic,5
+cbe5e44be24668f90bb3,Tiếng anh,subject,/m/02h40lc,Tiếng Anh,1.0,best_relevant_topic,5
+cbe5e44be24668f90bb3,Tiếng anh,subject,/m/02h40lc,Tiếng Anh,1.0,best_relevant_topic,5
+f38ee339dc3fcf854275,Địa lí,subject,/m/05sbk,Địa lý Trung Quốc,0.386429,keyword_fallback,1
+119897468c143511c0a8,Tiếng pháp,subject,/m/064_8sq,Tiếng Pháp,1.0,best_relevant_topic,5
+b57e8159a87c61403459,Tiếng trung,subject,/m/01r2l,Tiếng Trung,1.0,best_relevant_topic,5
+289d1e971599365ac166,Tiếng nhật,subject,/m/03_9r,Tiếng Nhật,1.0,best_relevant_topic,5
+6575d409371175bdaa1c,Tiếng nga,subject,/m/06b_j,Tiếng Nga,1.0,best_relevant_topic,5
+15504f651838f50ff5b1,Tiếng đức,subject,/m/04306rv,Tiếng Đức,1.0,best_relevant_topic,5
+4e0b16a61e2719f2b1df,Vẽ hình họa mỹ thuật,subject,/m/0n1h,Nhà mỹ thuật,0.544167,keyword_fallback,5
+a01e73e46c6b41cda4d3,Tiếng hàn,subject,/m/02hwhyv,Tiếng Hàn,1.0,best_relevant_topic,5
+4f569d02eaa60b8c05b1,Năng khiếu vẽ nghệ thuật 1,subject,/g/11nvf19vr3,Xưởng vẽ Mochiart tại Singapore (Đa dạng loại hình thủ công + Dành cho ngườ,0.208035,keyword_fallback,2
+c37be45cbef04d663ba1,Năng khiếu vẽ nghệ thuật 2,subject,/g/11nvf19vr3,Xưởng vẽ Mochiart tại Singapore (Đa dạng loại hình thủ công + Dành cho ngườ,0.208035,keyword_fallback,2
+ddb56034e22b9c428c04,Vẽ mỹ thuật,subject,/g/11rb4qx9pn,Lớp học vẽ Mỹ Thuật Bụi - vinh,0.78956,best_relevant_topic,5
+e03b35f91571b6e120b6,Năng khiếu tdtt,subject,/g/11fsrhln3_,Trường Phổ Thông Năng Khiếu TDTT Nguyễn Thị Định,0.734409,best_relevant_topic,2
+e03b35f91571b6e120b6,Năng khiếu tdtt,subject,/g/11fsrhln3_,Trường Phổ Thông Năng Khiếu TDTT Nguyễn Thị Định,0.734409,best_relevant_topic,2
+40eb275b62b59b9294aa,Năng khiếu,subject,/m/023kk0,Năng khiếu trí tuệ,0.871429,best_relevant_topic,5
+40eb275b62b59b9294aa,Năng khiếu 1,subject,/m/023kk0,Năng khiếu trí tuệ,0.643333,best_relevant_topic,5
+40eb275b62b59b9294aa,Năng khiếu,subject,/m/023kk0,Năng khiếu trí tuệ,0.871429,best_relevant_topic,5
+cab72fa121d7f969a487,Năng khiếu âm nhạc 1,subject,/m/06053,"Diana, Vương phi xứ Wales",0.204545,keyword_fallback,5
+dbbf033d4fb7e82dc337,Năng khiếu âm nhạc 2,subject,/m/06053,"Diana, Vương phi xứ Wales",0.204545,keyword_fallback,5
+bf9a1b310e7153b19497,Đọc diễn cảm,subject,/m/0fzb5,Nhà ngoại cảm,0.381667,keyword_fallback,1
+0156d22f2e3b4a157d3b,Hát,subject,/m/015lz1,Hát,1.0,best_relevant_topic,5
+f0107da265bc4ed4dfae,Sinh,subject,/m/01g4lh,Sở An sinh Xã hội,0.661429,best_relevant_topic,5
+e552c94873f45a97e777,Vẽ trang trí màu,subject,/g/11s3ht90tq,màu vẽ Poster SAKURA hũ lớn học vẽ trang trí màu,0.763889,best_relevant_topic,5
+995a38f936e3afe94bdb,Địa,subject,/m/077l_l,Địa chính,0.73,best_relevant_topic,5
+995a38f936e3afe94bdb,Địa,subject,/m/077l_l,Địa chính,0.73,best_relevant_topic,5
+e8420f34e259b0c8d88c,Năng khiếu 2,subject,/g/11g3x13r7s,Trường Phổ thông Năng Khiếu - Cơ sở 2,0.654787,best_relevant_topic,3
+007d8b8d55d0ff613df6,Văn,subject,/m/0g2vc,Đài thiên văn,0.696667,best_relevant_topic,5
+cc727ca4b2d3a99179f6,Xướng âm,subject,/g/11jrspjbv0,Huấn luyện viên Xướng âm,0.755,best_relevant_topic,5
+8b01f9cb849caafcc40a,Biểu diễn nghệ thuật,subject,/m/011x3r5s,Trường Trung học Biểu diễn Nghệ thuật Seoul,0.835714,best_relevant_topic,5
+e823c256edb00345d292,Hóa,subject,/m/0vpj4_b,Tiền mã hóa,0.709524,best_relevant_topic,5
+4bb90c3c9e77736ce978,Lí,subject,/m/055vq1,Lí,1.0,best_relevant_topic,5
+415340b63e1f475ffa9d,Hình họa,subject,/m/02g33v,Hình học họa hình,0.771333,best_relevant_topic,5
+4e438aa6f859c060aa33,Trang trí,subject,/m/02r_57s,Trang trí bánh ngọt,0.839286,best_relevant_topic,5
+c1061fd7d3a8abfa9d08,Nk1,subject,/g/11tj71h472,Omron D4SL-NK1 Switch Hardware,0.571818,keyword_fallback,5
+075ad8ddf81f3b4821ce,Xây dựng kịch bản sự kiện,subject,/g/11zz2hzvtl,Kịch bản AR Guangzhou Sun Yat-sen Memorial Hall Dành Cho Mọi Du Khách,0.263357,keyword_fallback,5
+bc954bd49baca191b219,Hát - múa,subject,/m/09swn,Nhạc Kịch hát múa,0.8125,best_relevant_topic,5
+9629ed35ac41e9066993,Năng khiếu báo chí,subject,/m/06053,"Diana, Vương phi xứ Wales",0.214286,keyword_fallback,5
+9fb3602688b18e6020af,Ký xướng âm,subject,/g/11ysc8kq77,"Buổi biểu diễn ""Rối bóng và Rối gỗ"" + Hoa Âm Lão Xướng + trà và điểm tâm Qi",0.360865,keyword_fallback,5
+95383183852d397bfdea,Hát hoặc biểu diễn nhạc cụ,subject,/m/01jddz,Buổi hòa nhạc,0.291026,keyword_fallback,5
+0cc246e2f821e6f1f88d,Công nghệ công nghiệp,subject,/m/02z50h0,Bộ Công nghiệp và Công nghệ thông tin,0.637438,best_relevant_topic,5
+649def3304f491d61bb6,Năng khiếu âm nhạc,subject,/m/02htv6,Curtis Institute of Music,0.083721,keyword_fallback,1
+204788b2340fd760f646,Đọc hiểu,subject,/m/05js3c,Đọc hiểu,1.0,best_relevant_topic,4
+69ea49638a2989605cfc,Hoá,subject,/m/03g5n9,Hóa đơn,0.85,best_relevant_topic,5
+5550ea58ed089adfd83d,Tin,subject,/m/05jhg,Tin tức,0.82,best_relevant_topic,5
+13b95f36dc2068b3ba05,Khoa học tự nhiên,subject,/m/09pz7,Khoa học tự nhiên,1.0,best_relevant_topic,5
+6a21ddd63b010fcaa2a6,Tư duy định lượng,subject,/m/06w69_,Tư duy tối ưu,0.552011,keyword_fallback,2
+5e76ab762ca2050de35e,Tư duy định tính,subject,/m/0hhx0k2,Tư duy nhanh và chậm,0.515,keyword_fallback,5
+cb41187fc25d9c6b94f5,Khoa học/ tiếng anh,subject,/g/11z9rpmkq8,Tiếng Anh Y khoa: Học - Version 100.0.8 - iOS,0.616207,keyword_fallback,4
+9f6d16d6fbc6315e5f82,Khoa học xã hội,subject,/m/06n6p,Khoa học xã hội,1.0,best_relevant_topic,5
+35dc09ff5c816c8a8f31,Khoa học,subject,/m/06mq7,Khoa học,1.0,best_relevant_topic,5
+730dfc80acee6ccc0429,Năng khiếu văn hóa nghệ thuật,subject,/m/0h1dgd0,Khánh Thi,0.142105,keyword_fallback,4
+5a86656ed62727192d23,Ngoại ngữ,subject,/g/121q8_hg,Ngoại ngữ,1.0,best_relevant_topic,5
+0af8ccc730ab074247f5,Năng khiếu giáo dục mầm non,subject,/g/11g8_19h37,Kids MBA Ltd,0.161538,keyword_fallback,1

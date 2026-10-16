@@ -1,0 +1,880 @@
+query_id,query,query_kind,mid,title,type,selection_score,status,stage_interest,stage_enrichment,enrichment_skip_reason,nonzero_points,average_interest,max_interest,geo,date_range
+576c7703888248f9225b,/g/122jr9l6,topic_mid,/g/122jr9l6,Trường Cao đẳng Kỹ thuật Cao Thắng,"Trường cao đẳng nghề ở Thành phố Hồ Chí Minh, Việt Nam",1.0,success,success,success,,242,2.5109,18.0,VN,all
+7aeda7a997d1621c90e5,/m/0vb4j37,topic_mid,/m/0vb4j37,Cao Đẳng Công Thương TP.HCM,"Cao đẳng ở Thành phố Hồ Chí Minh, Việt Nam",0.721264,interest_only,success,skipped,enrichment_limit,212,2.2226,16.0,VN,all
+c6101f1ddd43806c57c3,/m/0bwj_9k,topic_mid,/m/0bwj_9k,Trường Đại học Kinh tế Quốc dân,"Đại học công lập ở Hà Nội, Việt Nam",1.0,success,success,success,,267,16.146,78.0,VN,all
+fc528cf82e4f1c4bf86c,/m/027jq68,topic_mid,/m/027jq68,Đại Học Bách Khoa Hà Nội,"Đại học ở Hà Nội, Việt Nam",1.0,success,success,success,,273,17.2409,100.0,VN,all
+fbe89dcaba60c2b51b5a,/m/0vb3p87,topic_mid,/m/0vb3p87,Học Viện Tài Chính,"Đại học ở Hà Nội, Việt Nam",1.0,success,success,success,,255,7.4708,40.0,VN,all
+6a9f2547223d4e0a922d,/g/1231rrgh,topic_mid,/g/1231rrgh,Học Viện Ngân Hàng,"Trường đại học ở Hà Nội, Việt Nam",1.0,success,success,success,,259,10.2956,59.0,VN,all
+6b03c6d296ce7e7f852d,/m/02r1qvb,topic_mid,/m/02r1qvb,Trường Đại học Ngoại thương,"Trường đại học ở Hà Nội, Việt Nam",1.0,success,success,success,,265,14.5657,100.0,VN,all
+4b13e18465b1e7f658ee,/g/11cjgd_bmr,topic_mid,/g/11cjgd_bmr,Khoa Cơ Khí Trường Đại học Bách Khoa Tp HCM,Chủ đề,0.885507,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+90e002a1a997cc87794b,/m/03wf35r,topic_mid,/m/03wf35r,Trường Đại học Y Hà Nội (HMU),"Đại học ở Hà Nội, Việt Nam",1.0,success,success,success,,246,4.9599,59.0,VN,all
+1aa8d27b960ac0cc8971,/g/12168p16,topic_mid,/g/12168p16,Học viện Công nghệ Bưu chính viễn thông,"Trường đại học ở Hà Nội, Việt Nam",1.0,success,success,success,,213,9.6277,52.0,VN,all
+48d455eae125647f0f2d,/m/03qp6jc,topic_mid,/m/03qp6jc,Trường Đại Học Sư Phạm Hà Nội,"Trường đại học ở Hà Nội, Việt Nam",1.0,success,success,success,,269,22.0657,100.0,VN,all
+1d3acb46917f75467d38,/m/0vb3m9z,topic_mid,/m/0vb3m9z,Trường Đại học Thương mại,"Trường đại học ở Hà Nội, Việt Nam",1.0,success,success,success,,264,14.0219,96.0,VN,all
+21610e5d7be7e40300f0,/m/02qqm8l,topic_mid,/m/02qqm8l,Trường Đại học Sư phạm Thành phố Hồ Chí Minh,"Đại học ở Thành phố Hồ Chí Minh, Việt Nam",0.779719,interest_only,success,skipped,enrichment_limit,203,2.8358,22.0,VN,all
+c8f73a974411a10007f0,/m/02pz1f3,topic_mid,/m/02pz1f3,Trường Đại học Y Dược Thành phố Hồ Chí Minh,"Đại học ở Thành phố Hồ Chí Minh, Việt Nam",0.683055,interest_only,success,skipped,enrichment_limit,256,14.6825,82.0,VN,all
+ae3742143ce30558e517,/g/1224n74q,topic_mid,/g/1224n74q,"Trường Đại học Công nghệ, Đại học Quốc gia Hà Nội","Đại học ở Hà Nội, Việt Nam",1.0,success,success,success,,253,5.8723,34.0,VN,all
+56089887601bb86452e6,/g/1tj98gpp,topic_mid,/g/1tj98gpp,Trường Đại học Thủ đô Hà Nội,"Đại học công lập ở Hà Nội, Việt Nam",1.0,interest_only,success,skipped,low_interest,102,0.4854,4.0,VN,all
+cb5c5e1795e1ec868053,/m/0vb3l_2,topic_mid,/m/0vb3l_2,Trường Đại Học Giao Thông Vận Tải,"Trường đại học ở Hà Nội, Việt Nam",1.0,success,success,success,,262,8.7956,52.0,VN,all
+7d626c5c6b5157decf65,/g/122wnfm9,topic_mid,/g/122wnfm9,Học viện Kỹ thuật mật mã,"Trường đại học ở Hà Nội, Việt Nam",1.0,interest_only,success,skipped,enrichment_limit,107,0.5109,6.0,VN,all
+e74c670605e90cf3c21d,/m/0vb3l31,topic_mid,/m/0vb3l31,Trường Đại học Công nghiệp Hà Nội,"Đại học công lập ở Hà Nội, Việt Nam",1.0,success,success,success,,259,16.0474,100.0,VN,all
+e163d5d5717b41135ccb,/g/11fxb5nbl8,topic_mid,/g/11fxb5nbl8,Nhà B Trường Đại Học Y Dược Hải Phòng,Chủ đề,1.0,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+56804cee89e6f798391f,/m/0vb3q34,topic_mid,/m/0vb3q34,Trường Đại học Công Thương TP. Hồ Chí Minh (HUIT),"Đại học ở Thành phố Hồ Chí Minh, Việt Nam",0.799681,interest_only,success,skipped,enrichment_limit,206,19.6971,80.0,VN,all
+0349378e571170eca056,/m/0cr482c,topic_mid,/m/0cr482c,Trường Đại học Dược Hà Nội,Chủ đề,1.0,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+4ab14a2ac2f15f95b70b,/g/11b76b2nqq,topic_mid,/g/11b76b2nqq,Học Viện An ninh Nhân Dân,"Đại học ở Hà Nội, Việt Nam",1.0,success,success,success,,239,12.3759,100.0,VN,all
+3ca14f7038c74062b9b0,/g/121gdcmc,topic_mid,/g/121gdcmc,Đại học Kỹ thuật Y tế Hải Dương,"Trường y ở Hải Phòng, Việt Nam",1.0,success,success,success,,210,4.4526,69.0,VN,all
+df8e04316cdcafdb2ca4,Trường Đại Học Giao Thông Vận Tải TPHCM,search_term,,,,0.564216,interest_only,success,skipped,enrichment_limit,99,0.6642,9.0,VN,all
+aff045ab48e9b17e6d92,/g/1222zn25,topic_mid,/g/1222zn25,Học viện Y Dược học Cổ truyền Việt Nam,"Trường y ở Hà Nội, Việt Nam",1.0,success,success,success,,216,2.1496,14.0,VN,all
+b16bcc33079e88a687ff,/m/0vb3l8k,topic_mid,/m/0vb3l8k,Học viện Cảnh sát nhân dân (T02) Bộ Công an,"Đại học ở Hà Nội, Việt Nam",0.969254,interest_only,success,skipped,enrichment_limit,225,4.8577,45.0,VN,all
+2d353f1c28ae90b8595e,/m/0vb3mr5,topic_mid,/m/0vb3mr5,Trường Đại Học Kinh Tế Kỹ Thuật Công Nghiệp,"Trường đại học ở Hà Nội, Việt Nam",1.0,success,success,success,,231,13.3978,100.0,VN,all
+a15635a73887090b3c6e,/g/1q69jdvg4,topic_mid,/g/1q69jdvg4,Trường Sĩ quan Lục Quân 1,Chủ đề,0.7375,interest_only,success,skipped,low_interest,10,0.0401,2.0,VN,all
+c8c41cce3c4767a2a26d,/m/0hzpxcc,topic_mid,/m/0hzpxcc,Học viện Hải quân,"Đại học ở Nha Trang, Việt Nam",1.0,interest_only,success,skipped,enrichment_limit,150,0.7883,6.0,VN,all
+7333bbd27f9a1ff6de2d,/m/02pyz92,topic_mid,/m/02pyz92,Học viện Hàng không Việt Nam,"Trường đại học ở Thành phố Hồ Chí Minh, Việt Nam",1.0,success,success,success,,231,6.4562,41.0,VN,all
+4e99fe3dbf408a06dc5f,/g/11q8g71fw4,topic_mid,/g/11q8g71fw4,Đại học Phenikaa,Tập đoàn,1.0,interest_only,success,skipped,enrichment_limit,51,0.6095,13.0,VN,all
+ccf6971d09d23975c507,/g/1216r9rx,topic_mid,/g/1216r9rx,Học Viện Phòng Không - Không Quân,"Trường quân sự ở Hà Nội, Việt Nam",1.0,interest_only,success,skipped,enrichment_limit,182,1.0985,10.0,VN,all
+1ef4b54eee193679cc49,/g/11b6t1mk6c,topic_mid,/g/11b6t1mk6c,Trường Đại Học Cảnh Sát Nhân Dân,"Trường đại học ở Thành phố Hồ Chí Minh, Việt Nam",1.0,success,success,success,,233,5.3759,60.0,VN,all
+f1fab5cb11f7d14d6b82,/m/0465nmd,topic_mid,/m/0465nmd,Trường Đại học Hà Nội,"Đại học ở Hà Nội, Việt Nam",1.0,success,success,success,,243,17.792,100.0,VN,all
+ca3c44e02c8db5242928,Học Viện Kỹ Thuật Quân Sự - Hệ Quân sự,search_term,,,,0.402137,interest_only,success,skipped,enrichment_limit,49,0.6058,100.0,VN,all
+8fd7312dfd35730a59ec,/m/02836qs,topic_mid,/m/02836qs,Trường Đại học Y tế công cộng,"Đại học ở Hà Nội, Việt Nam",1.0,interest_only,success,skipped,low_interest,13,0.0657,2.0,VN,all
+61b89656ba1ec7653c12,/g/122kcrr6,topic_mid,/g/122kcrr6,Học viện Ngoại giao,"Đại học ở Hà Nội, Việt Nam",1.0,success,success,success,,208,8.8394,48.0,VN,all
+66f6f666701af2fff4f8,/g/11c5rv1mpv,topic_mid,/g/11c5rv1mpv,Học Viện An Ninh Nhân Dân - Phân hiệu TP.HCM,"Trường đại học ở Thành phố Hồ Chí Minh, Việt Nam",0.633333,interest_only,success,skipped,enrichment_limit,168,1.6533,12.0,VN,all
+f7d48087c0b52a77887e,/g/11b7jqjfpd,topic_mid,/g/11b7jqjfpd,Đại Học Y Dược Cần Thơ,"Trường đại học ở Cần Thơ, Việt Nam",1.0,success,success,success,,220,16.0073,63.0,VN,all
+ed3516c3fa4ce3a397fd,/g/1221mxql,topic_mid,/g/1221mxql,Trường Đại học Thủ Dầu Một,"Trường đại học ở Thành phố Hồ Chí Minh, Việt Nam",1.0,success,success,success,,200,2.3285,11.0,VN,all
+58bf29a6b3c244b69cef,/m/0z8y9w8,topic_mid,/m/0z8y9w8,Trường Đại học Y khoa Phạm Ngọc Thạch,"Đại học ở Thành phố Hồ Chí Minh, Việt Nam",1.0,success,success,success,,223,1.8613,8.0,VN,all
+7f4fe7fc7535f396f5c5,/g/1229qpy7,topic_mid,/g/1229qpy7,Trường Đại học Thăng Long,"Trường đại học ở Hà Nội, Việt Nam",1.0,success,success,success,,265,5.2664,44.0,VN,all
+1e2ecc95e44cb659f736,/m/02r3ch_,topic_mid,/m/02r3ch_,Trường Đại học Thủy lợi,"Đại học ở Hà Nội, Việt Nam",1.0,success,success,success,,255,4.4526,34.0,VN,all
+548c38e91a3948f912c2,/m/02r129r,topic_mid,/m/02r129r,Trường Đại học Khoa học Tự nhiên - Đại học Quốc gia TP.HCM,"Đại học ở Thành phố Hồ Chí Minh, Việt Nam",0.825025,interest_only,success,skipped,enrichment_limit,274,18.6861,100.0,VN,all
+510b7f2587c545b415a3,/g/1236yr_p,topic_mid,/g/1236yr_p,Trường Đại học Văn hóa Hà Nội,"Trường đại học ở Hà Nội, Việt Nam",1.0,success,success,success,,230,4.7701,23.0,VN,all
+ea09c7aad52a0c68c0aa,/g/11cs23yctq,topic_mid,/g/11cs23yctq,Sân vận động Trường Đại học Tôn Đức Thắng,Chủ đề,0.998958,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+99ce30d6fc1226e7fd1f,/m/0cr4831,topic_mid,/m/0cr4831,Học viện Nông Nghiệp Việt Nam,"Trường đại học ở Hà Nội, Việt Nam",1.0,success,success,success,,250,16.8029,100.0,VN,all
+a25ea688f84f433745e8,/m/0vb3pcg,topic_mid,/m/0vb3pcg,Trường Đại học Khoa học Xã hội và Nhân văn - Đại học Quốc gia Hà Nội,"Trường đại học ở Hà Nội, Việt Nam",0.954945,interest_only,success,skipped,enrichment_limit,211,4.0365,27.0,VN,all
+bfdd33e89a0c8470f32e,/m/0vb3ly0,topic_mid,/m/0vb3ly0,Trường Đại Học Luật Hà Nội.,"Đại học ở Hà Nội, Việt Nam",1.0,success,success,success,,249,11.8394,82.0,VN,all
+6cd35287edc90763b8ed,/m/04qbm6h,topic_mid,/m/04qbm6h,"Trường THPT Chuyên Ngoại ngữ, Đại học Quốc gia Hà Nội","Trường ở Hà Nội, Việt Nam",0.876957,interest_only,success,skipped,enrichment_limit,220,4.7555,70.0,VN,all
+940930653ee5d63e029e,/m/0wzq62q,topic_mid,/m/0wzq62q,Học viện Báo chí và Tuyên truyền,"Trường đại học ở Hà Nội, Việt Nam",1.0,success,success,success,,238,15.4927,100.0,VN,all
+e618f86e42a8cc88abd5,/m/04gjt_4,topic_mid,/m/04gjt_4,"Trường Đại học Khoa học Tự nhiên, Đại học Quốc gia Hà Nội","Trường đại học ở Hà Nội, Việt Nam",0.931739,interest_only,success,skipped,enrichment_limit,232,7.6387,34.0,VN,all
+1d5814a5fc03f3f0afbb,/g/121qsmgz,topic_mid,/g/121qsmgz,Trường Đại học Sư phạm Thái Nguyên,"Trường đại học ở Phan Đình Phùng, Việt Nam",1.0,success,success,success,,227,7.9489,45.0,VN,all
+277f66980c1878f92e17,/g/121_c8fd,topic_mid,/g/121_c8fd,Trường ĐH Sĩ Quan Chính Trị,"Trường quân sự ở Hà Nội, Việt Nam",0.747388,interest_only,success,skipped,enrichment_limit,181,3.2701,24.0,VN,all
+be146ae441c77e7f28d7,/m/02r6wmy,topic_mid,/m/02r6wmy,Đại học Cần Thơ,"Đại học ở Cần Thơ, Việt Nam",1.0,success,success,success,,270,27.4891,100.0,VN,all
+dec5a5bae94a76be8e69,/g/120wxbfd,topic_mid,/g/120wxbfd,Học viện Biên Phòng,"Trường quân sự ở Hà Nội, Việt Nam",1.0,interest_only,success,skipped,enrichment_limit,135,0.6971,5.0,VN,all
+38b696a6691b052514ed,/m/0cpbhg7,topic_mid,/m/0cpbhg7,Trường Đại học Sư phạm Huế,"Trường đại học ở Thành phố Huế, Việt Nam",1.0,success,success,success,,233,2.5036,12.0,VN,all
+216ac67c2d35052e66c8,/m/02qqlmm,topic_mid,/m/02qqlmm,Trường Đại học Công nghệ Thông tin - ĐHQG TP.HCM,"Trường đại học ở Thành phố Hồ Chí Minh, Việt Nam",0.951393,interest_only,success,skipped,enrichment_limit,245,4.8942,23.0,VN,all
+5c36e44fd54f9901b3e9,/m/02qvnkv,topic_mid,/m/02qvnkv,Trường Đại học Sài Gòn,"Đại học ở Thành phố Hồ Chí Minh, Việt Nam",1.0,success,success,success,,235,13.208,78.0,VN,all
+4f302878458ce088abc1,/g/122xqm0r,topic_mid,/g/122xqm0r,Học viện Khoa học Quân sự - Military Science Academy,"Trường quân sự ở Hà Nội, Việt Nam",0.756266,interest_only,success,skipped,enrichment_limit,211,15.073,100.0,VN,all
+f7f3572008060fb54197,/g/11bv5sy3v6,topic_mid,/g/11bv5sy3v6,Học viện Tòa án,"Trường luật ở Hà Nội, Việt Nam",1.0,success,success,success,,132,11.146,63.0,VN,all
+d6174452aaaaf576e648,/m/0cp4mpk,topic_mid,/m/0cp4mpk,Trường Đại học Sư phạm - Đại học Đà Nẵng,Đại học ở Việt Nam,1.0,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+21683ec6e964ad4313ca,Trường Đại Học Giáo Dục - ĐHQG Hà Nội,search_term,,,,0.386245,interest_only,success,skipped,low_interest,1,0.0109,3.0,VN,all
+8876e0cef914d3ef07a4,Trường Đại Học Văn Hóa TPHCM,search_term,,,,0.46829,interest_only,success,skipped,enrichment_limit,153,2.573,19.0,VN,all
+327ab873e6fc82fbe5a8,/m/02pz17z,topic_mid,/m/02pz17z,Trường Đại học Công nghệ Kỹ thuật Thành phố Hồ Chí Minh (HCM-UTE),"Trường đại học ở Thành phố Hồ Chí Minh, Việt Nam",0.815303,interest_only,success,skipped,enrichment_limit,265,15.8248,100.0,VN,all
+1c608084f4d3ee79489d,/g/1tdbnbtf,topic_mid,/g/1tdbnbtf,Học Viện Thanh Thiếu Niên Việt Nam,"Tổ chức thanh niên ở Hà Nội, Việt Nam",1.0,interest_only,success,skipped,low_interest,87,0.3796,4.0,VN,all
+5e7e2fe2541f66e2ab3a,Học Viện Quân Y - Hệ Quân sự,search_term,,,,0.543573,interest_only,success,skipped,low_interest,6,0.0219,1.0,VN,all
+3a39d7b74c7f0eb74907,/g/121d6h5_,topic_mid,/g/121d6h5_,Học Viện Hậu Cần,"Trường đại học ở Hà Nội, Việt Nam",0.807143,interest_only,success,skipped,enrichment_limit,166,0.8175,6.0,VN,all
+77df67e562e52d3efe8e,/m/02pz1xy,topic_mid,/m/02pz1xy,Trường Đại học Luật TP.HCM,"Trường đại học ở Thành phố Hồ Chí Minh, Việt Nam",0.885102,interest_only,success,skipped,enrichment_limit,264,9.9416,59.0,VN,all
+052bc9a882b10e065269,/g/120ql100,topic_mid,/g/120ql100,Trường Đại học Ngoại ngữ - Đại học Đà Nẵng,"Trường đại học ở Đà Nẵng, Việt Nam",1.0,success,success,success,,226,5.0328,29.0,VN,all
+181692d50a86b6077fca,Đại Học Kinh Tế TPHCM,search_term,,,,0.545,interest_only,success,skipped,enrichment_limit,247,8.2299,67.0,VN,all
+6dcbda9a785917efe60e,/g/11bc5p3frd,topic_mid,/g/11bc5p3frd,"Trường Đại học Bách khoa, Đại học Đà Nẵng",Đại học,1.0,interest_only,success,skipped,enrichment_limit,40,0.9672,18.0,VN,all
+1edff24c7e1622e0aff5,/m/0g5qw1_,topic_mid,/m/0g5qw1_,Trường Đại Học Ngoại Ngữ Huế,"Đại học ở Thành phố Huế, Việt Nam",1.0,success,success,success,,226,4.9781,32.0,VN,all
+d954b7f940bdf744e0bb,/g/11gbwyvcc2,topic_mid,/g/11gbwyvcc2,Đại Học Tài Chính - Marketing,"Trường ở Thành phố Hồ Chí Minh, Việt Nam",1.0,success,success,success,,188,5.427,100.0,VN,all
+e08e02cd4c3841cd4169,Trường Đại Học Giao Thông Vận Tải (Cơ sở 2),search_term,,,,0.49568,interest_only,success,skipped,low_interest,29,0.1642,11.0,VN,all
+701820e04c5bfcc21da8,/m/02v_762,topic_mid,/m/02v_762,Trường Đại học Nha Trang,"Đại học ở Nha Trang, Việt Nam",1.0,success,success,success,,248,18.6204,100.0,VN,all
+311413436a962a6a8702,/g/122r_kcc,topic_mid,/g/122r_kcc,Trường Sĩ quan Lục quân 2 (Đại học Nguyễn Huệ),"Trường đại học ở Đồng Nai, Việt Nam",1.0,success,success,success,,210,2.2044,62.0,VN,all
+2747049d979543a38b4e,/m/0119w781,topic_mid,/m/0119w781,Học viện Công nghệ Bưu Chính Viễn Thông cơ sở tại TP.HCM,"Trường đại học ở Thành phố Hồ Chí Minh, Việt Nam",1.0,interest_only,success,skipped,enrichment_limit,128,0.7299,5.0,VN,all
+2d6db10603a232d46fa0,/m/0p3rc9_,topic_mid,/m/0p3rc9_,Trường Đại học Y khoa Vinh,"Đại học ở Trường Vinh, Việt Nam",1.0,success,success,success,,187,2.2409,18.0,VN,all
+610e22d2aba4be33e7be,/g/11h4r8cd73,topic_mid,/g/11h4r8cd73,Trường Đại học Kỹ thuật Y - Dược Đà Nẵng,"Trường đại học ở Đà Nẵng, Việt Nam",1.0,interest_only,success,skipped,enrichment_limit,134,1.062,21.0,VN,all
+5595b1a709fda34bbb3d,/g/11y04cgb3z,topic_mid,/g/11y04cgb3z,Trường Đại Học Y Dược Đại Học Thái Nguyên,Chủ đề,1.0,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+bde6a7e87586ccc28b9c,/g/1hcb0gpqm,topic_mid,/g/1hcb0gpqm,Bệnh viện Trường Đại Học Y Dược Huế,"Bệnh viện đa khoa ở Thành phố Huế, Việt Nam",1.0,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+f574fef715b46aca5cfd,/g/11cs3zmv94,topic_mid,/g/11cs3zmv94,Trường Y Dược - Đại học Đà Nẵng,"Trường đại học ở Đà Nẵng, Việt Nam",0.925836,interest_only,success,skipped,low_interest,72,0.2847,3.0,VN,all
+5e76ba71dc852ed73abb,/m/02pydq7,topic_mid,/m/02pydq7,Trường Đại học Kiến trúc TP.HCM (UAH),"Trường đại học ở Thành phố Hồ Chí Minh, Việt Nam",0.867063,interest_only,success,skipped,enrichment_limit,257,11.7299,100.0,VN,all
+655c2639df4b3cb111d4,/g/11b6bd_7y_,topic_mid,/g/11b6bd_7y_,Học viện Chính trị Công an nhân dân,Việt Nam,1.0,interest_only,success,skipped,enrichment_limit,137,0.7299,5.0,VN,all
+9e2d54faa0a0e9a740f5,Trường Đại học Khoa học sức khỏe TPHCM,search_term,,,,0.49349,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+93726e4786b110eb2c28,/m/02qq622,topic_mid,/m/02qq622,Trường Đại học Quốc Tế - Đại học Quốc gia TP.HCM,"Đại học ở Thành phố Hồ Chí Minh, Việt Nam",0.772,interest_only,success,skipped,enrichment_limit,241,12.1168,98.0,VN,all
+091526286d710745f23d,/g/11w3bk38jg,topic_mid,/g/11w3bk38jg,TRƯỜNG ĐẠI HỌC HÙNG VƯƠNG TP. HCM,"Trường đại học ở Thành phố Hồ Chí Minh, Việt Nam",1.0,interest_only,success,skipped,low_interest,7,0.2993,75.0,VN,all
+bbc1dfa2c6b2292064f8,/m/03ctj2r,topic_mid,/m/03ctj2r,Trường Đại học Hải Phòng,"Đại học ở Hải Phòng, Việt Nam",1.0,success,success,success,,225,7.7518,100.0,VN,all
+f7d600086b9f82b2d7e3,/g/11jft7f6vz,topic_mid,/g/11jft7f6vz,Học viện Chính sách và Phát triển,"Trường đại học ở Hà Nội, Việt Nam",1.0,interest_only,success,skipped,enrichment_limit,136,1.6168,13.0,VN,all
+0a036a930652f9a2a7a9,/g/11fs9vqb54,topic_mid,/g/11fs9vqb54,Trường Đại học Mở Hà Nội (HOU),"Đại học công lập ở Hà Nội, Việt Nam",1.0,success,success,success,,202,10.573,100.0,VN,all
+21f8ae0f302828e8615e,/g/122rvzw1,topic_mid,/g/122rvzw1,Trường Đại Học Công Đoàn,"Đại học công lập ở Hà Nội, Việt Nam",1.0,success,success,success,,235,5.7007,57.0,VN,all
+c7c9766a8bf8ed778ad0,/m/02x17dg,topic_mid,/m/02x17dg,Trường Đại học Hàng hải Việt Nam,"Đại học ở Hải Phòng, Việt Nam",1.0,success,success,success,,253,11.1314,70.0,VN,all
+e4a4321e8b84541e122b,/m/012wn10q,topic_mid,/m/012wn10q,Trường Đại học Vinh,"Trường đại học ở Trường Vinh, Việt Nam",1.0,success,success,success,,234,14.8613,73.0,VN,all
+d4e3b01a1696d93ac659,/m/03nt3_y,topic_mid,/m/03nt3_y,Trường Đại học An Giang - Đại học Quốc gia Tp. HCM,"Đại học ở Long Xuyên, Việt Nam",0.906633,interest_only,success,skipped,enrichment_limit,250,16.9672,100.0,VN,all
+c95090ad13d765b8ea89,/g/12q4q6zpc,topic_mid,/g/12q4q6zpc,Học viện Hành chính và Quản trị công,Chủ đề,1.0,interest_only,success,skipped,low_interest,14,0.0985,5.0,VN,all
+276220e119c37a4c408c,/m/0cp4b58,topic_mid,/m/0cp4b58,Trường Đại học Đồng Tháp,"Đại học công lập ở Cao Lãnh, Việt Nam",1.0,success,success,success,,231,16.1095,51.0,VN,all
+24e13507ae4343909fc7,/g/11v9vs0gg1,topic_mid,/g/11v9vs0gg1,"Trường Khoa học Liên ngành và Nghệ thuật, Đại học Quốc gia Hà Nội VNU-SIS","Trường đại học ở Hà Nội, Việt Nam",0.891808,interest_only,success,skipped,low_interest,35,0.3321,8.0,VN,all
+bc3999565f324a2889c0,/g/121t17yf,topic_mid,/g/121t17yf,Trường Đại học Tây Nguyên,"Đại học công lập ở Ea Kao, Việt Nam",1.0,success,success,success,,228,9.9307,49.0,VN,all
+f4d709a239a6fad61940,/g/120ylnmc,topic_mid,/g/120ylnmc,Trường Đại Học Quy Nhơn,"Trường đại học ở Quy Nhơn Nam, Việt Nam",1.0,success,success,success,,229,9.3759,48.0,VN,all
+2c6a6d6bde51ee079bb5,/g/11gnrlwhtd,topic_mid,/g/11gnrlwhtd,"Khoa Giáo Dục Thể Chất, Đại học Huế","Khoa học thuật ở Thành phố Huế, Việt Nam",0.89661,interest_only,success,skipped,low_interest,66,0.2701,4.0,VN,all
+e552db0321ad48bb3511,Trường Đại Học Sư Phạm Nghệ Thuật Trung Ương,search_term,,,,0.138462,interest_only,success,skipped,low_interest,41,0.1606,2.0,VN,all
+c95ce4a50a67dc2529c3,/m/02qgt4g,topic_mid,/m/02qgt4g,Trường Đại học Kinh tế - Đại học Đà Nẵng,"Trường đại học ở Đà Nẵng, Việt Nam",1.0,success,success,success,,243,15.8358,100.0,VN,all
+e4efe2818da21767c8c7,/g/11b7c7xs1k,topic_mid,/g/11b7c7xs1k,Trường Ngoại ngữ - Đại học Thái Nguyên,"Trường đại học ở Quyết Thắng, Việt Nam",0.942857,interest_only,success,skipped,low_interest,97,0.4818,3.0,VN,all
+5f51c43d5dd19da42431,/g/11hy_5l_7r,topic_mid,/g/11hy_5l_7r,Trường Đại Học Hạ Long,"Trường đại học ở Vàng Danh, Việt Nam",1.0,interest_only,success,skipped,low_interest,74,0.4088,4.0,VN,all
+ab931852e269caa47cee,/g/11btrr75h3,topic_mid,/g/11btrr75h3,Trường Đại Học Hải Dương,"Trường đại học ở Hải Phòng, Việt Nam",1.0,interest_only,success,skipped,low_interest,26,0.4927,100.0,VN,all
+09201b0b978d38a486e9,Trường Đại Học Quảng Bình,search_term,,,,0.395083,interest_only,success,skipped,low_interest,57,0.3869,42.0,VN,all
+b4dcc78e715e29f3e6e8,/g/12148w_s,topic_mid,/g/12148w_s,Trường Đại học Phạm Văn Đồng,"Trường đại học ở Cẩm Thành, Việt Nam",1.0,interest_only,success,skipped,enrichment_limit,210,1.4891,13.0,VN,all
+ea7dc483e2b72ecf48cc,/g/120_98jg,topic_mid,/g/120_98jg,Trường Đại học Hà Tĩnh,"Trường đại học ở Cẩm Bình, Việt Nam",1.0,interest_only,success,skipped,enrichment_limit,115,0.5219,5.0,VN,all
+aa37e48361028200c9c0,/g/11b6dylw9c,topic_mid,/g/11b6dylw9c,Trường Đại học Tài nguyên và Môi trường Hà Nội,"Trường đại học ở Hà Nội, Việt Nam",1.0,success,success,success,,201,7.8358,60.0,VN,all
+a1d58161c7a43d3fd254,/g/11c57n08yx,topic_mid,/g/11c57n08yx,KTX Đại học Ngân Hàng TPHCM,Chủ đề,0.827251,interest_only,success,skipped,low_interest,1,0.0876,24.0,VN,all
+791e2946b03fa72463fa,/g/121lbdv0,topic_mid,/g/121lbdv0,Trường Đại học Lao động - Xã hội,"Trường đại học ở Hà Nội, Việt Nam",1.0,success,success,success,,234,10.2555,100.0,VN,all
+60902f5dad2a463e4e2b,/g/122lkln0,topic_mid,/g/122lkln0,Trường Đại học Bạc Liêu,"Trường đại học ở Bạc Liêu, Việt Nam",1.0,interest_only,success,skipped,enrichment_limit,202,1.562,10.0,VN,all
+c458d6875141722de715,/g/1237q55v,topic_mid,/g/1237q55v,Trường Đại học Quảng Nam,"Trường đại học ở Đà Nẵng, Việt Nam",1.0,interest_only,success,skipped,enrichment_limit,159,1.0146,7.0,VN,all
+d4a8ef39b671bcc28c09,/g/11ksh2646,topic_mid,/g/11ksh2646,Trường Đại học Lao động Xã hội - Cơ sở 2,"Đại học công lập ở Thành phố Hồ Chí Minh, Việt Nam",0.960143,interest_only,success,skipped,enrichment_limit,210,21.0657,100.0,VN,all
+3ed023e22563732bf65f,/g/1215prh0,topic_mid,/g/1215prh0,Trường Đại học Phú Yên,"Trường đại học ở Tuy Hòa, Việt Nam",1.0,success,success,success,,208,9.7409,82.0,VN,all
+174f762edd9cdd9ea4cc,/g/11c7hgzf3n,topic_mid,/g/11c7hgzf3n,"Cơ sở 2, Phân hiệu Đại học Đà Nẵng tại Kon Tum","Trường đại học ở Đăk Cấm, Việt Nam",0.703846,interest_only,success,skipped,low_interest,2,0.0401,10.0,VN,all
+4c0a00ca4065baa08b40,/g/121rpy13,topic_mid,/g/121rpy13,Trường Đại học Sư phạm Thể dục Thể thao Hà Nội,"Trường thể thao ở Hà Nội, Việt Nam",1.0,success,success,success,,195,5.3905,33.0,VN,all
+d81cce3df6353848acda,Trường Đại học Kỹ Thuật Công Nghệ Cần Thơ,search_term,,,,0.558611,interest_only,success,skipped,enrichment_limit,160,2.4051,18.0,VN,all
+38050d01cdcef62ccea4,/g/11scs709ck,topic_mid,/g/11scs709ck,Trường Quốc Tế ĐHQGHN Hòa Lạc,"Trường đại học ở Hà Nội, Việt Nam",0.665252,interest_only,success,skipped,enrichment_limit,34,1.7518,34.0,VN,all
+54734ee63e8c00b8c507,/g/11x6rhhm34,topic_mid,/g/11x6rhhm34,Trường Đại học Khoa học và Công nghệ Hà Nội,Chủ đề,1.0,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+352da49c875e4bdc3aaf,/g/1yqcctbf7,topic_mid,/g/1yqcctbf7,Trường Đại học Công Nghiệp Vinh,"Trường đại học ở Thành Vinh, Việt Nam",1.0,interest_only,success,skipped,enrichment_limit,64,0.7591,30.0,VN,all
+b6f12357b995c7d1d87b,/g/1tfd9z68,topic_mid,/g/1tfd9z68,Trường Đại học Trà Vinh (Khu IV),"Trường đại học ở Trà Vinh, Việt Nam",0.921104,interest_only,success,skipped,low_interest,1,0.0109,3.0,VN,all
+2c95cab303a5a5251170,/g/1tgnz924,topic_mid,/g/1tgnz924,Học viện Cán bộ Thành phố Hồ Chí Minh,"Học viện kiểm tra dân sự ở Thành phố Hồ Chí Minh, Việt Nam",0.735862,interest_only,success,skipped,enrichment_limit,146,20.3394,100.0,VN,all
+b63310f1a90c008e09d1,/m/09gpvp0,topic_mid,/m/09gpvp0,Trường Đại Học Xây Dựng Hà Nội - HUCE,"Trường đại học ở Hà Nội, Việt Nam",1.0,success,success,success,,261,13.9927,100.0,VN,all
+8d631096b6a3b8c93c9f,/g/1thkz9_c,topic_mid,/g/1thkz9_c,Trường Đại học Sư Phạm Kỹ Thuật Hưng Yên,"Trường đại học ở Việt Tiến, Việt Nam",1.0,interest_only,success,skipped,low_interest,1,0.0036,1.0,VN,all
+851bc7b3fa405bc890a9,Trường Đại Học Mở TPHCM,search_term,,,,0.084375,interest_only,success,skipped,enrichment_limit,123,0.6204,4.0,VN,all
+c73810b52ed1f30d301f,/g/1vzv14kw,topic_mid,/g/1vzv14kw,Trường Đại học Công nghệ Giao thông Vận tải,"Đại học công lập ở Vĩnh Yên, Việt Nam",1.0,interest_only,success,skipped,low_interest,62,0.3248,3.0,VN,all
+794d80d623743daebb68,/m/0tkhxpt,topic_mid,/m/0tkhxpt,Trường Đại học Mỏ - Địa chất,"Trường đại học ở Hà Nội, Việt Nam",1.0,success,success,success,,243,6.573,48.0,VN,all
+2ef041a499b00f5c27fb,/m/0by1q__,topic_mid,/m/0by1q__,Trường Đại học Điện Lực,"Đại học ở Hà Nội, Việt Nam",1.0,success,success,success,,237,14.8577,63.0,VN,all
+ceda7fcb5f435baa5b8f,/g/122_9mc8,topic_mid,/g/122_9mc8,Trường Đại học Sư phạm Thể dục Thể thao Tp. Hồ Chí Minh,"Trường thể thao ở Thành phố Hồ Chí Minh, Việt Nam",0.892435,interest_only,success,skipped,enrichment_limit,200,1.5511,19.0,VN,all
+c58f135aace6565ca6ae,/g/12372n2x,topic_mid,/g/12372n2x,Trường Đại học Phương Đông,"Trường đại học ở Hà Nội, Việt Nam",1.0,success,success,success,,231,4.5109,72.0,VN,all
+330b7a45172515d1f7e8,/g/11hcz1s0zx,topic_mid,/g/11hcz1s0zx,Trường Đại học Công nghệ Kỹ thuật Vĩnh Long,"Trường đại học ở Long Châu, Việt Nam",1.0,success,success,success,,161,3.573,17.0,VN,all
+5d6b08c6b3d30060e607,/m/02r7_y6,topic_mid,/m/02r7_y6,Trường Đại học Kiến trúc Đà Nẵng,"Trường đại học ở Đà Nẵng, Việt Nam",1.0,success,success,success,,226,4.927,100.0,VN,all
+171cc121ee65d78d57a1,/g/120pb1rx,topic_mid,/g/120pb1rx,Trường Đại học Kinh doanh và Công nghệ Hà Nội,"Trường đại học ở Hà Nội, Việt Nam",1.0,success,success,success,,237,15.4854,100.0,VN,all
+d0abe71d594f89e4c54d,/g/11dxlg2vld,topic_mid,/g/11dxlg2vld,Hội trường lớn đại học kỹ thuật công nghiệp - thái nguyên,Chủ đề,0.977636,interest_only,success,skipped,low_interest,1,0.0073,2.0,VN,all
+bb795f56a2416f9b157c,/g/11cnc6gpsp,topic_mid,/g/11cnc6gpsp,Trường Đại học Khánh Hoà,"Trường đại học ở Nha Trang, Việt Nam",1.0,interest_only,success,skipped,low_interest,92,0.4416,3.0,VN,all
+744a38aab571698d231a,/g/12326dg0,topic_mid,/g/12326dg0,Trường Đại học Sư Phạm Kỹ thuật - Đại học Đà Nẵng,"Đại học kỹ thuật ở Đà Nẵng, Việt Nam",1.0,success,success,success,,228,4.3358,37.0,VN,all
+e528ba450dfe37cca2c4,/g/11ggr7sk6v,topic_mid,/g/11ggr7sk6v,"Trường Đại học Kinh tế, Đại học Huế","Khoa học thuật ở Thành phố Huế, Việt Nam",1.0,success,success,success,,203,2.6387,13.0,VN,all
+3ad29feeb7bf05a16948,/g/11yn2brk2c,topic_mid,/g/11yn2brk2c,Trường Đại học CMC,Chủ đề,1.0,interest_only,success,skipped,low_interest,1,0.0109,3.0,VN,all
+34ff416ecfc3efa1592f,/g/121r_cqn,topic_mid,/g/121r_cqn,Trường Đại học Nguyễn Tất Thành,"Trường đại học ở Thành phố Hồ Chí Minh, Việt Nam",1.0,success,success,success,,192,21.7263,95.0,VN,all
+243a4be3becc0b9dba2c,Trường Du Lịch - Đại Học Huế,search_term,,,,0.606383,interest_only,success,skipped,low_interest,48,0.1898,2.0,VN,all
+e9b81a672360256f10df,Trường Sĩ Quan Không Quân - Hệ Đại học,search_term,,,,0.455861,interest_only,success,skipped,low_interest,10,0.4051,100.0,VN,all
+dec4791a7235544031a9,/g/120zpfyx,topic_mid,/g/120zpfyx,Trường Sĩ quan Phòng hóa,Chủ đề,1.0,interest_only,success,skipped,low_interest,51,0.2336,5.0,VN,all
+208dab806c68d3542263,/g/121r6zmr,topic_mid,/g/121r6zmr,Trường Sĩ quan Tăng Thiết giáp,"Trường đại học ở Tam Dương, Việt Nam",1.0,interest_only,success,skipped,low_interest,57,0.2664,8.0,VN,all
+0ff49028463be36d9388,/g/1211chsr,topic_mid,/g/1211chsr,Học viện Quản lý Giáo dục,"Trường đại học ở Hà Nội, Việt Nam",1.0,success,success,success,,220,3.0036,20.0,VN,all
+b3aa3c5a7dfdd3e5f942,/m/0280rl_,topic_mid,/m/0280rl_,Trường Đại Học Duy Tân,"Đại học tư thục ở Đà Nẵng, Việt Nam",1.0,success,success,success,,232,18.3212,100.0,VN,all
+dfa2699c5f87647fbf95,/g/11hd5fbp56,topic_mid,/g/11hd5fbp56,Trường Đại học Nam Cần Thơ,"Trường đại học ở Cần Thơ, Việt Nam",1.0,success,success,success,,165,6.7883,34.0,VN,all
+0e60adb729bb6dbbd2dc,/m/02pyzch,topic_mid,/m/02pyzch,Trường Đại học Quốc tế Hồng Bàng,"Đại học ở Thành phố Hồ Chí Minh, Việt Nam",1.0,interest_only,success,skipped,low_interest,15,0.1204,4.0,VN,all
+0ceb7af2da7fd1b6aac6,/m/0h97lk2,topic_mid,/m/0h97lk2,Trường Đại học Tân Tạo,"Đại học tư thục ở Đức Hòa, Việt Nam",1.0,interest_only,success,skipped,low_interest,30,0.1131,2.0,VN,all
+b29af2f077ad81b1246a,/g/121zpm9w,topic_mid,/g/121zpm9w,Trường Đại học Thể dục Thể thao Đà Nẵng,"Trường thể thao ở Đà Nẵng, Việt Nam",1.0,interest_only,success,skipped,enrichment_limit,113,0.5182,5.0,VN,all
+86faf87c8fb5935960b4,/g/120qwhr2,topic_mid,/g/120qwhr2,Trường Đại học Cửu Long,"Trường đại học ở Phú Quới, Việt Nam",1.0,interest_only,success,skipped,enrichment_limit,162,0.7993,8.0,VN,all
+d1f9d5c123ccd4377550,/m/02q2c0x,topic_mid,/m/02q2c0x,Đại học Văn Lang,"Đại học tư thục ở Thành phố Hồ Chí Minh, Việt Nam",0.904865,interest_only,success,skipped,enrichment_limit,258,12.5109,100.0,VN,all
+669eb87f01455fff1b6d,/g/122l8fn_,topic_mid,/g/122l8fn_,Trường Đại Học Phan Châu Trinh,"Đại học tư thục ở Đà Nẵng, Việt Nam",1.0,interest_only,success,skipped,low_interest,8,0.0438,3.0,VN,all
+2bd355f3c14658e8a3a6,/g/1ylhlcdnz,topic_mid,/g/1ylhlcdnz,Trường Đại học Kinh Bắc,"Đại học tư thục ở Vũ Ninh, Việt Nam",1.0,interest_only,success,skipped,enrichment_limit,156,0.854,5.0,VN,all
+1375ec11d0dd8e6c87a8,/g/122z_vxx,topic_mid,/g/122z_vxx,Trường Đại Học Victoria Hòa Bình,"Trường đại học ở Hà Nội, Việt Nam",0.940252,interest_only,success,skipped,enrichment_limit,158,1.2226,13.0,VN,all
+c727d401444ddc0b9ca3,/g/122wbp53,topic_mid,/g/122wbp53,Trường Đại Học Đại Nam,"Trường đại học ở Hà Nội, Việt Nam",1.0,success,success,success,,222,9.6022,100.0,VN,all
+ace65a885d2c7680649c,/g/120yrvk0,topic_mid,/g/120yrvk0,Trường Đại Học Võ Trường Toản,Chủ đề,1.0,success,success,success,,210,9.5876,44.0,VN,all
+36a9d3e527d77d51db62,/g/120ktg5z,topic_mid,/g/120ktg5z,Trường Đại học Đông Á,"Đại học ở Đà Nẵng, Việt Nam",1.0,success,success,success,,210,8.4745,32.0,VN,all
+c5dfb935612cd6557599,/g/11cmf1l642,topic_mid,/g/11cmf1l642,Trường Sĩ Quan Đặc Công Khu A,Chủ đề,1.0,interest_only,success,skipped,low_interest,1,0.0146,4.0,VN,all
+9573e205a1424c8aa2f9,/g/1216lr9t,topic_mid,/g/1216lr9t,Trường Sĩ Quan Pháo Binh,"Trường quân sự ở Hà Nội, Việt Nam",1.0,interest_only,success,skipped,low_interest,49,0.2372,5.0,VN,all
+23eb3b163f850a0106bd,Đại học Kinh Tế TPHCM - Phân hiệu Vĩnh Long,search_term,,,,0.169415,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+21eca6be5bc5ee3da630,/m/0g9y6j9,topic_mid,/m/0g9y6j9,Trường Đại học Việt Đức (VGU),"Trường đại học ở Thành phố Hồ Chí Minh, Việt Nam",1.0,interest_only,success,skipped,enrichment_limit,204,1.1752,5.0,VN,all
+d8da6db82262b4c7de32,/m/0ct38c6,topic_mid,/m/0ct38c6,Trường Đại học Thủy lợi - Cơ sở 2 - Thành phố Hồ Chí Minh,"Đại học ở Thành phố Hồ Chí Minh, Việt Nam",0.952345,interest_only,success,skipped,low_interest,3,0.4015,100.0,VN,all
+b4884e54a0a788dd328e,/g/12333ptc,topic_mid,/g/12333ptc,Trường Đại học Sao Đỏ,"Đại học công lập ở Hải Phòng, Việt Nam",1.0,success,success,success,,191,1.7737,7.0,VN,all
+ba30a8089965d39b050f,/g/1pyqhr1mw,topic_mid,/g/1pyqhr1mw,Học viện Phòng cháy chữa cháy và Cứu nạn cứu hộ,Chủ đề,1.0,interest_only,success,skipped,low_interest,56,0.3066,5.0,VN,all
+6df0afeac2cd2238eaf5,/g/121y52h8,topic_mid,/g/121y52h8,Trường Đại Học Tây Đô,"Trường đại học ở Cần Thơ, Việt Nam",1.0,success,success,success,,223,7.0876,100.0,VN,all
+dfc942731756e57f0dfd,/g/121k874r,topic_mid,/g/121k874r,Trường Đại học Đông Đô,"Trường đại học ở Hà Nội, Việt Nam",1.0,success,success,success,,189,1.7482,26.0,VN,all
+89c36c233e02f04e8b59,/g/1pp2tzcs3,topic_mid,/g/1pp2tzcs3,Trường Đại học Lạc Hồng Cơ sở 5,Chủ đề,0.655769,interest_only,success,skipped,low_interest,1,0.0036,1.0,VN,all
+a404db65b7dda7e4a4e0,/g/1hhj615nz,topic_mid,/g/1hhj615nz,Trường Đại học Thành Đông,"Trường đại học ở Hải Phòng, Việt Nam",1.0,interest_only,success,skipped,enrichment_limit,149,1.6022,16.0,VN,all
+9f3743caf8b8b989ef81,/g/11gt__l9vb,topic_mid,/g/11gt__l9vb,"Trường Đại học Luật, Đại học Huế","Đại học ở Thành phố Huế, Việt Nam",0.988235,interest_only,success,skipped,enrichment_limit,125,2.365,26.0,VN,all
+0b853fb27ab0e064356b,/g/122_mcvd,topic_mid,/g/122_mcvd,Trường Đại Học Yersin Đà Lạt,"Trường đại học ở Lâm Viên - Đà Lạt, Việt Nam",1.0,success,success,success,,204,9.5474,63.0,VN,all
+6e37b4985f2a89e5ef74,/g/120l36ss,topic_mid,/g/120l36ss,Trường Đại học Thành Đô,"Trường đại học ở Hà Nội, Việt Nam",1.0,success,success,success,,209,15.1752,100.0,VN,all
+a38f6aa0bbcf0d92ec26,/g/122srzfq,topic_mid,/g/122srzfq,Trường Đại học Thái Bình Dương,"Trường đại học ở Tây Nha Trang, Việt Nam",1.0,success,success,success,,191,3.4781,65.0,VN,all
+add4ea3ac6eec0432c2f,/g/1212gxlm,topic_mid,/g/1212gxlm,Trường Đại học Lương Thế Vinh,"Trường đại học ở Nam Định, Việt Nam",1.0,interest_only,success,skipped,low_interest,33,0.2263,12.0,VN,all
+c38d0741ddbc3cecf269,Trường Đại Học Bà Rịa – Vũng Tàu,search_term,,,,0.428601,interest_only,success,skipped,low_interest,1,0.0073,2.0,VN,all
+fa430ff4264a1c1c8cac,/m/0cpdtmm,topic_mid,/m/0cpdtmm,Trường Đại học Nghệ thuật Huế,"Đại học ở Thành phố Huế, Việt Nam",1.0,interest_only,success,skipped,low_interest,18,0.1022,4.0,VN,all
+70fd870ab541df282a6d,Trường Đại học Công nghệ Miền Đông,search_term,,,,0.53931,interest_only,success,skipped,low_interest,35,0.1277,1.0,VN,all
+dbb6649f2add7f5e3975,/m/02rsytm,topic_mid,/m/02rsytm,Trường Đại học FPT Hà Nội,"Trường đại học ở Hà Nội, Việt Nam",1.0,success,success,success,,244,14.0547,100.0,VN,all
+3a5e0dcd35afaacd5d2e,/g/1hc0g6qnp,topic_mid,/g/1hc0g6qnp,Trường Đại học Kinh tế - Kỹ thuật Bình Dương,"Trường đại học ở Thành phố Hồ Chí Minh, Việt Nam",1.0,success,success,success,,195,2.8796,15.0,VN,all
+d5fd7ee813d1b91be815,/g/1tv3l4dh,topic_mid,/g/1tv3l4dh,Trường Đại học Tài chính - Quản trị Kinh Doanh Cơ sở 2,Chủ đề,0.711702,interest_only,success,skipped,low_interest,15,0.1314,6.0,VN,all
+05fb41d864ef6dc6b4a7,/g/120wxbg8,topic_mid,/g/120wxbg8,Trường Đại học Tiền Giang,Chủ đề,1.0,success,success,success,,223,8.9891,44.0,VN,all
+2b7d604259b5814da6ca,/g/122cc5s8,topic_mid,/g/122cc5s8,Trường Đại học Kinh tế và Quản trị kinh doanh - Đại học Thái Nguyên,"Trường đại học ở Phan Đình Phùng, Việt Nam",1.0,success,success,success,,232,7.6825,35.0,VN,all
+baf4ea74f69ae17c7f08,Trường Đại Học Dầu Khí Việt Nam,search_term,,,,0.56,interest_only,success,skipped,low_interest,15,0.4234,100.0,VN,all
+ac39122b850f47f5f775,/g/11yzt_gqss,topic_mid,/g/11yzt_gqss,Trường Đại Học Sư Phạm Kỹ Thuật Vinh,Chủ đề,1.0,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+4df8b4da671f9f4acef1,/g/1td67c4h,topic_mid,/g/1td67c4h,Trường Đại học Nghệ An,"Trường đại học ở Vinh Phú, Việt Nam",1.0,interest_only,success,skipped,enrichment_limit,98,0.5547,32.0,VN,all
+73fafb6f2f0449dd0279,/g/122lf054,topic_mid,/g/122lf054,Trường Đại học Lâm nghiệp Việt Nam,"Đại học ở Hà Nội, Việt Nam",1.0,success,success,success,,232,6.562,46.0,VN,all
+d5731f1afa8adc8cba23,/m/02qdphv,topic_mid,/m/02qdphv,Trường Đại học Văn Hiến,"Đại học ở Thành phố Hồ Chí Minh, Việt Nam",1.0,success,success,success,,239,19.5985,100.0,VN,all
+a668b40b3ecfd25f7359,/g/1224hgh1,topic_mid,/g/1224hgh1,Trường Đại học Quang Trung,"Trường đại học ở Quy Nhơn Bắc, Việt Nam",1.0,interest_only,success,skipped,enrichment_limit,89,0.6715,17.0,VN,all
+dda5730ae959598baceb,/m/02qpgpq,topic_mid,/m/02qpgpq,Trường Đại học Hoa Sen (HSU),"Trường đại học ở Thành phố Hồ Chí Minh, Việt Nam",1.0,success,success,success,,245,8.9124,100.0,VN,all
+1ad2ca2d1ff4199683f3,/g/122qgqrl,topic_mid,/g/122qgqrl,Trường Đại học Phan Thiết,"Trường đại học ở Phú Thủy, Việt Nam",1.0,interest_only,success,skipped,low_interest,31,0.1204,2.0,VN,all
+22a919b13f3f28c5073a,/g/1pp2v1ldt,topic_mid,/g/1pp2v1ldt,Trường Đại học Trưng Vương,Chủ đề,1.0,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+1d0f1009b13b1c0195b7,/g/1219616q,topic_mid,/g/1219616q,Trường Đại học Điều dưỡng Nam Định,"Trường đại học ở Nam Định, Việt Nam",1.0,interest_only,success,skipped,enrichment_limit,198,1.1496,10.0,VN,all
+7ba0a2488e764edc2e3f,/g/11nvjkrmlz,topic_mid,/g/11nvjkrmlz,Trường Đại học Y khoa Tokyo Việt Nam,Chủ đề,1.0,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+b27a9f1afa02f23e4828,/g/119pgn4rs,topic_mid,/g/119pgn4rs,Trường Đại Học Công Nghệ Đồng Nai,"Trường đại học ở Đồng Nai, Việt Nam",1.0,success,success,success,,185,3.1314,100.0,VN,all
+21d1681c17a1f22ade75,Trường Đại Học Quốc Tế Miền Đông,search_term,,,,0.560544,interest_only,success,skipped,low_interest,13,0.0474,1.0,VN,all
+e279127d8e8b5d47e11e,/g/11b697yvwh,topic_mid,/g/11b697yvwh,"Viện Nghiên cứu và Đào tạo Việt - Anh, Đại học Đà Nẵng","Trung tâm giáo dục ở Đà Nẵng, Việt Nam",1.0,interest_only,success,skipped,low_interest,36,0.135,2.0,VN,all
+00915d3eea2ee26827e9,/g/121cm80_,topic_mid,/g/121cm80_,Trường Đại học Thể dục Thể thao Bắc Ninh,"Trường đại học ở Đồng Nguyên, Việt Nam",1.0,interest_only,success,skipped,enrichment_limit,213,1.4562,10.0,VN,all
+03067caae01e2b2fc585,Khoa Kỹ thuật và Công nghệ - Đại học Huế,search_term,,,,0.141176,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+03b3093adccf457b5bcb,/g/121316ms,topic_mid,/g/121316ms,Trường Đại học Thái Bình,"Trường đại học ở Thái Bình, Việt Nam",1.0,interest_only,success,skipped,enrichment_limit,143,0.7956,11.0,VN,all
+32fff48e78fd3f2b2296,/g/120_xj09,topic_mid,/g/120_xj09,Viện Dân tộc học,Việt Nam,0.8875,interest_only,success,skipped,low_interest,1,0.0036,1.0,VN,all
+fd4d23b236ed2115251d,/m/0cp4843,topic_mid,/m/0cp4843,Trường Đại học Y khoa Huế,"Đại học ở Thành phố Huế, Việt Nam",0.962667,interest_only,success,skipped,low_interest,2,0.0292,7.0,VN,all
+092e17c7e58155d6199a,/g/121jyw0w,topic_mid,/g/121jyw0w,Trường Đại học Khoa học,"Trường đại học ở Phan Đình Phùng, Việt Nam",0.870238,interest_only,success,skipped,enrichment_limit,204,4.7007,100.0,VN,all
+afc22b55c6f981b4d9e9,/m/0cpbjml,topic_mid,/m/0cpbjml,Trường Đại Học Hồng Đức,Đại học,1.0,success,success,success,,232,15.7044,82.0,VN,all
+fbfed9bf0777e4d861d3,/g/11bzyp9_5t,topic_mid,/g/11bzyp9_5t,Trường Đại học Đồng Nai,Đại học,1.0,success,success,success,,178,15.7445,100.0,VN,all
+2852fc1666de9b280de7,/g/1hh_qhkrq,topic_mid,/g/1hh_qhkrq,Trường Đại học Tài nguyên và Môi trường TP.HCM,"Đại học công lập ở Thành phố Hồ Chí Minh, Việt Nam",0.941194,interest_only,success,skipped,enrichment_limit,165,3.5766,77.0,VN,all
+a4f7cab9eb2b91d3ef2f,Trường Đại học Công nghiệp và Thương mại Hà Nội,search_term,,,,0.139655,interest_only,success,skipped,enrichment_limit,72,1.0365,68.0,VN,all
+2f9ad9278da06206344f,/g/1tp05kvw,topic_mid,/g/1tp05kvw,Trường Đại học Nguyễn Trãi,"Trường đại học ở Hà Nội, Việt Nam",1.0,interest_only,success,skipped,low_interest,5,0.0365,3.0,VN,all
+c13c3bcbddfc513d8b60,/g/1z264ls86,topic_mid,/g/1z264ls86,Trường Đại Học Công Nghiệp Việt Trì cơ sở Lâm Thao,"Trường đại học ở Xuân Lũng, Việt Nam",0.645947,interest_only,success,skipped,low_interest,7,0.0255,1.0,VN,all
+6d1395c761fcb9d09294,/g/11ksg5crf,topic_mid,/g/11ksg5crf,Trường Đại học Nông Lâm Huế,"Trường đại học ở Thành phố Huế, Việt Nam",1.0,success,success,success,,224,12.2701,100.0,VN,all
+dc74fdebd47644e69c0c,/g/11b7c0hsmm,topic_mid,/g/11b7c0hsmm,Khoa Quốc tế - Đại học Thái Nguyên,"Trường đại học ở Phan Đình Phùng, Việt Nam",1.0,interest_only,success,skipped,low_interest,54,0.2226,3.0,VN,all
+c0b75454ce577bb3a758,/m/0wxvcv1,topic_mid,/m/0wxvcv1,Trường Đại học Quốc tế Sài Gòn SIU,"Đại học ở Thành phố Hồ Chí Minh, Việt Nam",1.0,success,success,success,,208,4.292,34.0,VN,all
+f6664bca13d8c258907f,/g/122b4fgq,topic_mid,/g/122b4fgq,Trường Đại học INTRACOM,"Trường đại học ở Phố Hiến, Việt Nam",1.0,success,success,success,,100,2.4635,78.0,VN,all
+7c92a63ff8036cf004eb,/g/11w27jyl9l,topic_mid,/g/11w27jyl9l,Tiến Lên Sinh Viên Trường Đại Học Kinh Tế Công Nghiệp Long An,Chủ đề,1.0,interest_only,success,skipped,low_interest,2,0.1496,40.0,VN,all
+57b03d5d7489077e2981,/m/0wxpl5_,topic_mid,/m/0wxpl5_,Đại học Quốc tế Bắc Hà,"Trường đại học ở Tiên Du, Việt Nam",1.0,interest_only,success,skipped,enrichment_limit,102,1.438,61.0,VN,all
+87e16601f87acbb57907,/g/122jxhcf,topic_mid,/g/122jxhcf,Trường Đại học Sư phạm Kỹ thuật Nam Định,"Trường đại học ở Thiên Trường, Việt Nam",1.0,success,success,success,,201,2.3869,29.0,VN,all
+c51e28e416da0a7b817c,/g/121v8ml1,topic_mid,/g/121v8ml1,Trường Đại học Nông Lâm,"Trường đại học ở Quyết Thắng, Việt Nam",0.896429,interest_only,success,skipped,enrichment_limit,225,6.6387,86.0,VN,all
+bf26a2646c6363df33fe,Trường Đại học Quản lý và công nghệ TPHCM,search_term,,,,0.503137,interest_only,success,skipped,low_interest,13,0.0474,1.0,VN,all
+b04f46130869cdc7717b,/g/1pp2ths16,topic_mid,/g/1pp2ths16,Trường Đại học Công nghệ và Quản lý Hữu Nghị - UTM,"Đại học kỹ thuật ở Hà Nội, Việt Nam",1.0,interest_only,success,skipped,enrichment_limit,121,1.1496,100.0,VN,all
+8693127d14a0963234a9,/g/11gnrlwtx6,topic_mid,/g/11gnrlwtx6,Phân hiệu Đại học Huế tại Quảng Trị,"Đại học ở Nam Đông Hà, Việt Nam",1.0,interest_only,success,skipped,low_interest,16,0.4197,100.0,VN,all
+42d8c72a53f1e9cf034e,/g/11xtzmmzkd,topic_mid,/g/11xtzmmzkd,Trường Đại học Kinh tế - Công nghệ Thái Nguyên,Chủ đề,1.0,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+f5c5e548c980345b3cc8,/m/0cp3klp,topic_mid,/m/0cp3klp,Trường Đại học Phú Xuân,"Đại học ở Thành phố Huế, Việt Nam",1.0,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+2be8dfa739847a7e4f26,/g/121cxqrv,topic_mid,/g/121cxqrv,Đại học Quản lý và Công nghệ Hải Phòng,"Trường đại học ở Hải Phòng, Việt Nam",1.0,success,success,success,,198,2.792,59.0,VN,all
+606d2e52ea54d88cadfc,/g/11hd5fbzbp,topic_mid,/g/11hd5fbzbp,Trường Đại học Xây dựng Miền Tây,"Trường đại học ở Phước Hậu, Việt Nam",1.0,success,success,success,,192,3.1241,26.0,VN,all
+0eedf3d31fe08128adf5,/g/11h1p66zc1,topic_mid,/g/11h1p66zc1,Trường Đại học Công nghiệp Việt - Hung,"Trường đại học ở Hà Nội, Việt Nam",1.0,interest_only,success,skipped,low_interest,39,0.4124,7.0,VN,all
+014f26eece68a6fefcb3,/g/11b60_8rcs,topic_mid,/g/11b60_8rcs,Trường Đại học Tài chính – Marketing phân hiệu Quảng Ngãi,"Trường đại học ở Tư Nghĩa, Việt Nam",0.690392,interest_only,success,skipped,enrichment_limit,186,3.4307,100.0,VN,all
+d57e63a41136205e4ac9,/g/11jzr1lz_3,topic_mid,/g/11jzr1lz_3,Trường Đại học Gia Định,"Đại học tư thục ở Thành phố Hồ Chí Minh, Việt Nam",1.0,interest_only,success,skipped,enrichment_limit,43,1.4818,27.0,VN,all
+34365858b0961ea82bfd,/g/122z_vxw,topic_mid,/g/122z_vxw,Trường Đại học Công nghiệp Quảng Ninh,"Trường đại học ở Mạo Khê, Việt Nam",1.0,success,success,success,,160,2.0365,33.0,VN,all
+045468a171248fbb830d,/g/1hd_2vhdg,topic_mid,/g/1hd_2vhdg,Trường Đại học Xây dựng Miền Trung,"Trường đại học ở Đà Nẵng, Việt Nam",1.0,interest_only,success,skipped,low_interest,12,0.0438,1.0,VN,all
+a27c8fa94b09f3355201,/m/02x4g7t,topic_mid,/m/02x4g7t,Trường Đại học Công nghệ Sài Gòn,"Đại học ở Thành phố Hồ Chí Minh, Việt Nam",1.0,success,success,success,,236,7.146,68.0,VN,all
+987f6703ebf6e9b5e806,/g/11xc2kgzw,topic_mid,/g/11xc2kgzw,Trường Đại học Nông - Lâm Bắc Giang,"Trường đại học ở Việt Yên, Việt Nam",1.0,interest_only,success,skipped,enrichment_limit,125,0.5328,6.0,VN,all
+115714fe92c358d17342,/m/0cpbmqw,topic_mid,/m/0cpbmqw,Trường Đại học Tây Bắc,"Trường đại học ở Chiềng Sinh, Việt Nam",1.0,success,success,success,,219,3.5657,43.0,VN,all
+10d217886edecca0644d,/m/02rtwnx,topic_mid,/m/02rtwnx,Trường Đại Học Đà Lạt,"Trường đại học ở Lâm Viên - Đà Lạt, Việt Nam",1.0,success,success,success,,257,19.5219,100.0,VN,all
+105b4b74a7d1319f158c,/g/11cjhcr527,topic_mid,/g/11cjhcr527,Phân hiệu Đại Học Thái Nguyên Tại Tỉnh Lào Cai,"Trường cao đẳng học sư phạm ở Cam Đường, Việt Nam",1.0,interest_only,success,skipped,low_interest,6,0.0401,6.0,VN,all
+c6f34fc0ae106eb3c076,/g/11h5q787z7,topic_mid,/g/11h5q787z7,Trường Đại học Kiên Giang,"Trường đại học ở Bình An, Việt Nam",1.0,success,success,success,,114,6.927,94.0,VN,all
+03f9649d809192c72c91,/g/12307jj4,topic_mid,/g/12307jj4,Trường Đại Học Văn Hóa Thể Thao Và Du Lịch Thanh Hoá,"Trường đại học ở Hạc Thành, Việt Nam",1.0,interest_only,success,skipped,enrichment_limit,107,0.7117,4.0,VN,all
+f3998c6761fb5fc8a432,/g/120x0xr2,topic_mid,/g/120x0xr2,Trường Đại học Hoa Lư,"Trường đại học ở Hoa Lư, Việt Nam",1.0,success,success,success,,184,4.0949,100.0,VN,all
+c757a3b9db66a2c997df,/g/121slm29,topic_mid,/g/121slm29,Học viện Âm nhạc Huế,"Trường đại học ở Thành phố Huế, Việt Nam",1.0,interest_only,success,skipped,enrichment_limit,165,1.3394,16.0,VN,all
+821c63a48999914f308a,/m/0284g1q,topic_mid,/m/0284g1q,Học Viện Âm Nhạc Quốc Gia Việt Nam,"Học viện âm nhạc ở Hà Nội, Việt Nam",1.0,success,success,success,,219,10.1569,44.0,VN,all
+164e49b6f42ccc77215e,/m/02pz200,topic_mid,/m/02pz200,Nhạc viện Thành phố Hồ Chí Minh,"Học viện âm nhạc ở Thành phố Hồ Chí Minh, Việt Nam",0.626812,interest_only,success,skipped,enrichment_limit,223,6.0511,39.0,VN,all
+62b63e916c2d2fbfe481,/m/07s4kyl,topic_mid,/m/07s4kyl,Trường Đại học Công nghệ Vạn Xuân,"Trường đại học ở Cửa Lò, Việt Nam",1.0,interest_only,success,skipped,enrichment_limit,72,0.6314,23.0,VN,all
+a1ad0913ae35a15d6805,/g/120hnt0_,topic_mid,/g/120hnt0_,Trường đại học Hà Hoa Tiên,"Trường đại học ở Kim Thanh, Việt Nam",1.0,interest_only,success,skipped,enrichment_limit,116,1.2993,36.0,VN,all
+96e68c6cbe41350e9f2e,/g/120_xj04,topic_mid,/g/120_xj04,Trường Đại học Mỹ thuật Công nghiệp,"Trường nghệ thuật ở Hà Nội, Việt Nam",1.0,success,success,success,,234,11.6861,100.0,VN,all
+932cf05287cbe4b8abc9,Trường Đại Học Mỹ Thuật TPHCM,search_term,,,,0.613416,interest_only,success,skipped,low_interest,78,0.354,12.0,VN,all
+7ea70149a8f127faf6a0,/m/03d3x6l,topic_mid,/m/03d3x6l,Trường Đại học Mỹ thuật Việt Nam,"Đại học ở Hà Nội, Việt Nam",1.0,success,success,success,,222,9.0985,62.0,VN,all
+39114584e08b100346cc,/g/122kzp2g,topic_mid,/g/122kzp2g,Trường Đại học Văn hóa Nghệ thuật Quân đội,"Trường đại học ở Hà Nội, Việt Nam",1.0,success,success,success,,191,4.7956,67.0,VN,all
+e26f14c0935df7675617,/g/11c7t44_9z,topic_mid,/g/11c7t44_9z,"Trường Đại học Nội vụ Hà Nội - Trung tâm đào tạo, bồi dưỡng",Chủ đề,0.9,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+d07a25dfb2273e61b7da,/g/122v3xsg,topic_mid,/g/122v3xsg,Trường Đại học Sân khấu - Điện ảnh Thành phố Hồ Chí Minh,"Trường đại học ở Thành phố Hồ Chí Minh, Việt Nam",0.832124,interest_only,success,skipped,enrichment_limit,230,13.5474,100.0,VN,all
+c0cd2bb4800a63e04254,/g/11y04t3j9g,topic_mid,/g/11y04t3j9g,Trường Đại Học Công Nghệ Đông Á,Chủ đề,1.0,interest_only,success,skipped,low_interest,2,0.0255,6.0,VN,all
+9060919e72b28d40040a,/g/1hc5mbdd8,topic_mid,/g/1hc5mbdd8,Trường Đại học Y Dược Buôn Ma Thuột,"Trường đại học ở Tân An, Việt Nam",1.0,interest_only,success,skipped,low_interest,84,0.3212,2.0,VN,all
+01c851ac72244b2e8d1e,/g/11cnwg7csl,topic_mid,/g/11cnwg7csl,Khoa Giáo dục Thể chất - Đại học Đà Nẵng,"Trung tâm giáo dục ở Đà Nẵng, Việt Nam",0.907094,interest_only,success,skipped,low_interest,67,0.3102,16.0,VN,all
+58300ecda8ce8f326e5e,/g/1yjg80dyy,topic_mid,/g/1yjg80dyy,"Trường Đại học Công nghệ Thông tin và Truyền thông Việt - Hàn, Đại học Đà Nẵng","Trường đại học ở Đà Nẵng, Việt Nam",1.0,interest_only,success,skipped,enrichment_limit,104,1.0365,6.0,VN,all
+f1483353bb3df647ae65,Học Viện Kỹ Thuật Quân Sự - Hệ Dân sự,search_term,,,,0.389265,interest_only,success,skipped,low_interest,19,0.4416,100.0,VN,all
+71c28c506c23f64a8cba,Học Viện Quân Y - Hệ Dân sự,search_term,,,,0.195946,interest_only,success,skipped,low_interest,22,0.0949,2.0,VN,all
+d92d06cc987cfe7bb215,/g/11jnp58f5k,topic_mid,/g/11jnp58f5k,Công ty dịch vụ kế toán - kiểm toán,"Dịch vụ khai thuế ở Thành phố Hồ Chí Minh, Việt Nam",0.841714,interest_only,success,skipped,low_interest,1,0.0036,1.0,VN,all
+375a105d9c500226b429,Kinh tế - Quản trị kinh doanh - Thương Mại,search_term,,,,0.414545,interest_only,success,skipped,low_interest,20,0.073,1.0,VN,all
+47ca428d9a508b9f7267,/m/066tq7,topic_mid,/m/066tq7,Đại học Công nghệ thông tin Copenhagen,"Đại học ở Cô-pen-ha-gen, Đan Mạch",0.802232,interest_only,success,skipped,low_interest,1,0.0839,23.0,VN,all
+b25486bf90112a20c649,/m/02wk2l,topic_mid,/m/02wk2l,Công nghiệp bán dẫn,Chủ đề,1.0,interest_only,success,skipped,enrichment_limit,37,0.6861,100.0,VN,all
+20c9ef21d8568a791d13,Sư phạm - Giáo dục,search_term,,,,0.473925,interest_only,success,skipped,enrichment_limit,219,2.281,35.0,VN,all
+0f47a7a1a6aff13af833,/m/01hbsc,topic_mid,/m/01hbsc,Bác sĩ thú y,Nghề nghiệp,1.0,success,success,success,,251,20.4599,65.0,VN,all
+8688f06d87ec5a759eb1,Thiết kế đồ họa - Game - Đa phương tiện,search_term,,,,0.225832,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+e60146bb3f2047a32f36,Xây dựng - Kiến trúc - Giao thông,search_term,,,,0.354972,interest_only,success,skipped,low_interest,2,0.0073,1.0,VN,all
+feab19e246d6114c7da2,/m/0bvsx,topic_mid,/m/0bvsx,Ngoại giao,Chủ đề,0.766667,interest_only,success,skipped,enrichment_limit,259,16.5803,100.0,VN,all
+8f4f81f0dc521a07ac3c,Ngoại thương - Xuất nhập khẩu - Kinh Tế quốc tế,search_term,,,,0.293269,interest_only,success,skipped,low_interest,1,0.0036,1.0,VN,all
+6bfacd03fa47738db6f4,/m/03pty,topic_mid,/m/03pty,Khách sạn,Chức năng của tòa nhà,0.686538,interest_only,success,skipped,enrichment_limit,274,44.9599,100.0,VN,all
+2b58851959ebc2d1a511,Ô tô - Cơ khí - Chế tạo,search_term,,,,0.370408,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+ee9b8008b94fceecd7b9,Điện lạnh - Điện tử - Điện - Tự động hóa,search_term,,,,0.13012,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+3072f57307484d030214,Hàng không - Vũ trụ - Hạt nhân,search_term,,,,0.237295,interest_only,success,skipped,low_interest,1,0.0036,1.0,VN,all
+295c444d7a9dede03455,/g/11c4bd1dmg,topic_mid,/g/11c4bd1dmg,Khoa Công nghệ Vật liệu,Chủ đề,1.0,interest_only,success,skipped,low_interest,1,0.0073,2.0,VN,all
+7ccca4725b211636f833,/m/06lv41c,topic_mid,/m/06lv41c,Công nghệ chế biến thực phẩm,Sách,1.0,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+cf52459ba28486b60464,Công nghệ In - Giấy,search_term,,,,0.586364,interest_only,success,skipped,low_interest,51,0.3978,5.0,VN,all
+ad1c5858e2e37b5a74b8,/g/11fflzb1c6,topic_mid,/g/11fflzb1c6,Công ty TNHH Kỹ Nghệ Sinh Hóa Thịnh Long,Chủ đề,0.718199,interest_only,success,skipped,low_interest,1,0.0073,2.0,VN,all
+26cf4dc0b85737fec0c1,Luật - Tòa án,search_term,,,,0.57782,interest_only,success,skipped,enrichment_limit,201,26.3577,100.0,VN,all
+51aa9d7fba0501326675,Mỹ thuật - Âm nhạc - Nghệ thuật,search_term,,,,0.563243,interest_only,success,skipped,low_interest,10,0.146,20.0,VN,all
+c44a12db0b7c1bf4139f,/m/0vb3n0m,topic_mid,/m/0vb3n0m,Bộ Tài nguyên và Môi trường,Cơ quan chính phủ,1.0,interest_only,success,skipped,enrichment_limit,95,0.6715,6.0,VN,all
+c64feb021cb5e3b41c90,/m/05qfh,topic_mid,/m/05qfh,Tâm lý học,Chuyên khoa,1.0,success,success,success,,273,7.8285,100.0,VN,all
+f5b08d434b4e73f27349,/m/03p26ck,topic_mid,/m/03p26ck,Tập đoàn Thời trang May mặc G-III,Tập đoàn,0.874,interest_only,success,skipped,low_interest,1,0.0036,1.0,VN,all
+cd8de4a9b66f1e6d5a1c,/m/05b4wn7,topic_mid,/m/05b4wn7,"Bộ Nông nghiệp, Lâm nghiệp và Thủy sản",Campuchia,0.678151,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+24384d28fc5a0c16d00c,/m/03l_zb,topic_mid,/m/03l_zb,Thống kê toán học,Chủ đề,0.634595,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+4821fdc0c68e399bcc35,Nhân sự - Hành chính,search_term,,,,0.470739,interest_only,success,skipped,enrichment_limit,218,14.7847,100.0,VN,all
+fa509d24d0cc41dbc99a,Văn hóa - Chính trị - Khoa học Xã hội,search_term,,,,0.547894,interest_only,success,skipped,low_interest,55,0.3467,6.0,VN,all
+1c4449ddb70db9595f76,/g/11rn6v6yg7,topic_mid,/g/11rn6v6yg7,Khác Khoa Học & Đồ Chơi Tự Nhiên Khoa Học Spin Spin Spins & Đảo Ngược Của Chính Nó,Dòng sản phẩm,0.623469,interest_only,success,skipped,low_interest,2,0.0292,7.0,VN,all
+7b545ad170a157cdba34,Chăm sóc sắc đẹp - Chăm sóc gia đình,search_term,,,,0.361751,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+e7658c7bd95c9a25bdac,Quản trị tài chính kế toán,search_term,,,,0.538095,interest_only,success,skipped,enrichment_limit,186,1.0584,6.0,VN,all
+95fa744cfc0f5bcb565d,/m/0_jm,topic_mid,/m/0_jm,Kế toán,Lĩnh vực nghề nghiệp,1.0,success,success,success,,274,16.7664,39.0,VN,all
+658a1ebe861b797cd146,/m/01gr0x,topic_mid,/m/01gr0x,Kiểm toán,Chủ đề,1.0,success,success,success,,242,2.6022,9.0,VN,all
+fa70d803f772a5cea8bd,Kinh tế và quản lý bất động sản,search_term,,,,0.455956,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+5df9ecabefe7a2a26e12,/m/02_7t,topic_mid,/m/02_7t,Tài chính,Loại hình tổ chức,1.0,success,success,success,,274,20.6569,53.0,VN,all
+2ed6accd4a58cfa78464,/m/017ql,topic_mid,/m/017ql,Ngân hàng,Loại hình tổ chức,1.0,success,success,success,,274,52.7226,100.0,VN,all
+5e4608f74f1ce4cdbd8c,/g/11cnbw8h00,topic_mid,/g/11cnbw8h00,Tài chính ngân hàng,Lĩnh vực nghiên cứu,1.0,interest_only,success,skipped,low_interest,1,0.0073,2.0,VN,all
+eea567f84f089c87f8e5,/m/03xks,topic_mid,/m/03xks,Bảo hiểm,Loại hình tổ chức,1.0,success,success,success,,273,35.2993,98.0,VN,all
+3f2a0140dbc706773c93,/m/06k1r,topic_mid,/m/06k1r,Bất động sản,Chủ đề,1.0,success,success,success,,274,16.4708,40.0,VN,all
+bd8c9147c4bccf0d0df5,/m/012c1cfr,topic_mid,/m/012c1cfr,Công nghệ tài chính,Chủ đề,1.0,interest_only,success,skipped,low_interest,46,0.1971,4.0,VN,all
+af21fe24e408855c7355,/m/0drqp,topic_mid,/m/0drqp,Thị trường chứng khoán,Chủ đề,1.0,success,success,success,,273,7.0876,100.0,VN,all
+027289324a43115a1ec0,/g/11fy1r9_ww,topic_mid,/g/11fy1r9_ww,CTCP Chứng khoán Đầu tư tài chính Việt Nam,Công ty,0.77996,interest_only,success,skipped,low_interest,5,0.062,5.0,VN,all
+e371e7b55cf1a452fcf4,/m/02q3c56,topic_mid,/m/02q3c56,Phân tích dữ liệu kinh doanh,Chủ đề,1.0,success,success,success,,160,17.0219,100.0,VN,all
+91af85c2ef50c008c345,/g/11bzt_3jd_,topic_mid,/g/11bzt_3jd_,Cục Kinh tế - Quản lý đầu tư xây dựng,Chủ đề,0.687825,interest_only,success,skipped,low_interest,17,0.3139,7.0,VN,all
+456ec81a8fa177c89ffe,/m/05f7h_k,topic_mid,/m/05f7h_k,Giám đốc Quản lý tài chính Các tài khoản công bang Texas,Chủ đề,0.698052,interest_only,success,skipped,low_interest,8,0.2664,27.0,VN,all
+76987a2f0d99c847be99,/g/11c5wx_nhs,topic_mid,/g/11c5wx_nhs,Dịch vụ quản trị doanh nghiệp,Chủ đề,0.961333,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+b300156f6f2f6dcc6085,Quản trị logistics,search_term,,,,0.598039,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+ff017ef78fd495b03d83,Thống kê kinh tế,search_term,,,,0.596154,interest_only,success,skipped,low_interest,33,0.1241,2.0,VN,all
+004086408464556b3261,/m/0gt9mg,topic_mid,/m/0gt9mg,Chỉ số thuận lợi kinh doanh,Chủ đề,0.675,interest_only,success,skipped,low_interest,1,0.0036,1.0,VN,all
+c65a763094db91b569d8,/m/01tfwf,topic_mid,/m/01tfwf,Trung tâm Thương mại Thế giới số 7,"Tòa nhà chọc trời ở Thành phố New York, Tiểu bang New York",0.673936,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+f5cf6e0aa2548787f37d,/g/121jnq1m,topic_mid,/g/121jnq1m,Kinh doanh,Loại hình tổ chức,1.0,success,success,success,,274,51.3248,100.0,VN,all
+ca2299d89e527dc7cf44,/m/0gfps3,topic_mid,/m/0gfps3,Kinh tế,Lĩnh vực nghiên cứu,1.0,success,success,success,,274,36.0255,100.0,VN,all
+bd5927fc20a1cbad518a,/g/11h108nqwq,topic_mid,/g/11h108nqwq,Quản trị kinh doanh,Chủ đề,1.0,interest_only,success,skipped,low_interest,21,0.1861,4.0,VN,all
+641253ab3df7e34ee5fe,/m/019h6j,topic_mid,/m/019h6j,Chuỗi cung ứng,Chủ đề,0.737317,interest_only,success,skipped,low_interest,112,0.4781,4.0,VN,all
+80260e9a8bc9e8feeacb,/m/06w96t5,topic_mid,/m/06w96t5,Tạp chí Kinh tế phát triển,Tập san học thuật,0.951515,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+304faa9a3feb6c6c5d29,/m/08wzgt,topic_mid,/m/08wzgt,Kinh doanh quốc tế,Chủ đề,1.0,interest_only,success,skipped,low_interest,60,0.219,1.0,VN,all
+4823e5cf350be961901a,/m/02plw6y,topic_mid,/m/02plw6y,Kinh tế kỹ thuật số,Chủ đề,0.780345,interest_only,success,skipped,enrichment_limit,115,1.4489,20.0,VN,all
+bece71f2164d36bd6e19,/g/11c57q30g1,topic_mid,/g/11c57q30g1,Khoa Kinh tế vận tải,"Khoa học thuật ở Thành phố Hồ Chí Minh, Việt Nam",0.995714,interest_only,success,skipped,low_interest,28,0.1168,2.0,VN,all
+02e238c2f067e39457de,/g/11j317vhzr,topic_mid,/g/11j317vhzr,Phân tích tài chính kế hoạch kinh doanh,Chủ đề,0.76087,interest_only,success,skipped,low_interest,1,0.0219,6.0,VN,all
+d23a9086f93863e9e69e,/m/01jg9y,topic_mid,/m/01jg9y,Hệ thống thông tin quản lý,Chủ đề,1.0,success,success,success,,240,18.1934,100.0,VN,all
+b03e7b324be55461d260,/m/02nbg,topic_mid,/m/02nbg,Quản lý giá trị thu được,Chủ đề,0.75,interest_only,success,skipped,low_interest,83,0.3066,2.0,VN,all
+b8a6d69bb9e94b8fa62f,/m/012hrdph,topic_mid,/m/012hrdph,Khoa học quản lý,Lĩnh vực nghiên cứu,1.0,interest_only,success,skipped,enrichment_limit,121,0.5146,10.0,VN,all
+1e492e4403beb961536e,Quản trị và phân tích dữ liệu,search_term,,,,0.585128,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+41f9e2abe448200d9b1a,Thẩm định giá và quản trị tài sản,search_term,,,,0.459671,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+d6043b1d9b9413efaa72,/m/0dgxq3,topic_mid,/m/0dgxq3,Truyền thông doanh nghiệp,Chủ đề,1.0,interest_only,success,skipped,low_interest,32,0.1168,1.0,VN,all
+5ce996f5e3397e6fe81c,/m/02m96,topic_mid,/m/02m96,Thương mại điện tử,Chủ đề,1.0,success,success,success,,273,18.7701,100.0,VN,all
+a1e617db8b5c5f1af97e,/m/06_vc07,topic_mid,/m/06_vc07,Tin học,Lĩnh vực nghiên cứu,1.0,success,success,success,,274,25.438,100.0,VN,all
+2dbefbaf98720258b19c,An toàn dữ liệu và an ninh mạng,search_term,,,,0.586877,interest_only,success,skipped,low_interest,1,0.0219,6.0,VN,all
+0e966bc7eeed32832870,/m/06q83,topic_mid,/m/06q83,Công nghệ phần mềm,Chủ đề,1.0,interest_only,success,skipped,enrichment_limit,104,0.5511,11.0,VN,all
+5f4d12979d3bd6706322,/m/03ytc,topic_mid,/m/03ytc,Công nghệ thông tin,Lĩnh vực nghề nghiệp,1.0,success,success,success,,274,19.3978,58.0,VN,all
+b398a23a9f845f82f130,/m/03whm,topic_mid,/m/03whm,An toàn thông tin,Chủ đề,1.0,interest_only,success,skipped,low_interest,112,0.427,2.0,VN,all
+4592d5a9af89ced38c67,/g/11j317lmgx,topic_mid,/g/11j317lmgx,Công nghệ đa phương tiện trên máy tính,Chủ đề,0.92,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+2ce3542baed6704fb97a,/m/01mkq,topic_mid,/m/01mkq,Khoa học máy tính,Lĩnh vực nghiên cứu,1.0,interest_only,success,skipped,low_interest,87,0.3942,6.0,VN,all
+c2439d48854614350b8d,/m/0mkz,topic_mid,/m/0mkz,Trí tuệ nhân tạo,Lĩnh vực nghề nghiệp,1.0,success,success,success,,267,21.1058,100.0,VN,all
+3eb4600d195679e8108e,Công nghệ kỹ thuật điện tử - viễn thông,search_term,,,,0.438393,interest_only,success,skipped,low_interest,1,0.0109,3.0,VN,all
+60748e2ab4260ec52925,Công nghệ kỹ thuật máy tính,search_term,,,,0.446667,interest_only,success,skipped,low_interest,1,0.0073,2.0,VN,all
+cf408d2f230ac6725628,/g/11vfb9pxj1,topic_mid,/g/11vfb9pxj1,"Trung tâm Khoa học, Công nghệ và Đổi mới sáng tạo tỉnh Tuyên Quang",Chủ đề,0.823913,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+f5e37fcccc67257cb8be,Hệ thống nhúng và IoT,search_term,,,,0.314512,interest_only,success,skipped,low_interest,3,0.0109,1.0,VN,all
+4eedc7ff7008c2a22c65,/g/120pytmm,topic_mid,/g/120pytmm,Hệ thống thông tin,Chủ đề,1.0,success,success,success,,232,17.9854,100.0,VN,all
+91f5344d8449e8911aa3,Khoa học dữ liệu và Trí tuệ nhân tạo,search_term,,,,0.16354,interest_only,success,skipped,low_interest,11,0.0401,1.0,VN,all
+fb419a3e880af0b64e14,/g/11ghcd2m83,topic_mid,/g/11ghcd2m83,Nhiệt kế kỹ thuật số Max/Min và giữ dữ liệu,Dòng sản phẩm,0.666795,interest_only,success,skipped,low_interest,1,0.0036,1.0,VN,all
+e6e67ec50413f55abd08,/m/01g1rg,topic_mid,/m/01g1rg,Kỹ thuật Điện tử,Chủ đề,0.795935,interest_only,success,skipped,enrichment_limit,218,5.2701,100.0,VN,all
+dd5a4626c032f837b5a3,/m/0db86,topic_mid,/m/0db86,Kỹ thuật máy tính,Lĩnh vực nghiên cứu,1.0,success,success,success,,215,3.8832,20.0,VN,all
+5d1102d35c97e7b037c6,/g/11f3y2jb3q,topic_mid,/g/11f3y2jb3q,Kỹ thuật Phần mềm Nghiên cứu,Chủ đề,0.923333,interest_only,success,skipped,low_interest,1,0.0036,1.0,VN,all
+0ebf88381854e9b51fd0,Mạng máy tính & truyền thông dữ liệu,search_term,,,,0.173684,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+e645cf9063fe9c718e3e,/m/02crfr,topic_mid,/m/02crfr,Quản lý thông tin,Chủ đề,1.0,success,success,success,,182,2.6058,13.0,VN,all
+56ee3a4ca198fa4ba4d0,/m/011xg5,topic_mid,/m/011xg5,AI – Trí tuệ nhân tạo,Phim 2001,0.715801,interest_only,success,skipped,low_interest,1,0.0073,2.0,VN,all
+1ada62368777eae9a0c8,/m/08fpkl,topic_mid,/m/08fpkl,Thiết kế vi mạch,Chủ đề,1.0,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+119972d4c191a11eaeae,/m/02vl0fm,topic_mid,/m/02vl0fm,Tổng công ty Truyền thông đa phương tiện VTC,Công ty,0.900242,interest_only,success,skipped,enrichment_limit,165,0.9745,8.0,VN,all
+dbcc621192cdd1ab8310,/m/04y7b,topic_mid,/m/04y7b,Cơ học,Lĩnh vực nghiên cứu,1.0,interest_only,success,skipped,enrichment_limit,243,0.9927,3.0,VN,all
+d47dc1d1cb8b5a91565b,/m/01lj9,topic_mid,/m/01lj9,Hóa học,Lĩnh vực nghiên cứu,1.0,success,success,success,,274,31.4197,100.0,VN,all
+61f816b06e1257793d2d,/m/05hy9n,topic_mid,/m/05hy9n,Khoa học tính toán,Lĩnh vực nghiên cứu,1.0,interest_only,success,skipped,low_interest,7,0.0292,2.0,VN,all
+aa7d9cedef3970bbdd57,Kỹ thuật vật liệu kim loại,search_term,,,,0.358425,interest_only,success,skipped,low_interest,10,0.0365,1.0,VN,all
+8e37eee49aec861ea03b,An ninh mạng và phòng chống tội phạm công nghệ cao,search_term,,,,0.434266,interest_only,success,skipped,low_interest,32,0.1168,1.0,VN,all
+bf1e247ff00a06b378e3,Công nghệ kỹ thuật cơ khí,search_term,,,,0.427193,interest_only,success,skipped,enrichment_limit,105,0.792,78.0,VN,all
+badde69a4b10104d1ca6,/m/01sblz,topic_mid,/m/01sblz,Cơ điện tử,Chủ đề,0.73,interest_only,success,skipped,enrichment_limit,239,6.6679,100.0,VN,all
+3fa6f59efea2696ab791,/m/04x_3,topic_mid,/m/04x_3,Kỹ thuật cơ khí,Lĩnh vực nghề nghiệp,1.0,success,success,success,,270,38.1788,100.0,VN,all
+21766ffba28e408957d8,/m/037b_5,topic_mid,/m/037b_5,Vật lý kỹ thuật,Lĩnh vực nghiên cứu,1.0,interest_only,success,skipped,low_interest,12,0.0438,1.0,VN,all
+4a371cb5a255422364f4,/m/01bt59,topic_mid,/m/01bt59,Kỹ thuật công nghiệp,Lĩnh vực nghề nghiệp,1.0,interest_only,success,skipped,enrichment_limit,134,0.6679,5.0,VN,all
+5ba7105886d2295d33e7,Công nghệ kỹ thuật cơ điện tử,search_term,,,,0.554633,interest_only,success,skipped,low_interest,26,0.0985,2.0,VN,all
+3a75f2bed2b075394927,"Công nghệ kỹ thuật điện, điện tử",search_term,,,,0.535897,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+a93ee2825656e2e98961,Công nghệ kỹ thuật điều khiển và tự động hóa,search_term,,,,0.211581,interest_only,success,skipped,low_interest,14,0.062,3.0,VN,all
+a702716749ac8e7ca7fe,/m/02lp1,topic_mid,/m/02lp1,Kỹ thuật điện,Lĩnh vực nghiên cứu,1.0,success,success,success,,249,25.4197,100.0,VN,all
+08b7050cdf554f0c85a8,/g/11jz21l5m3,topic_mid,/g/11jz21l5m3,Ampe kìm kỹ thuật số có cặp nhiệt điện,Dòng sản phẩm,0.663725,interest_only,success,skipped,low_interest,1,0.0073,2.0,VN,all
+650705ed240959583ac8,Công nghệ kỹ thuật nhiệt,search_term,,,,0.583714,interest_only,success,skipped,low_interest,73,0.3175,9.0,VN,all
+bae713b630fcecc1d9c3,/m/0gh7s_4,topic_mid,/m/0gh7s_4,Kỹ thuật viên điện tử,Nghề nghiệp,0.948462,interest_only,success,skipped,low_interest,13,0.0511,2.0,VN,all
+ca3ce2782a946ec14dcb,/g/11f010ggv8,topic_mid,/g/11f010ggv8,Công ty Cổ phần Kỹ thuật Xây dựng và Vật liệu Xây dựng,Công ty,0.63822,interest_only,success,skipped,low_interest,5,0.0657,9.0,VN,all
+11cece12950bcf509265,/m/04ytq,topic_mid,/m/04ytq,Khoa học vật liệu,Lĩnh vực nghiên cứu,1.0,success,success,success,,203,11.208,72.0,VN,all
+e58a412a3616747788b4,Công nghệ kỹ thuật hoá học,search_term,,,,0.464091,interest_only,success,skipped,enrichment_limit,80,1.208,18.0,VN,all
+9336137a98ee78e51b78,/m/01tbp,topic_mid,/m/01tbp,Kỹ thuật Hóa học,Lĩnh vực nghiên cứu,1.0,success,success,success,,196,16.8285,100.0,VN,all
+7b44ce9b1a665c2c8ef6,/m/028jjs,topic_mid,/m/028jjs,Tâm vật lý học,Chủ đề,0.975,interest_only,success,skipped,low_interest,6,0.1095,10.0,VN,all
+d69e5e217258f5dfd922,/g/11cnchlp1g,topic_mid,/g/11cnchlp1g,Cục Công nghệ Truyền thông và Internet,Cơ quan chính phủ,0.894286,interest_only,success,skipped,low_interest,1,0.0036,1.0,VN,all
+f8044c1ad3e3e3b2824b,/m/01cbh9,topic_mid,/m/01cbh9,Máy quay phim,Chủ đề,0.951515,interest_only,success,skipped,enrichment_limit,242,19.3394,100.0,VN,all
+f11d8db956617d0ef642,/m/0h3rg9h,topic_mid,/m/0h3rg9h,Hiệp hội Nhiếp ảnh Báo chí,Tổ chức phi lợi nhuận,0.939147,interest_only,success,skipped,low_interest,2,0.062,16.0,VN,all
+4daf5a286dbef749fec3,Quản trị Marketing,search_term,,,,0.597544,interest_only,success,skipped,enrichment_limit,220,7.5803,25.0,VN,all
+07bde2cf743082b72b82,/m/08w09k,topic_mid,/m/08w09k,Tổ chức sự kiện,Chủ đề,1.0,success,success,success,,240,31.1496,77.0,VN,all
+5a7b6cb83437e1c3ff1a,/m/041y2,topic_mid,/m/041y2,Báo chí,Lĩnh vực nghề nghiệp,1.0,success,success,success,,274,30.9453,82.0,VN,all
+6659177ba879da7518ac,/m/0g4gr,topic_mid,/m/0g4gr,Marketing,Chủ đề,1.0,success,success,success,,274,39.3613,100.0,VN,all
+d1fbbf0b8ec715131558,/m/02z7p94,topic_mid,/m/02z7p94,Truyền thông hợp nhất,Chủ đề,0.627287,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+5c40894bb63e1bba32ca,/m/062zr,topic_mid,/m/062zr,Quan hệ công chúng,Chủ đề,1.0,success,success,success,,261,3.7263,14.0,VN,all
+af83d554baf7fa320257,Quản lí giải trí và sự kiện,search_term,,,,0.163636,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+aa9f16d844f43f3c2673,Quản trị kinh doanh & Marketing,search_term,,,,0.597094,interest_only,success,skipped,low_interest,1,0.0073,2.0,VN,all
+784c543f3768d3a4dfef,/m/01m0h6,topic_mid,/m/01m0h6,Quản trị thương hiệu,Chủ đề,1.0,success,success,success,,223,2.9562,44.0,VN,all
+09e98204034452f9d180,/g/11csrxz59v,topic_mid,/g/11csrxz59v,Công Ty TNHH Truyền Thông Quảng Cáo Nam Long,"Cơ quan quảng cáo ở Thành phố Hồ Chí Minh, Việt Nam",0.838889,interest_only,success,skipped,low_interest,1,0.0036,1.0,VN,all
+b0fa6846af1ae0f352cf,Xuất bản và kinh doanh xuất bản phẩm,search_term,,,,0.211787,interest_only,success,skipped,low_interest,58,0.3248,8.0,VN,all
+88d932834efca775add8,/m/0l5mz,topic_mid,/m/0l5mz,Quan hệ quốc tế,Lĩnh vực nghiên cứu,1.0,success,success,success,,255,12.1898,100.0,VN,all
+e6d06f5959f0470a3433,/g/11jpgbdfp3,topic_mid,/g/11jpgbdfp3,Học Digital Marketing & SEO,Phần mềm,0.914286,interest_only,success,skipped,low_interest,1,0.073,20.0,VN,all
+56b81a8d5bb9c031c8ba,/m/067_f8,topic_mid,/m/067_f8,Công nghệ giáo dục,Danh mục trường học,1.0,success,success,success,,204,2.6679,100.0,VN,all
+6d76f411849727e6a5ff,Sư phạm Toán,search_term,,,,0.429103,interest_only,success,skipped,enrichment_limit,199,3.2299,25.0,VN,all
+75bc0d509bf10cfdd7d1,Sư phạm Vật lý,search_term,,,,0.511667,interest_only,success,skipped,low_interest,97,0.4015,6.0,VN,all
+6ec5ffcfc7ef9711ed48,Sư phạm Ngữ văn,search_term,,,,0.314268,interest_only,success,skipped,enrichment_limit,189,1.2299,11.0,VN,all
+c71d5744827d8b54c871,/g/11c5657sdj,topic_mid,/g/11c5657sdj,Khoa Sư phạm Tiếng Anh,Chủ đề,1.0,interest_only,success,skipped,low_interest,35,0.3467,7.0,VN,all
+7052513de23556df4a87,Sư phạm Hóa học,search_term,,,,0.5775,interest_only,success,skipped,enrichment_limit,188,1.9891,14.0,VN,all
+7c5a597eb3e243f3adb6,Sư phạm Sinh học,search_term,,,,0.564889,interest_only,success,skipped,enrichment_limit,226,15.8212,100.0,VN,all
+ed9c04a71c129c86a140,Sư phạm Lịch sử,search_term,,,,0.081818,interest_only,success,skipped,enrichment_limit,131,0.7117,6.0,VN,all
+93c33e8cae067c5ee20e,Sư phạm Địa lý,search_term,,,,0.332045,interest_only,success,skipped,low_interest,82,0.4051,6.0,VN,all
+e6b67450871d8eb7b98d,Sư phạm Lịch sử - Địa lý,search_term,,,,0.117391,interest_only,success,skipped,low_interest,19,0.0876,3.0,VN,all
+67952bd78c325533b909,/g/11cs5vqg56,topic_mid,/g/11cs5vqg56,Khoa Sư Phạm Khoa Học Tự nhiên,"Khoa học thuật ở Thành phố Hồ Chí Minh, Việt Nam",1.0,interest_only,success,skipped,low_interest,3,0.0109,1.0,VN,all
+90db4358281ebb58bc3f,/g/1229w681,topic_mid,/g/1229w681,Nhà sư phạm âm nhạc,Chủ đề,1.0,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+d2cb34de8f0c8916749e,Sư phạm Công nghệ,search_term,,,,0.409829,interest_only,success,skipped,enrichment_limit,199,6.5182,55.0,VN,all
+540782c4050ca5c4da25,Sư phạm Mỹ thuật,search_term,,,,0.300833,interest_only,success,skipped,enrichment_limit,125,1.4416,100.0,VN,all
+15d5403226ca3a6a9e84,Sư phạm Tiếng Đức,search_term,,,,0.160714,interest_only,success,skipped,low_interest,2,0.0073,1.0,VN,all
+cd9f33696449a1f82747,Sư phạm Tiếng Hàn Quốc,search_term,,,,0.266471,interest_only,success,skipped,low_interest,1,0.1825,50.0,VN,all
+e589bc86b5daf316d727,Sư phạm Tiếng Nga,search_term,,,,0.216,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+9732081a041de218944a,Sư phạm Tiếng Nhật,search_term,,,,0.426961,interest_only,success,skipped,low_interest,10,0.3978,100.0,VN,all
+4530bf54699a37be00a0,Sư phạm Tiếng Pháp,search_term,,,,0.438542,interest_only,success,skipped,low_interest,24,0.0876,1.0,VN,all
+4fe380278e9ddb0c01db,Sư phạm Tiếng Trung,search_term,,,,0.444512,interest_only,success,skipped,enrichment_limit,161,0.6606,3.0,VN,all
+74a2d92d946b88b44909,Sư phạm Tin học,search_term,,,,0.525872,interest_only,success,skipped,enrichment_limit,215,2.3796,19.0,VN,all
+a30ec7a0cbe7d365312c,/g/11cs60djmn,topic_mid,/g/11cs60djmn,Khoa Giáo Dục Chính Trị,Chủ đề,1.0,interest_only,success,skipped,low_interest,1,0.0474,13.0,VN,all
+f51c5652af6b5deadd1e,/m/018c8m,topic_mid,/m/018c8m,Giáo dục công dân,Lĩnh vực nghiên cứu,1.0,success,success,success,,163,9.3358,100.0,VN,all
+e4c15ca411b918d739d2,/m/028dgn,topic_mid,/m/028dgn,Giáo dục đặc biệt,Danh mục trường học,1.0,interest_only,success,skipped,enrichment_limit,188,1.2299,10.0,VN,all
+4c31e4b47657ad77300d,/m/019v9k,topic_mid,/m/019v9k,Giáo dục đại học,Học vị,0.9,interest_only,success,skipped,enrichment_limit,251,19.6752,100.0,VN,all
+37a52ba87bc9e6d43303,/g/11fsrbkdvb,topic_mid,/g/11fsrbkdvb,Giáo dục mầm non,Chủ đề,1.0,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+2de3103f058ca18c8d75,/g/11tp9rg7zy,topic_mid,/g/11tp9rg7zy,"Luật Phổ biến, giáo dục pháp luật 2012",Chủ đề,0.858831,interest_only,success,skipped,low_interest,1,0.0146,4.0,VN,all
+42299c741aa05fdb72a6,/g/11g6bzq5ls,topic_mid,/g/11g6bzq5ls,Trung tâm giáo dục Quốc phòng - An ninh sinh viên Bắc Giang,Chủ đề,0.839286,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+2002e1bddebd405cddb3,/m/01ftfn,topic_mid,/m/01ftfn,Giáo dục thể chất,Chủ đề,1.0,success,success,success,,210,3.4672,17.0,VN,all
+3fb6a5e8bca350a24ab5,/m/02rq2k1,topic_mid,/m/02rq2k1,Giáo dục tiểu học,Danh mục trường học,1.0,success,success,success,,257,36.3358,100.0,VN,all
+fec9627b00c8e5db2882,Hỗ trợ giáo dục người khuyết tật,search_term,,,,0.306176,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+1bbb1bc6b1f59d1a1862,Khoa học Giáo dục và Khác,search_term,,,,0.55,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+0729378f15f13c2b5f0d,/g/11shnm_xht,topic_mid,/g/11shnm_xht,quản lý giáo dục,Lĩnh vực nghiên cứu,1.0,interest_only,success,skipped,low_interest,39,0.4672,19.0,VN,all
+e6ac31cba9b6bc4f3b73,Kỹ thuật phục hình răng,search_term,,,,0.135484,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+fb4a98bf1cd8b60e010c,Kỹ thuật Xét nghiệm Y học,search_term,,,,0.543023,interest_only,success,skipped,low_interest,27,0.1058,2.0,VN,all
+fd6994dbef90fa101900,/m/0123cp,topic_mid,/m/0123cp,Siêu âm y khoa,Xét nghiệm chẩn đoán,0.82,interest_only,success,skipped,enrichment_limit,246,12.5876,47.0,VN,all
+91a20e12970e474eccec,/g/1tf4bj8r,topic_mid,/g/1tf4bj8r,Bệnh viện Răng Hàm Mặt TP. HCM,"Bệnh viện chuyên khoa ở Thành phố Hồ Chí Minh, Việt Nam",0.799129,interest_only,success,skipped,enrichment_limit,215,2.781,8.0,VN,all
+8ddd19ed0eb8ef6793ff,/g/11clsyl62y,topic_mid,/g/11clsyl62y,dược học,Chủ đề,1.0,interest_only,success,skipped,low_interest,1,0.0036,1.0,VN,all
+ec63c96c7d79f01ccae0,/g/120s1x7w,topic_mid,/g/120s1x7w,Điều dưỡng,Lĩnh vực nghề nghiệp,1.0,success,success,success,,178,13.073,100.0,VN,all
+5573a434bb109a05bc59,/m/02bwfg,topic_mid,/m/02bwfg,Y học cổ truyền,Lĩnh vực nghiên cứu,1.0,success,success,success,,205,3.5255,36.0,VN,all
+a9b5b3803f0cf84e3061,/m/0400g4,topic_mid,/m/0400g4,Y học dự phòng,Lĩnh vực nghiên cứu,1.0,success,success,success,,238,2.9964,18.0,VN,all
+c64aab05290be2fc91ec,/m/02cm61,topic_mid,/m/02cm61,Y tế công cộng,Chuyên khoa,1.0,success,success,success,,240,2.0949,17.0,VN,all
+84dcd14d87c8acac6492,/g/121d1smg,topic_mid,/g/121d1smg,Dinh dưỡng,Chủ đề,1.0,success,success,success,,241,36.5073,100.0,VN,all
+6d732d4ba6640eb5733e,/m/03rrcl,topic_mid,/m/03rrcl,Hóa dược,Lĩnh vực nghiên cứu,1.0,interest_only,success,skipped,enrichment_limit,207,1.0438,4.0,VN,all
+95594d249c8b5eaf4461,/m/04xht,topic_mid,/m/04xht,Hộ sinh,Chuyên khoa,1.0,success,success,success,,101,8.5985,100.0,VN,all
+b178d67593bd6ed2f1f9,Khoa học và Công nghệ y khoa,search_term,,,,0.610897,interest_only,success,skipped,enrichment_limit,147,6.9197,50.0,VN,all
+8c0317ec5db000c6544d,/m/0dk388,topic_mid,/m/0dk388,Kỹ thuật viên hình ảnh y học,Nghề nghiệp,0.927311,interest_only,success,skipped,enrichment_limit,82,2.9307,82.0,VN,all
+f033a0e4fbe936e1f82d,/m/0bfytp,topic_mid,/m/0bfytp,Kỹ thuật viên phục hồi chức năng,Nghề nghiệp,0.933293,interest_only,success,skipped,low_interest,10,0.1679,8.0,VN,all
+c507aaff6921dc75c2a9,/g/11mz05lghn,topic_mid,/g/11mz05lghn,Quản lý Bệnh Viện,Phần mềm,1.0,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+650883f0e308bb949a5c,/m/01csfj,topic_mid,/m/01csfj,Vật lý y khoa,Chuyên ngành y khoa,1.0,interest_only,success,skipped,low_interest,1,0.0036,1.0,VN,all
+2730571afd38cfd5ed49,/m/01ftz,topic_mid,/m/01ftz,Công nghệ sinh học,Lĩnh vực nghiên cứu,1.0,success,success,success,,268,8.3248,100.0,VN,all
+efceda1acc790be2dd06,Dược liệu và hợp chất thiên nhiên,search_term,,,,0.301513,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+d684645285f775ce3920,/m/018rtl,topic_mid,/m/018rtl,Khúc xạ nhãn khoa,Chuyên khoa,1.0,interest_only,success,skipped,low_interest,38,0.1423,2.0,VN,all
+cabeb8e57d91c1627749,Công nghệ kỹ thuật điện tử y sinh,search_term,,,,0.414886,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+b7fb0fdc639fd238da60,/m/07__r,topic_mid,/m/07__r,Thú y,Chuyên ngành y khoa,1.0,success,success,success,,249,6.0547,52.0,VN,all
+19b04ab327f711d610f6,/m/01g37j,topic_mid,/m/01g37j,Chăn nuôi,Chủ đề,1.0,success,success,success,,263,14.8796,100.0,VN,all
+882c24440f6a1ec4ecfe,/g/11gzlyjxf,topic_mid,/g/11gzlyjxf,Cục Chăn nuôi và Thú y,Chủ đề,0.848198,interest_only,success,skipped,enrichment_limit,90,0.7591,7.0,VN,all
+7e63bf336cd7940f934d,/g/11gnrlzmp1,topic_mid,/g/11gnrlzmp1,Biên phòng,Báo,1.0,interest_only,success,skipped,low_interest,18,0.073,3.0,VN,all
+4aefed5ff0ba00a93eb3,Chỉ huy kỹ thuật Công binh,search_term,,,,0.429167,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+6248aee2867096e06fb5,Chỉ huy Kỹ thuật hóa học,search_term,,,,0.332437,interest_only,success,skipped,enrichment_limit,13,2.9818,100.0,VN,all
+80d3f425f5f698f0ef57,Chỉ huy Tham mưu - thông tin,search_term,,,,0.392728,interest_only,success,skipped,enrichment_limit,5,0.9416,71.0,VN,all
+a3b1a5bcded6351b9479,Chỉ huy tham mưu Đặc công,search_term,,,,0.405238,interest_only,success,skipped,low_interest,2,0.4562,82.0,VN,all
+fc7e8daf04534417df4d,Chỉ huy tham mưu Hải quân,search_term,,,,0.4611,interest_only,success,skipped,enrichment_limit,7,1.4818,96.0,VN,all
+02376f23607a3c194283,Chỉ huy tham mưu không quân (Phi công quân sự),search_term,,,,0.12,interest_only,success,skipped,low_interest,2,0.2956,74.0,VN,all
+dcd17c3eb8f170fd23e4,Chỉ huy tham mưu Lục quân,search_term,,,,0.537879,interest_only,success,skipped,low_interest,6,0.0219,1.0,VN,all
+5163aad8af913d88ab51,Chỉ huy tham mưu Pháo binh,search_term,,,,0.225,interest_only,success,skipped,low_interest,1,0.0036,1.0,VN,all
+b8b2feb62646f562d794,Chỉ huy tham mưu Tăng Thiết giáp,search_term,,,,0.190909,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+3decb9697f51c8c8774f,Chỉ huy quản lý kỹ thuật,search_term,,,,0.267619,interest_only,success,skipped,low_interest,17,0.4453,100.0,VN,all
+6bf7271a4277cbe01513,/g/11h3vb0wjz,topic_mid,/g/11h3vb0wjz,Hậu cần quân sự,Lĩnh vực nghề nghiệp,1.0,interest_only,success,skipped,low_interest,16,0.1058,3.0,VN,all
+8a9568b6d040e9b960d7,/g/11b66c_rhw,topic_mid,/g/11b66c_rhw,Tổng cục Hậu cần - Kỹ thuật,Cơ quan chính phủ,0.658943,interest_only,success,skipped,enrichment_limit,95,2.3686,21.0,VN,all
+cf79d724ca83db60f982,Nghiệp vụ an ninh,search_term,,,,0.472241,interest_only,success,skipped,enrichment_limit,161,9.7299,100.0,VN,all
+8632fdb203bcccc609cc,Trinh sát kỹ thuật,search_term,,,,0.332143,interest_only,success,skipped,low_interest,35,0.4124,5.0,VN,all
+144b6d6fc4dd8a71f474,/g/11cs5bkqr7,topic_mid,/g/11cs5bkqr7,Giải Liên hoan phim Việt Nam cho Thiết kế mỹ thuật xuất sắc nhất - Phim hoạt hình,Giải thưởng,0.654245,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+980f0431d70abba4085d,/g/11lp6k1kr2,topic_mid,/g/11lp6k1kr2,Thiết Kế Logo Thiết Kế đồ Hoạ!,Phần mềm,0.91,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+e75a5aecc4b871c82dd9,/g/11t514sc4f,topic_mid,/g/11t514sc4f,Thiết kế Mỹ thuật số Văn Lang,Chủ đề,0.960204,interest_only,success,skipped,low_interest,3,0.0547,13.0,VN,all
+63a72d9716ca77b49067,/g/11j8qrhhw2,topic_mid,/g/11j8qrhhw2,Thiết kế công nghiệp,Chủ đề,1.0,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+e1ae59954c2d7fe401a5,/g/11zxzk5lwf,topic_mid,/g/11zxzk5lwf,Lansboter Áo phản quang kỹ thuật Giao thông phản quang an toàn Áo ghi lê,Chủ đề,0.622727,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+20f492fc45b0d9546db4,Xây dựng dân dụng và công nghiệp,search_term,,,,0.513793,interest_only,success,skipped,enrichment_limit,194,2.792,100.0,VN,all
+87999e0b345811cac1b4,/g/1tfc429k,topic_mid,/g/1tfc429k,Viện Khoa học Công nghệ và Kinh tế Xây dựng Hà Nội,Chủ đề,0.734848,interest_only,success,skipped,low_interest,1,0.0036,1.0,VN,all
+433162e6b5033cf59a39,/m/0dd9b,topic_mid,/m/0dd9b,Kỹ thuật xây dựng,Lĩnh vực nghiên cứu,1.0,interest_only,success,skipped,enrichment_limit,181,0.7482,3.0,VN,all
+2cb62c2526caab55a143,Công nghệ kỹ thuật Xây dựng,search_term,,,,0.508333,interest_only,success,skipped,low_interest,7,0.0292,2.0,VN,all
+8ed19adc1bc0f9ff91da,Công nghệ kỹ thuật giao thông,search_term,,,,0.562245,interest_only,success,skipped,low_interest,8,0.0328,2.0,VN,all
+8cf6c45821221fa79c64,/m/03nfmq,topic_mid,/m/03nfmq,Kiến trúc,Lĩnh vực nghề nghiệp,1.0,success,success,success,,274,29.9635,100.0,VN,all
+969a0e20f7854f7df788,/m/0j__6,topic_mid,/m/0j__6,Kiến trúc cảnh quan,Chủ đề,1.0,interest_only,success,skipped,low_interest,1,0.0036,1.0,VN,all
+b3874792497a64e8cfc8,/m/04gvhz,topic_mid,/m/04gvhz,Kiến trúc nội thất,Lĩnh vực nghiên cứu,1.0,interest_only,success,skipped,low_interest,16,0.062,2.0,VN,all
+25cce7c80939d74f7b12,/m/0654t7,topic_mid,/m/0654t7,Ngành kỹ thuật cơ sở hạ tầng,Chủ đề,1.0,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+e7e177c9af076c63986c,Kỹ thuật xây dựng công trình giao thông,search_term,,,,0.540812,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+08eb6ce2e85713c34de6,/m/02rfdq,topic_mid,/m/02rfdq,Thiết kế nội thất,Lĩnh vực nghề nghiệp,1.0,success,success,success,,274,46.5547,100.0,VN,all
+9f2cde64e928fa01109e,/m/06g2cq,topic_mid,/m/06g2cq,Quản lý xây dựng,Công việc,1.0,interest_only,success,skipped,enrichment_limit,210,0.8869,4.0,VN,all
+3af17b4cc98aab591e49,"Đô thị, mỹ thuật đô thị",search_term,,,,0.503276,interest_only,success,skipped,low_interest,1,0.365,100.0,VN,all
+66374a867dda9430c63f,Quản lý phát triển đô thị và bất động sản,search_term,,,,0.308158,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+29dfa84f5e01ce8efd92,Quy hoạch vùng và đô thị,search_term,,,,0.480226,interest_only,success,skipped,low_interest,4,0.0292,3.0,VN,all
+e50721f92f83aeff61ff,"Thiết kế, quản trị đô thị",search_term,,,,0.16875,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+5d0e64101e9a610e3254,"Xây dựng, quản lý Cầu - đường sắt",search_term,,,,0.35303,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+dfc81de98e6e8025a25b,/g/11rtq73vwj,topic_mid,/g/11rtq73vwj,Xây dựng công trình phụ,Chủ đề,1.0,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+778a915f817d3302c4f2,Xây dựng và quản lý hạ tầng đô thị,search_term,,,,0.336111,interest_only,success,skipped,low_interest,11,0.0438,2.0,VN,all
+334d372c9c3c7dcbbbc0,Kỹ thuật xây dựng công trình thủy,search_term,,,,0.521978,interest_only,success,skipped,enrichment_limit,12,0.5912,100.0,VN,all
+cacb2f560f1f13224bcb,/g/11zyskqkfn,topic_mid,/g/11zyskqkfn,Ngôn ngữ Tây Ban Nha,Chủ đề,1.0,interest_only,success,skipped,low_interest,1,0.0438,12.0,VN,all
+f9df477751656fccdbaa,/g/11ywvw_pn7,topic_mid,/g/11ywvw_pn7,Tiếng Anh Du Lịch,Chủ đề,1.0,interest_only,success,skipped,low_interest,1,0.0036,1.0,VN,all
+54d9f1e46fcdefe15690,/m/01zc2w,topic_mid,/m/01zc2w,Ngôn ngữ Anh,Lĩnh vực nghiên cứu,1.0,success,success,success,,262,14.1496,100.0,VN,all
+dc88572fa535bbdb8caa,/g/11c5b2drt0,topic_mid,/g/11c5b2drt0,Khoa Ngôn Ngữ Trung Quốc,Chủ đề,1.0,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+aa615c0b780caadaacb6,/m/03jbc,topic_mid,/m/03jbc,Nhóm ngôn ngữ Đức cao địa,Họ ngôn ngữ,0.841176,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+9f019aae70cdb395034a,/m/0118c91n,topic_mid,/m/0118c91n,Ngôn ngữ tại Nga,Ngôn ngữ,0.885714,interest_only,success,skipped,low_interest,1,0.1168,32.0,VN,all
+1eea85b5d748cffb7230,/m/02hxmtm,topic_mid,/m/02hxmtm,Ngôn ngữ ký hiệu Nhật,Ngôn ngữ,0.814118,interest_only,success,skipped,low_interest,1,0.0073,2.0,VN,all
+e59d081f6ff99a3b6be7,/m/09wy7d,topic_mid,/m/09wy7d,ngôn ngữ lai Pháp,Ngữ hệ,0.89,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+a73328910a98d143a7f8,/g/11jp_grrhp,topic_mid,/g/11jp_grrhp,Ngôn ngữ Ả Rập,Phần mềm,1.0,interest_only,success,skipped,low_interest,1,0.0036,1.0,VN,all
+e8e92bde2113c116100a,/m/03rv_,topic_mid,/m/03rv_,Thương mại quốc tế,Loại hình tổ chức,1.0,success,success,success,,271,23.7299,100.0,VN,all
+365ef72a81974061e7b6,/g/120qkkvb,topic_mid,/g/120qkkvb,Nhóm ngôn ngữ Galicia-Bồ Đào Nha,Chủ đề,0.823469,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+b1aafffc6af2a04d140c,/g/11y4fm24dd,topic_mid,/g/11y4fm24dd,Trường Ngôn ngữ Hàn Quốc Sejong,Chủ đề,0.902083,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+912d53c44608b4936eb4,Ngôn ngữ Italia,search_term,,,,0.603656,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+c649dce88570efabb247,/m/01q6w3,topic_mid,/m/01q6w3,Nhóm ngôn ngữ Môn-Khmer,Ngữ hệ,0.810541,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+f1366a91e4d3618c8046,/m/0nbsmw2,topic_mid,/m/0nbsmw2,Ngôn ngữ tại Thái Lan,Chủ đề,0.912632,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+885df92c8e52d55964a8,Ngôn ngữ và Văn hóa các dân tộc thiểu số Việt Nam,search_term,,,,0.255533,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+1616a01b67a38813bc6b,Quản trị kinh doanh & Luật,search_term,,,,0.613846,interest_only,success,skipped,low_interest,1,0.365,100.0,VN,all
+8bc5a79b5c543e730ee5,Tiếng Anh chuyên nghiệp quốc tế,search_term,,,,0.556667,interest_only,success,skipped,low_interest,10,0.0401,2.0,VN,all
+59375d4cb04a39e6cf79,/m/04x6_2,topic_mid,/m/04x6_2,Tiếng Anh Thương mại,Danh mục trường học,1.0,success,success,success,,244,16.562,100.0,VN,all
+63d300e12d5b25e107fa,/g/11rgbwh2pj,topic_mid,/g/11rgbwh2pj,Tiếng nhật thương mại cho ngườ,Phần mềm máy tính,0.953922,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+93019469a4139baaf480,/g/11yvpfdqcd,topic_mid,/g/11yvpfdqcd,Tiếng Anh thương mại,Phần mềm,0.777622,interest_only,success,skipped,low_interest,1,0.0036,1.0,VN,all
+dd91b438f2ff5276b0d1,Tiếng Trung Thương mại,search_term,,,,0.6,interest_only,success,skipped,enrichment_limit,180,1.9307,9.0,VN,all
+68e835213079e09ad938,Văn hóa và truyền thông xuyên quốc gia,search_term,,,,0.329099,interest_only,success,skipped,low_interest,1,0.0109,3.0,VN,all
+77da177dfc5563c74d40,/g/11bc58w4wm,topic_mid,/g/11bc58w4wm,CEVA Logistics,Công ty,0.902174,interest_only,success,skipped,low_interest,1,0.1241,34.0,VN,all
+0e0b1967c1a2cf694f96,/m/02r_ltr,topic_mid,/m/02r_ltr,Phần mềm quản lý chuỗi cung ứng,Chủ đề,0.688384,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+303ff6d739bf6c3a553b,/m/0cpbd4m,topic_mid,/m/0cpbd4m,Trường cao đẳng Kinh Tế Đối Ngoại,"Cao đẳng ở Thành phố Hồ Chí Minh, Việt Nam",0.870669,interest_only,success,skipped,enrichment_limit,248,9.5146,100.0,VN,all
+2474df1b3c6988ab0ab3,/m/05xysy,topic_mid,/m/05xysy,Tài chính quốc tế,Chủ đề,1.0,interest_only,success,skipped,enrichment_limit,165,0.9416,11.0,VN,all
+14e8ea94c8fc410b9d68,Hải quan và Logistics,search_term,,,,0.445147,interest_only,success,skipped,enrichment_limit,41,1.3759,22.0,VN,all
+3743c25a07b3839b5d58,Quản trị Hải quan - Ngoại thương,search_term,,,,0.553421,interest_only,success,skipped,low_interest,8,0.2226,13.0,VN,all
+ada3cf230cc36c6f103f,Quản trị và Kinh doanh Quốc tế,search_term,,,,0.444545,interest_only,success,skipped,enrichment_limit,127,12.0328,100.0,VN,all
+8f5a92e195936178591e,/m/02x9pwl,topic_mid,/m/02x9pwl,Hiệp hội Truyền thông Quốc tế,Học hội,0.95068,interest_only,success,skipped,low_interest,2,0.0584,11.0,VN,all
+70bcebf324dbec924e61,"Quản trị lữ hành, khách sạn",search_term,,,,0.14,interest_only,success,skipped,low_interest,2,0.1131,25.0,VN,all
+906ce60beba8681c5c7a,/m/014dsx,topic_mid,/m/014dsx,Du lịch,Chủ đề,1.0,success,success,success,,274,32.5657,100.0,VN,all
+0383747a437dbfe1a6b0,/g/11k6x0g_k8,topic_mid,/g/11k6x0g_k8,Riga hướng dẫn du lịch,Phần mềm,1.0,interest_only,success,skipped,low_interest,1,0.0036,1.0,VN,all
+7210a487c6a8eb6ef506,Quản trị du lịch và khách sạn,search_term,,,,0.16875,interest_only,success,skipped,low_interest,1,0.0036,1.0,VN,all
+c6c72064b1be851de158,/g/11j2fv6dgh,topic_mid,/g/11j2fv6dgh,Quản trị nhà hàng khách sạn,Chủ đề,1.0,interest_only,success,skipped,low_interest,1,0.0255,7.0,VN,all
+5f419b53c87583bc2523,/m/0gzgp8,topic_mid,/m/0gzgp8,Ngành Quản trị nhà hàng và dịch vụ ăn uống,Chủ đề,1.0,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+ff200e891dd74ff953f2,Quản trị sự kiện,search_term,,,,0.479714,interest_only,success,skipped,enrichment_limit,112,1.062,7.0,VN,all
+3b414e979478be7de16d,/m/022fj_,topic_mid,/m/022fj_,Đại học Quốc tế Florida,Trường đại học ở Florida,0.715455,interest_only,success,skipped,low_interest,114,0.4526,2.0,VN,all
+8cffce831fa11b6b9ef9,Tài nguyên và Du lịch sinh thái,search_term,,,,0.434338,interest_only,success,skipped,low_interest,20,0.0803,2.0,VN,all
+8caf2cdb86ca115291b8,/m/01x7__,topic_mid,/m/01x7__,Du lịch văn hoá,Chủ đề,0.76,interest_only,success,skipped,enrichment_limit,191,2.7847,100.0,VN,all
+489c29fa82362d8cc088,/m/01z40l,topic_mid,/m/01z40l,Cổ địa lý học,Lĩnh vực nghiên cứu,0.985714,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+91d5524f786d9065e349,công nghệ ô tô điện,search_term,,,,0.570923,interest_only,success,skipped,enrichment_limit,102,2.5766,20.0,VN,all
+7013e6e9a3cb906bb7aa,Cơ điện tử ô tô,search_term,,,,0.586037,interest_only,success,skipped,enrichment_limit,94,1.9088,13.0,VN,all
+b03e0c17b7b9b2c4d9bf,/g/11j317mxg4,topic_mid,/g/11j317mxg4,Quản lý tài sản công nghiệp,Chủ đề,0.855072,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+7f07e5003af0a6c37ded,/m/01zd04,topic_mid,/m/01zd04,Kỹ thuật ô tô,Chủ đề,1.0,success,success,success,,183,17.292,100.0,VN,all
+8400fc0897e7802d5274,/g/11c312bn_r,topic_mid,/g/11c312bn_r,C8 - 107 Bộ môn Công nghệ chế tạo máy,Chủ đề,0.898611,interest_only,success,skipped,low_interest,1,0.0292,8.0,VN,all
+6b3ac5e953fd57931cc2,/g/11c57y2jv8,topic_mid,/g/11c57y2jv8,Bộ môn Kỹ thuật Hệ thống Công nghiệp,Chủ đề,1.0,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+40c6d5b5aca9f6789a80,/m/06fhs,topic_mid,/m/06fhs,Năng lượng tái tạo,Chủ đề,1.0,interest_only,success,skipped,low_interest,26,0.1058,3.0,VN,all
+0264e1911fefdc572d00,Công nghệ sản xuất tự động,search_term,,,,0.583242,interest_only,success,skipped,low_interest,1,0.0073,2.0,VN,all
+07349d4deab44748079a,/m/02lts,topic_mid,/m/02lts,Điện,Chủ đề,1.0,success,success,success,,274,41.2409,100.0,VN,all
+425aeb6a47c86b49b557,Kỹ thuật robot và trí tuệ nhân tạo,search_term,,,,0.54304,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+ab58390dede59a3b020c,Công nghệ kỹ thuật năng lượng,search_term,,,,0.534564,interest_only,success,skipped,low_interest,21,0.0876,4.0,VN,all
+7138c730eb6b3c812ec3,/m/017cmr,topic_mid,/m/017cmr,Tự động hóa,Chủ đề,1.0,success,success,success,,267,20.5547,100.0,VN,all
+628d0a66b5b4cb324283,Điện tự động,search_term,,,,0.6,interest_only,success,skipped,enrichment_limit,235,6.2445,59.0,VN,all
+e28843f2bac56d0f2760,"Kỹ thuật cơ khí, cơ điện",search_term,,,,0.48657,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+7c099a7f9652bf93aa4b,/g/11j2fvfbpm,topic_mid,/g/11j2fvfbpm,Quản lý năng lượng nhà máy,Chủ đề,0.951515,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+afe88b6dd4eb7aa72a9c,/m/03xcw,topic_mid,/m/03xcw,Vi mạch,Chủ đề,0.661364,interest_only,success,skipped,enrichment_limit,274,31.8504,100.0,VN,all
+0369ddf79af2872f90a4,/g/11g81h9s2g,topic_mid,/g/11g81h9s2g,Khoa CNTT Trường Đại học Hàng hải Việt Nam,Chủ đề,0.702682,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+c51a67b49fcec249d8dd,Biến đổi khí hậu và Phát triển bền vững,search_term,,,,0.300348,interest_only,success,skipped,low_interest,1,0.0438,12.0,VN,all
+e5f7136fadb91aff6f00,/m/011yl4,topic_mid,/m/011yl4,Khí hậu học,Lĩnh vực nghiên cứu,0.712857,interest_only,success,skipped,low_interest,3,0.0146,2.0,VN,all
+fd5e82634ae344adafc8,"Kinh tế, kỹ thuật, quản lý Hàng Hải",search_term,,,,0.121154,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+3251e83ca8be8fd01d77,Điều khiển tàu biển,search_term,,,,0.490973,interest_only,success,skipped,low_interest,59,0.2847,4.0,VN,all
+0f800716124f1957bfa2,/m/0c0g3,topic_mid,/m/0c0g3,Hải dương học,Lĩnh vực nghiên cứu,1.0,success,success,success,,188,2.1423,18.0,VN,all
+359970d916bc1dd9bc99,Khai thác máy tàu biển,search_term,,,,0.220909,interest_only,success,skipped,low_interest,21,0.0766,1.0,VN,all
+d460fd476ed9402dadd1,/g/11j8qrq545,topic_mid,/g/11j8qrq545,Kỹ thuật công trình biển,Chủ đề,0.786216,interest_only,success,skipped,low_interest,1,0.0109,3.0,VN,all
+181907babe8d4901d554,Kỹ thuật Tài nguyên nước,search_term,,,,0.474234,interest_only,success,skipped,enrichment_limit,90,1.2737,100.0,VN,all
+e0d68293e71d8abbee41,/g/11xfds2z5f,topic_mid,/g/11xfds2z5f,Kỹ Thuật Tàu Thủy Tây Nam Bộ,Chủ đề,0.904286,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+591de95f5e91f28514c1,/m/03hfg,topic_mid,/m/03hfg,Thủy văn học,Lĩnh vực nghiên cứu,1.0,success,success,success,,129,2.2883,35.0,VN,all
+e81ed2d4b2ff76777faf,/m/0h30t_,topic_mid,/m/0h30t_,Công trình xây dựng,Khu phức hợp nhà ở,0.691163,interest_only,success,skipped,enrichment_limit,262,45.9015,100.0,VN,all
+f97676960a970ba99b1f,/g/121qytbq,topic_mid,/g/121qytbq,Kỹ thuật hàng không,Chủ đề,0.722917,interest_only,success,skipped,low_interest,24,0.0876,1.0,VN,all
+e4c680ac6b082b69a41a,/m/098n_,topic_mid,/m/098n_,Kỹ thuật hạt nhân,Lĩnh vực nghề nghiệp,1.0,interest_only,success,skipped,low_interest,6,0.0219,1.0,VN,all
+f9fa860a3b87992f832e,Quản lý hoạt động bay,search_term,,,,0.482917,interest_only,success,skipped,low_interest,58,0.2518,2.0,VN,all
+af78f2543314dd764829,/g/121ln4dt,topic_mid,/g/121ln4dt,Trường Phi công Quân sự Kacha,Chủ đề,0.903333,interest_only,success,skipped,low_interest,1,0.0036,1.0,VN,all
+fa72eac0a50b60013a2d,Khoa học thông tin địa không gian,search_term,,,,0.407143,interest_only,success,skipped,low_interest,19,0.0803,2.0,VN,all
+64d459ba4708cdc7b149,Quản trị kinh doanh hàng không,search_term,,,,0.536494,interest_only,success,skipped,enrichment_limit,119,1.635,100.0,VN,all
+38371b5798d93fdff167,Công nghệ kỹ thuật Vật liệu xây dựng,search_term,,,,0.445117,interest_only,success,skipped,low_interest,22,0.0912,2.0,VN,all
+497868ec234a887eeddc,Khoa học Vũ trụ và Công nghệ Vệ tinh,search_term,,,,0.285596,interest_only,success,skipped,low_interest,1,0.2336,64.0,VN,all
+b16341c0b5cccc47ba6a,/m/0_xclll,topic_mid,/m/0_xclll,Tạp chí Khoa học Y sinh,Tập san học thuật,0.938596,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+9a8d56b26d81cb7a530e,Vật liệu thông minh và trí tuệ nhân tạo,search_term,,,,0.121154,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+f89c8a0464ba55b84692,Vật liệu tiên tiến và công nghệ nano,search_term,,,,0.587714,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+6a76cb5f089ba0092b68,/m/05jkqm,topic_mid,/m/05jkqm,Công nghệ thực phẩm,Lĩnh vực nghiên cứu,1.0,success,success,success,,214,12.8467,100.0,VN,all
+13b0b80c3695030ce002,Đảm bảo chất lượng và an toàn thực phẩm,search_term,,,,0.554789,interest_only,success,skipped,enrichment_limit,63,7.0073,92.0,VN,all
+c7d5c7dddf15d6c25564,/g/11j317vqc_,topic_mid,/g/11j317vqc_,Kỹ thuật thực phẩm,Chủ đề,1.0,success,success,success,,27,2.4891,70.0,VN,all
+cccd474cb141dd301f99,Quản trị kinh doanh thực phẩm,search_term,,,,0.44058,interest_only,success,skipped,enrichment_limit,101,17.1861,100.0,VN,all
+2a47648b4e3284205ce5,Khoa học chế biến món ăn,search_term,,,,0.242157,interest_only,success,skipped,enrichment_limit,21,1.3905,39.0,VN,all
+c8d613af6e7cd06fe490,Công nghệ kỹ thuật in,search_term,,,,0.59,interest_only,success,skipped,enrichment_limit,85,8.2993,61.0,VN,all
+b2b55d423c72e5fc9576,/m/03q9y1p,topic_mid,/m/03q9y1p,In kỹ thuật số,Chủ đề,0.824,interest_only,success,skipped,low_interest,1,0.0073,2.0,VN,all
+3e7adc040e5c93ccc595,/m/014trl,topic_mid,/m/014trl,Mỹ phẩm,Dòng sản phẩm,0.661364,interest_only,success,skipped,enrichment_limit,273,6.938,12.0,VN,all
+871ba4f65b57dbd2a5e0,/g/121hrc3p,topic_mid,/g/121hrc3p,Tạp chí Công nghệ Hóa học Ba Lan,Chủ đề,0.862245,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+53e4952adcf75e13709e,/m/01540,topic_mid,/m/01540,Sinh học,Lĩnh vực nghiên cứu,1.0,success,success,success,,274,17.3066,100.0,VN,all
+340523df1018186c743d,/m/0jd29,topic_mid,/m/0jd29,Hóa học thiên thể,Lĩnh vực nghiên cứu,0.8125,interest_only,success,skipped,low_interest,1,0.0036,1.0,VN,all
+db6621587214c40ee87d,/m/01lfwv,topic_mid,/m/01lfwv,Kỹ thuật sinh học,Lĩnh vực nghiên cứu,1.0,interest_only,success,skipped,enrichment_limit,100,0.8832,13.0,VN,all
+15e81c837d6d3515d440,/m/01jj2,topic_mid,/m/01jj2,Kỹ thuật y sinh,Chủ đề,1.0,success,success,success,,185,4.8431,100.0,VN,all
+cda6075c8c2e261da26c,/g/11yvwf0lmw,topic_mid,/g/11yvwf0lmw,Viện Công nghệ Sinh học Ứng dụng,Chủ đề,0.876531,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+22d37a1db741b7546592,Luật dân sự và tố tụng dân sự,search_term,,,,0.538415,interest_only,success,skipped,enrichment_limit,173,2.2226,9.0,VN,all
+25ee1239eab5b22ba43a,Luật hiến pháp và luật hành chính,search_term,,,,0.439925,interest_only,success,skipped,enrichment_limit,108,2.6095,43.0,VN,all
+9e1b2f1caeaa28a32d43,/m/09nsvb,topic_mid,/m/09nsvb,Luật nhập cư,Lĩnh vực nghiên cứu,0.741667,interest_only,success,skipped,enrichment_limit,116,1.6569,17.0,VN,all
+6128220816d1a5cb24d4,/m/0k8zt,topic_mid,/m/0k8zt,Luật hàng hải,Lĩnh vực nghiên cứu,1.0,success,success,success,,172,1.8175,21.0,VN,all
+fc4f1778419bea367cd8,/m/0998x,topic_mid,/m/0998x,Tố tụng hình sự,Chủ đề,0.760145,interest_only,success,skipped,enrichment_limit,213,37.1642,100.0,VN,all
+d57dfaaa97d492cc44c3,/g/11j7ys1zqj,topic_mid,/g/11j7ys1zqj,Luật kinh doanh,Bằng cấp,1.0,success,success,success,,49,2.8942,26.0,VN,all
+b1d39f32641194791b1c,/m/01rjy1,topic_mid,/m/01rjy1,Luật pháp và kinh tế học,Chủ đề,0.75,interest_only,success,skipped,low_interest,8,0.0292,1.0,VN,all
+f96f7d6cf79ebb090193,/m/026vs_r,topic_mid,/m/026vs_r,Luật quốc tế,Chủ đề,1.0,success,success,success,,227,2.427,100.0,VN,all
+6a6c5aab58153e8fc705,/m/03k205,topic_mid,/m/03k205,Luật thương mại quốc tế,Chủ đề,1.0,interest_only,success,skipped,enrichment_limit,145,0.6058,5.0,VN,all
+24b3a4b647f3b6ad7794,/m/04f5f9r,topic_mid,/m/04f5f9r,Đại học Luật và Quản trị Châu Âu,"Đại học ở Warszawa, Ba Lan",0.65,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+76c4010685d3aaf28258,Tài chính ngân hàng & Luật,search_term,,,,0.162,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+87c4fc16f51bf42e88e6,Kỹ thuật trắc địa - bản đồ,search_term,,,,0.37803,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+0e5b68bc4986b868dcac,/m/03bm4k,topic_mid,/m/03bm4k,Kỹ thuật địa chất,Lĩnh vực nghiên cứu,1.0,interest_only,success,skipped,low_interest,8,0.0292,1.0,VN,all
+55393fe6cb81482124c9,/m/036hv,topic_mid,/m/036hv,Địa chất học,Lĩnh vực nghiên cứu,1.0,success,success,success,,251,19.5,100.0,VN,all
+af3fa49a23e5cf95affc,"Công nghệ, kỹ thuật dầu khí",search_term,,,,0.381519,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+55f59054a961d09b708a,Kỹ thuật mỏ,search_term,,,,0.55,interest_only,success,skipped,enrichment_limit,108,0.5584,6.0,VN,all
+aeaf54e151a78108f590,Kỹ thuật địa vật lý,search_term,,,,0.578276,interest_only,success,skipped,low_interest,29,0.146,12.0,VN,all
+788ffbc90c72ff8dda6c,Kỹ thuật tuyển khoáng,search_term,,,,0.321059,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+4aa1209bae20bc2f5612,/m/02h6n_q,topic_mid,/m/02h6n_q,Biên đạo múa,Nghề nghiệp,1.0,interest_only,success,skipped,low_interest,46,0.1788,3.0,VN,all
+a6b2b259722473f52e45,/g/11bwdlggpf,topic_mid,/g/11bwdlggpf,Tác phẩm âm nhạc,Chủ đề,0.691875,interest_only,success,skipped,enrichment_limit,58,11.1715,100.0,VN,all
+c2638f5122ce058a3ed1,/g/120z_ppx,topic_mid,/g/120z_ppx,chỉ huy âm nhạc,Chủ đề,1.0,interest_only,success,skipped,low_interest,52,0.2336,8.0,VN,all
+f9b67ee3541847fb6314,Biểu diễn nhạc cụ phương Tây,search_term,,,,0.463333,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+7307b38092b3c27be55c,/m/03_d0,topic_mid,/m/03_d0,Nhạc Jazz,Thể loại nhạc,1.0,success,success,success,,244,17.135,100.0,VN,all
+a143129b818dda523f77,/m/0p9xx,topic_mid,/m/0p9xx,Nghệ thuật thị giác,Chủ đề,1.0,success,success,success,,207,1.8467,18.0,VN,all
+0af96d78ff4a583cb6ba,/g/11vkk99tzk,topic_mid,/g/11vkk99tzk,Thiết kế thiệp mời sáng tạo,Phần mềm máy tính,0.831061,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+92f944e52343bee03081,"Công nghệ điện ảnh, truyền hình",search_term,,,,0.576061,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+49c3258ab60bcae491d0,Diễn viên Kịch - Điện ảnh,search_term,,,,0.549747,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+9eb2d0c6b8112970c86e,/g/11b6gl08k1,topic_mid,/g/11b6gl08k1,Giải Mai Vàng cho Đạo diễn điện ảnh – phim truyền hình,Giải thưởng,0.774675,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+3217bfa854bb9753fd88,/m/0522sk0,topic_mid,/m/0522sk0,Piano pedagogy,Lĩnh vực nghiên cứu,0.786842,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+f36863616a0220293bdf,/m/0y4f8,topic_mid,/m/0y4f8,Thanh nhạc,Thể loại nhạc,1.0,success,success,success,,248,4.6496,17.0,VN,all
+82ca633d6da4f3f87394,/m/06msq,topic_mid,/m/06msq,Điêu khắc,Hình thức nghệ thuật thị giác,1.0,success,success,success,,244,3.6496,11.0,VN,all
+e0c9e87179745f08d108,/m/05qdh,topic_mid,/m/05qdh,Hội họa,Thể loại truyền hình,1.0,success,success,success,,273,31.708,100.0,VN,all
+ac1b671a4a7a4cca8197,/m/09_y_n,topic_mid,/m/09_y_n,Liên đoàn Nhiếp ảnh Nghệ thuật Quốc tế,Tổ chức tự nguyện,0.865789,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+32be06803f8c98a0bfbd,/m/04rlf,topic_mid,/m/04rlf,Âm nhạc,Định dạng âm thanh,1.0,success,success,success,,274,24.1423,100.0,VN,all
+f0cfa6adbdb4ba04ac48,/g/11lf5lk_b1,topic_mid,/g/11lf5lk_b1,Meural Canvas II Digital Art Frame,Dòng sản phẩm,0.736667,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+1ac39e37ec99cc695e8a,/g/11nj1j9ks9,topic_mid,/g/11nj1j9ks9,Kyoto: Buổi biểu diễn nhạc cụ truyền thống Nhật Bản & Trải nghiệm,Chủ đề,0.843478,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+56c8c1e3ca2fbfbbe302,/m/018dgm,topic_mid,/m/018dgm,Nghệ thuật quang học,Trào lưu nghệ thuật,0.870588,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+a2c4e020fc31a3618049,Nghệ thuật tạo hình đương đại,search_term,,,,0.454394,interest_only,success,skipped,low_interest,2,0.0146,2.0,VN,all
+d555a56e876a78ecfa25,/g/1pzycl_k1,topic_mid,/g/1pzycl_k1,Công Ty TNHH Kĩ Thuật Công Nghệ Môi Trường Trường Vũ,Chủ đề,0.705556,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+c6d027070bd22135305a,/m/0h8zl,topic_mid,/m/0h8zl,Khoa học môi trường,Lĩnh vực nghiên cứu,1.0,success,success,success,,200,14.8285,100.0,VN,all
+6e027d0e7ad38b0bee20,/m/0dd8y,topic_mid,/m/0dd8y,Kỹ thuật môi trường,Lĩnh vực nghiên cứu,1.0,success,success,success,,181,11.8723,57.0,VN,all
+5f63f082221fb262ae4f,Kỹ thuật cấp thoát nước,search_term,,,,0.444706,interest_only,success,skipped,enrichment_limit,47,0.5766,23.0,VN,all
+a1113e6497f0efae8f88,/g/11c1rsd0dq,topic_mid,/g/11c1rsd0dq,Khoa Quản lý tài nguyên rừng và môi trường,Chủ đề,0.894745,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+e2cbbcb641d65634f0b3,/m/048z24,topic_mid,/m/048z24,Quản lý đất đai,Chủ đề,1.0,success,success,success,,197,27.7956,100.0,VN,all
+06241414dc74f81eef5f,/m/010f51km,topic_mid,/m/010f51km,quản lý tài nguyên,Chủ đề,1.0,interest_only,success,skipped,low_interest,4,0.1934,22.0,VN,all
+4caf21eabfd88344a859,/g/11n54b65sp,topic_mid,/g/11n54b65sp,DIC Mũ bảo hộ lưới Aero Mesh SYA-X an toàn lao động 390g,Chủ đề,0.692857,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+ff2ad4c387e1d02aecdc,Kỹ thuật khí thiên nhiên,search_term,,,,0.49102,interest_only,success,skipped,low_interest,13,0.1204,4.0,VN,all
+46ea27ad5f917d616244,Kỹ thuật môi trường đô thị,search_term,,,,0.425817,interest_only,success,skipped,low_interest,23,0.3686,8.0,VN,all
+988e248ac4f4f42617f3,/m/085mmx,topic_mid,/m/085mmx,Quản lý bờ biển,Chủ đề,0.9,interest_only,success,skipped,low_interest,9,0.1971,21.0,VN,all
+75598e0b00dc6fbc7164,/m/02sx_,topic_mid,/m/02sx_,Tâm lý học giáo dục,Lĩnh vực nghiên cứu,1.0,success,success,success,,168,14.9051,100.0,VN,all
+9adad3cf33946da89f08,/m/05tr1r,topic_mid,/m/05tr1r,Nhà huấn luyện thể thao,Nghề nghiệp,1.0,success,success,success,,46,1.8248,29.0,VN,all
+a2ca17e396c83193747b,Quản lý thể dục thể thao,search_term,,,,0.497143,interest_only,success,skipped,enrichment_limit,75,1.9818,15.0,VN,all
+4d6a3a9162cf475c384e,Công nghệ Dệt May,search_term,,,,0.504968,interest_only,success,skipped,enrichment_limit,151,0.8613,21.0,VN,all
+161fbab054a67171ff9b,/g/11f011sn9_,topic_mid,/g/11f011sn9_,Công nghệ Wondershare,Công ty,0.62451,interest_only,success,skipped,enrichment_limit,51,0.6934,5.0,VN,all
+8918067ef413c8333814,/g/11zxtwq06t,topic_mid,/g/11zxtwq06t,Khăn Quấn Ủ Tóc Lau Khô Siêu Tốc Công Nghệ Sợi Dệt Mây Nhung Siêu Thấm Hút,Chủ đề,0.671465,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+a07d474a5bdd936ffb01,/m/02qqd4n,topic_mid,/m/02qqd4n,Thiết kế thời trang,Loại hình tổ chức,1.0,success,success,success,,249,32.3285,100.0,VN,all
+143e2cdbf477e2e698ff,/g/11h03gyyg6,topic_mid,/g/11h03gyyg6,CÔNG TY CP NÔNG NGHIỆP CÔNG NGHỆ CAO TRUNG AN,Công ty,0.670707,interest_only,success,skipped,low_interest,2,0.0073,1.0,VN,all
+4ea26c176da8b40fe139,Công nghệ chế biến thủy sản,search_term,,,,0.128571,interest_only,success,skipped,low_interest,1,0.0036,1.0,VN,all
+5749a0b1b51b4cd8db26,/g/1pzpqxbrz,topic_mid,/g/1pzpqxbrz,Hợp Tác Xã Chăn Nuôi Thủy Sản Bến Gầm,Chủ đề,0.833434,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+58b8d700fe7e48a7b6ab,/m/0f38h,topic_mid,/m/0f38h,Lâm nghiệp,Lĩnh vực nghề nghiệp,1.0,success,success,success,,257,3.5438,16.0,VN,all
+c150a9c83077d9ea3093,Lâm học,search_term,,,,0.606522,interest_only,success,skipped,enrichment_limit,252,6.4343,28.0,VN,all
+c03bc6f6172bad5bdce5,/m/0hkf,topic_mid,/m/0hkf,Nông nghiệp,Lĩnh vực nghề nghiệp,1.0,success,success,success,,274,38.3066,100.0,VN,all
+a1e3f3894f945425822e,/m/019jkv,topic_mid,/m/019jkv,Nông học,Lĩnh vực nghiên cứu,1.0,interest_only,success,skipped,enrichment_limit,188,0.9635,6.0,VN,all
+bcd9a7d2149e8b2ab042,/m/0cyg8,topic_mid,/m/0cyg8,Thuốc bảo vệ thực vật,Chủ đề,0.985,interest_only,success,skipped,enrichment_limit,246,12.073,62.0,VN,all
+46fd41bf3087de4bb1b3,Khoa học cây trồng,search_term,,,,0.50899,interest_only,success,skipped,enrichment_limit,124,0.708,4.0,VN,all
+48cf9094f45b02523149,/m/0rqg,topic_mid,/m/0rqg,Nuôi trồng thủy sản,Chủ đề,1.0,success,success,success,,257,12.9088,100.0,VN,all
+5f558435ee0689432418,/m/0272pyx,topic_mid,/m/0272pyx,phát triển nông thôn,Chủ đề,1.0,interest_only,success,skipped,enrichment_limit,58,0.5,11.0,VN,all
+cc65c274235fde962832,/g/11zd2y4n8y,topic_mid,/g/11zd2y4n8y,CÔNG TY CP CHẾ BIẾN VÀ XUẤT NHẬP KHẨU LÂM SẢN NGHỆ AN,Chủ đề,0.692941,interest_only,success,skipped,low_interest,1,0.0146,4.0,VN,all
+ccfff1d9fb83799364d6,/g/11cn5sgqz9,topic_mid,/g/11cn5sgqz9,Viện Cơ Điện Nông Nghiệp & Công Nghệ Sau Thu Hoạch,Chủ đề,0.845714,interest_only,success,skipped,low_interest,3,0.0474,7.0,VN,all
+87ac5791243a679fcbd2,Bệnh học thủy sản,search_term,,,,0.291071,interest_only,success,skipped,enrichment_limit,63,2.5036,100.0,VN,all
+f2bc842d2dd3b04c7735,/m/0g5v1,topic_mid,/m/0g5v1,Khoa học đất,Lĩnh vực nghiên cứu,1.0,success,success,success,,125,3.3431,24.0,VN,all
+1fab636127c4bec6cb80,/m/0p3pxry,topic_mid,/m/0p3pxry,Cử nhân Khoa học Thủy sản,Bằng cấp,0.947619,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+096db6cc973b64c15e38,/g/11c3ynmlqc,topic_mid,/g/11c3ynmlqc,Trung tâm Khuyến nông Quốc gia,Chủ đề,0.75813,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+b2d0961eab771889c2a6,Kỹ nghệ gỗ và nội thất,search_term,,,,0.473776,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+3109157e54ffc866f6ad,/m/04rjg,topic_mid,/m/04rjg,Toán học,Lĩnh vực nghiên cứu,1.0,success,success,success,,274,35.6752,100.0,VN,all
+e9c3cae0f55a4e164c85,/m/0dd2w,topic_mid,/m/0dd2w,Toán kinh tế,Chủ đề,1.0,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+27c70e0bacdd12f7a191,/m/0pf2,topic_mid,/m/0pf2,Toán học ứng dụng,Lĩnh vực nghiên cứu,0.89,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+0227331b9e5a0058d684,/m/018t1,topic_mid,/m/018t1,Thống kê kinh doanh,Lĩnh vực nghiên cứu,1.0,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+e87d0fc2a201e87ab26c,/g/11c52s31hr,topic_mid,/g/11c52s31hr,Khoa Toán - Tin,"Khoa học thuật ở Hà Nội, Việt Nam",0.92619,interest_only,success,skipped,low_interest,16,0.0584,1.0,VN,all
+1b7a867e6500a8b8f7f9,/m/06mnr,topic_mid,/m/06mnr,Thống kê,Lĩnh vực nghiên cứu,1.0,success,success,success,,274,38.7409,100.0,VN,all
+cbab68b645b97445c1ac,/m/01l404,topic_mid,/m/01l404,Toán tài chính,Lĩnh vực nghiên cứu,1.0,interest_only,success,skipped,low_interest,6,0.0219,1.0,VN,all
+00c5c184b851ed1fb5bf,/g/11k320ywhl,topic_mid,/g/11k320ywhl,Quản lý Công việc ZohoProjects,Phần mềm,0.827143,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+1e350532b54a7f34467d,/m/03_499,topic_mid,/m/03_499,Quản trị nhân sự,Chủ đề,0.791591,interest_only,success,skipped,enrichment_limit,264,18.2299,53.0,VN,all
+4877686e5a7a2c9f851f,/g/11cs31pbkv,topic_mid,/g/11cs31pbkv,Khoa Quản trị văn phòng,Chủ đề,1.0,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+7d1b3d8800ddd0253317,Hệ thống hoạch định nguồn lực doanh nghiệp,search_term,,,,0.145161,interest_only,success,skipped,low_interest,1,0.0657,18.0,VN,all
+89beec665434a2b39eb9,/m/01ld_k,topic_mid,/m/01ld_k,Quan hệ lao động,Lĩnh vực nghiên cứu,1.0,interest_only,success,skipped,low_interest,89,0.3796,2.0,VN,all
+add0756feaba338da553,/m/01tw7q,topic_mid,/m/01tw7q,Quỹ Di sản,Think tank,0.920833,interest_only,success,skipped,low_interest,1,0.365,100.0,VN,all
+881db320bdad0fcd18c0,/m/0862m,topic_mid,/m/0862m,Tháp Văn hóa và Khoa học,"Tòa nhà chọc trời ở Warszawa, Ba Lan",0.732857,interest_only,success,skipped,low_interest,1,0.0036,1.0,VN,all
+276143095afb07ab1b93,/g/121cs2r7,topic_mid,/g/121cs2r7,Nhà quản lý văn hóa,Nghề nghiệp,1.0,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+93021902121456a3bd1d,/m/062z7,topic_mid,/m/062z7,Khoa học chính trị,Thể loại văn học,0.76129,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+f0372529a4a8fbe24130,/m/04g51,topic_mid,/m/04g51,Văn học,Giải thưởng,1.0,success,success,success,,273,18.3467,100.0,VN,all
+42e4ce2640f0d94a57a4,/m/07vqdz,topic_mid,/m/07vqdz,Văn học Việt Nam,Chủ đề,0.757143,interest_only,success,skipped,low_interest,40,0.1533,2.0,VN,all
+6aa118c5e3eea7cfce4a,/m/06ms6,topic_mid,/m/06ms6,Xã hội học,Thể loại văn học,1.0,interest_only,success,skipped,enrichment_limit,165,0.7737,7.0,VN,all
+e13bafbeb27cca82ffb9,/m/03nm8fy,topic_mid,/m/03nm8fy,Đông phương học,Lĩnh vực nghiên cứu,1.0,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+6745fcf7d0901948d174,/g/11rc90mrqw,topic_mid,/g/11rc90mrqw,Trung Tâm Công Tác Xã Hội Thanh Thiếu Niên (YSW),"Trung tâm cộng đồng ở Thành phố Hồ Chí Minh, Việt Nam",0.959231,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+cdc82d145f337652d2ed,/m/0g20v8,topic_mid,/m/0g20v8,Đông Nam Á học,Lĩnh vực nghiên cứu,1.0,interest_only,success,skipped,low_interest,1,0.0036,1.0,VN,all
+75359aa0614f644795c6,/m/03g3w,topic_mid,/m/03g3w,Lịch sử,Lĩnh vực nghiên cứu,1.0,success,success,success,,274,42.4161,100.0,VN,all
+0b7cc8416ec96fb4b731,/m/04g7x,topic_mid,/m/04g7x,Ngôn ngữ học,Lĩnh vực nghiên cứu,1.0,success,success,success,,239,8.7664,100.0,VN,all
+22188513e3eee5661787,/m/0b13q4,topic_mid,/m/0b13q4,Trung Quốc học,Sách,1.0,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+7e629b9d48372b8ece46,/m/03s785,topic_mid,/m/03s785,Đại học Ngoại ngữ Hàn Quốc,"Đại học ở Seoul, Hàn Quốc",0.644595,interest_only,success,skipped,enrichment_limit,55,0.9307,58.0,VN,all
+5f81d781090dea5bd252,/m/030d45,topic_mid,/m/030d45,Nhật Bản học,Lĩnh vực nghiên cứu,1.0,interest_only,success,skipped,enrichment_limit,149,0.7737,13.0,VN,all
+4b094ad166d3baee96b6,"Quản lý công, nhà nước",search_term,,,,0.553143,interest_only,success,skipped,low_interest,10,0.0474,4.0,VN,all
+4b77e8644f92f0bd09f5,/g/11cs18mztv,topic_mid,/g/11cs18mztv,Trung Tâm Thông Tin - Thư viện Lương Định Của,"Thư viện ở Hà Nội, Việt Nam",0.808889,interest_only,success,skipped,low_interest,1,0.0219,6.0,VN,all
+971d6c716a8a756471d3,/m/037mh8,topic_mid,/m/037mh8,Triết học,Lĩnh vực nghiên cứu,1.0,success,success,success,,268,22.2956,100.0,VN,all
+b5c5ebe8b6bbdd2249a9,/m/0cgx9,topic_mid,/m/0cgx9,Kinh tế chính trị,Lĩnh vực nghiên cứu,1.0,success,success,success,,252,5.4562,32.0,VN,all
+f58819e33f78b169b664,/m/07552c,topic_mid,/m/07552c,Lưu trữ quang học,Chủ đề,0.853571,interest_only,success,skipped,low_interest,3,0.0146,2.0,VN,all
+2b7d84ebfddf8ad1271c,/g/11v0yl9ch2,topic_mid,/g/11v0yl9ch2,Khám phá cà phê & văn hóa Việt Nam,Chủ đề,0.643465,interest_only,success,skipped,low_interest,1,0.0474,13.0,VN,all
+0ff414478c2e699357ab,/g/11yfbx38p1,topic_mid,/g/11yfbx38p1,Kim Hán Nôm,Phần mềm,0.933333,interest_only,success,skipped,low_interest,2,0.0073,1.0,VN,all
+b5831aeb99f31a048f2e,/m/0zy7,topic_mid,/m/0zy7,nhân học,Chủ đề,1.0,interest_only,success,skipped,low_interest,9,0.0328,1.0,VN,all
+917306e41a01ef1efcc5,/m/03gfrv,topic_mid,/m/03gfrv,Bảo tàng học,Lĩnh vực nghiên cứu,1.0,interest_only,success,skipped,low_interest,19,0.0766,2.0,VN,all
+74d260bd36809edc2721,/m/017ty2,topic_mid,/m/017ty2,Nhân học tôn giáo,Lĩnh vực nghiên cứu,0.748276,interest_only,success,skipped,low_interest,3,0.0109,1.0,VN,all
+f5d7798d9cea3fb1b765,/m/01lr_q,topic_mid,/m/01lr_q,Nghiên cứu và phát triển,Lĩnh vực nghiên cứu,0.705357,interest_only,success,skipped,enrichment_limit,229,19.0693,100.0,VN,all
+2972d4b388e8e5a26c0b,/m/046d3s,topic_mid,/m/046d3s,Nghiên cứu phát triển,Lĩnh vực nghiên cứu,1.0,interest_only,success,skipped,low_interest,43,0.2409,5.0,VN,all
+bc6d92081b4c2ec06050,Hoa Kỳ học,search_term,,,,0.608824,interest_only,success,skipped,enrichment_limit,198,3.6679,18.0,VN,all
+4bff768131f14bd4ad93,Quản lý phân tích dữ liệu khoa học trái đất,search_term,,,,0.190128,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+81e46dbbe386a1819be3,Khoa học tự nhiên tích hợp,search_term,,,,0.430081,interest_only,success,skipped,low_interest,57,0.3723,14.0,VN,all
+4c3b71195da2a71b13ab,Công nghệ Vật lý điện tử và tin học,search_term,,,,0.356449,interest_only,success,skipped,low_interest,5,0.3832,100.0,VN,all
+d0bdbc025dbc4715da2a,"Công nghệ điện tử, vi mạch và bán dẫn",search_term,,,,0.372222,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+769c7a4f3c3508bc9813,Điểm học bạ,search_term,,,,0.1,interest_only,success,skipped,enrichment_limit,119,7.8759,100.0,VN,all
+51918e3ec78ace251074,Điểm xét tuyển kết hợp,search_term,,,,0.14588,interest_only,success,skipped,low_interest,24,0.1314,3.0,VN,all
+e97eba85b78564a87657,/g/11w84y_mxx,topic_mid,/g/11w84y_mxx,Trải nghiệm lặn DSD (Khám phá đại dương + Đào tạo lặn + Chứng chỉ quốc tế),Chủ đề,0.69148,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+ecbbefbfc5451da6f792,Điểm Đánh giá đầu vào V-SAT,search_term,,,,0.278571,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+c394dbe4bb6c123fa803,Điểm thi riêng,search_term,,,,0.512816,interest_only,success,skipped,enrichment_limit,96,3.9307,100.0,VN,all
+a44dc25294a908c2dc72,/g/11zz30pvx8,topic_mid,/g/11zz30pvx8,Combo Sổ Tay Kiến Thức Toán + Ngữ Văn + Tiếng Anh Trung Học Cơ Sở,Chủ đề,0.765477,interest_only,success,skipped,low_interest,1,0.0109,3.0,VN,all
+9500ccfaab659f9c2cc0,/g/11zz4w0cs8,topic_mid,/g/11zz4w0cs8,Sách Tham Khảo Toán - Vật Lí - Hóa Học 11 (Dùng Chung Cho Các Bộ SGK Hiện Hành) (Lẻ combo tùy chọn) - HA,Chủ đề,0.646782,interest_only,success,skipped,low_interest,1,0.0219,6.0,VN,all
+284201a98f60a5b07051,Toán - Vật lí - Tiếng anh,search_term,,,,0.514545,interest_only,success,skipped,low_interest,26,0.3577,5.0,VN,all
+36f27752190d32b72bbf,Toán - Hóa học - Tiếng anh,search_term,,,,0.573684,interest_only,success,skipped,enrichment_limit,125,3.4745,42.0,VN,all
+8d5b444034acd00cc98f,Toán - Hóa học - Sinh học,search_term,,,,0.571974,interest_only,success,skipped,enrichment_limit,187,24.4745,100.0,VN,all
+822c86ce60aef4b85f3e,/g/11zxz20jxy,topic_mid,/g/11zxz20jxy,Sách - Đột phá tư duy lớp 12 -Toán Vật lí Hoá học Sinh học Ngữ văn Lịch sử Địa lí,Chủ đề,0.711512,interest_only,success,skipped,low_interest,1,0.0401,11.0,VN,all
+32222e9bd32b87a274de,Toán - Ngữ văn - Vật lí,search_term,,,,0.535457,interest_only,success,skipped,low_interest,9,0.146,7.0,VN,all
+a2a9112a93e7e9117b15,Ngữ văn - Lịch sử - Tiếng anh,search_term,,,,0.574668,interest_only,success,skipped,enrichment_limit,62,1.8723,93.0,VN,all
+b9cc19b657abf08058f4,Ngữ văn - Địa lí - Tiếng anh,search_term,,,,0.101887,interest_only,success,skipped,low_interest,1,0.0073,2.0,VN,all
+4a8bb65e2e64227fdb11,/m/05qjt,topic_mid,/m/05qjt,Vật lí học,Lĩnh vực nghiên cứu,0.920833,interest_only,success,skipped,enrichment_limit,274,32.6606,100.0,VN,all
+7661ccc4918674bedeb7,Ngữ văn - Toán - Tiếng pháp,search_term,,,,0.327005,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+dbd0ec48095a538be13a,Toán - Địa lí - Tiếng anh,search_term,,,,0.126,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+96aff463706f5d1fe5ed,Toán - Sinh học - Tiếng anh,search_term,,,,0.558446,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+a915de5d1d00c870b418,Ngữ văn - Toán - Tiếng nhật,search_term,,,,0.327005,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+f7a2ba8e4126390479a0,Toán - Lịch sử - Tiếng anh,search_term,,,,0.471056,interest_only,success,skipped,enrichment_limit,101,1.0255,6.0,VN,all
+c7a4c6bf75cdf9342475,Ngữ văn - Toán - Tiếng nga,search_term,,,,0.336463,interest_only,success,skipped,low_interest,2,0.0109,2.0,VN,all
+4411b0b2173140a439aa,Ngữ văn - Toán - Tiếng đức,search_term,,,,0.3425,interest_only,success,skipped,low_interest,2,0.3723,100.0,VN,all
+140fa5c1b2253500bd75,Toán - Ngữ văn - Hóa học,search_term,,,,0.128571,interest_only,success,skipped,enrichment_limit,77,0.5146,6.0,VN,all
+22374c46a7b9563c9588,Toán - Hóa học - Tiếng pháp,search_term,,,,0.253333,interest_only,success,skipped,low_interest,18,0.073,2.0,VN,all
+1729b30e89a2edac2eae,Toán - Hóa học - Tiếng nhật,search_term,,,,0.25875,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+d2eb0e92c711857d043c,Ngữ văn - Hóa học - Tiếng đức,search_term,,,,0.341111,interest_only,success,skipped,low_interest,1,0.365,100.0,VN,all
+46556bea5b2617696b15,Toán - Vật lí - Tiếng trung,search_term,,,,0.257993,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+c9e004e1d0c523c3d0e8,Toán - Hóa học - Tiếng đức,search_term,,,,0.143182,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+de28efc0132289f642c9,Ngữ văn - Hóa học - Tiếng nga,search_term,,,,0.380208,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+319d3e7213f11b250728,Toán - Hóa học - Tiếng nga,search_term,,,,0.295996,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+3d56098d583b2fdbda20,Toán - Hóa học - Tiếng trung,search_term,,,,0.562931,interest_only,success,skipped,low_interest,29,0.1058,1.0,VN,all
+f38799aa2969540f581d,Toán - Lịch sử - Địa lí,search_term,,,,0.592914,interest_only,success,skipped,enrichment_limit,78,0.6788,61.0,VN,all
+554c8a530c34fa1260e7,Ngữ văn - Toán - Lịch sử,search_term,,,,0.518155,interest_only,success,skipped,low_interest,76,0.3723,8.0,VN,all
+a1e89eafd24a228d6827,Toán - Ngữ văn - Sinh học,search_term,,,,0.399302,interest_only,success,skipped,enrichment_limit,134,1.1277,100.0,VN,all
+dacd47bfe3d55d3e371f,Ngữ văn - Hóa học - Sinh học,search_term,,,,0.404835,interest_only,success,skipped,low_interest,49,0.1934,3.0,VN,all
+8c3ca9c96b57c40f0d2e,Toán - Vật lí - Địa lí,search_term,,,,0.528462,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+c607f39837aa9b72e1d3,Ngữ văn - Lịch sử - Năng khiếu,search_term,,,,0.080357,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+beef4cd43c73ce033b66,Ngữ văn - Vật lí - Tiếng anh,search_term,,,,0.1,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+d5b23c4e69f11eb6547e,Toán - Tiếng anh - Tin học,search_term,,,,0.50446,interest_only,success,skipped,low_interest,30,0.4708,100.0,VN,all
+1164837335ca010b0dda,Ngữ văn - Sinh học - Tiếng anh,search_term,,,,0.548714,interest_only,success,skipped,low_interest,78,0.292,3.0,VN,all
+b0171a2412636be001e9,Toán - Hóa học - Lịch sử,search_term,,,,0.555,interest_only,success,skipped,enrichment_limit,33,0.5036,100.0,VN,all
+8f40ab28015ebb83ce2a,Toán - Năng khiếu 1 - Năng khiếu 2,search_term,,,,0.440893,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+a02d70ba3fc072bf9a0b,Ngữ văn - Hóa học - Tiếng anh,search_term,,,,0.574668,interest_only,success,skipped,low_interest,14,0.0511,1.0,VN,all
+4e696b2a2776a10838f7,Ngữ văn - Địa lí - Tiếng trung,search_term,,,,0.222273,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+cee9f93ed84c88be2f07,Văn - Năng khiếu 1 - Năng khiếu 2,search_term,,,,0.446079,interest_only,success,skipped,low_interest,1,0.0584,16.0,VN,all
+fc138ceaeca711975380,Ngữ văn - Xướng âm - Biểu diễn nghệ thuật,search_term,,,,0.08,interest_only,success,skipped,enrichment_limit,4,0.8431,100.0,VN,all
+b4e7e429324d8f2242a0,Toán - Vật lí - Lịch sử,search_term,,,,0.551673,interest_only,success,skipped,enrichment_limit,22,2.8504,60.0,VN,all
+da5575f6aa24ba290fce,Ngữ văn - Lịch sử - Tiếng nhật,search_term,,,,0.44381,interest_only,success,skipped,low_interest,2,0.1679,36.0,VN,all
+92222549116e0857f803,Toán - Sinh học - Năng khiếu,search_term,,,,0.402147,interest_only,success,skipped,enrichment_limit,44,7.292,95.0,VN,all
+ca2e1142116bae31da4e,Vẽ mỹ thuật - Toán - Hóa,search_term,,,,0.136364,interest_only,success,skipped,low_interest,1,0.0036,1.0,VN,all
+39ddf878266c35e3b112,Ngữ văn - Lịch sử - Tiếng pháp,search_term,,,,0.526623,interest_only,success,skipped,low_interest,17,0.062,1.0,VN,all
+7658beb056e8ec0ab3f1,Toán - Địa lí - Tiếng trung,search_term,,,,0.261259,interest_only,success,skipped,low_interest,1,0.0036,1.0,VN,all
+cf48f26829858f155ca5,Toán - Sinh học - Tiếng nga,search_term,,,,0.436015,interest_only,success,skipped,low_interest,1,0.0036,1.0,VN,all
+724b551f89129da0a864,Toán - Sinh học - Tiếng nhật,search_term,,,,0.325769,interest_only,success,skipped,low_interest,33,0.4818,100.0,VN,all
+1d8f9a0660be24cfc9e1,Toán - Sinh học - Tiếng pháp,search_term,,,,0.401261,interest_only,success,skipped,enrichment_limit,54,12.0766,100.0,VN,all
+c15315dd2e697f88364b,Ngữ văn - Địa lí - Tiếng nga,search_term,,,,0.154286,interest_only,success,skipped,low_interest,1,0.1277,35.0,VN,all
+891967c0c21d07769b27,Toán - Hình họa - Trang trí,search_term,,,,0.18,interest_only,success,skipped,low_interest,3,0.4526,72.0,VN,all
+ec747ac604fe6099bcb7,Toán - Sinh học - Tiếng đức,search_term,,,,0.313919,interest_only,success,skipped,enrichment_limit,5,0.938,80.0,VN,all
+02dae133cdfaff46c0ca,/g/11zy173cgw,topic_mid,/g/11zy173cgw,SAIZHUO | Sách Bài Tập Học Sinh Toán Tiếng Trung Pinyin 36k,Chủ đề,0.671397,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+b2da3257a9634113cd96,Ngữ văn - Vật lí - Tiếng trung,search_term,,,,0.219643,interest_only,success,skipped,low_interest,1,0.0036,1.0,VN,all
+f3a4d78721a9b925cb9f,Ngữ văn - Lịch sử - Tiếng trung,search_term,,,,0.54386,interest_only,success,skipped,low_interest,20,0.1095,11.0,VN,all
+266b942b8765eb4f31f0,Toán - Lịch sử - Sinh học,search_term,,,,0.427912,interest_only,success,skipped,enrichment_limit,104,0.6752,4.0,VN,all
+5f071fcee048e97ccc90,Ngữ văn - Vật lí - Sinh học,search_term,,,,0.598485,interest_only,success,skipped,low_interest,12,0.0438,1.0,VN,all
+b98e483d85834d5cdf9b,Ngữ văn - Lịch sử - Vật lí,search_term,,,,0.60034,interest_only,success,skipped,low_interest,13,0.4088,100.0,VN,all
+a3d80c286cbf79b2d306,Ngữ văn - Địa lí - Vật lí,search_term,,,,0.527431,interest_only,success,skipped,low_interest,24,0.1423,2.0,VN,all
+cada5469d5004261e33e,Ngữ văn - Lịch sử - Hóa học,search_term,,,,0.427193,interest_only,success,skipped,enrichment_limit,60,0.7153,8.0,VN,all
+0766577308968933842b,Ngữ văn - Lịch sử - Sinh học,search_term,,,,0.578667,interest_only,success,skipped,enrichment_limit,79,1.2263,100.0,VN,all
+e92f7f2a7c7805ed9627,Ngữ văn - Lịch sử - Tiếng đức,search_term,,,,0.39881,interest_only,success,skipped,low_interest,1,0.0036,1.0,VN,all
+7daec919666569167f69,Ngữ văn - Lịch sử - Tiếng nga,search_term,,,,0.431212,interest_only,success,skipped,low_interest,1,0.0146,4.0,VN,all
+00962d2c77567f41d53d,Toán - Hóa học - Công nghệ công nghiệp,search_term,,,,0.5225,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+031a3688e0d75457ae72,Toán - Tiếng anh - Công nghệ công nghiệp,search_term,,,,0.420218,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+5b8f260e2adf116ab996,Toán - Hóa học - Công nghệ nông nghiệp,search_term,,,,0.271955,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+01ef7d96273439a23765,Toán - Sinh học - Công nghệ công nghiệp,search_term,,,,0.539225,interest_only,success,skipped,low_interest,1,0.365,100.0,VN,all
+1bd4dee31fb717418793,/m/01c62,topic_mid,/m/01c62,Tin sinh học,Lĩnh vực nghiên cứu,0.7125,interest_only,success,skipped,low_interest,31,0.2226,26.0,VN,all
+a9778d018d26982e43c4,Toán - Sinh học - Công nghệ nông nghiệp,search_term,,,,0.284848,interest_only,success,skipped,low_interest,5,0.0328,3.0,VN,all
+faaaa1a5df114d6c5b3e,Toán - Lịch sử - Tiếng pháp,search_term,,,,0.474066,interest_only,success,skipped,low_interest,6,0.0474,3.0,VN,all
+649b6fd0186541c570dd,Toán - Hoá - Tin,search_term,,,,0.416667,interest_only,success,skipped,enrichment_limit,75,1.9161,65.0,VN,all
+bbd24a943d24ff5b171d,Toán - Tiếng nhật - Tin học,search_term,,,,0.35,interest_only,success,skipped,enrichment_limit,6,1.146,100.0,VN,all
+4384cb4b403936220c55,Ngữ văn - Hóa học - Tiếng trung,search_term,,,,0.406667,interest_only,success,skipped,low_interest,30,0.3321,5.0,VN,all
+4870459a52f34d2d18a8,Ngữ văn - Tiếng anh - Tin học,search_term,,,,0.574668,interest_only,success,skipped,enrichment_limit,66,0.9197,80.0,VN,all
+85be67dacb2b322c2415,Toán - Ngữ văn - Công nghệ nông nghiệp,search_term,,,,0.203774,interest_only,success,skipped,low_interest,2,0.0109,2.0,VN,all
+f35416de702132901e39,Ngữ văn - Lịch sử - Tin học,search_term,,,,0.391344,interest_only,success,skipped,enrichment_limit,40,0.8285,100.0,VN,all
+93076d2aebea83b8e112,Toán - Khoa học xã hội - Tiếng anh,search_term,,,,0.256364,interest_only,success,skipped,low_interest,5,0.0365,3.0,VN,all
+72c09670580d3f770796,Tư duy định lượng - Tư duy định tính - Khoa học,search_term,,,,0.126,interest_only,success,skipped,enrichment_limit,31,0.8686,92.0,VN,all
+169d0e36d4a8cb7c9300,Tư duy định lượng - Tư duy định tính - Tiếng anh,search_term,,,,0.167647,interest_only,success,skipped,low_interest,1,0.0073,2.0,VN,all
+95ec0865ce3e569968e9,Ngữ văn - Toán - Tiếng hàn,search_term,,,,0.336463,interest_only,success,skipped,low_interest,3,0.0693,7.0,VN,all
+e84d39d08800b8504101,Toán - Hóa học - Tiếng hàn,search_term,,,,0.226926,interest_only,success,skipped,low_interest,1,0.0036,1.0,VN,all
+95b820a0654a7ca487f3,Toán - Lịch sử - Tiếng hàn,search_term,,,,0.387561,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+b245540538232c0527c5,Toán - Lịch sử - Tiếng đức,search_term,,,,0.353252,interest_only,success,skipped,low_interest,6,0.4854,100.0,VN,all
+ffa4668017c1422fc639,Toán - Lịch sử - Tiếng nga,search_term,,,,0.16875,interest_only,success,skipped,low_interest,1,0.365,100.0,VN,all
+8cab9c06db0130772a27,Toán - Lịch sử - Tiếng nhật,search_term,,,,0.497143,interest_only,success,skipped,low_interest,3,0.0803,11.0,VN,all
+c5716153d233e212640e,Toán - Lịch sử - Tiếng trung,search_term,,,,0.495,interest_only,success,skipped,enrichment_limit,19,0.6642,16.0,VN,all
+c9e4d0b6661cbd55df5e,Ngữ văn - Năng khiếu 1 - Năng khiếu 2,search_term,,,,0.396078,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+07f897e340cc8456092f,/g/11k6x2zl83,topic_mid,/g/11k6x2zl83,Học Tiếng Nhật,Phần mềm,0.69,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+112041f2938b83558197,Ngữ văn - Hóa học - Tiếng pháp,search_term,,,,0.526623,interest_only,success,skipped,low_interest,1,0.365,100.0,VN,all
+cbeb03d8341e4f82953e,Toán - Tin học - Tiếng trung,search_term,,,,0.356364,interest_only,success,skipped,low_interest,2,0.146,36.0,VN,all
+4854832431768297696b,Toán - Công nghệ công nghiệp - Tiếng trung,search_term,,,,0.176786,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+d80b192a7d3efb9638b2,Ngữ văn - Sinh học - Tiếng đức,search_term,,,,0.49,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+3c1391dcc430dc7509f5,Ngữ văn - Sinh học - Tiếng nga,search_term,,,,0.542568,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+22173fdc8cb8ce713b47,Ngữ văn - Sinh học - Tiếng pháp,search_term,,,,0.423333,interest_only,success,skipped,enrichment_limit,39,7.6022,97.0,VN,all
+9c32d21beee0d39f557c,Ngữ văn - Sinh học - Tiếng trung,search_term,,,,0.514706,interest_only,success,skipped,enrichment_limit,51,10.6387,100.0,VN,all
+bba83806861916ada322,/g/11z7hzt_9k,topic_mid,/g/11z7hzt_9k,Trải Nghiệm Văn Hóa Homestay & Học Tiếng Hàn Tại Seoul,Chủ đề,0.663095,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+02dd40843210069dc9c6,Ngữ văn - Sinh học - Tiếng hàn,search_term,,,,0.553846,interest_only,success,skipped,enrichment_limit,7,0.9672,45.0,VN,all
+bb333daf3f0277cb9ffe,Toán - Tin học - Tiếng nga,search_term,,,,0.375934,interest_only,success,skipped,low_interest,1,0.1095,30.0,VN,all
+3bd11bf374233e75f383,Toán - Công nghệ công nghiệp - Tiếng nga,search_term,,,,0.088235,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+be4746f660ea8b350e6e,Toán - Tin học - Tiếng đức,search_term,,,,0.29625,interest_only,success,skipped,low_interest,2,0.4635,100.0,VN,all
+7527f2eca4ff8f0590a1,Toán - Tin học - Tiếng pháp,search_term,,,,0.382444,interest_only,success,skipped,enrichment_limit,16,3.5547,86.0,VN,all
+f672d61ca87c7dacfedc,Ngữ văn - Địa - Năng khiếu,search_term,,,,0.1125,interest_only,success,skipped,low_interest,1,0.0292,8.0,VN,all
+2f7d0492d8149cfb886e,Ngữ văn - Ngoại ngữ - Năng khiếu,search_term,,,,0.206557,interest_only,success,skipped,low_interest,1,0.0328,9.0,VN,all
+977b8aca17d7b6fe1e68,Toán - Công nghệ công nghiệp - Tiếng pháp,search_term,,,,0.279741,interest_only,success,skipped,low_interest,2,0.3832,100.0,VN,all
+966cda8454f365437f1f,Toán - Tin học - Tiếng hàn,search_term,,,,0.248659,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+b21c9d77a883794e99c4,Ngữ văn - Tin học - Tiếng nga,search_term,,,,0.504348,interest_only,success,skipped,low_interest,1,0.0657,18.0,VN,all
+49a4ef71efff3f9e6812,Ngữ văn - Công nghệ công nghiệp - Tiếng nga,search_term,,,,0.165,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+b9118f4f21b171710945,Ngữ văn - Tin học - Tiếng pháp,search_term,,,,0.526623,interest_only,success,skipped,low_interest,4,0.1204,30.0,VN,all
+15aaaab38f4faeb6eb93,Ngữ văn - Công nghệ công nghiệp - Tiếng pháp,search_term,,,,0.118868,interest_only,success,skipped,low_interest,2,0.0182,4.0,VN,all
+8efb2d2f2730a943034c,Ngữ văn - Công nghệ công nghiệp - Tiếng trung,search_term,,,,0.296892,interest_only,success,skipped,low_interest,3,0.3759,100.0,VN,all
+3a96c84b0c41adb490fe,Toán - Tin học - Công nghệ công nghiệp,search_term,,,,0.543571,interest_only,success,skipped,enrichment_limit,59,0.6679,58.0,VN,all
+7d7249e09bcc7fd4d035,Ngữ văn - Tin học - Tiếng đức,search_term,,,,0.495455,interest_only,success,skipped,low_interest,4,0.0182,2.0,VN,all
+2efb2e4907b2662be3fe,Toán - Tin học - Công nghệ nông nghiệp,search_term,,,,0.288937,interest_only,success,skipped,low_interest,5,0.0255,2.0,VN,all
+277a32f35c541ed34e00,Toán - Lịch sử - Công nghệ công nghiệp,search_term,,,,0.398485,interest_only,success,skipped,low_interest,10,0.3686,70.0,VN,all
+c4ba568f2993dc4b30e2,Ngữ văn - Công nghệ công nghiệp - Tiếng đức,search_term,,,,0.210852,interest_only,success,skipped,low_interest,2,0.0292,7.0,VN,all
+5160af1414fbb01db02b,Toán - Lịch sử - Công nghệ nông nghiệp,search_term,,,,0.470635,interest_only,success,skipped,low_interest,5,0.3467,85.0,VN,all
+a448299f15d7a811508a,/m/04ks61,topic_mid,/m/04ks61,Bộ lưu trữ lịch sử toán học MacTutor,Trang web,0.626032,interest_only,success,skipped,low_interest,1,0.0109,3.0,VN,all
+7db9bdf9345800a57b6f,Ngữ văn - Tin học - Tiếng nhật,search_term,,,,0.5125,interest_only,success,skipped,low_interest,2,0.3686,100.0,VN,all
+e49dc962f0083f3522c5,Ngữ văn - Công nghệ công nghiệp - Tiếng nhật,search_term,,,,0.1625,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+538a076fae06c447d75b,Ngữ văn - Hóa học - Công nghệ công nghiệp,search_term,,,,0.39871,interest_only,success,skipped,enrichment_limit,11,0.6533,99.0,VN,all
+1935979409d9f6a6595d,Ngữ văn - Tin học - Tiếng hàn,search_term,,,,0.539286,interest_only,success,skipped,low_interest,4,0.1606,21.0,VN,all
+bc784e93525cf5c6a118,Ngữ văn - Hóa học - Công nghệ nông nghiệp,search_term,,,,0.374505,interest_only,success,skipped,low_interest,1,0.0109,3.0,VN,all
+d50a88b165d7ec12014e,Ngữ văn - Công nghệ công nghiệp - Tiếng hàn,search_term,,,,0.165,interest_only,success,skipped,low_interest,2,0.3869,100.0,VN,all
+89b194194b5033dbf1ef,/g/11btrrr5y7,topic_mid,/g/11btrrr5y7,Trung Tâm Ngoại Ngữ Tin Học Văn Hóa,Chủ đề,0.64569,interest_only,success,skipped,low_interest,1,0.365,100.0,VN,all
+4a2d363f7ae3a24fc2c3,Ngữ văn - Lịch sử - Công nghệ nông nghiệp,search_term,,,,0.210155,interest_only,success,skipped,low_interest,1,0.0036,1.0,VN,all
+3731ff08f1976faa2514,Ngữ văn - Sinh học - Công nghệ công nghiệp,search_term,,,,0.182468,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+4a30933efa0340ea210d,Ngữ văn - Sinh học - Công nghệ nông nghiệp,search_term,,,,0.281469,interest_only,success,skipped,low_interest,1,0.0036,1.0,VN,all
+dd844dbb54533d98049b,Ngữ văn - Sinh học - Tin học,search_term,,,,0.42218,interest_only,success,skipped,low_interest,53,0.2117,2.0,VN,all
+3ff5ac40af416a2364c8,Ngữ văn - Tiếng anh - Công nghệ công nghiệp,search_term,,,,0.371748,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+c1307b79192703f175ce,Ngữ văn - Tin học - Công nghệ nông nghiệp,search_term,,,,0.285417,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+ecc95c0f9894f70635fc,Ngữ văn - Lịch sử - Tiếng hàn,search_term,,,,0.434336,interest_only,success,skipped,low_interest,1,0.0036,1.0,VN,all
+e3099ecff9ccc6ec8422,Toán - Sinh học - Tiếng hàn,search_term,,,,0.331842,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+c65996515b02e73f369f,/m/059dzs,topic_mid,/m/059dzs,Ngữ văn,Lĩnh vực nghiên cứu,1.0,success,success,success,,14,1.7117,100.0,VN,all
+cbe5e44be24668f90bb3,/m/02h40lc,topic_mid,/m/02h40lc,Tiếng Anh,Ngôn ngữ,1.0,success,success,success,,274,38.0401,72.0,VN,all
+f38ee339dc3fcf854275,Địa lí,search_term,,,,0.386429,interest_only,success,skipped,low_interest,95,0.438,3.0,VN,all
+119897468c143511c0a8,/m/064_8sq,topic_mid,/m/064_8sq,Tiếng Pháp,Ngôn ngữ con người,1.0,success,success,success,,268,6.1022,12.0,VN,all
+b57e8159a87c61403459,/m/01r2l,topic_mid,/m/01r2l,Tiếng Trung,Tiếng,1.0,success,success,success,,274,11.8431,32.0,VN,all
+289d1e971599365ac166,/m/03_9r,topic_mid,/m/03_9r,Tiếng Nhật,Ngôn ngữ,1.0,success,success,success,,274,47.0876,100.0,VN,all
+6575d409371175bdaa1c,/m/06b_j,topic_mid,/m/06b_j,Tiếng Nga,Ngôn ngữ,1.0,success,success,success,,273,6.0401,27.0,VN,all
+15504f651838f50ff5b1,/m/04306rv,topic_mid,/m/04306rv,Tiếng Đức,Ngôn ngữ con người,1.0,success,success,success,,274,16.8978,71.0,VN,all
+4e0b16a61e2719f2b1df,Vẽ hình họa mỹ thuật,search_term,,,,0.544167,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+a01e73e46c6b41cda4d3,/m/02hwhyv,topic_mid,/m/02hwhyv,Tiếng Hàn,Ngôn ngữ,1.0,success,success,success,,274,39.7737,100.0,VN,all
+4f569d02eaa60b8c05b1,Năng khiếu vẽ nghệ thuật 1,search_term,,,,0.208035,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+c37be45cbef04d663ba1,Năng khiếu vẽ nghệ thuật 2,search_term,,,,0.208035,interest_only,success,skipped,low_interest,1,0.0036,1.0,VN,all
+ddb56034e22b9c428c04,/g/11rb4qx9pn,topic_mid,/g/11rb4qx9pn,Lớp học vẽ Mỹ Thuật Bụi - vinh,"Lớp học vẽ ở Hà Nội, Việt Nam",0.78956,interest_only,success,skipped,low_interest,5,0.0182,1.0,VN,all
+e03b35f91571b6e120b6,/g/11fsrhln3_,topic_mid,/g/11fsrhln3_,Trường Phổ Thông Năng Khiếu TDTT Nguyễn Thị Định,"Trường trung học phổ thông ở Thành phố Hồ Chí Minh, Việt Nam",0.734409,interest_only,success,skipped,low_interest,57,0.3577,4.0,VN,all
+40eb275b62b59b9294aa,/m/023kk0,topic_mid,/m/023kk0,Năng khiếu trí tuệ,Chủ đề,0.871429,interest_only,success,skipped,enrichment_limit,151,2.3248,100.0,VN,all
+cab72fa121d7f969a487,Năng khiếu âm nhạc 1,search_term,,,,0.204545,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+dbbf033d4fb7e82dc337,Năng khiếu âm nhạc 2,search_term,,,,0.204545,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+bf9a1b310e7153b19497,Đọc diễn cảm,search_term,,,,0.381667,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+0156d22f2e3b4a157d3b,/m/015lz1,topic_mid,/m/015lz1,Hát,Lĩnh vực nghề nghiệp,1.0,success,success,success,,274,42.7044,100.0,VN,all
+f0107da265bc4ed4dfae,/m/01g4lh,topic_mid,/m/01g4lh,Sở An sinh Xã hội,Cơ quan chính phủ,0.661429,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+e552c94873f45a97e777,/g/11s3ht90tq,topic_mid,/g/11s3ht90tq,màu vẽ Poster SAKURA hũ lớn học vẽ trang trí màu,Dòng sản phẩm,0.763889,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+995a38f936e3afe94bdb,/m/077l_l,topic_mid,/m/077l_l,Địa chính,Chủ đề,0.73,interest_only,success,skipped,enrichment_limit,228,20.7263,100.0,VN,all
+e8420f34e259b0c8d88c,/g/11g3x13r7s,topic_mid,/g/11g3x13r7s,Trường Phổ thông Năng Khiếu - Cơ sở 2,"Trường cấp ba ở Thành phố Hồ Chí Minh, Việt Nam",0.654787,interest_only,success,skipped,low_interest,6,0.0219,1.0,VN,all
+007d8b8d55d0ff613df6,/m/0g2vc,topic_mid,/m/0g2vc,Đài thiên văn,Chức năng của tòa nhà,0.696667,interest_only,success,skipped,enrichment_limit,172,1.4234,13.0,VN,all
+cc727ca4b2d3a99179f6,/g/11jrspjbv0,topic_mid,/g/11jrspjbv0,Huấn luyện viên Xướng âm,Phần mềm,0.755,interest_only,success,skipped,low_interest,1,0.1606,44.0,VN,all
+8b01f9cb849caafcc40a,/m/011x3r5s,topic_mid,/m/011x3r5s,Trường Trung học Biểu diễn Nghệ thuật Seoul,"Trường ở Seoul, Hàn Quốc",0.835714,interest_only,success,skipped,low_interest,85,0.354,3.0,VN,all
+e823c256edb00345d292,/m/0vpj4_b,topic_mid,/m/0vpj4_b,Tiền mã hóa,Chủ đề,0.709524,interest_only,success,skipped,enrichment_limit,212,8.9307,100.0,VN,all
+4bb90c3c9e77736ce978,/m/055vq1,topic_mid,/m/055vq1,Lí,Đơn vị đo lường,1.0,interest_only,success,skipped,low_interest,92,0.4088,5.0,VN,all
+415340b63e1f475ffa9d,/m/02g33v,topic_mid,/m/02g33v,Hình học họa hình,Lĩnh vực nghiên cứu,0.771333,interest_only,success,skipped,low_interest,73,0.3358,3.0,VN,all
+4e438aa6f859c060aa33,/m/02r_57s,topic_mid,/m/02r_57s,Trang trí bánh ngọt,Thực phẩm,0.839286,interest_only,success,skipped,low_interest,29,0.1168,2.0,VN,all
+c1061fd7d3a8abfa9d08,Nk1,search_term,,,,0.571818,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+075ad8ddf81f3b4821ce,Xây dựng kịch bản sự kiện,search_term,,,,0.263357,interest_only,success,skipped,low_interest,4,0.1423,14.0,VN,all
+bc954bd49baca191b219,/m/09swn,topic_mid,/m/09swn,Nhạc Kịch hát múa,Thể loại opera,0.8125,interest_only,success,skipped,enrichment_limit,18,0.6022,20.0,VN,all
+9629ed35ac41e9066993,Năng khiếu báo chí,search_term,,,,0.214286,interest_only,success,skipped,enrichment_limit,56,4.135,100.0,VN,all
+9fb3602688b18e6020af,Ký xướng âm,search_term,,,,0.360865,interest_only,success,skipped,low_interest,12,0.3358,11.0,VN,all
+95383183852d397bfdea,Hát hoặc biểu diễn nhạc cụ,search_term,,,,0.291026,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+0cc246e2f821e6f1f88d,/m/02z50h0,topic_mid,/m/02z50h0,Bộ Công nghiệp và Công nghệ thông tin,Cơ quan chính phủ,0.637438,interest_only,success,skipped,low_interest,1,0.0036,1.0,VN,all
+649def3304f491d61bb6,Năng khiếu âm nhạc,search_term,,,,0.083721,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+204788b2340fd760f646,/m/05js3c,topic_mid,/m/05js3c,Đọc hiểu,Chủ đề,1.0,interest_only,success,skipped,low_interest,54,0.2737,2.0,VN,all
+69ea49638a2989605cfc,/m/03g5n9,topic_mid,/m/03g5n9,Hóa đơn,Chủ đề,0.85,interest_only,success,skipped,enrichment_limit,253,1.9088,7.0,VN,all
+5550ea58ed089adfd83d,/m/05jhg,topic_mid,/m/05jhg,Tin tức,Định dạng phát thanh,0.82,interest_only,success,skipped,enrichment_limit,274,39.365,100.0,VN,all
+13b95f36dc2068b3ba05,/m/09pz7,topic_mid,/m/09pz7,Khoa học tự nhiên,Chủ đề,1.0,success,success,success,,226,10.2372,100.0,VN,all
+6a21ddd63b010fcaa2a6,Tư duy định lượng,search_term,,,,0.552011,interest_only,success,skipped,low_interest,20,0.073,1.0,VN,all
+5e76ab762ca2050de35e,Tư duy định tính,search_term,,,,0.515,interest_only,success,skipped,low_interest,37,0.135,1.0,VN,all
+cb41187fc25d9c6b94f5,Khoa học/ tiếng anh,search_term,,,,0.616207,interest_only,success,skipped,low_interest,1,0.0474,13.0,VN,all
+9f6d16d6fbc6315e5f82,/m/06n6p,topic_mid,/m/06n6p,Khoa học xã hội,Lĩnh vực nghiên cứu,1.0,success,success,success,,226,1.6569,13.0,VN,all
+35dc09ff5c816c8a8f31,/m/06mq7,topic_mid,/m/06mq7,Khoa học,Thể loại văn chương,1.0,success,success,success,,274,46.8504,100.0,VN,all
+730dfc80acee6ccc0429,Năng khiếu văn hóa nghệ thuật,search_term,,,,0.142105,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
+5a86656ed62727192d23,/g/121q8_hg,topic_mid,/g/121q8_hg,Ngoại ngữ,Chủ đề,1.0,interest_only,success,skipped,low_interest,10,0.1642,6.0,VN,all
+0af8ccc730ab074247f5,Năng khiếu giáo dục mầm non,search_term,,,,0.161538,interest_only,success,skipped,low_interest,0,0.0,0.0,VN,all
