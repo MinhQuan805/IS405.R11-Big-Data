@@ -64,11 +64,17 @@ Module này trích xuất chuỗi thời gian tìm kiếm từ Google Trends xoa
 
 #### Mô hình hóa toán học
 
-##### 1. Trích xuất chuỗi thời gian theo cửa sổ mùa vụ ($\mathcal{W}_t$)
+##### 1. Trích xuất chuỗi thời gian theo cửa sổ mùa vụ và thời điểm dự đoán
 
 Gọi $x_{u, \tau} \in [0, 100]$ là chỉ số Google Trends chuẩn hóa tại mốc thời gian $\tau$ (tuần hoặc tháng) cho thực thể $u \in \{\text{trường}, \text{ngành}, \text{nhóm ngành}\}$.
 
-Cửa sổ thời gian quan sát trọng điểm $\mathcal{W}_t$ bao gồm chu kỳ các tháng diễn ra hoạt động hướng nghiệp và tuyển sinh của năm $t$ (từ tháng 1 đến tháng 8 hàng năm).
+Tùy thuộc vào thời điểm thực hiện dự đoán trong năm tuyển sinh $t$, cửa sổ quan sát $\mathcal{W}_t$ được định nghĩa linh hoạt theo nguyên tắc **Point-in-time (Nowcasting)** nhằm tránh rò rỉ dữ liệu (data leakage) và không cần xây dựng thêm mô hình dự phóng chuỗi thời gian Trends:
+
+- **Chế độ Chính vụ (Từ tháng 7 trở đi - Khi đã có điểm thi và phổ điểm):**
+  Cửa sổ quan sát trọng điểm $\mathcal{W}_t$ bao trọn vẹn chu kỳ hướng nghiệp và cao điểm tuyển sinh của năm $t$ (từ tháng 1 đến tháng 8 hàng năm). Dữ liệu Trends lúc này đã hoàn toàn có sẵn thực tế (Observed Data).
+
+- **Chế độ Dự báo Sớm (Trước tháng 7 - Giai đoạn thi thử, hướng nghiệp sớm):**
+  Cửa sổ quan sát được cắt ngắn lũy kế tính đến tháng hiện tại $m$ ($m \le 6$), ký hiệu là $\mathcal{W}_{t}^{(1 \to m)}$. Mô hình khai thác tín hiệu sớm (Early Momentum) bằng cách đối soát tăng trưởng với chính cùng kỳ năm trước ($t-1$), tuyệt đối không cố gắng dự phóng chỉ số Trends của tháng 7-8 để tránh khuếch đại sai số ngẫu nhiên.
 
 ##### 2. Tổng hợp vector đặc trưng nhu cầu xã hội ($\mathbf{D}_{j, t}$)
 
@@ -80,14 +86,38 @@ Các đặc trưng thành phần cốt lõi bao gồm:
 
 - **Mức độ quan tâm trung bình trong mùa tuyển sinh (Mean Seasonal Interest):**
   $$\bar{x}_{u, t} = \frac{1}{|\mathcal{W}_t|} \sum_{\tau \in \mathcal{W}_t} x_{u, \tau}$$
-  Đại diện cho sức hút nền tảng và độ nhận diện thương hiệu của ngành/trường.
+  Đại diện cho sức hút nền tảng và độ nhận diện thương hiệu của ngành/trường trong giai đoạn quan sát.
 
 - **Cường độ quan tâm tại đỉnh mùa vụ (Peak Interest):**
   $$x_{u, t}^{\max} = \max_{\tau \in \mathcal{W}_t} x_{u, \tau}$$
-  Bắt giữ độ bùng nổ tìm kiếm tại thời điểm thí sinh chốt và điều chỉnh nguyện vọng (thường rơi vào tháng 7 - tháng 8).
+  Bắt giữ độ bùng nổ tìm kiếm tại thời điểm thí sinh chốt và điều chỉnh nguyện vọng (ở chế độ trước tháng 7, đặc trưng này là đỉnh tạm thời tính đến tháng hiện tại).
 
 - **Biến thiên tăng trưởng nhu cầu tìm kiếm ($\Delta \mathbf{D}_{j, t}$):**
+  Đo lường mức độ biến động nhu cầu so với cùng kỳ năm trước:
+  $$\Delta \mathbf{D}_{j, t} = \frac{\bar{x}_{u, t}^{(\mathcal{W})} - \bar{x}_{u, t-1}^{(\mathcal{W})}}{\bar{x}_{u, t-1}^{(\mathcal{W})}}$$
   Phản ánh xu thế dịch chuyển dòng nguyện vọng (ngành đang có làn sóng quan tâm gia tăng hay đang hạ nhiệt so với các mùa tuyển sinh trước).
+
+##### 3. Kỹ nghệ đặc trưng chuỗi thời gian tần suất cao (High-frequency Time-series Features)
+
+Vì dữ liệu Google Trends là chuỗi thời gian tần suất cao (tuần/tháng) kéo dài liên tục ($T > 120$ tháng), các kỹ thuật xử lý tín hiệu và chuỗi thời gian cổ điển phát huy hiệu quả vượt trội trong module này:
+
+- **Làm mượt bằng SMA / EMA (Moving Averages):**
+  - Sử dụng SMA ngắn hạn (3–4 tuần hoặc 1–2 tháng) và EMA decay để triệt tiêu các xung đột biến (outlier spikes) nhất thời do các sự kiện truyền thông, scandal hoặc bài viết viral, giữ lại tín hiệu xu thế cốt lõi.
+- **Chỉ báo mùa vụ (Seasonal Indicators):**
+  - Biến mã hóa chu kỳ tuyển sinh: `month_of_year` (tháng 1 đến 12) hoặc biến nhị phân chỉ thị cao điểm `is_admission_peak` (tháng 6–8) nhằm tách biệt nhu cầu quan tâm nền tảng (Base demand) với nhu cầu dồn mùa vụ (Peak demand).
+- **Phân tích phổ Periodogram & Khai triển Fourier Features:**
+  - **Periodogram (Spectral Density Analysis):** Dùng để kiểm định và lượng hóa cường độ phổ tại tần số mùa vụ $f = 1/12$ tháng, chứng minh tính lặp chu kỳ bền vững của hành vi tìm kiếm.
+  - **Fourier Harmonics:** Sinh các cặp đặc trưng sóng điều hòa sin/cos theo chu kỳ năm ($P = 12$ tháng):
+    $$\text{Fourier}_k(\tau) = \left[ \sin\left(\frac{2\pi k \tau}{P}\right), \, \cos\left(\frac{2\pi k \tau}{P}\right) \right], \quad k \in \{1, 2\}$$
+    Giúp mô hình nắm bắt hình dạng hàm mùa vụ mềm (smooth non-linear seasonal curve) của tâm lý thí sinh.
+- **Tách xu thế dài hạn (Deterministic Trend Decomposition):**
+  - Tách thành phần xu thế vĩ mô dài hạn ($f(\tau) = a \cdot \tau + b$) để phân biệt ngành đang trong chu kỳ tăng trưởng dài hạn (ví dụ AI, Bán dẫn) hay đang trong giai đoạn bão hòa/suy thoái qua các năm.
+
+##### 4. Tại sao không cần bài toán dự đoán Google Trends (Time-series Forecasting)?
+
+1. **Bản chất biến ngẫu nhiên ngoại sinh:** Google Trends phụ thuộc nhiều vào yếu tố truyền thông, sự kiện thời sự, mạng xã hội và độ phân hóa của đề thi. Việc dự báo chuỗi thời gian Trends tương lai xa (như dùng ARIMA hay LSTM) có độ nhiễu và sai số phương sai cực lớn.
+2. **Tránh khuếch đại sai số tích lũy (Error Propagation):** Nếu dự báo sai Trends tương lai, sai số này sẽ nạp trực tiếp vào Module 3 làm lệch phân vị điểm chuẩn và làm sai lệch xác suất ở Module 4.
+3. **Cơ chế Nowcasting:** Trong thực tế tuyển sinh, Google Trends cập nhật hàng ngày/hàng tuần. Tại mọi thời điểm truy vấn, hệ thống luôn có dữ liệu thực tế tính đến ngày hôm đó. Do đó, bài toán bản chất là **Feature Extraction (Nowcasting)** trên cửa sổ lũy kế thay vì bài toán Forecasting.
 
 ### Module 2: Ước lượng phân phối phổ điểm thi ($F_{k, t}$)
 
@@ -127,7 +157,7 @@ $$\text{RankPct}_{k, t}(s) = 1 - F_{k, t}(s) = \mathbb{P}(X_{k, t} > s)$$
 - Ví dụ: Mức điểm $s$ có $\text{RankPct} = 0.03$ nghĩa là thí sinh đứng trong top 3% cao nhất cả nước ở tổ hợp đó (vượt qua 97% thí sinh còn lại).
 - Thang đo phân vị này khử hoàn toàn sự biến động về độ khó của đề thi, đóng vai trò là không gian chuẩn hóa trung gian để Module 3 và Module 4 vận hành.
 
-**Tại sao không dự đoán CDF điểm thi tại năm $t$ mà dự đoán trực tiếp phân vị điểm chuẩn?**
+##### 3. Tại sao không dự đoán CDF điểm thi tại năm $t$ mà dự đoán trực tiếp phân vị điểm chuẩn?
 
 - Trong thực tế nghiệp vụ thì đã có sẵn phổ điểm do Bộ GD&ĐT công bố rồi, ta cần tập trung dự đoán phân vị điểm chuẩn nhiều hơn.
 - Sai số cao hơn dự đoán phân vị điểm chuẩn do phải dự đoán nhiều hơn.
@@ -160,7 +190,7 @@ $$R^*_{j, \tau} = \sum_{k \in \mathcal{K}_j} w_{j, k} \cdot \big(1 - F_{k, \tau}
 
 Trong đó:
 
-- $F_{k, \tau}(C_{j, \tau})$: Giá trị hàm phân phối tích lũy CDF của tổ hợp $k$ năm $\tau$ tại mức điểm $C_{j, \tau}$ (tính từ Module 2).
+- $F_{k, \tau}(C_{j, \tau})$: Giá trị hàm CDF của tổ hợp $k$ năm $\tau$ tại mức điểm $C_{j, \tau}$ (tính từ Module 2). Nếu dữ liệu không có phân phối này thì có thể dùng CDF của phân phối chuẩn.
 - $1 - F_{k, \tau}(C_{j, \tau})$: Thứ hạng phân vị (top %) của mức điểm $C_{j, \tau}$ theo tổ hợp $k$ (giá trị càng nhỏ thứ hạng càng cao).
 - $w_{j, k} \ge 0, \sum w_{j, k} = 1$: Trọng số thí sinh trúng tuyển theo tổ hợp $k$ vào ngành $j$ (khi không có số liệu thực tế, mặc định gán trọng số đều $w_{j, k} = \frac{1}{|\mathcal{K}_j|}$).
 
@@ -183,6 +213,28 @@ $$\mathbf{Z}_{j, t} = \Big[ \mathbf{R}^*_{j, \text{hist}}, \, \sigma^2(R^*_j), \
 - **Đặc tính cố định của chương trình đào tạo ($\mathbf{E}_j$):**
   - $|\mathcal{K}_j|$: Số lượng tổ hợp xét tuyển chung (ngành xét càng nhiều tổ hợp thì độ cạnh tranh dồn điểm càng cao).
   - Nhóm ngành đào tạo, Phân tầng trường đại học ($\text{Tier}_{\text{trường}}$), và Khu vực địa lý.
+
+- **Cơ chế điều chỉnh độ bất định ($\sigma_{j, t}^2$) theo thời điểm dự đoán:**
+  - _Chế độ trước tháng 7:_ Khi chưa có phổ điểm chính thức (phải dùng CDF tiên nghiệm) và chuỗi Trends chưa đến đỉnh mùa vụ, độ bất định $\sigma_{j, t}^2$ được tự động hiệu chỉnh nới rộng để phản ánh khoảng tin cậy mở rộng của giai đoạn hướng nghiệp sớm.
+  - _Chế độ chính vụ (từ tháng 7):_ Khi phổ điểm thực nghiệm đã chốt và tín hiệu Google Trends mùa tuyển sinh đã hội tụ đầy đủ, phương sai $\sigma_{j, t}^2$ co hẹp lại, phản ánh độ tin cậy và độ sắc nét cao của dự báo phân vị.
+
+##### 3. Bản chất Dữ liệu Mảng (Panel Data) và Chiến lược áp dụng Chuỗi thời gian
+
+Một sai lầm phổ biến là xem Module 3 như một bài toán dự báo chuỗi thời gian đơn lẻ dài hạn (Univariate Long Time-series). Cần định vị chính xác cấu trúc dữ liệu để lựa chọn phương pháp:
+
+- **Bản chất dữ liệu:** Dữ liệu điểm chuẩn là **Dữ liệu mảng ngắn hạn (Short-T Panel / Longitudinal Data)**: số lượng thực thể ngành rất lớn ($N \approx \text{hàng nghìn ngành}$) nhưng độ dài chuỗi theo năm cực ngắn ($T \le 10$ năm, từ 2016 đến 2025).
+- **Chiến lược áp dụng cụ thể các phương pháp:**
+  - **Moving Averages (SMA / EMA) ngắn hạn $\rightarrow$ CỰC KỲ HỮU ÍCH:**
+    - Thay vì dùng SMA dài hạn (bất khả thi do $T \le 10$), mô hình trích xuất các cửa sổ trượt ngắn: **SMA-2, SMA-3** và **EMA decay** ($\alpha \in [0.5, 0.7]$).
+    - *Ý nghĩa nghiệp vụ:* Đại diện cho **Quán tính danh tiếng (Reputation Inertia)** của trường/ngành, giúp lọc bỏ các đột biến bất thường của một năm cụ thể (do đề thi năm đó quá lệch hoặc chính sách tuyển sinh cục bộ).
+  - **Fourier Features & Periodogram $\rightarrow$ TUYỆT ĐỐI KHÔNG SỬ DỤNG:**
+    - Biến đổi Fourier và Periodogram đòi hỏi chuỗi thời gian dài với nhiều chu kỳ lặp lại. Với $T \le 10$ điểm dữ liệu năm, việc áp dụng Fourier vi phạm định lý lấy mẫu Nyquist-Shannon, gây bùng nổ số chiều và dẫn đến overfit nghiêm trọng.
+  - **Seasonal Indicators (Chỉ báo mùa vụ) $\rightarrow$ KHÔNG ÁP DỤNG:**
+    - Điểm chuẩn chỉ công bố duy nhất **1 lần mỗi năm vào tháng 8**, do đó không tồn tại mùa vụ nội năm (intra-year seasonality). Không thể tạo các đặc trưng như tháng/quý ở tầng điểm chuẩn.
+  - **Deterministic Trend (Xu thế tất định) $\rightarrow$ HẠN CHẾ & CẦN ĐIỀU CHUẨN:**
+    - Có thể trích xuất độ dốc xu thế tuyến tính ($a = \text{slope}(R^*_{j, \text{hist}})$) để nắm bắt đà tăng/giảm dài hạn của một ngành. Tuy nhiên, vì biến mục tiêu bị chặn trong đoạn $[0, 1]$, xu thế này bắt buộc phải đi kèm điều chuẩn (L2 regularization) hoặc ánh xạ qua hàm logit để tránh ngoại suy tràn biên.
+  - **Khung mô hình tối ưu:**
+    - Không fit các mô hình ARIMA/Prophet riêng lẻ cho từng ngành, mà sử dụng **Tabular Cross-Sectional Machine Learning (LightGBM, XGBoost, CatBoost)**. Mô hình này cho phép học chéo (cross-learning) tri thức từ toàn bộ thị trường tuyển sinh, kết hợp biến trễ lịch sử (Lags, SMA), tín hiệu dẫn dắt ngoại sinh từ Google Trends ($\mathbf{D}_{j, t}$), và các đặc trưng cố định về phân tầng trường/nhóm ngành ($\mathbf{E}_j$).
 
 ### Module 4: Ước lượng xác suất đỗ của thí sinh ($P(\text{Pass})$)
 
@@ -254,8 +306,9 @@ Trong kiến trúc tổng thể, không phải module nào cũng là một bài 
 | **Module 3 (Dự đoán phân vị)** | **Học máy có giám sát cốt lõi** (Supervised Probabilistic Regression)        | **CÓ (Trọng tâm duy nhất)** | **$R^*_{j, t} \in [0, 1]$** (Thứ hạng phân vị trúng tuyển chuẩn hóa của ngành $j$) | Nhãn mục tiêu: Thí sinh trúng tuyển cuối cùng của ngành $j$ thuộc **top bao nhiêu % toàn quốc**. Toàn bộ quy trình sàng lọc đặc trưng đều lấy $R^*_{j, t}$ làm Target. |
 | **Module 4 (Xác suất đỗ)**     | Suy luận xác suất tích hợp (Probabilistic Inference & Calibration)           |   ⚠️ **Chỉ khi hậu kiểm**   | $Y_{i, j, t} \in \{0, 1\}$ (Trạng thái trúng tuyển thực tế: Đỗ/Trượt)              | Tính tích phân xác suất ở runtime; nhãn $Y$ chỉ dùng khi hậu kiểm độ tin cậy xác suất (Brier score, Calibration curve).                                                |
 
-- **Ý nghĩa đối với quy trình Feature Selection:**
-  - **Module 1** không có Target nên không áp dụng trực tiếp các phương pháp sàng lọc có giám sát (như Feature–Target Correlation hay ANOVA F-test) một cách độc lập; kỹ thuật duy nhất áp dụng trên Module 1 là **PACF** nhằm khảo sát chu kỳ mùa vụ và bước trễ tự thân của chuỗi tìm kiếm.
+- **Ý nghĩa đối với quy trình Feature Selection và Thời điểm dự báo:**
+  - **Module 1** không có Target nên không áp dụng trực tiếp các phương pháp sàng lọc có giám sát độc lập; kỹ thuật duy nhất áp dụng trên Module 1 là **PACF** nhằm khảo sát chu kỳ mùa vụ 12 tháng và nhận diện các tháng trễ có lực dự báo nhu cầu mạnh nhất (đặc biệt chứng minh các tháng sớm 3–4 đã mang tín hiệu dẫn dắt nhu cầu).
+  - Không xây dựng bài toán dự báo chuỗi thời gian (Forecasting) cho Google Trends vì nguy cơ tích lũy sai số cao; thay vào đó áp dụng cơ chế **Nowcasting theo cửa sổ cắt ngắn Point-in-time** tùy theo thời điểm thực hiện dự đoán (trước hay sau tháng 7).
   - **Module 3** là nơi tập trung toàn bộ vector đặc trưng $\mathbf{Z}_{j, t}$ và là **nơi duy nhất sở hữu nhãn giám sát liên tục $R^*_{j, t}$**. Do đó, toàn bộ quy trình sàng lọc 6 bước dưới đây thực chất được vận hành xoay quanh biến mục tiêu $R^*_{j, t}$ của Module 3.
 
 ### 3.2 Chi tiết 6 kỹ thuật thẩm định đặc trưng
@@ -263,7 +316,7 @@ Trong kiến trúc tổng thể, không phải module nào cũng là một bài 
 1. **Partial Autocorrelation (PACF - Hệ số tự tương quan riêng phần):**
    - **Mục đích:** Xác định chính xác độ sâu bước trễ tối ưu (Lag depth) và kiểm tra tính mùa vụ, loại bỏ các bước trễ không có ý nghĩa tự tương quan trực tiếp sau khi đã kiểm soát các độ trễ trung gian.
    - **Phạm vi áp dụng:**
-     - _Module 1 (Google Trends):_ Đánh giá PACF qua 24 bước trễ tháng (Lags 1-24) để chứng minh chu kỳ mùa vụ 12 tháng và nhận diện các tháng trễ có lực dự báo nhu cầu mạnh nhất.
+     - _Module 1 (Google Trends):_ Đánh giá PACF qua 24 bước trễ tháng (Lags 1-24) để chứng minh chu kỳ mùa vụ 12 tháng và nhận diện các tháng trễ đầu mùa (ví dụ tháng 3, 4, 5) có lực dự báo tương quan mạnh nhất đến kết quả tuyển sinh.
      - _Module 3 (Điểm chuẩn lịch sử):_ Đánh giá PACF qua các bước trễ năm (Lags 1-5) để xác định số năm quá khứ cần đưa vào chuỗi quán tính $\mathbf{R}^*_{j, \text{hist}}$ (thường lag-1 và lag-2 có ý nghĩa vượt trội).
 
 2. **Feature–Target Correlation Heatmap (Tương quan Tuyến tính & Đơn điệu):**
@@ -292,13 +345,27 @@ Trong kiến trúc tổng thể, không phải module nào cũng là một bài 
    - **Mục đích:** Kiểm định giả thuyết thống kê khắt khe xem mối quan hệ giữa đặc trưng và biến mục tiêu có thực sự mang tính giải thích phương sai hay chỉ là ngẫu nhiên do cỡ mẫu.
    - **Tiêu chí sàng lọc:** Tính toán chỉ số $F$-statistic và $p$-value (thông qua `f_regression`). Chỉ những đặc trưng đạt mức ý nghĩa thống kê với $p < 0.05$ (tương đương $F > F_{\text{crit}} \approx 3.84$ hay $\log_{10}(F) > 0.584$) mới được đưa vào tập đặc trưng huấn luyện cuối cùng.
 
+7. **Periodogram & Fourier Expansion (Phân tích Phổ và Sóng điều hòa Mùa vụ):**
+   - **Mục đích:** Kiểm định mật độ phổ công suất (Power Spectral Density) để phát hiện tần số chu kỳ tiềm ẩn và sinh các thành phần sóng điều hòa $(\sin, \cos)$ biểu diễn hàm mùa vụ phi tuyến mượt mà.
+   - **Phạm vi áp dụng:** Chỉ áp dụng cho **Module 1 (Google Trends)** với chuỗi tần suất cao ($T > 120$ tháng); **không áp dụng cho Module 3** vì chuỗi điểm chuẩn hàng năm quá ngắn ($T \le 10$).
+
+8. **Moving Averages & Smoothing (SMA / EMA - Trung bình trượt & Làm mượt):**
+   - **Mục đích:** Khử nhiễu cục bộ và trích xuất quán tính vận động của chuỗi.
+   - **Phạm vi áp dụng:**
+     - _Module 1:_ SMA 3–4 tuần và EMA ngắn hạn nhằm triệt tiêu các xung đột biến (spikes) do tin tức truyền thông nhất thời.
+     - _Module 3:_ SMA-2, SMA-3 và EMA decay nhằm lượng hóa **Quán tính danh tiếng** trường/ngành, giảm thiểu tác động của những năm đề thi bất thường.
+
 ### 3.3 Ma trận Áp dụng Kỹ thuật theo từng Module
 
-| Kỹ thuật                 | Module 1 (Trends)                             | Module 2 (Phổ điểm) | Module 3 (Dự đoán phân vị)                                 | Module 4 (Xác suất đỗ) |
-| :----------------------- | :-------------------------------------------- | :------------------ | :--------------------------------------------------------- | :--------------------- |
-| **PACF**                 | **Chủ đạo**                                   | _Không áp dụng_     | **Chủ đạo**                                                | _Không áp dụng_        |
-| **Feature–Target Corr**  | Đánh giá tương quan thô của Trends với target | _Không áp dụng_     | **Chủ đạo** (Sàng lọc sơ bộ tuyến tính & đơn điệu)         | _Không áp dụng_        |
-| **Interfeature Heatmap** | Lọc từ khóa/cửa sổ trùng lặp                  | _Không áp dụng_     | **Chủ đạo** (Triệt tiêu đa cộng tuyến $\|r\| > 0.80$)      | _Không áp dụng_        |
-| **ETC Ranking**          | Đánh giá tầng Trends (Trường vs Ngành)        | _Không áp dụng_     | **Chủ đạo** (Xếp hạng độ quan trọng phi tuyến MDI)         | _Không áp dụng_        |
-| **Polynomial Expansion** | Kết hợp thang đo Trends                       | _Không áp dụng_     | **Chủ đạo** (Khai triển tương tác giữa quán tính & Trends) | _Không áp dụng_        |
-| **ANOVA F-test**         | Kiểm định ý nghĩa thống kê                    | _Không áp dụng_     | **Chủ đạo** (Chốt danh sách đạt $p < 0.05$)                | _Không áp dụng_        |
+| Kỹ thuật                     | Module 1 (Trends: $T > 120$)                  | Module 2 (Phổ điểm) | Module 3 (Phân vị: $T \le 10$, $N$ lớn)                    | Module 4 (Xác suất đỗ) |
+| :--------------------------- | :-------------------------------------------- | :------------------ | :--------------------------------------------------------- | :--------------------- |
+| **PACF**                     | **Chủ đạo** (Khảo sát chu kỳ 12 tháng)        | _Không áp dụng_     | **Chủ đạo** (Xác định độ trễ năm Lag-1, Lag-2)             | _Không áp dụng_        |
+| **Periodogram & Fourier**    | **Chủ đạo** (Trích xuất sóng điều hòa sin/cos)| _Không áp dụng_     | ❌ **Tuyệt đối không** (Vi phạm Nyquist, overfit nặng)     | _Không áp dụng_        |
+| **Seasonal Indicators**      | **Chủ đạo** (Pha tuyển sinh T6–T8)            | _Không áp dụng_     | ❌ **Không áp dụng** (Dữ liệu mỗi năm chỉ 1 quan sát)      | _Không áp dụng_        |
+| **SMA / EMA**                | **Chủ đạo** (Làm mượt nhiễu tuần/tháng)       | _Không áp dụng_     | **Chủ đạo** (Bắt quán tính danh tiếng SMA-2, SMA-3)        | _Không áp dụng_        |
+| **Deterministic Trend**      | Đo lường xu thế dài hạn vĩ mô                 | _Không áp dụng_     | Bắt đà tăng/giảm dài hạn (có phạt điều chuẩn L2)          | _Không áp dụng_        |
+| **Feature–Target Corr**      | Đánh giá tương quan thô của Trends với target | _Không áp dụng_     | **Chủ đạo** (Sàng lọc sơ bộ tuyến tính & đơn điệu)         | _Không áp dụng_        |
+| **Interfeature Heatmap**     | Lọc từ khóa/cửa sổ trùng lặp                  | _Không áp dụng_     | **Chủ đạo** (Triệt tiêu đa cộng tuyến $\|r\| > 0.80$)      | _Không áp dụng_        |
+| **ETC Ranking**              | Đánh giá tầng Trends (Trường vs Ngành)        | _Không áp dụng_     | **Chủ đạo** (Xếp hạng độ quan trọng phi tuyến MDI)         | _Không áp dụng_        |
+| **Polynomial Expansion**     | Kết hợp thang đo Trends                       | _Không áp dụng_     | **Chủ đạo** (Khai triển tương tác giữa quán tính & Trends) | _Không áp dụng_        |
+| **ANOVA F-test**             | Kiểm định ý nghĩa thống kê                    | _Không áp dụng_     | **Chủ đạo** (Chốt danh sách đạt $p < 0.05$)                | _Không áp dụng_        |

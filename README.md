@@ -1,8 +1,9 @@
 # Big Data project
 
-**Mục đích của tài liệu này**: Giới thiệu về mục tiêu dự án, cấu trúc dự án, các hướng dẫn và ghi chú quan trọng khi sử dụng dự án.
+**Mục đích của tài liệu này**:
 
-**Chú ý**: Chỉ có nhóm trưởng mới có quyền chỉnh sửa tài liệu này.
+- Giới thiệu về mục tiêu dự án, cấu trúc dự án, các hướng dẫn và ghi chú quan trọng khi sử dụng dự án.
+- Tài liệu này chỉ được phép thay đổi khi có sự đồng ý từ dev.
 
 ## Cấu trúc dự án
 

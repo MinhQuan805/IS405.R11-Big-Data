@@ -13,6 +13,8 @@ raw_data:
   trend_topics: "data-raw/google-trends/trend_topics.parquet"
   trends: "data-raw/google-trends/trends.json"
   trends_cache: "data-raw/google-trends/trends-cache.sqlite3"
+  score_distribution_ct2006: "data-raw/score-distribution/score-distribution-2016-2025-ct2006.parquet"
+  score_distribution_ct2018: "data-raw/score-distribution/score-distribution-2025-ct2018.parquet"
 
 # Dữ liệu đã làm sạch / chuẩn hóa (Cleaned Data)
 cleaned_data:
