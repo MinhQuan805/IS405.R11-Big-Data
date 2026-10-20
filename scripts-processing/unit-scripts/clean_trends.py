@@ -1,9 +1,7 @@
 # Auto-generated script from clean-trends.ipynb
 # export
-import csv
 import json
 from pathlib import Path
-import re
 import sys
 import pandas as pd
 
@@ -50,9 +48,9 @@ def clean_str(val):
 
 # export
 def clean_trend_topics():
-    """Làm sạch, chuẩn hóa ký tự trắng và loại bỏ bản ghi trùng lặp trong trend_topics.csv."""
-    print("--- 1. Làm sạch trend_topics.csv ---")
-    df_raw = pd.read_csv(RAW_TOPICS_PATH, encoding="utf-8-sig")
+    """Làm sạch, chuẩn hóa ký tự trắng và loại bỏ bản ghi trùng lặp trong trend_topics.parquet."""
+    print("--- 1. Làm sạch trend_topics.parquet ---")
+    df_raw = pd.read_parquet(RAW_TOPICS_PATH)
     for col in df_raw.columns:
         df_raw[col] = df_raw[col].apply(clean_str)
 
@@ -60,15 +58,15 @@ def clean_trend_topics():
     df_clean = df_raw.drop_duplicates(subset=["keyword", "keyword_type", "mid", "title"]).reset_index(drop=True)
 
     CLEANED_TOPICS_PATH.parent.mkdir(parents=True, exist_ok=True)
-    df_clean.to_csv(CLEANED_TOPICS_PATH, index=False, encoding="utf-8")
-    print(f"Đã lưu cleaned trend_topics.csv: {len(df_clean):,} dòng (từ {len(df_raw):,} dòng thô).")
+    df_clean.to_parquet(CLEANED_TOPICS_PATH, index=False)
+    print(f"Đã lưu cleaned trend_topics.parquet: {len(df_clean):,} dòng (từ {len(df_raw):,} dòng thô).")
     return df_clean
 
 # ======================================================================
 
 # export
 def clean_trends_json():
-    """Tách và chuẩn hóa trends.json thành các bảng quan hệ CSV chuyên biệt."""
+    """Tách và chuẩn hóa trends.json thành các bảng quan hệ Parquet chuyên biệt."""
     print("--- 2. Tách và chuẩn hóa trends.json ---")
     with open(RAW_TRENDS_PATH, "r", encoding="utf-8") as f:
         records = json.load(f)
@@ -227,7 +225,7 @@ def clean_trends_json():
             parse_items(csq.get("top_queries"), "top")
             parse_items(csq.get("rising_queries"), "rising")
 
-    # Chuyển đổi thành DataFrames và lưu vào các file CSV
+    # Chuyển đổi thành DataFrames và lưu vào các file Parquet
     df_queries = pd.DataFrame(queries_list)
     df_keywords = pd.DataFrame(keywords_list).drop_duplicates().reset_index(drop=True)
     df_timeline = pd.DataFrame(timeline_list)
@@ -236,19 +234,19 @@ def clean_trends_json():
     df_related = pd.DataFrame(related_list)
 
     CLEANED_QUERIES_PATH.parent.mkdir(parents=True, exist_ok=True)
-    df_queries.to_csv(CLEANED_QUERIES_PATH, index=False, encoding="utf-8")
-    df_keywords.to_csv(CLEANED_KEYWORDS_PATH, index=False, encoding="utf-8")
-    df_timeline.to_csv(CLEANED_TIMELINE_PATH, index=False, encoding="utf-8")
-    df_annual.to_csv(CLEANED_ANNUAL_PATH, index=False, encoding="utf-8")
-    df_regions.to_csv(CLEANED_REGIONS_PATH, index=False, encoding="utf-8")
-    df_related.to_csv(CLEANED_RELATED_PATH, index=False, encoding="utf-8")
+    df_queries.to_parquet(CLEANED_QUERIES_PATH, index=False)
+    df_keywords.to_parquet(CLEANED_KEYWORDS_PATH, index=False)
+    df_timeline.to_parquet(CLEANED_TIMELINE_PATH, index=False)
+    df_annual.to_parquet(CLEANED_ANNUAL_PATH, index=False)
+    df_regions.to_parquet(CLEANED_REGIONS_PATH, index=False)
+    df_related.to_parquet(CLEANED_RELATED_PATH, index=False)
 
-    print(f"Đã lưu trend_queries.csv: {len(df_queries):,} dòng")
-    print(f"Đã lưu trend_keywords.csv: {len(df_keywords):,} dòng")
-    print(f"Đã lưu trend_timeline.csv: {len(df_timeline):,} dòng")
-    print(f"Đã lưu trend_annual.csv: {len(df_annual):,} dòng")
-    print(f"Đã lưu trend_regions.csv: {len(df_regions):,} dòng")
-    print(f"Đã lưu trend_related_queries.csv: {len(df_related):,} dòng")
+    print(f"Đã lưu trend_queries.parquet: {len(df_queries):,} dòng")
+    print(f"Đã lưu trend_keywords.parquet: {len(df_keywords):,} dòng")
+    print(f"Đã lưu trend_timeline.parquet: {len(df_timeline):,} dòng")
+    print(f"Đã lưu trend_annual.parquet: {len(df_annual):,} dòng")
+    print(f"Đã lưu trend_regions.parquet: {len(df_regions):,} dòng")
+    print(f"Đã lưu trend_related_queries.parquet: {len(df_related):,} dòng")
     return df_queries, df_keywords, df_timeline, df_annual, df_regions, df_related
 
 # ======================================================================

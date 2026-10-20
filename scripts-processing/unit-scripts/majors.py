@@ -9,7 +9,7 @@ CLEANED_DATA_PATH = get_config('dirs.yaml', ['cleaned_data', 'majors'], as_path=
 SCRIPT_OUTPUT_PATH = get_config('dirs.yaml', ['unit_scripts', 'majors'], as_path=True)
 
 # Đọc file CSV vào DataFrame
-df = pd.read_csv(RAW_DATA_PATH, encoding='utf-8')
+df = pd.read_parquet(RAW_DATA_PATH)
 
 # ======================================================================
 
@@ -36,4 +36,4 @@ df['score_codes'] = df['score_codes'].apply(normalize_score_codes)
 
 # export
 CLEANED_DATA_PATH.parent.mkdir(parents=True, exist_ok=True)
-df.to_csv(CLEANED_DATA_PATH, index=False)
+df.to_parquet(CLEANED_DATA_PATH, index=False)

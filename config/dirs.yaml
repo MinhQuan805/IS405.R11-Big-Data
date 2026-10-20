@@ -7,25 +7,25 @@ configs:
 
 # Dữ liệu thô (Raw Data)
 raw_data:
-  cutoff_scores: "data-raw/admission-cutoff-score/cutoff-scores.csv"
-  majors: "data-raw/admission-cutoff-score/majors.csv"
-  score_blocks: "data-raw/admission-cutoff-score/score-blocks.csv"
-  trend_topics: "data-raw/google-trends/trend_topics.csv"
+  cutoff_scores: "data-raw/admission-cutoff-score/cutoff-scores.parquet"
+  majors: "data-raw/admission-cutoff-score/majors.parquet"
+  score_blocks: "data-raw/admission-cutoff-score/score-blocks.parquet"
+  trend_topics: "data-raw/google-trends/trend_topics.parquet"
   trends: "data-raw/google-trends/trends.json"
   trends_cache: "data-raw/google-trends/trends-cache.sqlite3"
 
 # Dữ liệu đã làm sạch / chuẩn hóa (Cleaned Data)
 cleaned_data:
-  cutoff_scores: "data-cleaned/admission-cutoff-score/cutoff-scores.csv"
-  majors: "data-cleaned/admission-cutoff-score/majors.csv"
-  score_blocks: "data-cleaned/admission-cutoff-score/score-blocks.csv"
-  trend_topics: "data-cleaned/google-trends/trend_topics.csv"
-  trend_queries: "data-cleaned/google-trends/trend_queries.csv"
-  trend_keywords: "data-cleaned/google-trends/trend_keywords.csv"
-  trend_timeline: "data-cleaned/google-trends/trend_timeline.csv"
-  trend_annual: "data-cleaned/google-trends/trend_annual.csv"
-  trend_regions: "data-cleaned/google-trends/trend_regions.csv"
-  trend_related_queries: "data-cleaned/google-trends/trend_related_queries.csv"
+  cutoff_scores: "data-cleaned/admission-cutoff-score/cutoff-scores.parquet"
+  majors: "data-cleaned/admission-cutoff-score/majors.parquet"
+  score_blocks: "data-cleaned/admission-cutoff-score/score-blocks.parquet"
+  trend_topics: "data-cleaned/google-trends/trend_topics.parquet"
+  trend_queries: "data-cleaned/google-trends/trend_queries.parquet"
+  trend_keywords: "data-cleaned/google-trends/trend_keywords.parquet"
+  trend_timeline: "data-cleaned/google-trends/trend_timeline.parquet"
+  trend_annual: "data-cleaned/google-trends/trend_annual.parquet"
+  trend_regions: "data-cleaned/google-trends/trend_regions.parquet"
+  trend_related_queries: "data-cleaned/google-trends/trend_related_queries.parquet"
 
 # Script công cụ hỗ trợ
 supporting_scripts:
@@ -44,4 +44,3 @@ unit_scripts:
   clean_trends: "scripts-processing/unit-scripts/clean_trends.py"
   get_topics: "scripts-fetching/unit-scripts/get_topics.py"
   get_trends: "scripts-fetching/unit-scripts/get_trends.py"
-

@@ -13,7 +13,7 @@ CLEANED_MAJORS_PATH = get_config('dirs.yaml', ['cleaned_data', 'majors'], as_pat
 SCRIPT_OUTPUT_PATH = get_config('dirs.yaml', ['unit_scripts', 'cutoff_scores'], as_path=True)
 
 # Đọc file CSV vào DataFrame
-df = pd.read_csv(RAW_DATA_PATH, encoding='utf-8')
+df = pd.read_parquet(RAW_DATA_PATH)
 
 # ======================================================================
 
@@ -149,8 +149,8 @@ df = remove_iqr_outliers(df, group_col='score_admission_name', value_col='score_
 # ======================================================================
 
 # export
-df_blocks = pd.read_csv(CLEANED_BLOCKS_PATH, encoding='utf-8')
-df_majors = pd.read_csv(CLEANED_MAJORS_PATH, encoding='utf-8')
+df_blocks = pd.read_parquet(CLEANED_BLOCKS_PATH)
+df_majors = pd.read_parquet(CLEANED_MAJORS_PATH)
 
 valid_block_codes = set(df_blocks['code'].dropna().astype(str).str.strip())
 
@@ -182,4 +182,4 @@ df = df[mask_valid].reset_index(drop=True)
 
 # export
 CLEANED_DATA_PATH.parent.mkdir(parents=True, exist_ok=True)
-df.to_csv(CLEANED_DATA_PATH, index=False)
+df.to_parquet(CLEANED_DATA_PATH, index=False)
