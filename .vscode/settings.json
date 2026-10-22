@@ -15,5 +15,9 @@
     }
   ],
   "duckdb.defaultDatabase": "trends",
-  "jupyter.notebookFileRoot": "${workspaceFolder}"
+  "jupyter.notebookFileRoot": "${workspaceFolder}",
+  "[markdown]": {
+    "editor.formatOnSave": false,
+    "editor.formatOnType": false
+  }
 }
