@@ -21,7 +21,8 @@ Tài liệu được xây dựng dựa trên sự liên kết chặt chẽ với
 8. [Kiến Trúc Endpoint Phục Vụ Dự Đoán Trực Tuyến (Model Serving & Inference API)](#8-kiến-trúc-endpoint-phục-vụ-dự-đoán-trực-tuyến-model-serving--inference-api)
 9. [Cơ Chế Lập Lịch Định Kỳ & Kích Hoạt Theo Mùa Tuyển Sinh (Scheduler System)](#9-cơ-chế-lập-lịch-định-kỳ--kích-hoạt-theo-mùa-tuyển-sinh-scheduler-system)
 10. [Đề Xuất Hạ Tầng Triển Khai Chi Tiết (Local vs Production Internet-Facing)](#10-đề-xuất-hạ-tầng-triển-khai-chi-tiết-local-vs-production-internet-facing)
-11. [Lộ Trình Triển Khai Từng Bước (Implementation Roadmap & Milestones)](#11-lộ-trình-triển-khai-từng-bước-implementation-roadmap--milestones)
+11. [Đề Xuất Tái Cấu Trúc Thư Mục Repository Chuẩn MLOps & Big Data Đa Môi Trường](#11-đề-xuất-tái-cấu-trúc-thư-mục-repository-chuẩn-mlops--big-data-đa-môi-trường)
+12. [Lộ Trình Triển Khai Từng Bước (Implementation Roadmap & Milestones)](#12-lộ-trình-triển-khai-từng-bước-implementation-roadmap--milestones)
 
 ---
 
@@ -745,17 +746,214 @@ flowchart TD
 
 ---
 
-## 11. LỘ TRÌNH TRIỂN KHAI TỪNG BƯỚC (IMPLEMENTATION ROADMAP & MILESTONES)
+---
+
+## 11. ĐỀ XUẤT TÁI CẤU TRÚC THƯ MỤC REPOSITORY CHUẨN MLOPS & BIG DATA ĐA MÔI TRƯỜNG
+
+### 11.1 Đánh Giá Hạn Chế Của Cấu Trúc Hiện Tại
+Hiện tại, cấu trúc thư mục của repository được thiết kế theo phong cách nghiên cứu thử nghiệm sơ khởi (Data Science Research Lab):
+- **Gắn chặt với đường dẫn cục bộ (Hard-coded Local Paths):** `config/dirs.yaml` khai báo các đường dẫn tệp trực tiếp trong máy tính, thiếu khả năng ánh xạ sang các URI phân tán như `hdfs://` hoặc `s3a://`.
+- **Phân mảnh giữa Notebooks và Unit Scripts:** Thư mục `scripts-fetching/` và `scripts-processing/` phân chia thành `notebooks/` và `unit-scripts/` thông qua helper `export_to_script.py`. Cách tiếp cận này khiến logic xử lý bị phân mảnh, viết theo phong cách kịch bản thủ tục (procedural scripts), không thể đóng gói thành thư viện Python chuẩn (`pip install -e .`) để tái sử dụng xuyên suốt giữa Airflow Worker, Spark Executor và FastAPI Server.
+- **Thiếu các cấu phần chuẩn của Production:** Chưa có thư mục phục vụ API (`serving/`), chưa có thư mục điều phối luồng tự động (`orchestration/`), chưa có các tệp hạ tầng khai báo (Docker, Kubernetes, Helm) và chưa có bộ kiểm thử tự động (`tests/`).
+
+---
+
+### 11.2 Sơ Đồ Cấu Trúc Repository Đề Xuất (Target Multi-Environment Layout)
+
+Dưới đây là sơ đồ cấu trúc thư mục quy chuẩn công nghiệp (Production-Grade Big Data & MLOps Structure):
+
+```text
+IS405.R11-Big-Data/
+├── .github/                                  # CI/CD Pipelines & Automation
+│   └── workflows/
+│       ├── ci-lint-test.yaml                 # Chạy linter, format (Ruff) và unit tests
+│       ├── build-serving-image.yaml          # Build và push Docker image FastAPI lên Registry
+│       └── deploy-prod.yaml                  # Kích hoạt deploy Helm/K8s sang Production
+│
+├── config/                                   # Quản trị Cấu hình Đa Môi trường
+│   ├── base.yaml                             # Cấu hình chung: Model hyperparameters, selected features
+│   ├── env.dev.yaml                          # Môi trường Local Dev: Local paths, SQLite, Standalone Spark
+│   ├── env.staging.yaml                      # Môi trường Staging: Test MinIO, Minikube K8s, sample data
+│   ├── env.prod.yaml                         # Môi trường Production: AWS S3/HDFS, K8s cluster, Redis HA
+│   └── dirs.yaml                             # Adapter giữ tương thích ngược với legacy code
+│
+├── data/                                     # Kho lưu trữ Sandbox Dữ liệu Cục bộ (Được Git ignore)
+│   ├── raw/                                  # Bronze Layer (Admission, Trends, Score distributions)
+│   ├── cleaned/                              # Silver Layer (Normalized Parquet tables)
+│   └── gold/                                 # Gold Layer (Ma trận đặc trưng huấn luyện & CDF tables)
+│
+├── deploy/                                   # Infrastructure as Code (IaC) & Deployment Manifests
+│   ├── docker/                               # Định nghĩa Dockerfile cho từng dịch vụ
+│   │   ├── Dockerfile.serving                # Container đóng gói FastAPI Inference Server
+│   │   ├── Dockerfile.spark                  # Container Spark với PySpark & LightGBM pre-installed
+│   │   └── Dockerfile.airflow                # Container Airflow kèm các custom providers
+│   ├── docker-compose/                       # Chạy Full-stack tại Local Dev & Test
+│   │   ├── docker-compose.local.yaml         # MinIO + Spark Standalone + Redis + FastAPI
+│   │   └── docker-compose.monitoring.yaml    # Prometheus + Grafana + AlertManager
+│   └── k8s/                                  # Triển khai Kubernetes cho Staging & Production
+│       ├── base/                             # Kustomize base manifests
+│       │   ├── serving-deployment.yaml
+│       │   ├── serving-service.yaml
+│       │   ├── serving-hpa.yaml
+│       │   └── ingress.yaml
+│       └── overlays/
+│           ├── staging/                      # Cấu hình tài nguyên nhỏ cho Staging
+│           └── production/                   # Cấu hình HA, SSL Cloudflare, Replicas lớn cho Prod
+│
+├── docs/                                     # Tài liệu Kỹ thuật, Hợp đồng Dữ liệu & Kiến trúc
+│   ├── data-contract.md                      # Đặc tả Data Contract chi tiết
+│   ├── problem-specification.md              # Đặc tả bài toán & công thức toán 4 module
+│   └── big-data-processing-implement-plan.md # Kế hoạch triển khai Big Data & MLOps
+│
+├── models/                                   # Quản lý Artifact Mô hình Cục bộ / Fallback Storage
+│   ├── best_lightgbm_regressor.joblib        # Mô hình điểm chính thức
+│   ├── lightgbm_quantile_0.1.joblib          # Mô hình kịch bản hạ nhiệt
+│   ├── lightgbm_quantile_0.5.joblib          # Mô hình kịch bản cơ sở
+│   ├── lightgbm_quantile_0.9.joblib          # Mô hình kịch bản cạnh tranh khốc liệt
+│   └── model_metadata.json                   # Metadata mô hình, siêu tham số và chỉ số đánh giá
+│
+├── notebooks/                                # MÔI TRƯỜNG THÍ NGHIỆM (Experimentation Sandbox)
+│   ├── 01_eda_and_trends_exploration.ipynb   # Khảo sát dữ liệu thô & Google Trends PACF
+│   ├── 02_score_distribution_cdf.ipynb       # Khảo sát phổ điểm CT2006 & CT2018
+│   ├── 03_feature_analysis_anova_f.ipynb     # Phân tích tương quan & kiểm định ANOVA F-test
+│   └── 04_model_prototyping_bayes.ipynb      # Thử nghiệm mô hình học máy & sàn sai số Bayes
+│
+├── orchestration/                            # MÔI TRƯỜNG TỰ ĐỘNG HÓA SẢN XUẤT (Workflow Scheduling)
+│   ├── dags/                                 # Apache Airflow DAGs
+│   │   ├── admission_monthly_pipeline_dag.py # DAG chạy định kỳ hàng tháng
+│   │   ├── admission_peak_season_dag.py      # DAG chạy hàng ngày trong mùa cao điểm tuyển sinh
+│   │   └── data_drift_monitoring_dag.py      # DAG kiểm tra drift dữ liệu và gửi report
+│   └── plugins/                              # Custom Airflow Operators / Hooks
+│       └── spark_k8s_submit_hook.py          # Hook submit job trực tiếp lên Kubernetes
+│
+├── serving/                                  # MODEL HOSTING & INTERNET-FACING ENDPOINT (FastAPI)
+│   ├── app/
+│   │   ├── api/                              # Tầng Routing HTTP
+│   │   │   ├── v1/                           # API Version 1
+│   │   │   ├── v2/                           # API Version 2 (Chuẩn hoá theo Module 4)
+│   │   │   │   ├── endpoints/
+│   │   │   │   │   ├── predict.py            # POST /predict/admission-probability
+│   │   │   │   │   ├── batch.py              # POST /predict/batch-admission-scoring
+│   │   │   │   │   └── metadata.py           # GET /models/current-metadata
+│   │   │   │   └── router.py
+│   │   │   └── deps.py                       # Dependency Injection (Redis, Model Manager)
+│   │   ├── core/                             # Cấu hình Server, Security, Middlewares
+│   │   │   ├── config.py                     # Đọc ENV variables
+│   │   │   └── security.py                   # API Key validation & Rate limit
+│   │   ├── schemas/                          # Pydantic Schemas (Data Contract validation)
+│   │   │   ├── student_request.py            # Schema thông tin thí sinh nộp vào
+│   │   │   └── prediction_response.py        # Schema kết quả xác suất và phân tầng
+│   │   ├── services/                         # Nghiệp vụ Suy luận & Tích hợp Bộ đệm
+│   │   │   ├── inference_service.py          # Tính toán công thức Module 4 Phi((mu - r)/sigma)
+│   │   │   ├── redis_feature_service.py      # Lấy biến trễ trường/ngành cực nhanh từ Redis
+│   │   │   └── fallback_service.py           # Kích hoạt suy thoái mềm khi lỗi dữ liệu
+│   │   └── main.py                           # Điểm khởi chạy ứng dụng FastAPI ASGI
+│   └── tests/                                # Test riêng cho Serving API
+│       ├── test_predict_endpoint.py
+│       └── test_health_check.py
+│
+├── src/                                      # CORE REUSABLE PYTHON PACKAGE (Thư viện dùng chung)
+│   └── admission_core/                       # Đóng gói thành package `admission-core`
+│       ├── __init__.py
+│       ├── config/                           # Module nạp và validate YAML config
+│       │   └── config_parser.py
+│       ├── ingestion/                        # Thu thập dữ liệu (Trends API, Crawlers, File Loader)
+│       │   ├── trends_crawler.py
+│       │   ├── file_loader.py
+│       │   └── lakehouse_writer.py
+│       ├── processing/                       # Engine Xử lý Phân tán Apache Spark
+│       │   ├── spark_session.py              # Quản lý Spark Context & K8s connector
+│       │   ├── cdf_engine.py                 # Module 2: Tính toán Empirical CDF phân tán
+│       │   └── feature_pipeline.py           # Module 1 & 3: Tính toán Hierarchical Lags & Interactions
+│       ├── training/                         # Huấn luyện Mô hình Phân tán & Tối ưu Siêu tham số
+│       │   ├── lgbm_point_trainer.py
+│       │   ├── quantile_trainer.py
+│       │   └── hyperparameter_tuner.py
+│       ├── validation/                       # Cổng Kiểm Định Chất Lượng & Drift
+│       │   ├── quality_gate.py               # Kiểm tra sàn Bayes, R2, RMSE
+│       │   └── drift_detector.py             # Kiểm tra PSI / KS-test độ lệch phân phối
+│       ├── reporting/                        # Xuất Báo Cáo & Gửi Thông Báo Tự Động
+│       │   ├── report_generator.py           # Render biểu đồ HTML/PDF
+│       │   └── notifier.py                   # Gửi Webhook sang Slack/Telegram/Email
+│       └── utils/                            # Các hàm phụ trợ Unicode, Math, I/O
+│           ├── text_normalizer.py
+│           └── math_cdf.py
+│
+├── tests/                                    # Automated Test Suites của Dự án
+│   ├── unit/                                 # Unit tests cho từng hàm trong `src/`
+│   ├── integration/                          # Test tích hợp Pipeline trên cụm Spark nhỏ
+│   └── data_contract/                        # Test kiểm định dữ liệu với Great Expectations
+│
+├── pyproject.toml                            # Quản lý build và cài đặt Core Package (`pip install -e .`)
+├── requirements/                             # Phân tách Dependencies theo từng môi trường
+│   ├── base.txt                              # Thư viện nền tảng (pandas, pyyaml, pydantic, joblib)
+│   ├── dev.txt                               # Môi trường dev (jupyter, ruff, black, pytest)
+│   ├── spark.txt                             # Môi trường xử lý lớn (pyspark, pyarrow, fastparquet)
+│   └── serving.txt                           # Môi trường API (fastapi, uvicorn, redis, httpx)
+├── .env.example                              # File mẫu khai báo biến môi trường (Secrets, API Keys)
+├── .gitignore                                # Loại trừ data/, models/*.joblib lớn, checkpoint, cache
+└── README.md                                 # Hướng dẫn khởi tạo và vận hành dự án
+```
+
+---
+
+### 11.3 Ma Trận Ánh Xạ Chuyển Đổi (Migration Mapping Matrix)
+
+Bảng đối chiếu dưới đây chỉ rõ vị trí hiện tại của mã nguồn và vị trí quy hoạch tương ứng trong cấu trúc mới:
+
+| Cấu phần hiện tại | Vị trí cấu trúc mới | Mục đích & Lợi ích sau chuyển đổi |
+| :--- | :--- | :--- |
+| `config/dirs.yaml` | `config/base.yaml` & `config/env.*.yaml` | Tách cấu hình theo từng môi trường; hỗ trợ cả đường dẫn local, S3 và HDFS thay vì chỉ có local path. |
+| `scripts-fetching/notebooks/` | `notebooks/` | Giữ nguyên để phục vụ nghiên cứu thử nghiệm (Experimentation Sandbox). |
+| `scripts-fetching/unit-scripts/` | `src/admission_core/ingestion/` | Chuẩn hóa thành các Python class/functions có type-hinting, tái sử dụng được trong Airflow tasks. |
+| `scripts-processing/notebooks/` | `notebooks/` | Lưu trữ lịch sử phân tích; phục vụ Data Scientist khảo sát trực quan. |
+| `scripts-processing/unit-scripts/` | `src/admission_core/processing/` | Viết lại bằng PySpark API để chạy phân tán trên cụm máy chủ lớn thay vì Pandas đơn luồng. |
+| `scripts-processing/notebooks/model-training.ipynb` | `src/admission_core/training/` | Đóng gói logic train, k-fold cross-validation, quantile regression và MLflow logging thành module độc lập. |
+| `helpers/` | `src/admission_core/utils/` | Loại bỏ sự lộn xộn; gom toàn bộ helper về một package dùng chung. |
+| _Chưa có (Mới hoàn toàn)_ | `serving/` | Thư mục chuyên trách phục vụ API Internet, phân tách hoàn toàn khỏi luồng huấn luyện dữ liệu. |
+| _Chưa có (Mới hoàn toàn)_ | `orchestration/` | Thư mục chứa Airflow DAGs và plugins điều phối pipeline tự động. |
+| _Chưa có (Mới hoàn toàn)_ | `deploy/` | Quản lý tập trung toàn bộ Dockerfiles, Docker Compose và Kubernetes manifests. |
+| _Chưa có (Mới hoàn toàn)_ | `requirements/*.txt` | Giảm dung lượng container: Pod Serving chỉ cài `serving.txt`, Worker Spark chỉ cài `spark.txt`. |
+
+---
+
+### 11.4 Thiết Kế Vận Hành Theo Từng Môi Trường Cụ Thể
+
+#### 1. Môi Trường Thí Nghiệm (Experimentation / Dev Environment)
+- **Tập trung tại:** Thư mục `notebooks/`, `src/admission_core/`, cấu hình `config/env.dev.yaml`.
+- **Cách thức hoạt động:**
+  - Data Scientist kích hoạt Virtualenv hoặc chạy Jupyter container qua `deploy/docker-compose/docker-compose.local.yaml`.
+  - Cài đặt package lõi ở chế độ chỉnh sửa trực tiếp: `pip install -e .[dev]`.
+  - Kết nối tới cụm Spark Standalone (1 Master, 1 Worker) chạy nội bộ hoặc Spark local mode (`local[*]`).
+  - Dữ liệu đọc/ghi trực tiếp vào thư mục `data/` trên ổ cứng máy tính hoặc MinIO local bucket.
+
+#### 2. Môi Trường Kiểm Thử & Tiền Vận Hành (Staging / Pre-Production Environment)
+- **Tập trung tại:** Thư mục `tests/`, `deploy/k8s/overlays/staging/`, cấu hình `config/env.staging.yaml`.
+- **Cách thức hoạt động:**
+  - Được kích hoạt tự động qua GitHub Actions khi tạo Pull Request vào nhánh `main`.
+  - Chạy toàn bộ Unit Tests, Data Contract Validation Tests với dữ liệu mẫu (Sample Dataset).
+  - Khởi tạo cụm K8s tạm thời (hoặc namespace `staging`), deploy bản preview của FastAPI Serving để kiểm tra tích hợp API và đo đạc độ trễ trước khi phát hành.
+
+#### 3. Môi Trường Vận Hành Sản Xuất (Production Environment)
+- **Tập trung tại:** Thư mục `orchestration/dags/`, `serving/`, `deploy/k8s/overlays/production/`, cấu hình `config/env.prod.yaml`.
+- **Cách thức hoạt động:**
+  - **Tách biệt hoàn toàn mã nguồn Serving và Pipeline Data:** Serving API chạy trong namespace riêng (`model-serving`) với quyền hạn bảo mật tối thiểu (Read-Only access to models/redis).
+  - **Pipeline Dữ liệu Lớn:** Airflow chạy trong namespace `bigdata-processing`, submit PySpark jobs theo cơ chế container ngắn hạn (Ephemeral Pods), tự động xóa pod khi job hoàn tất để giải phóng tài nguyên.
+  - **Quản lý Secrets & Credentials:** Tuyệt đối không lưu mật khẩu trong Git; sử dụng Kubernetes Secrets / HashiCorp Vault gắn trực tiếp vào Environment Variables.
+
+---
+
+## 12. LỘ TRÌNH TRIỂN KHAI TỪNG BƯỚC (IMPLEMENTATION ROADMAP & MILESTONES)
 
 Kế hoạch triển khai được chia làm 5 giai đoạn tuần tự trong vòng 10 tuần:
 
 | Giai đoạn | Thời gian | Tác vụ trọng tâm | Sản phẩm đầu ra (Deliverables) |
 | :---: | :---: | :--- | :--- |
-| **Pha 1** | Tuần 1 – 2 | **Chuẩn hóa Khung Cấu hình & Storage Lakehouse:**<br>- Xây dựng `pipeline_config.yaml` và module đọc config động.<br>- Dựng cụm MinIO S3 / HDFS lưu trữ 3 tầng Bronze/Silver/Gold.<br>- Tách module fetch data và nạp trực tiếp. | - File config chuẩn.<br>- Data Lakehouse sẵn sàng kết nối.<br>- Unit tests cho ingestion loader. |
-| **Pha 2** | Tuần 3 – 4 | **Chuyển Đổi Sang Apache Spark Engine:**<br>- Viết lại logic Module 2 tính CDF phân tán bằng Spark Window Functions.<br>- Phân tán Feature Pipeline Module 1 & 3 trên Spark DataFrame.<br>- Kiểm tra tính toàn vẹn kết quả so với code Pandas gốc. | - Script `spark_cdf_engine.py`.<br>- Script `spark_feature_pipeline.py`.<br>- Dataset Gold đạt độ khớp 100% với baseline. |
-| **Pha 3** | Tuần 5 – 6 | **Tự Động Hóa Huấn Luyện & Tích Hợp MLOps:**<br>- Tích hợp MLflow Tracking & Model Registry.<br>- Xây dựng Cổng kiểm định chất lượng (Quality Gate) tự động.<br>- Hiện thực các hàm Fallback, Retry và Rollback. | - Pipeline huấn luyện tự động.<br>- Quality Gate validator script.<br>- MLflow lưu trữ mô hình phiên bản hóa. |
-| **Pha 4** | Tuần 7 – 8 | **Xây Dựng & Triển Khai Model Serving Lên Internet:**<br>- Phát triển FastAPI RESTful Endpoint theo chuẩn Module 4.<br>- Tích hợp Redis Cache tăng tốc truy vấn.<br>- Cấu hình Docker, Kubernetes Deployment, NGINX Ingress, Cloudflare SSL. | - Container image Serving Server.<br>- Public URL API hoạt động an toàn trên Internet.<br>- Swagger docs hoàn chỉnh. |
-| **Pha 5** | Tuần 9 – 10 | **Tích Hợp Airflow Scheduler, Báo Cáo & Tải Thực Tế:**<br>- Viết Airflow DAG điều phối toàn bộ chu trình.<br>- Tích hợp Email/Slack reporting engine.<br>- Kiểm thử tải (Load Testing với Locust / k6) mô phỏng 5.000 concurrent users. | - Airflow DAG hoàn chỉnh.<br>- Báo cáo kiểm thử tải đạt chuẩn latency.<br>- Bàn giao tài liệu vận hành và nghiệm thu. |
+| **Pha 1** | Tuần 1 – 2 | **Tái Cấu Trúc Repository & Khung Cấu Hình Đa Môi Trường:**<br>- Tổ chức lại thư mục theo cấu trúc chuẩn `src/`, `config/env.*.yaml`, `serving/`.<br>- Đóng gói mã nguồn dùng chung thành package `admission-core` (`pyproject.toml`).<br>- Dựng cụm MinIO S3 / HDFS lưu trữ 3 tầng Bronze/Silver/Gold.<br>- Tách module fetch data và nạp trực tiếp. | - Cấu trúc thư mục mới hoàn chỉnh.<br>- Package `admission-core` cài đặt thành công.<br>- File cấu hình đa môi trường sẵn sàng.<br>- Data Lakehouse kết nối thông suốt. |
+| **Pha 2** | Tuần 3 – 4 | **Chuyển Đổi Sang Apache Spark Engine:**<br>- Viết lại logic Module 2 tính CDF phân tán bằng Spark Window Functions trong `src/admission_core/processing/cdf_engine.py`.<br>- Phân tán Feature Pipeline Module 1 & 3 trên Spark DataFrame.<br>- Kiểm tra tính toàn vẹn kết quả so với code Pandas gốc. | - Script `cdf_engine.py` hoàn thiện.<br>- Script `feature_pipeline.py` hoàn thiện.<br>- Dataset Gold đạt độ khớp 100% với baseline. |
+| **Pha 3** | Tuần 5 – 6 | **Tự Động Hóa Huấn Luyện & Tích Hợp MLOps:**<br>- Tích hợp MLflow Tracking & Model Registry trong `src/admission_core/training/`.<br>- Xây dựng Cổng kiểm định chất lượng (Quality Gate) tự động tại `src/admission_core/validation/`.<br>- Hiện thực các hàm Fallback, Retry và Rollback. | - Pipeline huấn luyện tự động.<br>- Quality Gate validator script.<br>- MLflow lưu trữ mô hình phiên bản hóa. |
+| **Pha 4** | Tuần 7 – 8 | **Xây Dựng & Triển Khai Model Serving Lên Internet:**<br>- Phát triển FastAPI RESTful Endpoint theo chuẩn Module 4 trong `serving/app/`.<br>- Tích hợp Redis Cache tăng tốc truy vấn.<br>- Cấu hình Docker, Kubernetes Deployment (`deploy/k8s/`), NGINX Ingress, Cloudflare SSL. | - Container image Serving Server.<br>- Public URL API hoạt động an toàn trên Internet.<br>- Swagger docs hoàn chỉnh. |
+| **Pha 5** | Tuần 9 – 10 | **Tích Hợp Airflow Scheduler, Báo Cáo & Tải Thực Tế:**<br>- Viết Airflow DAGs trong `orchestration/dags/` điều phối toàn bộ chu trình.<br>- Tích hợp Email/Slack reporting engine tại `src/admission_core/reporting/`.<br>- Kiểm thử tải (Load Testing với Locust / k6) mô phỏng 5.000 concurrent users. | - Airflow DAG hoàn chỉnh.<br>- Báo cáo kiểm thử tải đạt chuẩn latency.<br>- Bàn giao tài liệu vận hành và nghiệm thu. |
 
 ---
 
@@ -765,5 +963,6 @@ Kế hoạch triển khai trên đây chuyển hóa trọn vẹn mô hình nghi�
 1. **Tuân thủ tuyệt đối các nguyên lý toán học** được chứng minh trong `problem-specification.md` (khử nhiễu đề thi bằng phân vị sống sót, nowcasting Trends, kẹp trần 30 điểm, xấp xỉ phân phối chuẩn).
 2. **Khai thác triệt để sức mạnh phân tán của Apache Spark** giúp giảm thời gian xử lý hàng triệu bản ghi từ hàng giờ xuống vài phút.
 3. **Cung cấp tính năng vận hành tự động, tự phục hồi (Self-Healing)** với cơ chế Retry - Fallback - Rollback đảm bảo hệ thống không bao giờ bị gián đoạn trước người dùng.
-4. **Sẵn sàng đưa vào phục vụ cộng đồng trên Internet** với chi phí tối ưu, độ trễ thấp và độ tin cậy bảo mật cao nhất.
+4. **Cấu trúc mã nguồn chuẩn hóa theo phong cách Enterprise MLOps**, phân định ranh giới rõ ràng giữa Thí nghiệm (Experimentation), Kiểm thử (Staging) và Vận hành Sản xuất (Production).
+5. **Sẵn sàng đưa vào phục vụ cộng đồng trên Internet** với chi phí tối ưu, độ trễ thấp và độ tin cậy bảo mật cao nhất.
 
