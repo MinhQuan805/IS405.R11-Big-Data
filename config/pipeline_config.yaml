@@ -1,0 +1,66 @@
+# ==============================================================================
+# PIPELINE CONFIGURATION: ADMISSION BIG DATA FRAMEWORK
+# ==============================================================================
+version: "2.1"
+environment: "production"
+
+# 1. Lựa chọn Nền tảng Tính toán (Compute Backend)
+# Hỗ trợ: "local_pandas" | "apache_spark" | "hadoop_hive" | "duckdb"
+execution_backend: "local_pandas"
+
+# 2. Cấu hình Cắm Rút Công Nghệ Tùy Biến (Custom User Technology Plugins)
+# Người dùng có thể chọn:
+# - Option A (Mặc định): type: "builtin"
+# - Option B (Class Adapter): type: "class_adapter", target: "plugins.custom_cdf_adapter.CustomUserCDFAdapter"
+# - Option C (Script Zero-Syntax): type: "external_script", command: ".venv\\Scripts\\python.exe plugins/custom_script_cdf.py --input {input_uri} --output {output_uri}"
+backend_execution:
+  cdf_stage:
+    type: "builtin"
+
+# 3. Quản lý Chế độ Nạp Dữ liệu (Ingestion Strategy)
+data_ingestion:
+  # Chế độ: "direct_data" (nạp thẳng file) hoặc "fetch_script" (chạy script cào)
+  mode: "direct_data"
+
+  # Nguồn dữ liệu trực tiếp
+  direct_sources:
+    cutoff_scores: "data-cleaned/admission-cutoff-score/cutoff-scores.parquet"
+    majors: "data-cleaned/admission-cutoff-score/majors.parquet"
+    score_blocks: "data-cleaned/admission-cutoff-score/score-blocks.parquet"
+    score_distribution_ct2006: "data-raw/score-distribution/score-distribution-2016-2025-ct2006.parquet"
+    score_distribution_ct2018: "data-raw/score-distribution/score-distribution-2025-ct2018.parquet"
+    trend_annual: "data-cleaned/google-trends/trend_annual.parquet"
+    trend_keywords: "data-cleaned/google-trends/trend_keywords.parquet"
+
+  # Nguồn kịch bản fetch dữ liệu (khi mode: fetch_script)
+  fetch_scripts:
+    trends_crawler:
+      entrypoint: "scripts-fetching/unit-scripts/get_trends.py"
+      enabled: false
+
+# 4. Đường dẫn lưu trữ kết quả qua các tầng (Lakehouse Paths)
+data_paths:
+  cdf_output: "data-cleaned/score-distribution-cdf/cdf_summary.parquet"
+  features_output: "data-cleaned/gold_features.parquet"
+  models_dir: "models/"
+  report_output: "reports/evaluation_summary.md"
+
+# 5. Cổng Kiểm Định Chất Lượng & Sàn Sai Số Bayes (Quality Gate)
+quality_gate:
+  max_rmse: 0.160
+  min_r2: 0.78
+  max_bayes_gap_mse: 0.005 # Chênh lệch tối đa cho phép so với sàn Bayes (0.02283)
+
+# 6. Cơ chế Vận hành Tin Cậy (Retry - Fallback - Rollback)
+reliability:
+  retry_policy:
+    max_attempts: 3
+    initial_backoff_sec: 2
+    backoff_multiplier: 2.0
+  fallback_rules:
+    on_trends_missing: "use_group_anchor_and_flag"
+    on_distribution_missing: "parametric_normal_approximation"
+    on_cold_start: "convex_combination_school_major"
+  rollback_policy:
+    auto_rollback_on_gate_failure: true
+

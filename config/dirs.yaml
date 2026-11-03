@@ -31,7 +31,6 @@ cleaned_data:
 
 # Script công cụ hỗ trợ
 supporting_scripts:
-  convert_notebook_2_unit_script: "helpers/convert_notebook_2_unit_script.py"
   crawl_trend_data: "helpers/crawl_trend_data.py"
 
 # Log chạy pipeline
