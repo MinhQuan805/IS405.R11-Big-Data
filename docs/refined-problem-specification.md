@@ -285,4 +285,4 @@ Toàn bộ các mô hình sau khi huấn luyện và kiểm định đạt chu�
 - `models/lightgbm_quantile_0.1.joblib`: Mô hình dự đoán kịch bản cạnh tranh tăng cao ($\hat{R}^*_{0.1}$).
 - `models/lightgbm_quantile_0.9.joblib`: Mô hình dự đoán kịch bản hạ nhiệt an toàn ($\hat{R}^*_{0.9}$).
 
-Khi hệ thống vận hành phục vụ trực tuyến (Model Serving API), dịch vụ chỉ cần nạp các tệp này lên bộ nhớ để thực hiện phép suy luận nhanh chóng trong vòng dưới 20ms mà không cần chạy lại bất kỳ thuật toán phân tán nặng nề nào.
+Khi hệ thống vận hành phục vụ trực tuyến (Model Serving API), dịch vụ chỉ cần nạp các tệp này lên bộ nhớ để thực hiện phép suy luận mà không cần chạy lại bất kỳ thuật toán phân tán nặng nề nào.
