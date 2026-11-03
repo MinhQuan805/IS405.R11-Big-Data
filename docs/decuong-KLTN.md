@@ -1,7 +1,31 @@
 # ĐỀ CƯƠNG KHÓA LUẬN TỐT NGHIỆP
 
 **TÊN ĐỀ TÀI:** Framework dự đoán khả năng trúng tuyển Đại học tại Việt Nam dựa trên dữ liệu công khai bên ngoài nhà trường: tích hợp điểm chuẩn, phổ điểm thi và tín hiệu thị trường lao động.  
+
 **TÊN TIẾNG ANH:** An Institution-Independent Framework for Predicting University Admission Chances in Vietnam: Integrating Public Cut-off Scores, Exam Score Distributions, and Labor Market Signals  
+
+**Sinh viên thực hiện:**
+1. 24520145 - Cao Thái Bảo.
+2. 24521459 - Võ Minh Quân.
+
+## MỤC LỤC
+
+- [Chương I. Nội dung đề tài](#chương-i-nội-dung-đề-tài)
+  - [1.1. Mục tiêu đề tài](#11-mục-tiêu-đề-tài)
+    - [1.1.1. Mục tiêu tổng quát](#111-mục-tiêu-tổng-quát)
+    - [1.1.2. Mục tiêu cụ thể](#112-mục-tiêu-cụ-thể)
+  - [1.2. Phạm vi đề tài](#12-phạm-vi-đề-tài)
+    - [1.2.1. Phạm vi dữ liệu và thời gian](#121-phạm-vi-dữ-liệu-và-thời-gian)
+    - [1.2.2. Phạm vi nghiệp vụ](#122-phạm-vi-nghiệp-vụ)
+    - [1.2.3. Ranh giới tiếp cận thực tế](#123-ranh-giới-tiếp-cận-thực-tế)
+  - [1.3. Đối tượng nghiên cứu](#13-đối-tượng-nghiên-cứu)
+  - [1.4. Phương pháp thực hiện](#14-phương-pháp-thực-hiện)
+    - [1.4.1. Cấu trúc 4 module tính toán](#141-cấu-trúc-4-module-tính-toán)
+    - [1.4.2. Quy trình lựa chọn đặc trưng cho mô hình](#142-quy-trình-lựa-chọn-đặc-trưng-cho-mô-hình)
+  - [1.5. Kết quả mong đợi của đề tài](#15-kết-quả-mong-đợi-của-đề-tài)
+  - [1.6. Một số hạn chế của đề tài](#16-một-số-hạn-chế-của-đề-tài)
+- [Chương II. Kế hoạch thực hiện](#chương-ii-kế-hoạch-thực-hiện)
+- [Tài liệu tham khảo](#tài-liệu-tham-khảo)
 
 ---
 
@@ -120,6 +144,11 @@ graph LR
 2. **Về mặt dữ liệu & hạ tầng:** Xây dựng được kho dữ liệu tuyển sinh sạch, có cấu trúc rõ ràng (Data Lake / Data Warehouse) lưu trữ được các dạng Parquet, JSON,... tùy theo đặc điểm từng loại dữ liệu. Pipeline xử lý dữ liệu lớn hoạt động ổn định trên tập dữ liệu phổ điểm lớn.
 3. **Về mặt mô hình học máy:** Mô hình học máy dự đoán thứ hạng phân vị đạt độ chính xác thực nghiệm cao.
 4. **Về mặt sản phẩm ứng dụng:** Xây dựng thành công dịch vụ API và Website demo hoàn chỉnh chạy tốt trên môi trường local (Next.js), giao diện thân thiện, cho phép người dùng nhập điểm, tra cứu vị trí phân vị, xem xác suất trúng tuyển và nhận phân tầng khuyến nghị cụ thể theo từng trường/ngành.
+
+### 1.6. Một số hạn chế của đề tài
+
+- Chỉ mới khảo sát trên phạm vi phương thức Điểm thi THPTQG, chưa bao quát được nhiều phương thức, chưa thật sự phù hợp với tình hình tuyển sinh tại Việt Nam.
+- Dữ liệu của Google Trends chưa thật sự đại diện cho sự quan tâm của xã hội hoặc xu hướng của thị trường lao động, nhưng đây là nguồn đầy đủ nhất hiện tại.
 
 ---
 

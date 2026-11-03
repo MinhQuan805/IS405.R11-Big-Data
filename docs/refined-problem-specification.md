@@ -34,7 +34,7 @@ Trong đó:
 
 ```mermaid
 graph LR
-    A[(Google Trends & Lao động)] --> M1[Module 1: Mức độ quan tâm xã hội]
+    A[(Google Trends)] --> M1[Module 1: Mức độ quan tâm xã hội]
     B[(Phổ điểm THPT toàn quốc)] --> M2[Module 2: Phổ điểm tích lũy & Thứ hạng]
     C[(Điểm chuẩn lịch sử)] --> M3[Module 3: Dự đoán thứ hạng phân vị R*]
     D[(Điểm thi thí sinh S_i)] --> M4[Module 4: Ước lượng xác suất đỗ P_Pass]
@@ -46,7 +46,7 @@ graph LR
 ```
 
 ### Module 1: Đo lường mức độ quan tâm của xã hội ($\mathbf{D}_{j, t}$)
-- **Mục tiêu:** Định lượng sức hút của trường và ngành nghề đào tạo thông qua chuỗi thời gian tìm kiếm trên Google Trends theo tháng và nhu cầu thị trường lao động.
+- **Mục tiêu:** Định lượng sức hút của trường và ngành nghề đào tạo thông qua chuỗi thời gian tìm kiếm trên Google Trends.
 - **Xử lý theo thời điểm tra cứu (Point-in-Time):**
   - *Thời điểm trước tháng 7 (trước khi có điểm thi):* Thí sinh tra cứu ở tháng $m$ ($m \le 6$), hệ thống cắt dữ liệu Trends từ tháng 1 đến tháng $m$ và so sánh tốc độ tăng trưởng với cùng kỳ năm trước. Lúc này mô hình tự động mở rộng khoảng dự phòng để phản ánh mức độ biến động còn cao.
   - *Thời điểm từ tháng 7 trở đi (đã có điểm thi chính thức):* Hệ thống sử dụng trọn vẹn dữ liệu Trends của cả mùa thi (từ tháng 1 đến tháng 8), bắt trọn mức quan tâm tại đỉnh mùa vụ ($x^{\max}$) để đưa ra dự báo chuẩn xác nhất.
