@@ -1,124 +1,107 @@
-"""Local Model Trainer Backend (LightGBM Point + Quantiles).
-Trains and evaluates models according to Module 3 probabilistic framework.
-"""
-
-import os
+"""LightGBM point and quantile models evaluated with expanding-year folds."""
 import json
-import time
+from datetime import datetime
 from pathlib import Path
-from typing import Dict, Any, Optional
-import numpy as np
-import pandas as pd
+from zoneinfo import ZoneInfo
 import joblib
 import lightgbm as lgb
-from sklearn.model_selection import KFold
-from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
+import numpy as np
+import pandas as pd
+import pyarrow.dataset as ds
 from scipy.stats import spearmanr
-
+from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score, mean_pinball_loss
 from admission_core.ports import BaseTrainerPort
-from admission_core.specs.contracts import (
-    OFFICIAL_FEATURES, TARGET_FEATURE, BAYES_ERROR_FLOOR_MSE
-)
+from admission_core.features import LOOKUP_COLUMNS, validate_gold
+from admission_core.specs.contracts import OFFICIAL_FEATURES, FEATURE_SCHEMA_VERSION
+
 
 class LocalLightGBMTrainerBackend(BaseTrainerPort):
-    """Bộ chuyển đổi huấn luyện mô hình LightGBM cục bộ"""
-
-    def train_and_evaluate(
-        self, 
-        feature_matrix_uri: str, 
-        output_model_dir: str, 
-        options: Optional[Dict[str, Any]] = None
-    ) -> Dict[str, Any]:
-        print("[Engine: LOCAL_TRAINER] Bắt đầu huấn luyện mô hình LightGBM...")
-        df = pd.read_parquet(feature_matrix_uri)
-        
-        X = df[OFFICIAL_FEATURES].fillna(0.0).values
-        y = df[TARGET_FEATURE].values
-        
-        opts = options or {}
-        hp = opts.get("hyperparameters", {
-            "learning_rate": 0.07,
-            "max_depth": 8,
-            "num_leaves": 45,
-            "n_estimators": 180,
-            "subsample": 0.95,
-            "colsample_bytree": 0.95,
-            "reg_alpha": 1.0,
-            "reg_lambda": 1.0,
-            "random_state": 42,
-            "verbose": -1,
-            "n_jobs": -1
-        })
-        
-        # 1. 5-Fold Cross Validation
-        kf = KFold(n_splits=5, shuffle=True, random_state=42)
-        mse_list, mae_list, r2_list, spearman_list = [], [], [], []
-        
-        for train_idx, val_idx in kf.split(X, y):
-            X_tr, y_tr = X[train_idx], y[train_idx]
-            X_val, y_val = X[val_idx], y[val_idx]
-            
-            m = lgb.LGBMRegressor(**hp)
-            m.fit(X_tr, y_tr)
-            preds = m.predict(X_val)
-            
-            mse_list.append(mean_squared_error(y_val, preds))
-            mae_list.append(mean_absolute_error(y_val, preds))
-            r2_list.append(r2_score(y_val, preds))
-            rho, _ = spearmanr(y_val, preds)
-            spearman_list.append(rho)
-
+    def train_and_evaluate(self, feature_matrix_uri, output_model_dir, options=None):
+        options = options or {}
+        dataset = ds.dataset(feature_matrix_uri, format="parquet")
+        if dataset.count_rows() > int(options.get("max_gold_rows", 1_000_000)):
+            raise ValueError("Gold vượt giới hạn huấn luyện cục bộ")
+        frame = validate_gold(dataset.to_table().to_pandas())
+        labeled = frame.loc[frame.R_star.notna()].sort_values(["score_year", "school_id", "score_code"])
+        years = sorted(labeled.score_year.unique())
+        min_years = int(options.get("min_train_years", 2))
+        if min_years < 1 or len(years) <= min_years:
+            raise ValueError("Không đủ năm để kiểm định theo thời gian")
+        hp = {"n_estimators": 180, "learning_rate": 0.07, "num_leaves": 31,
+              "random_state": 42, "n_jobs": 2, "verbosity": -1}
+        hp.update(options.get("hyperparameters", {}))
+        if hp.get("objective", "regression") != "regression":
+            raise ValueError("Point model yêu cầu objective regression")
+        quantiles = [0.1, 0.5, 0.9]
+        folds, predictions = [], []
+        for year in years[min_years:]:
+            train = labeled.loc[labeled.score_year.lt(year)]
+            valid = labeled.loc[labeled.score_year.eq(year)]
+            if len(valid) < 2:
+                raise ValueError("Mỗi năm kiểm định cần ít nhất hai chương trình")
+            model = lgb.LGBMRegressor(**hp).fit(train[OFFICIAL_FEATURES], train.R_star)
+            point = np.clip(model.predict(valid[OFFICIAL_FEATURES]), 0, 1)
+            quantile_predictions = []
+            losses = {}
+            for quantile in quantiles:
+                params = dict(hp, objective="quantile", alpha=quantile)
+                fitted = lgb.LGBMRegressor(**params).fit(train[OFFICIAL_FEATURES], train.R_star)
+                predicted = np.clip(fitted.predict(valid[OFFICIAL_FEATURES]), 0, 1)
+                quantile_predictions.append(predicted)
+                losses[str(quantile)] = float(mean_pinball_loss(valid.R_star, predicted, alpha=quantile))
+            raw_quantiles = np.column_stack(quantile_predictions)
+            ordered = np.sort(raw_quantiles, axis=1)
+            fold = {"test_year": int(year), "train_max_year": int(train.score_year.max()),
+                    "train_samples": len(train), "test_samples": len(valid),
+                    "rmse": float(np.sqrt(mean_squared_error(valid.R_star, point))),
+                    "r2": float(r2_score(valid.R_star, point)), "pinball_loss": losses,
+                    "coverage_80": float(np.mean((valid.R_star >= ordered[:, 0]) & (valid.R_star <= ordered[:, 2]))),
+                    "interval_width": float(np.mean(ordered[:, 2] - ordered[:, 0])),
+                    "crossing_rate": float(np.mean(np.any(np.diff(raw_quantiles, axis=1) < 0, axis=1)))}
+            folds.append(fold)
+            prediction = valid[["school_id", "score_code", "score_year", "R_star", "is_new_program"]].copy()
+            prediction["prediction"] = point
+            prediction["baseline"] = valid.prog_pct_lag1.to_numpy()
+            for index, quantile in enumerate(quantiles):
+                prediction[f"q{quantile}"] = ordered[:, index]
+            predictions.append(prediction)
+        oof = pd.concat(predictions, ignore_index=True)
+        rho = spearmanr(oof.R_star, oof.prediction).statistic
         metrics = {
-            "5fold_cv_mse": float(np.mean(mse_list)),
-            "5fold_cv_rmse": float(np.sqrt(np.mean(mse_list))),
-            "5fold_cv_mae": float(np.mean(mae_list)),
-            "5fold_cv_r2": float(np.mean(r2_list)),
-            "5fold_cv_spearman_rho": float(np.mean(spearman_list)),
-            "bayes_error_floor_mse": BAYES_ERROR_FLOOR_MSE,
-            "training_samples": len(df),
-            "training_date": time.strftime("%Y-%m-%d %H:%M:%S")
+            "evaluation_method": "expanding_year", "rmse": float(np.sqrt(mean_squared_error(oof.R_star, oof.prediction))),
+            "mse": float(mean_squared_error(oof.R_star, oof.prediction)),
+            "mae": float(mean_absolute_error(oof.R_star, oof.prediction)),
+            "r2": float(r2_score(oof.R_star, oof.prediction)),
+            "spearman_rho": float(rho) if np.isfinite(rho) else None,
+            "baseline_rmse": float(np.sqrt(mean_squared_error(oof.R_star, oof.baseline))),
+            "coverage_80": float(np.mean((oof.R_star >= oof["q0.1"]) & (oof.R_star <= oof["q0.9"]))),
+            "training_samples": len(labeled), "evaluation_samples": len(oof), "folds": folds,
+            "training_date": datetime.now(ZoneInfo("Asia/Bangkok")).isoformat(),
+            "subgroups": {},
         }
-        
-        # 2. Huấn luyện Point Regressor trên toàn bộ tập dữ liệu
-        best_lgb = lgb.LGBMRegressor(**hp)
-        best_lgb.fit(X, y)
-        
-        # 3. Huấn luyện 3 mô hình Quantile
-        quantiles = opts.get("quantiles", [0.1, 0.5, 0.9])
-        quantile_models = {}
-        for q in quantiles:
-            q_hp = hp.copy()
-            q_hp["objective"] = "quantile"
-            q_hp["alpha"] = q
-            qm = lgb.LGBMRegressor(**q_hp)
-            qm.fit(X, y)
-            quantile_models[q] = qm
-
-        # 4. Xuất mô hình ra thư mục đích
-        out_dir = Path(output_model_dir)
-        out_dir.mkdir(parents=True, exist_ok=True)
-        
-        joblib.dump(best_lgb, out_dir / "best_lightgbm_regressor.joblib")
-        for q, qm in quantile_models.items():
-            joblib.dump(qm, out_dir / f"lightgbm_quantile_{q}.joblib")
-
-        metadata = {
-            "model_name": "LightGBM Admission Percentile Regressor",
-            "training_date": metrics["training_date"],
-            "training_samples": metrics["training_samples"],
-            "features": OFFICIAL_FEATURES,
-            "best_hyperparameters": hp,
-            "performance_metrics": metrics,
-            "model_files": {
-                "point_estimator": "best_lightgbm_regressor.joblib",
-                "quantile_0.1": "lightgbm_quantile_0.1.joblib",
-                "quantile_0.5": "lightgbm_quantile_0.5.joblib",
-                "quantile_0.9": "lightgbm_quantile_0.9.joblib"
-            }
-        }
-        with open(out_dir / "model_metadata.json", "w", encoding="utf-8") as f:
-            json.dump(metadata, f, indent=4)
-
-        print(f"[Engine: LOCAL_TRAINER] Huấn luyện thành công! RMSE={metrics['5fold_cv_rmse']:.4f}, R2={metrics['5fold_cv_r2']:.4f}")
+        for flag, group in oof.groupby("is_new_program"):
+            metrics["subgroups"]["new" if flag else "existing"] = {
+                "samples": len(group), "rmse": float(np.sqrt(mean_squared_error(group.R_star, group.prediction)))}
+        output = Path(output_model_dir)
+        output.mkdir(parents=True, exist_ok=True)
+        filenames = {"point_estimator": "best_lightgbm_regressor.joblib"}
+        model = lgb.LGBMRegressor(**hp).fit(labeled[OFFICIAL_FEATURES], labeled.R_star)
+        joblib.dump(model, output / filenames["point_estimator"])
+        for quantile in quantiles:
+            model = lgb.LGBMRegressor(**dict(hp, objective="quantile", alpha=quantile))
+            model.fit(labeled[OFFICIAL_FEATURES], labeled.R_star)
+            filename = f"lightgbm_quantile_{quantile}.joblib"
+            joblib.dump(model, output / filename)
+            filenames[f"quantile_{quantile}"] = filename
+        future = frame.loc[frame.score_year.gt(max(years)), LOOKUP_COLUMNS]
+        if future.empty:
+            raise ValueError("Thiếu đặc trưng cho năm dự báo sau năm huấn luyện cuối")
+        future.to_parquet(output / "serving_features.parquet", index=False)
+        oof.to_parquet(output / "out_of_time_predictions.parquet", index=False)
+        metadata = {"feature_schema_version": FEATURE_SCHEMA_VERSION, "features": OFFICIAL_FEATURES,
+                    "training_data_kind": options.get("data_kind", "unspecified"),
+                    "training_max_year": int(max(years)), "forecast_years": sorted(map(int, future.score_year.unique())),
+                    "hyperparameters": hp, "performance_metrics": metrics, "model_files": filenames,
+                    "trends_policy": "previous_calendar_year", "cdf_policy": "strictly_greater_step_cdf"}
+        (output / "model_metadata.json").write_text(json.dumps(metadata, ensure_ascii=False, indent=2, allow_nan=False), encoding="utf-8")
         return metrics
-

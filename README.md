@@ -1,6 +1,10 @@
 # Dynamic Percentile-Equilibrated University Admission Framework
 > **Khung mô hình ước lượng xác suất trúng tuyển đại học dựa trên phân vị cân bằng động trên nền tảng dữ liệu lớn (Big Data & MLOps)**
 
+Hướng dẫn chạy và giải thích chi tiết thuật toán Contract 3.0, PySpark 4.3.0 và Model Serving nằm trong [Đặc tả Kỹ thuật Pipeline Dữ liệu Lớn](docs/big-data-pipeline-specification.md). Kết quả kiểm chứng được ghi tại [Kết quả triển khai](reports/implementation_verification.md).
+
+Phiên bản hiện tại sử dụng 15 đặc trưng, kiểm định theo năm, CDF thực nghiệm và API gọi mô hình thực. Mô hình dùng contract cũ cần được huấn luyện lại. Dữ liệu thực đã được nhập trong `data/`. Chuẩn bị điểm chuẩn bằng `python scripts/prepare_real_data.py` trước khi chạy cấu hình mặc định. Kết quả dữ liệu thực nằm trong [Kết quả xử lý dữ liệu tuyển sinh](reports/real_data_results.md). Có thể tạo dữ liệu kiểm chứng bằng `python -m admission_core.demo --output runs/demo`.
+
 ---
 
 ## 1. Giới Thiệu Dự Án
@@ -8,11 +12,12 @@
 Dự án cung cấp một framework phân tích dữ liệu lớn và học máy xác suất nhằm giải quyết bài toán: **Ước lượng xác suất trúng tuyển liên tục $P(\text{Trúng tuyển}_{i, j, t}) = \mathbb{P}(S_{i, k, t} \ge C_{j, k, t})$** của thí sinh $i$ vào ngành $j$, tổ hợp $k$ tại năm tuyển sinh $t$.
 
 Hệ thống được thiết kế theo kiến trúc **Mềm dẻo (Engine-Agnostic & Decoupled Architecture)** dựa trên mẫu **Ports & Adapters (Hexagonal Architecture)**:
-- **Độc lập nền tảng tính toán:** Cho phép người dùng chuyển đổi linh hoạt giữa máy đơn (Python thuần, Pandas, DuckDB) và cụm dữ liệu lớn phân tán (Apache Spark, Hadoop) chỉ bằng 1 dòng cấu hình.
+- **Nền tảng tính toán:** Hai backend đã triển khai là `local_pandas` và `apache_spark`. Spark thực hiện CDF và tạo đặc trưng. LightGBM huấn luyện trên bảng Gold cục bộ.
 - **Cơ chế "Hộp đen / Túi mù" (Inversion of Control - IoC):** Người dùng có thể cắm công nghệ hoặc script riêng của mình vào hệ thống mà không cần hiểu cú pháp nội bộ của framework.
-- **Tách rời Model Serving:** Dịch vụ suy luận trực tuyến phục vụ người dùng qua REST API hoạt động độc lập, đạt độ trễ siêu tốc $\approx 7\text{ms}$/request.
+- **Model Serving:** Dịch vụ REST API nạp một phiên bản mô hình cùng CDF và feature lookup. Độ trễ phụ thuộc môi trường và cần được đo trên workload cụ thể.
 
-Tài liệu chi tiết liên quan:
+Tài liệu chi tiết liên quan trong thư mục `docs/`:
+- [Đặc tả Kỹ thuật & Hướng dẫn Pipeline Dữ liệu Lớn](docs/big-data-pipeline-specification.md) — *Kiến trúc Spark 4.3.0, 15 đặc trưng Contract 3.0, tiền xử lý dữ liệu thực và Model Serving.*
 - [Đặc tả bài toán & Mô hình toán 4 thành phần](docs/problem-specification.md)
 - [Hợp đồng dữ liệu & Ràng buộc Schema](docs/data-contract.md)
 - [Kế hoạch triển khai Big Data & Hướng dẫn MLOps](docs/big-data-processing-implement-plan.md)
@@ -23,13 +28,13 @@ Tài liệu chi tiết liên quan:
 
 ```text
 IS405.R11-Big-Data/
-├── src/admission_core/              # LÕI FRAMEWORK CHUẨN MLOPS (Cài đặt qua pip install -e .)
+├── src/admission_core/              # Package lõi, cài đặt bằng pip install .
 │   ├── specs/                       # Quy định của Framework (The WHAT)
-│   │   ├── contracts.py             # 16 đặc trưng chính thức, target R*, tiêu chuẩn Data Contract
+│   │   ├── contracts.py             # 15 đặc trưng, target R*, contract 3.0
 │   │   └── math_formulas.py         # Công thức giải tích Module 4, hàm sống sót 1-F(s)
 │   ├── ports/                       # Cổng giao diện trừu tượng (BaseCDFPort, BaseTrainerPort,...)
-│   ├── backends/                    # Bộ chuyển đổi tính toán mặc định (Local Pandas/DuckDB)
-│   ├── validation/                  # Cổng kiểm định chất lượng tự động (Quality Gate vs Sàn Bayes)
+│   ├── backends/                    # local_pandas và apache_spark
+│   ├── validation/                  # Kiểm định metric ngoài mẫu theo năm
 │   ├── reporting/                   # Xuất báo cáo markdown tự động
 │   ├── factory.py                   # BỘ ĐIỀU PHỐI IoC (Dynamic Plugin & Script Loader)
 │   ├── pipeline.py                  # "TÚI MÙ" ORCHESTRATOR (Tự động Retry, Fallback, Rollback)
@@ -44,7 +49,7 @@ IS405.R11-Big-Data/
 │   └── dirs.yaml                    # Danh mục đường dẫn (tương thích ngược)
 │
 ├── serving/                         # DỊCH VỤ SUY LUẬN TRỰC TUYẾN (Decoupled Model Hosting)
-│   └── app.py                       # RESTful Inference Server độc lập (~7ms/request)
+│   └── app.py                       # Entry point của dịch vụ suy luận HTTP
 │
 ├── models/                          # Lưu trữ Artifact mô hình chính thức & metadata
 │   ├── best_lightgbm_regressor.joblib
@@ -70,7 +75,7 @@ IS405.R11-Big-Data/
 
 ## 3. Cài Đặt Môi Trường
 
-Khuyến nghị sử dụng Python 3.9 - 3.11 trong môi trường ảo:
+Sử dụng Python từ 3.11 và môi trường Java tương thích với Spark. Hướng dẫn cấu hình Windows được trình bày trong `docs/big-data-pipeline-specification.md`.
 
 ### 3.1 Kích hoạt Virtual Environment (Windows)
 ```powershell
@@ -84,7 +89,7 @@ Khuyến nghị sử dụng Python 3.9 - 3.11 trong môi trường ảo:
 pip install -r requirements.txt
 
 # Cài đặt lõi framework admission-core ở chế độ editable
-pip install -e . --no-deps
+pip install '.[spark,dev]'
 ```
 
 ---
@@ -94,15 +99,15 @@ pip install -e . --no-deps
 Toàn bộ hệ thống được điều khiển thống nhất qua CLI `python -m admission_core`:
 
 ### 4.1 Khởi chạy toàn bộ quy trình tự động hóa ("Túi Mù" End-to-End)
-Chạy toàn bộ pipeline từ nạp dữ liệu $\to$ tính CDF $\to$ trích xuất đặc trưng đa tầng $\to$ huấn luyện LightGBM $\to$ kiểm định sàn Bayes $\to$ xuất báo cáo:
+Chạy pipeline từ nạp dữ liệu $\to$ tính CDF $\to$ tạo đặc trưng $\to$ huấn luyện LightGBM $\to$ kiểm định theo năm $\to$ xuất báo cáo và phát hành phiên bản model:
 
 ```powershell
 python -m admission_core run --config config/pipeline_config.yaml
 ```
 
 **Đầu ra sau khi chạy:**
-- Mô hình cập nhật tại: `models/best_lightgbm_regressor.joblib`
-- Báo cáo chất lượng tại: `reports/evaluation_summary.md` (RMSE $\approx 0.14$, $R^2 \approx 0.83$)
+- Mô hình được ghi vào `models/versions/<run_id>/`, bản hiện hành được xác định bằng `models/current.json`.
+- Báo cáo chất lượng được ghi theo `data_paths.report_output`. Các chỉ số được tính lại bằng kiểm định theo năm khi chạy pipeline.
 
 ---
 
@@ -208,4 +213,4 @@ Khi chạy lại `python -m admission_core run`, framework sẽ tự động kí
   python helpers/convert_to_parquet.py data-cleaned
   ```
 - **Hợp đồng dữ liệu:** Mọi đặc trưng đầu vào/ra của các module phải tuân thủ nghiêm ngặt theo [Data Contract](docs/data-contract.md).
-- **Kiểm định chất lượng:** Mọi lần cập nhật mô hình tự động đều được kiểm định qua Sàn Sai số Bayes ($\text{MSE} \approx 0.02283$). Mô hình không đạt chuẩn sẽ tự động bị Rollback.
+- **Kiểm định chất lượng:** Model ứng viên phải đạt các ngưỡng cấu hình trước khi được phát hành. Khi thất bại, tham chiếu phiên bản đang phục vụ được giữ nguyên. Điều kiện so sánh với hằng số sai số tham chiếu cũ được tắt trong cấu hình mặc định.

@@ -1,0 +1,159 @@
+{
+  "feature_schema_version": "3.0",
+  "features": [
+    "prog_pct_lag1",
+    "school_pct_mean_lag1",
+    "school_pct_min_lag1",
+    "major_pct_mean_lag1",
+    "group_pct_mean_lag1",
+    "delta_prog_vs_school_mean",
+    "delta_prog_vs_major_mean",
+    "num_blocks",
+    "trend_school_peak",
+    "trend_group_mean",
+    "is_new_program",
+    "inter_prog_school",
+    "inter_school_major",
+    "inter_prog_blocks",
+    "inter_school_blocks"
+  ],
+  "training_data_kind": "synthetic",
+  "training_max_year": 2025,
+  "forecast_years": [
+    2026
+  ],
+  "hyperparameters": {
+    "n_estimators": 60,
+    "learning_rate": 0.07,
+    "num_leaves": 31,
+    "random_state": 42,
+    "n_jobs": 2,
+    "verbosity": -1,
+    "min_child_samples": 5
+  },
+  "performance_metrics": {
+    "evaluation_method": "expanding_year",
+    "rmse": 0.020688916649340496,
+    "mse": 0.00042803127212335846,
+    "mae": 0.0162936039033529,
+    "r2": 0.9893485222140158,
+    "spearman_rho": 0.9941581257086237,
+    "baseline_rmse": 0.020186247596170246,
+    "coverage_80": 0.7361111111111112,
+    "training_samples": 384,
+    "evaluation_samples": 288,
+    "folds": [
+      {
+        "test_year": 2020,
+        "train_max_year": 2019,
+        "train_samples": 96,
+        "test_samples": 48,
+        "rmse": 0.020940232577398916,
+        "r2": 0.9893241255292712,
+        "pinball_loss": {
+          "0.1": 0.008285116330537901,
+          "0.5": 0.010635196353690165,
+          "0.9": 0.01348850915464376
+        },
+        "coverage_80": 0.7291666666666666,
+        "interval_width": 0.1657073901143726,
+        "crossing_rate": 0.16666666666666666
+      },
+      {
+        "test_year": 2021,
+        "train_max_year": 2020,
+        "train_samples": 144,
+        "test_samples": 48,
+        "rmse": 0.022961298001577694,
+        "r2": 0.9867603488965111,
+        "pinball_loss": {
+          "0.1": 0.008362348763072553,
+          "0.5": 0.009963996247263072,
+          "0.9": 0.01301486580363421
+        },
+        "coverage_80": 0.8125,
+        "interval_width": 0.17547749519844189,
+        "crossing_rate": 0.10416666666666667
+      },
+      {
+        "test_year": 2022,
+        "train_max_year": 2021,
+        "train_samples": 192,
+        "test_samples": 48,
+        "rmse": 0.020712382629706844,
+        "r2": 0.9897251017915594,
+        "pinball_loss": {
+          "0.1": 0.007514529881650172,
+          "0.5": 0.008514855339548408,
+          "0.9": 0.010765858071196644
+        },
+        "coverage_80": 0.5416666666666666,
+        "interval_width": 0.12931061505834845,
+        "crossing_rate": 0.125
+      },
+      {
+        "test_year": 2023,
+        "train_max_year": 2022,
+        "train_samples": 240,
+        "test_samples": 48,
+        "rmse": 0.021665391981008083,
+        "r2": 0.9878766026632593,
+        "pinball_loss": {
+          "0.1": 0.0063185700718009314,
+          "0.5": 0.009193061486058885,
+          "0.9": 0.011662683855227727
+        },
+        "coverage_80": 0.8333333333333334,
+        "interval_width": 0.14717920160328263,
+        "crossing_rate": 0.020833333333333332
+      },
+      {
+        "test_year": 2024,
+        "train_max_year": 2023,
+        "train_samples": 288,
+        "test_samples": 48,
+        "rmse": 0.018502546421510876,
+        "r2": 0.9915187936880208,
+        "pinball_loss": {
+          "0.1": 0.007439234316602928,
+          "0.5": 0.007876188108249749,
+          "0.9": 0.01034820268679836
+        },
+        "coverage_80": 0.6875,
+        "interval_width": 0.1405694749911738,
+        "crossing_rate": 0.14583333333333334
+      },
+      {
+        "test_year": 2025,
+        "train_max_year": 2024,
+        "train_samples": 336,
+        "test_samples": 48,
+        "rmse": 0.01901938112707824,
+        "r2": 0.9907967166720713,
+        "pinball_loss": {
+          "0.1": 0.00740752590523426,
+          "0.5": 0.007949782326164468,
+          "0.9": 0.010811437126271464
+        },
+        "coverage_80": 0.8125,
+        "interval_width": 0.1617233561353783,
+        "crossing_rate": 0.041666666666666664
+      }
+    ],
+    "training_date": "2026-11-12T18:17:44.528423+07:00",
+    "subgroups": {
+      "existing": {
+        "samples": 288,
+        "rmse": 0.020688916649340496
+      }
+    }
+  },
+  "model_files": {
+    "point_estimator": "best_lightgbm_regressor.joblib",
+    "quantile_0.1": "lightgbm_quantile_0.1.joblib",
+    "quantile_0.5": "lightgbm_quantile_0.5.joblib",
+    "quantile_0.9": "lightgbm_quantile_0.9.joblib"
+  },
+  "trends_policy": "previous_calendar_year",
+  "cdf_policy": "strictly_greater_step_cdf"
+}

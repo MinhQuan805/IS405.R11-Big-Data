@@ -1,0 +1,159 @@
+{
+  "environment": {
+    "platform": "Windows-10-10.0.26200-SP0",
+    "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "cpu_count": 16,
+    "ram_gb": 15.635688781738281,
+    "windows_local_fs_jar": "R:\\artifacts\\windows\\hadoop-bare-naked-local-fs-0.1.0.jar",
+    "java_version": "java version \"25.0.2\" 2026-01-20 LTS\nJava(TM) SE Runtime Environment (build 25.0.2+10-LTS-69)\nJava HotSpot(TM) 64-Bit Server VM (build 25.0.2+10-LTS-69, mixed mode, sharing)"
+  },
+  "config": {
+    "data_ingestion": {
+      "direct_sources": {
+        "cutoff_scores": "D:\\Study\\University\\Big data\\Đồ án\\IS405.R11-Big-Data\\runs\\scale-22000\\cutoff_scores.parquet",
+        "majors": "D:\\Study\\University\\Big data\\Đồ án\\IS405.R11-Big-Data\\runs\\scale-22000\\majors.parquet",
+        "score_distribution_ct2006": "D:\\Study\\University\\Big data\\Đồ án\\IS405.R11-Big-Data\\runs\\scale-22000\\scores.parquet",
+        "trend_annual": "D:\\Study\\University\\Big data\\Đồ án\\IS405.R11-Big-Data\\runs\\scale-22000\\trend_annual.parquet",
+        "trend_keywords": "D:\\Study\\University\\Big data\\Đồ án\\IS405.R11-Big-Data\\runs\\scale-22000\\trend_keywords.parquet"
+      },
+      "mode": "direct_data"
+    },
+    "data_kind": "synthetic",
+    "data_paths": {
+      "cdf_output": "D:\\Study\\University\\Big data\\Đồ án\\IS405.R11-Big-Data\\runs\\scale-22000\\local_pandas\\cdf.parquet",
+      "features_output": "D:\\Study\\University\\Big data\\Đồ án\\IS405.R11-Big-Data\\runs\\scale-22000\\local_pandas\\gold.parquet",
+      "models_dir": "D:\\Study\\University\\Big data\\Đồ án\\IS405.R11-Big-Data\\runs\\scale-22000\\local_pandas\\models",
+      "report_output": "D:\\Study\\University\\Big data\\Đồ án\\IS405.R11-Big-Data\\runs\\scale-22000\\local_pandas\\evaluation.md"
+    },
+    "execution_backend": "local_pandas",
+    "feature_options": {
+      "forecast_year": 2026,
+      "min_training_year": 2018
+    },
+    "model_training": {
+      "hyperparameters": {
+        "min_child_samples": 5,
+        "n_estimators": 60
+      },
+      "min_train_years": 2
+    },
+    "quality_gate": {
+      "max_bayes_gap_mse": null,
+      "max_rmse": 0.16,
+      "min_r2": 0.78
+    },
+    "seed": 42,
+    "spark": {
+      "conf": {
+        "spark.sql.shuffle.partitions": "4"
+      },
+      "master": "local[2]"
+    }
+  },
+  "measurements": [
+    {
+      "backend": "local_pandas",
+      "initialization_seconds": 9.999930625781417e-07,
+      "cdf_seconds": 0.39020769999478944,
+      "features_seconds": 0.39678950000961777,
+      "processing_total_seconds": 0.7875608000031207,
+      "spark": {
+        "conf": {
+          "spark.sql.shuffle.partitions": "4"
+        },
+        "master": "local[2]"
+      },
+      "data_kind": "synthetic",
+      "peak_tree_rss_mb": 202.37109375,
+      "wall_seconds": 6.576853500009747,
+      "repeat": 0
+    },
+    {
+      "backend": "apache_spark",
+      "initialization_seconds": 19.343347399990307,
+      "cdf_seconds": 10.07269840000663,
+      "features_seconds": 14.053301699997974,
+      "processing_total_seconds": 43.46960830000171,
+      "spark": {
+        "conf": {
+          "spark.sql.shuffle.partitions": "4"
+        },
+        "master": "local[2]"
+      },
+      "data_kind": "synthetic",
+      "peak_tree_rss_mb": 948.09765625,
+      "wall_seconds": 47.337346100001014,
+      "repeat": 0
+    },
+    {
+      "backend": "local_pandas",
+      "initialization_seconds": 5.00003807246685e-07,
+      "cdf_seconds": 0.2645252999936929,
+      "features_seconds": 0.37635550000413787,
+      "processing_total_seconds": 0.6412066000048071,
+      "spark": {
+        "conf": {
+          "spark.sql.shuffle.partitions": "4"
+        },
+        "master": "local[2]"
+      },
+      "data_kind": "synthetic",
+      "peak_tree_rss_mb": 198.69140625,
+      "wall_seconds": 3.778505499998573,
+      "repeat": 1
+    },
+    {
+      "backend": "apache_spark",
+      "initialization_seconds": 17.820014299999457,
+      "cdf_seconds": 9.752131600005669,
+      "features_seconds": 14.357166399990092,
+      "processing_total_seconds": 41.929630799990264,
+      "spark": {
+        "conf": {
+          "spark.sql.shuffle.partitions": "4"
+        },
+        "master": "local[2]"
+      },
+      "data_kind": "synthetic",
+      "peak_tree_rss_mb": 941.2890625,
+      "wall_seconds": 45.69472989998758,
+      "repeat": 1
+    },
+    {
+      "backend": "local_pandas",
+      "initialization_seconds": 2.4000037228688598e-06,
+      "cdf_seconds": 0.36140460000024177,
+      "features_seconds": 0.35712999998941086,
+      "processing_total_seconds": 0.7194314999942435,
+      "spark": {
+        "conf": {
+          "spark.sql.shuffle.partitions": "4"
+        },
+        "master": "local[2]"
+      },
+      "data_kind": "synthetic",
+      "peak_tree_rss_mb": 202.05078125,
+      "wall_seconds": 4.410990099990158,
+      "repeat": 2
+    },
+    {
+      "backend": "apache_spark",
+      "initialization_seconds": 15.407528099996853,
+      "cdf_seconds": 10.664935100008734,
+      "features_seconds": 14.517539799999213,
+      "processing_total_seconds": 40.59026740000991,
+      "spark": {
+        "conf": {
+          "spark.sql.shuffle.partitions": "4"
+        },
+        "master": "local[2]"
+      },
+      "data_kind": "synthetic",
+      "peak_tree_rss_mb": 952.71875,
+      "wall_seconds": 44.08517670001311,
+      "repeat": 2
+    }
+  ],
+  "output_parity": true,
+  "memory_method": "50ms samples, sum RSS of live process tree; shared pages may be counted more than once"
+}

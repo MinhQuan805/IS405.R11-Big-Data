@@ -1,0 +1,56 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Vai trò PySpark — ETL phân tán trước bước huấn luyện",
+  "description": "Dành cho thành viên mới: phân biệt pipeline Pandas hiện tại với vị trí phù hợp để đưa PySpark vào dự án dự báo tuyển sinh.",
+  "ref": "main",
+  "steps": [
+    {
+      "file": "requirements.txt",
+      "line": 1,
+      "title": "1. Hiện tại dự án chưa dùng PySpark",
+      "description": "Danh sách dependency có Pandas, PyArrow và DuckDB nhưng không có pyspark. Tìm kiếm toàn repository cũng chưa thấy SparkSession hay API spark.read/spark.sql, nên PySpark hiện chưa tham gia vào luồng chạy thực tế."
+    },
+    {
+      "file": "config/dirs.yaml",
+      "line": 8,
+      "title": "2. Biên dữ liệu đã phù hợp với Spark",
+      "description": "Các bảng raw và cleaned được đăng ký tập trung, chủ yếu ở định dạng Parquet. Đây là điểm tích hợp tự nhiên: Spark có thể đọc các đường dẫn raw, biến đổi phân tán và ghi lại đúng các bảng cleaned mà không làm thay đổi hợp đồng đường dẫn của các bước sau."
+    },
+    {
+      "file": "scripts-processing/unit-scripts/cutoff_scores.py",
+      "line": 16,
+      "title": "3. ETL điểm chuẩn đang chạy trong một tiến trình Pandas",
+      "description": "Script hiện đọc toàn bộ Parquet vào Pandas rồi làm sạch, lọc và khử trùng lặp. Nếu dữ liệu tăng vượt RAM hoặc cần chứng minh xử lý phân tán, đây là một ứng viên để chuyển sang Spark DataFrame."
+    },
+    {
+      "file": "scripts-processing/unit-scripts/clean_trends.py",
+      "line": 68,
+      "title": "4. Tách JSON Trends là ứng viên PySpark thứ hai",
+      "description": "Hàm đang nạp toàn bộ trends.json bằng json.load rồi dựng nhiều list trong bộ nhớ. PySpark nên thay phần parse, explode, chuẩn hóa và tạo các bảng quan hệ khi số record lớn; việc gọi Google Trends vẫn nên ở crawler vì bị giới hạn bởi API và mạng, không phải CPU."
+    },
+    {
+      "file": "scripts-processing/unit-scripts/clean_trends.py",
+      "line": 228,
+      "title": "5. Spark ghi các bảng Parquet chuẩn hóa",
+      "description": "Đầu ra hiện gồm queries, keywords, timeline, annual, regions và related_queries. Khi chuyển ETL, giữ nguyên tên cột và ý nghĩa bảng, dùng Spark để groupBy/join/deduplicate rồi ghi Parquet; như vậy data contract không đổi."
+    },
+    {
+      "file": "docs/data-contract.md",
+      "line": 406,
+      "title": "6. PySpark tạo bảng đặc trưng bằng join và aggregation",
+      "description": "Phần có giá trị nhất của Spark là nối lịch sử điểm chuẩn, ngành, khối thi, phổ điểm và Google Trends; sau đó tính percentile, lag theo năm và thống kê theo trường/ngành/nhóm ngành. Đây là lớp feature engineering, không phải crawler hay giao diện dự đoán."
+    },
+    {
+      "file": "models/model_metadata.json",
+      "line": 4,
+      "title": "7. Bảng huấn luyện cuối vẫn đủ nhỏ cho LightGBM local",
+      "description": "Artifact hiện ghi 33.297 mẫu và 16 đặc trưng. Sau khi Spark xử lý dữ liệu lớn, chỉ bảng feature cuối cùng cần được đưa về Pandas/NumPy để huấn luyện LightGBM hiện tại; chưa cần thay mô hình bằng Spark ML chỉ để có Spark trong kiến trúc."
+    },
+    {
+      "file": "scripts-processing/notebooks/model-training.ipynb",
+      "line": 1,
+      "title": "8. Ranh giới triển khai đề xuất",
+      "description": "Luồng nên là nguồn thô → PySpark ETL/feature engineering → Parquet feature table → Pandas/LightGBM training → joblib inference. Chỉ nên chuyển thêm bước huấn luyện sang Spark nếu dữ liệu feature thực sự lớn hoặc nhóm chủ động chọn thuật toán phân tán tương thích."
+    }
+  ]
+}

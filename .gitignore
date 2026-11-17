@@ -1,4 +1,5 @@
 .venv/
+.venv-linux/
 __pycache__/
 *.py[cod]
 logs/*.log
@@ -6,4 +7,12 @@ data-cleaned/
 data-raw/
 models_backup/
 *.egg-info/
+runs/
+.pytest_cache/
+artifacts/
+spark-warehouse/
+derby.log
+build/
+models/versions/
+models/current.json
 

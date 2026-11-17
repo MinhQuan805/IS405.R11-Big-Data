@@ -1,5 +1,19 @@
 # Data Contract — Đặc Tả Hợp Đồng Dữ Liệu Dự Án IS405.R11 Big Data
 
+## Dữ liệu trung gian của contract 3.0
+
+CDF được lưu dưới dạng Parquet với khóa `(score_year, block_name, score_value)`. Các cột số gồm `candidate_count`, `total_candidates`, `cdf_leq` và `rank_pct_gt`. Tần suất dùng kiểu số nguyên 64 bit, tỷ lệ dùng số thực. Quy ước `rank_pct_gt = P(X > score_value)` thống nhất cách xử lý điểm trùng.
+
+Với dữ liệu đã nhập, cấu hình loại nhãn đợt `20-2` trong CT2006 sau khi đối chiếu 10.857 dòng trùng toàn bộ giá trị với đợt `20`. Các nguồn phổ điểm và bảng chuẩn hóa đầu vào nằm dưới `data/`.
+
+Danh mục ngành chuẩn bị có thể bổ sung `school_id` và `score_year`. Khi các cột này tồn tại, khóa ánh xạ gồm trường, mã chương trình và năm. Danh mục từ khóa Trends cho phép nhiều tên gắn với một `query_id`, còn bảng Trends theo năm phải duy nhất theo `(query_id, year)`.
+
+Bảng Gold dùng khóa `(school_id, score_code, score_year)`, nhãn `R_star`, các cột mô tả chương trình, `allowed_blocks`, `offering_carried_forward` và 15 đặc trưng trong `src/admission_core/specs/contracts.py`. Contract loại biến `is_cutoff_over_30` để tránh tiết lộ điểm chuẩn năm dự báo. Dòng năm dự báo có nhãn null, các dòng có nhãn được dùng cho huấn luyện và kiểm định theo thời gian.
+
+Feature phục vụ chỉ chứa năm sau năm huấn luyện cuối. Trends và các thống kê phân vị sử dụng dữ liệu năm trước. Những thống kê thiếu lịch sử sử dụng quy tắc thay thế được mô tả trong `docs/big-data-pipeline-specification.md`.
+
+Các bảng dữ liệu nguồn và thống kê khảo sát dưới đây được giữ để đối chiếu. Tính sẵn có và số lượng thực tế được xác minh khi nạp dữ liệu trong môi trường chạy.
+
 **Mục đích của tài liệu này**:
 
 - Đặc tả cấu trúc schema, kiểu dữ liệu theo chuẩn pandas, trạng thái sử dụng, ý nghĩa nghiệp vụ, quy trình làm sạch và các ràng buộc toàn vẹn dữ liệu cho toàn bộ các tập dữ liệu thô (_Raw Data_) và dữ liệu đã làm sạch (_Cleaned Data_) phục vụ phân tích đặc trưng và xây dựng mô hình dự đoán điểm chuẩn tuyển sinh đại học kết hợp xu hướng tìm kiếm Google Trends.

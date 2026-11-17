@@ -1,0 +1,46 @@
+{
+  "config": "D:\\Study\\University\\Big data\\Đồ án\\IS405.R11-Big-Data\\runs\\verification\\local_pandas.yaml",
+  "data_kind": "synthetic",
+  "inputs": [
+    {
+      "source": "cutoff_scores",
+      "uri": "D:\\Study\\University\\Big data\\Đồ án\\IS405.R11-Big-Data\\runs\\verification\\cutoff_scores.parquet",
+      "state": "available",
+      "rows": 480,
+      "bytes": 7089,
+      "schema": "school_id: large_string\nschool_name: large_string\nscore_code: large_string\nscore_year: int64\nscore_admission_name: large_string\nscore_blocks: large_string\nscore_mark: double\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 935"
+    },
+    {
+      "source": "majors",
+      "uri": "D:\\Study\\University\\Big data\\Đồ án\\IS405.R11-Big-Data\\runs\\verification\\majors.parquet",
+      "state": "available",
+      "rows": 8,
+      "bytes": 2376,
+      "schema": "score_codes: large_string\nmajor_name: large_string\nmajor_group_name: large_string\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 455"
+    },
+    {
+      "source": "score_distribution_ct2006",
+      "uri": "D:\\Study\\University\\Big data\\Đồ án\\IS405.R11-Big-Data\\runs\\verification\\scores.parquet",
+      "state": "available",
+      "rows": 22000,
+      "bytes": 320926,
+      "schema": "score_year: int64\nKhoiA: double\nKhoiA1: double\nKhoiB: double\nKhoiC: double\nKhoiD: double\nKhoiA02: double\nKhoiC01: double\nKhoiD07: double\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 1112"
+    },
+    {
+      "source": "trend_annual",
+      "uri": "D:\\Study\\University\\Big data\\Đồ án\\IS405.R11-Big-Data\\runs\\verification\\trend_annual.parquet",
+      "state": "available",
+      "rows": 100,
+      "bytes": 3214,
+      "schema": "query_id: large_string\nyear: int64\ninterest_mean: double\ninterest_season_peak: double\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 578"
+    },
+    {
+      "source": "trend_keywords",
+      "uri": "D:\\Study\\University\\Big data\\Đồ án\\IS405.R11-Big-Data\\runs\\verification\\trend_keywords.parquet",
+      "state": "available",
+      "rows": 10,
+      "bytes": 2355,
+      "schema": "query_id: large_string\nkeyword: large_string\nkeyword_type: large_string\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 435"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "input_rows": 101466,
+  "exclusions": {
+    "other_admission_method": 44066,
+    "before_2016": 12734,
+    "non_university": 2,
+    "cutoff_outside_30_scale": 401,
+    "no_supported_block": 4649,
+    "unresolved_or_conflicting_major": 8285
+  },
+  "conflicting_program_year_keys": 4,
+  "retained_rows": 31329,
+  "retained_program_years": 28133,
+  "retained_by_year": {
+    "2016": 1624,
+    "2017": 2318,
+    "2018": 2490,
+    "2019": 2729,
+    "2020": 2756,
+    "2021": 3315,
+    "2022": 3360,
+    "2023": 3559,
+    "2024": 4178,
+    "2025": 5000
+  },
+  "mapping_methods": {
+    "unique_code": 27156,
+    "exact_title": 3706,
+    "unique_longest_title": 462,
+    "same_program_year": 5
+  },
+  "policy": "university THPT, score in [0,30], supported block, unique catalog phrase within school/program/year"
+}

@@ -1,0 +1,21 @@
+{
+  "data_kind": "synthetic",
+  "seed": 42,
+  "score_rows": 220000,
+  "block_observations": 1760000,
+  "cutoff_rows": 480,
+  "years": [
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "purpose": "execution and parity checks"
+}

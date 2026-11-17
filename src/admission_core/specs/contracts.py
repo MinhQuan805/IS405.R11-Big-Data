@@ -4,7 +4,8 @@ Defines invariant features, target constraints, and data validation rules.
 
 from typing import List, Dict, Any
 
-# 16 đặc trưng chính thức vượt qua kiểm định ANOVA F-test
+# Contract v3 excludes the current-year cutoff flag, which reveals the target.
+FEATURE_SCHEMA_VERSION = "3.0"
 OFFICIAL_FEATURES: List[str] = [
     "prog_pct_lag1",
     "school_pct_mean_lag1",
@@ -16,7 +17,6 @@ OFFICIAL_FEATURES: List[str] = [
     "num_blocks",
     "trend_school_peak",
     "trend_group_mean",
-    "is_cutoff_over_30",
     "is_new_program",
     "inter_prog_school",
     "inter_school_major",

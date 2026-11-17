@@ -1,0 +1,62 @@
+{
+  "config": "D:\\Study\\University\\Big data\\Đồ án\\IS405.R11-Big-Data\\config\\pipeline_config.yaml",
+  "data_kind": "real",
+  "inputs": [
+    {
+      "source": "cutoff_scores",
+      "uri": "data/data-cleaned/v3/prepared/cutoff-scores.parquet",
+      "state": "available",
+      "rows": 31329,
+      "bytes": 358840,
+      "schema": "school_id: string\nschool_name: string\nschool_type: string\nschool_short_name: string\nprovince_id: int64\nprovince_name: string\nscore_code: string\nscore_name: string\nscore_blocks: string\nscore_mark: double\nscore_year: int64\nscore_introtext: string\nscore_admission_name: string\nmapping_method: string\nresolved_major: string\nresolved_group: string\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 2090"
+    },
+    {
+      "source": "majors",
+      "uri": "data/data-cleaned/v3/prepared/majors.parquet",
+      "state": "available",
+      "rows": 28133,
+      "bytes": 83205,
+      "schema": "school_id: string\nscore_codes: string\nscore_year: int64\nmajor_name: string\nmajor_group_name: string\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 702"
+    },
+    {
+      "source": "score_blocks",
+      "uri": "data/data-cleaned/admission-cutoff-score/score-blocks.parquet",
+      "state": "available",
+      "rows": 280,
+      "bytes": 5105,
+      "schema": "code: string\nsubject1: string\nsubject2: string\nsubject3: string\nsubject4: string"
+    },
+    {
+      "source": "score_distribution_ct2006",
+      "uri": "data/data-raw/score-distribution/score-distribution-2016-2025-ct2006.parquet",
+      "state": "available",
+      "rows": 8535859,
+      "bytes": 182603220,
+      "schema": "SBD: string\nNam: string\nTinh: string\nSBD_New: int64\nToan: double\nNguVan: double\nVatLy: double\nHoaHoc: double\nSinhHoc: double\nLichSu: double\nDiaLy: double\nGDCD: double\nNgoaiNgu: double\nMaMonNgoaiNgu: string\nTongDiem: double\nKhoiA: double\nKhoiA1: double\nKhoiB: double\nKhoiC: double\nKhoiD: double\nKHTN: double\nKHXH: double\nKhoiA02: double\nKhoiC01: double\nKhoiD07: double\nTongDiemKHTN: double\nTongDiemKHXH: double"
+    },
+    {
+      "source": "score_distribution_ct2018",
+      "uri": "data/data-raw/score-distribution/score-distribution-2025-ct2018.parquet",
+      "state": "available",
+      "rows": 1131136,
+      "bytes": 17376731,
+      "schema": "SBD: int64\nNam: int64\nTinh: int64\nSBD_New: int64\nToan: double\nNguVan: double\nVatLy: double\nHoaHoc: double\nSinhHoc: double\nLichSu: double\nDiaLy: double\nKinhTePhapLuat: double\nTinHoc: double\nCongNgheCongNghiep: double\nCongNgheNongNghiep: double\nNgoaiNgu: double\nMaMonNgoaiNgu: string\nTongDiem: double\nKhoiA: double\nKhoiA1: double\nKhoiB: double\nKhoiC: double\nKhoiD: double\nKhoiA02: double\nKhoiC01: double\nKhoiD07: double"
+    },
+    {
+      "source": "trend_annual",
+      "uri": "data/data-cleaned/google-trends/trend_annual.parquet",
+      "state": "available",
+      "rows": 20217,
+      "bytes": 93399,
+      "schema": "query_id: large_string\nyear: int64\ninterest_mean: double\ninterest_max: int64\ninterest_sum: int64\ninterest_season_peak: double\nnonzero_months: int64\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 945"
+    },
+    {
+      "source": "trend_keywords",
+      "uri": "data/data-cleaned/google-trends/trend_keywords.parquet",
+      "state": "available",
+      "rows": 927,
+      "bytes": 70900,
+      "schema": "query_id: large_string\nkeyword: large_string\nkeyword_type: large_string\nselected_mid: large_string\nselected_title: large_string\nrelevance_score: double\nselection_reason: large_string\ncandidate_count: int64\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 1065"
+    }
+  ]
+}

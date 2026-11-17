@@ -1,93 +1,101 @@
-"""Admission Pipeline Orchestrator (The 'Túi Mù' / Black Box Engine).
-Executes the end-to-end lifecycle with automated Retry, Fallback, and Rollback.
-"""
-
+"""Execute batch stages and publish only complete, accepted model releases."""
+import json
 import time
-import shutil
 from pathlib import Path
-from typing import Dict, Any
-
-from admission_core.factory import (
-    get_ingestion_backend, get_cdf_backend, get_feature_backend, get_trainer_backend
-)
+from uuid import uuid4
+import pandas as pd
+from admission_core.factory import get_ingestion_backend, get_cdf_backend, get_feature_backend, get_trainer_backend, validate_backend
 from admission_core.validation.quality_gate import QualityGate
 from admission_core.reporting.reporter import ReportGenerator
+from admission_core.artifacts import publish
+from admission_core.backends.apache_spark.session import SparkRuntime
+
 
 class AdmissionPipeline:
-    """Khung điều phối quy trình tự động hóa độc lập công nghệ"""
-
-    def __init__(self, config: Dict[str, Any]):
-        self.config = config
+    def __init__(self, config):
+        self.config = dict(config)
+        validate_backend(config)
+        self.runtime = SparkRuntime(config.get("spark"))
         self.ingestion_backend = get_ingestion_backend(config)
-        self.cdf_backend = get_cdf_backend(config)
-        self.feature_backend = get_feature_backend(config)
+        self.cdf_backend = get_cdf_backend(config, self.runtime)
+        self.feature_backend = get_feature_backend(config, self.runtime)
         self.trainer_backend = get_trainer_backend(config)
         self.quality_gate = QualityGate(config.get("quality_gate"))
+        self.paths = dict(config.get("data_paths", {}))
+        self.config["data_paths"] = self.paths
 
-    def execute(self) -> Dict[str, Any]:
-        print("=" * 70)
-        print("🚀 BẮT ĐẦU VẬN HÀNH PIPELINE TỰ ĐỘNG HÓA ('TÚI MÙ' FRAMEWORK)")
-        print("=" * 70)
-
-        # 1. BƯỚC 1: INGESTION (Nạp dữ liệu với cơ chế Retry)
-        max_retries = self.config.get("reliability", {}).get("retry_policy", {}).get("max_attempts", 3)
-        sources = None
-        for attempt in range(1, max_retries + 1):
+    def ingest(self):
+        policy = self.config.get("reliability", {}).get("retry_policy", {})
+        attempts = int(policy.get("max_attempts", 1))
+        if attempts < 1:
+            raise ValueError("max_attempts phải dương")
+        for index in range(attempts):
             try:
-                sources = self.ingestion_backend.ingest(self.config)
-                break
-            except Exception as e:
-                print(f"⚠️ [Retry {attempt}/{max_retries}] Lỗi Ingestion: {e}")
-                if attempt == max_retries:
+                return self.ingestion_backend.ingest(self.config)
+            except (OSError, RuntimeError):
+                if index == attempts - 1:
                     raise
-                time.sleep(2 ** attempt)
+                time.sleep(min(30, policy.get("initial_backoff_sec", 1) * policy.get("backoff_multiplier", 2) ** index))
 
-        # 2. BƯỚC 2: CDF ENGINE (Module 2)
-        cdf_out = self.config.get("data_paths", {}).get("cdf_output", "data-cleaned/score-distribution-cdf/cdf_summary.parquet")
-        cdf_path = self.cdf_backend.compute_cdf(sources, cdf_out)
+    def feature_inputs(self, sources, cdf_path):
+        return {**sources, "cdf_data": cdf_path}
 
-        # 3. BƯỚC 3: FEATURE PIPELINE (Module 1 & 3)
-        feature_inputs = {
-            "cutoff_scores": sources.get("cutoff_scores"),
-            "majors": sources.get("majors"),
-            "trend_annual": sources.get("trend_annual"),
-            "trend_keywords": sources.get("trend_keywords"),
-            "cdf_data": cdf_path
-        }
-        feat_out = self.config.get("data_paths", {}).get("features_output", "data-cleaned/gold_features.parquet")
-        feat_path = self.feature_backend.build_features(feature_inputs, feat_out)
-
-        # 4. BƯỚC 4: TRAINER (Module 3)
-        model_out = self.config.get("data_paths", {}).get("models_dir", "models/")
-        
-        # Sao lưu phiên bản trước phục vụ cơ chế Rollback nếu cần
-        backup_model_dir = Path("models_backup/")
-        if Path(model_out).exists():
-            shutil.copytree(model_out, backup_model_dir, dirs_exist_ok=True)
-
-        metrics = self.trainer_backend.train_and_evaluate(
-            feature_matrix_uri=feat_path,
-            output_model_dir=model_out,
-            options=self.config.get("model_training")
-        )
-
-        # 5. BƯỚC 5: QUALITY GATE & ROLLBACK
-        passed, gate_msg = self.quality_gate.validate(metrics)
-        print(f"[Quality Gate] {gate_msg}")
-
+    def train(self, features, cdf):
+        root = Path(self.paths.get("models_dir", "models"))
+        candidate = root / "versions" / uuid4().hex
+        candidate.mkdir(parents=True, exist_ok=False)
+        training_options = dict(self.config.get("model_training", {}))
+        training_options["data_kind"] = self.config.get("data_kind", "unspecified")
+        metrics = self.trainer_backend.train_and_evaluate(features, str(candidate), training_options)
+        passed, message = self.quality_gate.validate(metrics)
+        metrics["quality_gate_passed"] = passed
+        metrics["quality_gate_message"] = message
+        (candidate / "evaluation.json").write_text(json.dumps(metrics, ensure_ascii=False, indent=2), encoding="utf-8")
+        ReportGenerator.generate_markdown(metrics, str(candidate / "evaluation.md"))
         if not passed:
-            print("🚨 KÍCH HOẠT CƠ CHẾ ROLLBACK: Mô hình mới không vượt qua cổng kiểm định!")
-            if backup_model_dir.exists():
-                shutil.copytree(backup_model_dir, model_out, dirs_exist_ok=True)
-                print("🔄 Đã khôi phục thành công phiên bản mô hình trước đó.")
-            raise RuntimeError(f"Pipeline dừng do vi phạm Quality Gate: {gate_msg}")
-
-        # 6. BƯỚC 6: XUẤT BÁO CÁO TỰ ĐỘNG
-        report_path = self.config.get("data_paths", {}).get("report_output", "reports/evaluation_summary.md")
-        ReportGenerator.generate_markdown(metrics, report_path)
-
-        print("=" * 70)
-        print("✅ HOÀN TẤT TOÀN BỘ PIPELINE THÀNH CÔNG RỰC RỠ!")
-        print("=" * 70)
+            raise RuntimeError(f"Model ứng viên không đạt. Bản hiện hành được giữ nguyên. {message}")
+        from admission_core.cdf_contract import validate_cdf
+        cdf_frame = validate_cdf(pd.read_parquet(cdf))
+        cdf_frame.to_parquet(candidate / "cdf_summary.parquet", index=False)
+        (candidate / "run_config.json").write_text(json.dumps(self.config, ensure_ascii=False, indent=2), encoding="utf-8")
+        # Load the entire candidate before promotion, including models and lookups.
+        from admission_core.inference import AdmissionPredictor
+        AdmissionPredictor(candidate)
+        ReportGenerator.generate_markdown(metrics, self.paths.get("report_output", "reports/evaluation_summary.md"))
+        publish(candidate, root)
         return metrics
 
+    def run_stage(self, stage):
+        try:
+            if stage == "train":
+                return self.train(self.paths["features_output"], self.paths["cdf_output"])
+            sources = self.ingest()
+            if stage == "ingest":
+                return sources
+            if stage == "cdf":
+                return self.cdf_backend.compute_cdf(sources, self.paths["cdf_output"], self.config.get("cdf_options"))
+            if stage == "features":
+                return self.feature_backend.build_features(self.feature_inputs(sources, self.paths["cdf_output"]),
+                    self.paths["features_output"], self.config.get("feature_options"))
+            raise ValueError(f"Stage không hợp lệ: {stage}")
+        finally:
+            self.runtime.close()
+
+    def execute(self):
+        try:
+            run_id = uuid4().hex
+            for key in ("cdf_output", "features_output"):
+                uri = self.paths[key]
+                if "://" in uri:
+                    parent, _, name = uri.rpartition("/")
+                    self.paths[key] = f"{parent}/runs/{run_id}/{name}"
+                else:
+                    destination = Path(uri)
+                    self.paths[key] = str(destination.parent / "runs" / run_id / destination.name)
+            sources = self.ingest()
+            cdf = self.cdf_backend.compute_cdf(sources, self.paths["cdf_output"], self.config.get("cdf_options"))
+            features = self.feature_backend.build_features(self.feature_inputs(sources, cdf),
+                self.paths["features_output"], self.config.get("feature_options"))
+            return self.train(features, cdf)
+        finally:
+            self.runtime.close()

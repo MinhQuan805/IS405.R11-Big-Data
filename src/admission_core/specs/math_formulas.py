@@ -15,6 +15,10 @@ def calculate_admission_probability(
     predicted_variance: float
 ) -> float:
     """Công thức suy luận Module 4: P(Pass) = Phi((mu - r) / sigma)"""
+    if not all(math.isfinite(value) for value in (student_rank_pct, predicted_mean, predicted_variance)):
+        raise ValueError("Các tham số xác suất phải hữu hạn")
+    if not 0 <= student_rank_pct <= 1 or not 0 <= predicted_mean <= 1 or predicted_variance < 0:
+        raise ValueError("Phân vị hoặc phương sai ngoài miền hợp lệ")
     sigma = math.sqrt(max(predicted_variance, 1e-6))
     z = (predicted_mean - student_rank_pct) / sigma
     prob = standard_normal_cdf(z)

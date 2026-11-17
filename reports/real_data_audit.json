@@ -1,0 +1,228 @@
+{
+  "score_sources": [
+    {
+      "path": "data\\data-raw\\score-distribution\\score-distribution-2016-2025-ct2006.parquet",
+      "years": [
+        [
+          "16",
+          877460
+        ],
+        [
+          "17",
+          861068
+        ],
+        [
+          "18",
+          921520
+        ],
+        [
+          "19",
+          882594
+        ],
+        [
+          "20",
+          881374
+        ],
+        [
+          "20-2",
+          10857
+        ],
+        [
+          "21",
+          987704
+        ],
+        [
+          "21-2",
+          12086
+        ],
+        [
+          "22",
+          995441
+        ],
+        [
+          "23",
+          1022060
+        ],
+        [
+          "24",
+          1061605
+        ],
+        [
+          "25",
+          22090
+        ]
+      ],
+      "year_rows_distinct_ids_missing_ids": [
+        [
+          "16",
+          877460,
+          877460,
+          0
+        ],
+        [
+          "17",
+          861068,
+          861068,
+          0
+        ],
+        [
+          "18",
+          921520,
+          921520,
+          0
+        ],
+        [
+          "19",
+          882594,
+          882594,
+          0
+        ],
+        [
+          "20",
+          892231,
+          881374,
+          0
+        ],
+        [
+          "21",
+          999790,
+          999790,
+          0
+        ],
+        [
+          "22",
+          995441,
+          995441,
+          0
+        ],
+        [
+          "23",
+          1022060,
+          1022060,
+          0
+        ],
+        [
+          "24",
+          1061605,
+          1061605,
+          0
+        ],
+        [
+          "25",
+          22090,
+          22090,
+          0
+        ]
+      ]
+    },
+    {
+      "path": "data\\data-raw\\score-distribution\\score-distribution-2025-ct2018.parquet",
+      "years": [
+        [
+          "25",
+          1131136
+        ]
+      ],
+      "year_rows_distinct_ids_missing_ids": [
+        [
+          "25",
+          1131136,
+          1131136,
+          0
+        ]
+      ]
+    }
+  ],
+  "candidate_id_overlap_2025_between_curricula": 0,
+  "round_2020_duplicate_proof": {
+    "shared_ids": 10857,
+    "identical_records_except_round_labels": 10857
+  },
+  "thpt_rows_since_2016": 44666,
+  "out_of_scale_cutoffs": 401,
+  "no_supported_blocks": 4650,
+  "missing_keys": {
+    "school_id": 0,
+    "school_name": 0,
+    "score_code": 0,
+    "score_year": 0
+  },
+  "ambiguous_major_code_count": 1014,
+  "ambiguous_mapping_rows": 2214,
+  "ambiguous_major_examples": [
+    {
+      "score_code": "7340101_02",
+      "major_id": 910,
+      "major_name": "Quản trị tài chính kế toán",
+      "major_group_name": "Kế toán - Kiểm toán"
+    },
+    {
+      "score_code": "NTH03",
+      "major_id": 1,
+      "major_name": "Kế toán",
+      "major_group_name": "Kế toán - Kiểm toán"
+    },
+    {
+      "score_code": "NTS02",
+      "major_id": 1,
+      "major_name": "Kế toán",
+      "major_group_name": "Kế toán - Kiểm toán"
+    },
+    {
+      "score_code": "7340301KL",
+      "major_id": 1,
+      "major_name": "Kế toán",
+      "major_group_name": "Kế toán - Kiểm toán"
+    },
+    {
+      "score_code": "KTKH1.1",
+      "major_id": 1,
+      "major_name": "Kế toán",
+      "major_group_name": "Kế toán - Kiểm toán"
+    },
+    {
+      "score_code": "KTKS1.1",
+      "major_id": 1,
+      "major_name": "Kế toán",
+      "major_group_name": "Kế toán - Kiểm toán"
+    },
+    {
+      "score_code": "KTKQ1.1",
+      "major_id": 1,
+      "major_name": "Kế toán",
+      "major_group_name": "Kế toán - Kiểm toán"
+    },
+    {
+      "score_code": "KTKH2.1",
+      "major_id": 1,
+      "major_name": "Kế toán",
+      "major_group_name": "Kế toán - Kiểm toán"
+    },
+    {
+      "score_code": "7340301C2",
+      "major_id": 1,
+      "major_name": "Kế toán",
+      "major_group_name": "Kế toán - Kiểm toán"
+    },
+    {
+      "score_code": "HVN08_QT",
+      "major_id": 1,
+      "major_name": "Kế toán",
+      "major_group_name": "Kế toán - Kiểm toán"
+    },
+    {
+      "score_code": "HVN08",
+      "major_id": 1,
+      "major_name": "Kế toán",
+      "major_group_name": "Kế toán - Kiểm toán"
+    },
+    {
+      "score_code": "7340301TOULON",
+      "major_id": 1,
+      "major_name": "Kế toán",
+      "major_group_name": "Kế toán - Kiểm toán"
+    }
+  ],
+  "unmapped_cutoff_rows": 0,
+  "unmapped_codes_sample": {}
+}

@@ -1,0 +1,7 @@
+backend,initialization_seconds,cdf_seconds,features_seconds,processing_total_seconds,spark,data_kind,peak_tree_rss_mb,wall_seconds,repeat
+local_pandas,9.999930625781417e-07,0.39020769999478944,0.39678950000961777,0.7875608000031207,"{'conf': {'spark.sql.shuffle.partitions': '4'}, 'master': 'local[2]'}",synthetic,202.37109375,6.576853500009747,0
+apache_spark,19.343347399990307,10.07269840000663,14.053301699997974,43.46960830000171,"{'conf': {'spark.sql.shuffle.partitions': '4'}, 'master': 'local[2]'}",synthetic,948.09765625,47.337346100001014,0
+local_pandas,5.00003807246685e-07,0.2645252999936929,0.37635550000413787,0.6412066000048071,"{'conf': {'spark.sql.shuffle.partitions': '4'}, 'master': 'local[2]'}",synthetic,198.69140625,3.778505499998573,1
+apache_spark,17.820014299999457,9.752131600005669,14.357166399990092,41.929630799990264,"{'conf': {'spark.sql.shuffle.partitions': '4'}, 'master': 'local[2]'}",synthetic,941.2890625,45.69472989998758,1
+local_pandas,2.4000037228688598e-06,0.36140460000024177,0.35712999998941086,0.7194314999942435,"{'conf': {'spark.sql.shuffle.partitions': '4'}, 'master': 'local[2]'}",synthetic,202.05078125,4.410990099990158,2
+apache_spark,15.407528099996853,10.664935100008734,14.517539799999213,40.59026740000991,"{'conf': {'spark.sql.shuffle.partitions': '4'}, 'master': 'local[2]'}",synthetic,952.71875,44.08517670001311,2
