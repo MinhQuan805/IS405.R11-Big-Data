@@ -1,0 +1,255 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --apple-bg: #f5f5f7;
+    --apple-card: #ffffff;
+    --apple-card-subtle: #fbfbfd;
+    --apple-border: rgba(0, 0, 0, 0.08);
+    --apple-border-subtle: rgba(0, 0, 0, 0.04);
+    --apple-text-primary: #1d1d1f;
+    --apple-text-secondary: #6e6e73;
+    --apple-text-tertiary: #86868b;
+    --apple-blue: #0071e3;
+    --apple-blue-hover: #0077ed;
+    --apple-blue-tint: rgba(0, 113, 227, 0.08);
+    --apple-emerald: #34c759;
+    --apple-amber: #ff9500;
+    --apple-rose: #ff3b30;
+    --apple-purple: #af52de;
+    --apple-indigo: #5856d6;
+  }
+
+  .dark {
+    --apple-bg: #000000;
+    --apple-card: #1c1c1e;
+    --apple-card-subtle: #161618;
+    --apple-border: rgba(255, 255, 255, 0.1);
+    --apple-border-subtle: rgba(255, 255, 255, 0.05);
+    --apple-text-primary: #f5f5f7;
+    --apple-text-secondary: #a1a1a6;
+    --apple-text-tertiary: #6e6e73;
+    --apple-blue: #0a84ff;
+    --apple-blue-hover: #0071e3;
+    --apple-blue-tint: rgba(10, 132, 255, 0.15);
+    --apple-emerald: #30d158;
+    --apple-amber: #ff9f0a;
+    --apple-rose: #ff453a;
+    --apple-purple: #bf5af2;
+    --apple-indigo: #5e5ce6;
+  }
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "SF Compact", "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11", "tnum";
+  letter-spacing: -0.014em;
+  background-color: var(--apple-bg);
+  color: var(--apple-text-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+}
+
+/* Tabular Numerals for clean data alignment */
+.tnum {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum";
+}
+
+/* Apple Inset Grouped Container (macOS / iOS Settings style) */
+.apple-inset-group {
+  background: var(--apple-card);
+  border: 1px solid var(--apple-border);
+  border-radius: 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04), 0 4px 12px rgba(0, 0, 0, 0.02);
+  overflow: hidden;
+}
+
+.dark .apple-inset-group {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3), 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+/* Apple Translucent Glass Surfaces */
+.apple-glass {
+  background: rgba(255, 255, 255, 0.82);
+  backdrop-filter: blur(24px) saturate(190%);
+  -webkit-backdrop-filter: blur(24px) saturate(190%);
+  border: 1px solid var(--apple-border);
+  box-shadow: 0 2px 16px -2px rgba(0, 0, 0, 0.04);
+}
+
+.dark .apple-glass {
+  background: rgba(28, 28, 30, 0.8);
+  border: 1px solid var(--apple-border);
+  box-shadow: 0 4px 24px -2px rgba(0, 0, 0, 0.5);
+}
+
+/* Navigation Bar */
+.apple-nav {
+  background: rgba(255, 255, 255, 0.82);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border-bottom: 1px solid var(--apple-border);
+}
+
+.dark .apple-nav {
+  background: rgba(18, 18, 20, 0.82);
+  border-bottom: 1px solid var(--apple-border);
+}
+
+/* Apple Segmented Controls (Genuine macOS / iOS style) */
+.apple-segmented-track {
+  background: rgba(120, 120, 128, 0.1);
+  padding: 3px;
+  border-radius: 9999px;
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+
+.dark .apple-segmented-track {
+  background: rgba(120, 120, 128, 0.22);
+}
+
+.apple-segmented-btn {
+  border-radius: 9999px;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 6px 14px;
+  color: var(--apple-text-secondary);
+  transition: all 0.18s cubic-bezier(0.16, 1, 0.3, 1);
+  white-space: nowrap;
+}
+
+.apple-segmented-btn:hover {
+  color: var(--apple-text-primary);
+}
+
+.apple-segmented-btn-active {
+  background: #ffffff;
+  color: #1d1d1f;
+  font-weight: 600;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08), 0 0.5px 1.5px rgba(0, 0, 0, 0.04);
+}
+
+.dark .apple-segmented-btn-active {
+  background: #3a3a3c;
+  color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+}
+
+/* Tactile Buttons */
+.apple-btn-primary {
+  background: var(--apple-blue);
+  color: #ffffff;
+  font-weight: 600;
+  border-radius: 9999px;
+  padding: 10px 20px;
+  transition: all 0.16s ease;
+  box-shadow: 0 1px 3px rgba(0, 113, 227, 0.3);
+}
+
+.apple-btn-primary:hover {
+  background: var(--apple-blue-hover);
+  box-shadow: 0 3px 10px rgba(0, 113, 227, 0.4);
+}
+
+.apple-btn-primary:active {
+  transform: scale(0.98);
+}
+
+.apple-btn-secondary {
+  background: rgba(0, 0, 0, 0.05);
+  color: var(--apple-text-primary);
+  font-weight: 500;
+  border-radius: 9999px;
+  padding: 10px 18px;
+  transition: all 0.16s ease;
+}
+
+.dark .apple-btn-secondary {
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--apple-text-primary);
+}
+
+.apple-btn-secondary:hover {
+  background: rgba(0, 0, 0, 0.08);
+}
+
+.dark .apple-btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.14);
+}
+
+.apple-btn-secondary:active {
+  transform: scale(0.98);
+}
+
+/* Subtle Inset Table Row (iOS List style) */
+.apple-list-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 18px;
+  border-bottom: 1px solid var(--apple-border-subtle);
+  transition: background-color 0.15s ease;
+}
+
+.apple-list-row:last-child {
+  border-bottom: none;
+}
+
+.apple-list-row:hover {
+  background-color: rgba(0, 0, 0, 0.015);
+}
+
+.dark .apple-list-row:hover {
+  background-color: rgba(255, 255, 255, 0.02);
+}
+
+/* Apple Slider (Clean pill slider with zero visual noise) */
+input[type="range"].apple-range {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 6px;
+  background: rgba(0, 0, 0, 0.08);
+  border-radius: 9999px;
+  outline: none;
+}
+
+.dark input[type="range"].apple-range {
+  background: rgba(255, 255, 255, 0.14);
+}
+
+input[type="range"].apple-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #ffffff;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.18), 0 0 1px rgba(0, 0, 0, 0.1);
+  transition: transform 0.15s ease;
+}
+
+input[type="range"].apple-range::-webkit-slider-thumb:hover {
+  transform: scale(1.12);
+}
+
+input[type="range"].apple-range::-webkit-slider-thumb:active {
+  transform: scale(1.18);
+}
+
+/* Micro Typography Badges */
+.apple-pill-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 9px;
+  border-radius: 9999px;
+  letter-spacing: 0.01em;
+}

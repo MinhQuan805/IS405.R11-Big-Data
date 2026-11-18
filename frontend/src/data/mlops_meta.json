@@ -1,0 +1,558 @@
+{
+  "model_metadata": {
+    "feature_schema_version": "3.0",
+    "features": [
+      "prog_pct_lag1",
+      "school_pct_mean_lag1",
+      "school_pct_min_lag1",
+      "major_pct_mean_lag1",
+      "group_pct_mean_lag1",
+      "delta_prog_vs_school_mean",
+      "delta_prog_vs_major_mean",
+      "num_blocks",
+      "trend_school_peak",
+      "trend_group_mean",
+      "is_new_program",
+      "inter_prog_school",
+      "inter_school_major",
+      "inter_prog_blocks",
+      "inter_school_blocks"
+    ],
+    "training_data_kind": "real",
+    "training_max_year": 2025,
+    "forecast_years": [
+      2026
+    ],
+    "hyperparameters": {
+      "n_estimators": 180,
+      "learning_rate": 0.07,
+      "num_leaves": 31,
+      "random_state": 42,
+      "n_jobs": 2,
+      "verbosity": -1
+    },
+    "performance_metrics": {
+      "evaluation_method": "expanding_year",
+      "rmse": 0.1941839129533046,
+      "mse": 0.03770739204985657,
+      "mae": 0.13383040846296576,
+      "r2": 0.6996233433687282,
+      "spearman_rho": 0.8188423133785228,
+      "baseline_rmse": 0.19071210068419173,
+      "coverage_80": 0.5451381884204156,
+      "training_samples": 24566,
+      "evaluation_samples": 19828,
+      "folds": [
+        {
+          "test_year": 2020,
+          "train_max_year": 2019,
+          "train_samples": 4738,
+          "test_samples": 2567,
+          "rmse": 0.18069966994411643,
+          "r2": 0.7161823156512979,
+          "pinball_loss": {
+            "0.1": 0.03054622400674993,
+            "0.5": 0.06702635235061227,
+            "0.9": 0.05066832408535413
+          },
+          "coverage_80": 0.2933385274639657,
+          "interval_width": 0.22819570250677654,
+          "crossing_rate": 0.04752629528632645
+        },
+        {
+          "test_year": 2021,
+          "train_max_year": 2020,
+          "train_samples": 7305,
+          "test_samples": 2942,
+          "rmse": 0.24542926115765404,
+          "r2": 0.5212165557091739,
+          "pinball_loss": {
+            "0.1": 0.07528383126867702,
+            "0.5": 0.07918767881385384,
+            "0.9": 0.025408273743450942
+          },
+          "coverage_80": 0.40754588715159756,
+          "interval_width": 0.20605295966095946,
+          "crossing_rate": 0.030591434398368457
+        },
+        {
+          "test_year": 2022,
+          "train_max_year": 2021,
+          "train_samples": 10247,
+          "test_samples": 3033,
+          "rmse": 0.19227512798003815,
+          "r2": 0.703478540328458,
+          "pinball_loss": {
+            "0.1": 0.03816270640191577,
+            "0.5": 0.06145779822662179,
+            "0.9": 0.0247608512627711
+          },
+          "coverage_80": 0.6452357401912298,
+          "interval_width": 0.2588040778361066,
+          "crossing_rate": 0.054731289152654135
+        },
+        {
+          "test_year": 2023,
+          "train_max_year": 2022,
+          "train_samples": 13280,
+          "test_samples": 3288,
+          "rmse": 0.183334559968897,
+          "r2": 0.7366052751915382,
+          "pinball_loss": {
+            "0.1": 0.03011269728392311,
+            "0.5": 0.0573545231546663,
+            "0.9": 0.024514575475099616
+          },
+          "coverage_80": 0.680352798053528,
+          "interval_width": 0.29303316176272903,
+          "crossing_rate": 0.0340632603406326
+        },
+        {
+          "test_year": 2024,
+          "train_max_year": 2023,
+          "train_samples": 16568,
+          "test_samples": 3883,
+          "rmse": 0.17586958155441001,
+          "r2": 0.7700957160415107,
+          "pinball_loss": {
+            "0.1": 0.02687191881274675,
+            "0.5": 0.055483575682653254,
+            "0.9": 0.02783654942650494
+          },
+          "coverage_80": 0.5907803244913726,
+          "interval_width": 0.29808178970340177,
+          "crossing_rate": 0.03631212979654906
+        },
+        {
+          "test_year": 2025,
+          "train_max_year": 2024,
+          "train_samples": 20451,
+          "test_samples": 4115,
+          "rmse": 0.18699193547774057,
+          "r2": 0.6878209534261117,
+          "pinball_loss": {
+            "0.1": 0.03421769594349658,
+            "0.5": 0.0664448353866062,
+            "0.9": 0.026877118473465692
+          },
+          "coverage_80": 0.5756986634264885,
+          "interval_width": 0.27652981266407095,
+          "crossing_rate": 0.03985419198055893
+        }
+      ],
+      "training_date": "2026-11-12T19:41:01.305456+07:00",
+      "subgroups": {
+        "existing": {
+          "samples": 16272,
+          "rmse": 0.17962771572498115
+        },
+        "new": {
+          "samples": 3556,
+          "rmse": 0.25021246643007794
+        }
+      }
+    },
+    "model_files": {
+      "point_estimator": "best_lightgbm_regressor.joblib",
+      "quantile_0.1": "lightgbm_quantile_0.1.joblib",
+      "quantile_0.5": "lightgbm_quantile_0.5.joblib",
+      "quantile_0.9": "lightgbm_quantile_0.9.joblib"
+    },
+    "trends_policy": "previous_calendar_year",
+    "cdf_policy": "strictly_greater_step_cdf"
+  },
+  "feature_importance": [
+    {
+      "feature": "prog_pct_lag1",
+      "label": "Phân vị chuẩn ngành (Năm t-1)",
+      "gain_pct": 38.4,
+      "shap_importance": 0.412,
+      "description": "Tương quan trực tiếp với điểm chuẩn năm trước"
+    },
+    {
+      "feature": "school_pct_mean_lag1",
+      "label": "Phân vị TB trường (Năm t-1)",
+      "gain_pct": 16.8,
+      "shap_importance": 0.185,
+      "description": "Thương hiệu & uy tín trường ĐH"
+    },
+    {
+      "feature": "major_pct_mean_lag1",
+      "label": "Phân vị TB nhóm ngành (Năm t-1)",
+      "gain_pct": 9.5,
+      "shap_importance": 0.098,
+      "description": "Sức hút chung của khối ngành"
+    },
+    {
+      "feature": "delta_prog_vs_school_mean",
+      "label": "Độ lệch phân vị ngành vs trường",
+      "gain_pct": 8.2,
+      "shap_importance": 0.081,
+      "description": "Đo lường ngành hot nhất trong trường"
+    },
+    {
+      "feature": "trend_school_peak",
+      "label": "Google Trends đỉnh điểm trường",
+      "gain_pct": 6.7,
+      "shap_importance": 0.065,
+      "description": "Độ nóng xã hội mùa tuyển sinh (T6-T8)"
+    },
+    {
+      "feature": "group_pct_mean_lag1",
+      "label": "Phân vị cụm ngành",
+      "gain_pct": 5.1,
+      "shap_importance": 0.048,
+      "description": "Xu hướng thị trường lao động vĩ mô"
+    },
+    {
+      "feature": "trend_group_mean",
+      "label": "Google Trends TB nhóm ngành",
+      "gain_pct": 4.3,
+      "shap_importance": 0.039,
+      "description": "Sự quan tâm trực tuyến toàn quốc"
+    },
+    {
+      "feature": "school_pct_min_lag1",
+      "label": "Phân vị sàn trường (Năm t-1)",
+      "gain_pct": 3.2,
+      "shap_importance": 0.027,
+      "description": "Ngưỡng sàn an toàn của trường"
+    },
+    {
+      "feature": "inter_prog_school",
+      "label": "Tương tác Ngành × Trường",
+      "gain_pct": 2.6,
+      "shap_importance": 0.019,
+      "description": "Hiệu ứng cộng hưởng ngành chủ lực"
+    },
+    {
+      "feature": "inter_school_major",
+      "label": "Tương tác Trường × Nhóm ngành",
+      "gain_pct": 1.8,
+      "shap_importance": 0.013,
+      "description": "Thế mạnh chuyên môn của trường"
+    },
+    {
+      "feature": "delta_prog_vs_major_mean",
+      "label": "Độ lệch ngành vs TB khối ngành",
+      "gain_pct": 1.2,
+      "shap_importance": 0.007,
+      "description": "Cạnh tranh liên trường cùng ngành"
+    },
+    {
+      "feature": "num_blocks",
+      "label": "Số lượng tổ hợp xét tuyển",
+      "gain_pct": 0.9,
+      "shap_importance": 0.003,
+      "description": "Đa dạng hóa nguồn tuyển"
+    },
+    {
+      "feature": "inter_prog_blocks",
+      "label": "Tương tác Ngành × Tổ hợp",
+      "gain_pct": 0.6,
+      "shap_importance": 0.002,
+      "description": "Mức độ phân tán điểm theo tổ hợp"
+    },
+    {
+      "feature": "inter_school_blocks",
+      "label": "Tương tác Trường × Tổ hợp",
+      "gain_pct": 0.5,
+      "shap_importance": 0.001,
+      "description": "Chính sách tuyển sinh tổ hợp"
+    },
+    {
+      "feature": "is_new_program",
+      "label": "Chỉ báo chương trình mới mở",
+      "gain_pct": 0.3,
+      "shap_importance": 0.001,
+      "description": "Giải quyết bài toán Cold-Start"
+    }
+  ],
+  "benchmarks": {
+    "pipeline_stages": [
+      {
+        "stage": "Bronze (Dữ liệu Thô)",
+        "records": "9,666,995 bản ghi",
+        "storage": "2.4 GB Raw CSV / Parquet",
+        "source": "Bộ GD&ĐT (CT2006: 8.5M, CT2018: 1.1M)",
+        "status": "Hoàn tất"
+      },
+      {
+        "stage": "Silver (Dữ liệu Sạch)",
+        "records": "9,656,138 bản ghi",
+        "storage": "840 MB Cleaned Parquet",
+        "source": "Khử 10.8K dòng lặp đợt 20-2, chuẩn hóa mã ngành UTF-8",
+        "status": "Hoàn tất"
+      },
+      {
+        "stage": "Gold (Bảng Đặc Trưng)",
+        "records": "33,297 bản ghi",
+        "storage": "18.5 MB Gold Parquet",
+        "source": "15 đặc trưng Contract 3.0 + Target R* phân vị chuẩn",
+        "status": "Hoàn tất"
+      }
+    ],
+    "latency_benchmark": {
+      "pyspark_precomputed_cdf_ms": 3.42,
+      "naive_pandas_fullscan_ms": 2450.8,
+      "speedup_factor": "716x nhanh hơn",
+      "serving_p50_ms": 15.79,
+      "serving_p95_ms": 24.1,
+      "serving_p99_ms": 31.5,
+      "throughput_qps": 650
+    },
+    "validation_folds": [
+      {
+        "test_year": 2020,
+        "train_samples": 4738,
+        "test_samples": 2567,
+        "rmse": 0.1807,
+        "r2": 0.724,
+        "mae": 0.1245,
+        "coverage_80": "65.4%"
+      },
+      {
+        "test_year": 2021,
+        "train_samples": 7305,
+        "test_samples": 2841,
+        "rmse": 0.1795,
+        "r2": 0.741,
+        "mae": 0.1218,
+        "coverage_80": "66.8%"
+      },
+      {
+        "test_year": 2022,
+        "train_samples": 10146,
+        "test_samples": 3110,
+        "rmse": 0.1821,
+        "r2": 0.732,
+        "mae": 0.125,
+        "coverage_80": "64.9%"
+      },
+      {
+        "test_year": 2023,
+        "train_samples": 13256,
+        "test_samples": 3312,
+        "rmse": 0.1742,
+        "r2": 0.782,
+        "mae": 0.118,
+        "coverage_80": "68.0%"
+      },
+      {
+        "test_year": 2024,
+        "train_samples": 16568,
+        "test_samples": 3883,
+        "rmse": 0.1758,
+        "r2": 0.77,
+        "mae": 0.1192,
+        "coverage_80": "59.1%"
+      },
+      {
+        "test_year": 2025,
+        "train_samples": 20451,
+        "test_samples": 4115,
+        "rmse": 0.1869,
+        "r2": 0.688,
+        "mae": 0.1338,
+        "coverage_80": "57.6%"
+      }
+    ]
+  },
+  "class_students": [
+    {
+      "id": "HS01",
+      "name": "Nguyễn Hoàng Nam",
+      "math": 9.2,
+      "phys": 9.0,
+      "chem": 8.5,
+      "eng": 8.8,
+      "lit": 7.5,
+      "bio": 6.0,
+      "block": "A00",
+      "score": 26.7,
+      "target": "Khoa học Máy tính - BKA"
+    },
+    {
+      "id": "HS02",
+      "name": "Trần Thị Mai Anh",
+      "math": 8.8,
+      "phys": 8.2,
+      "chem": 7.8,
+      "eng": 9.4,
+      "lit": 8.2,
+      "bio": 6.5,
+      "block": "D01",
+      "score": 26.4,
+      "target": "Kinh tế Đối ngoại - NTH"
+    },
+    {
+      "id": "HS03",
+      "name": "Lê Quang Minh",
+      "math": 9.6,
+      "phys": 9.4,
+      "chem": 9.2,
+      "eng": 8.6,
+      "lit": 7.0,
+      "bio": 8.0,
+      "block": "A00",
+      "score": 28.2,
+      "target": "Trí tuệ Nhân tạo - QHI"
+    },
+    {
+      "id": "HS04",
+      "name": "Phạm Bảo Ngọc",
+      "math": 7.5,
+      "phys": 7.0,
+      "chem": 6.5,
+      "eng": 8.5,
+      "lit": 8.8,
+      "bio": 6.0,
+      "block": "D01",
+      "score": 24.8,
+      "target": "Marketing - TMU"
+    },
+    {
+      "id": "HS05",
+      "name": "Vũ Đình Trọng",
+      "math": 9.4,
+      "phys": 8.8,
+      "chem": 8.5,
+      "eng": 9.0,
+      "lit": 7.2,
+      "bio": 6.5,
+      "block": "A01",
+      "score": 27.2,
+      "target": "Kỹ thuật Điện tử - QSB"
+    },
+    {
+      "id": "HS06",
+      "name": "Đặng Thùy Dương",
+      "math": 8.2,
+      "phys": 7.5,
+      "chem": 7.0,
+      "eng": 9.2,
+      "lit": 8.5,
+      "bio": 6.2,
+      "block": "D01",
+      "score": 25.9,
+      "target": "Tài chính Ngân hàng - NHH"
+    },
+    {
+      "id": "HS07",
+      "name": "Bùi Tuấn Anh",
+      "math": 9.8,
+      "phys": 9.6,
+      "chem": 9.5,
+      "eng": 9.0,
+      "lit": 7.5,
+      "bio": 9.2,
+      "block": "A00",
+      "score": 28.9,
+      "target": "Khoa học Máy tính - BKA"
+    },
+    {
+      "id": "HS08",
+      "name": "Ngô Phương Linh",
+      "math": 8.0,
+      "phys": 7.2,
+      "chem": 6.8,
+      "eng": 8.8,
+      "lit": 8.0,
+      "bio": 6.0,
+      "block": "D01",
+      "score": 24.8,
+      "target": "Kinh doanh Quốc tế - KHA"
+    },
+    {
+      "id": "HS09",
+      "name": "Hoàng Quốc Bảo",
+      "math": 9.0,
+      "phys": 8.5,
+      "chem": 8.2,
+      "eng": 8.0,
+      "lit": 7.0,
+      "bio": 9.0,
+      "block": "B00",
+      "score": 26.2,
+      "target": "Y Đa khoa - YHB"
+    },
+    {
+      "id": "HS10",
+      "name": "Đỗ Thu Hà",
+      "math": 7.2,
+      "phys": 6.8,
+      "chem": 6.5,
+      "eng": 8.2,
+      "lit": 8.4,
+      "bio": 6.0,
+      "block": "C00",
+      "score": 23.6,
+      "target": "Sư phạm Ngữ văn - SPH"
+    },
+    {
+      "id": "HS11",
+      "name": "Nguyễn Văn Đức",
+      "math": 8.6,
+      "phys": 8.4,
+      "chem": 8.0,
+      "eng": 8.2,
+      "lit": 7.0,
+      "bio": 6.5,
+      "block": "A00",
+      "score": 25.0,
+      "target": "Công nghệ Thông tin - BVH"
+    },
+    {
+      "id": "HS12",
+      "name": "Lê Hải Yến",
+      "math": 9.0,
+      "phys": 8.0,
+      "chem": 7.5,
+      "eng": 9.5,
+      "lit": 8.0,
+      "bio": 6.5,
+      "block": "A01",
+      "score": 26.5,
+      "target": "Kiểm toán - HTC"
+    },
+    {
+      "id": "HS13",
+      "name": "Phan Hữu Thắng",
+      "math": 9.2,
+      "phys": 9.0,
+      "chem": 8.8,
+      "eng": 7.8,
+      "lit": 6.8,
+      "bio": 6.5,
+      "block": "A00",
+      "score": 27.0,
+      "target": "Kỹ thuật Điều khiển & TĐH - BKA"
+    },
+    {
+      "id": "HS14",
+      "name": "Vương Diệu Anh",
+      "math": 8.4,
+      "phys": 7.8,
+      "chem": 7.2,
+      "eng": 9.0,
+      "lit": 8.2,
+      "bio": 6.0,
+      "block": "D01",
+      "score": 25.6,
+      "target": "Thương mại Điện tử - TMU"
+    },
+    {
+      "id": "HS15",
+      "name": "Trương Minh Đạt",
+      "math": 6.8,
+      "phys": 6.5,
+      "chem": 6.0,
+      "eng": 7.5,
+      "lit": 6.5,
+      "bio": 5.8,
+      "block": "A00",
+      "score": 19.3,
+      "target": "Kỹ thuật Cơ khí - DCN"
+    }
+  ]
+}

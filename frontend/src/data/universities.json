@@ -1,0 +1,138 @@
+[
+  {
+    "school_id": "BVH",
+    "school_name": "Học Viện Công Nghệ Bưu Chính Viễn Thông",
+    "school_short_name": "PTIT",
+    "province_name": "Hà Nội",
+    "major_count": 33,
+    "avg_cutoff_2024": 22.39
+  },
+  {
+    "school_id": "KMA",
+    "school_name": "Học Viện Kỹ Thuật Mật Mã",
+    "school_short_name": "KMA",
+    "province_name": "Hà Nội",
+    "major_count": 7,
+    "avg_cutoff_2024": 25.56
+  },
+  {
+    "school_id": "NHH",
+    "school_name": "Học Viện Ngân Hàng",
+    "school_short_name": "BAV",
+    "province_name": "Hà Nội",
+    "major_count": 54,
+    "avg_cutoff_2024": 45.49
+  },
+  {
+    "school_id": "HTC",
+    "school_name": "Học Viện Tài chính",
+    "school_short_name": "AOF",
+    "province_name": "Hà Nội",
+    "major_count": 46,
+    "avg_cutoff_2024": 28.16
+  },
+  {
+    "school_id": "QSB",
+    "school_name": "Trường Đại Học Bách Khoa HCM",
+    "school_short_name": "HCMUT",
+    "province_name": "TP Hồ Chí Minh",
+    "major_count": 74,
+    "avg_cutoff_2024": 25.0
+  },
+  {
+    "school_id": "QHI",
+    "school_name": "Trường Đại Học Công Nghệ – Đại Học Quốc Gia Hà Nội",
+    "school_short_name": "UET",
+    "province_name": "Hà Nội",
+    "major_count": 32,
+    "avg_cutoff_2024": 23.42
+  },
+  {
+    "school_id": "GHA",
+    "school_name": "Trường Đại Học Giao Thông Vận Tải",
+    "school_short_name": "UTC",
+    "province_name": "Hà Nội",
+    "major_count": 47,
+    "avg_cutoff_2024": 32.93
+  },
+  {
+    "school_id": "SPH",
+    "school_name": "Trường Đại Học Sư Phạm Hà Nội",
+    "school_short_name": "HNUE",
+    "province_name": "Hà Nội",
+    "major_count": 135,
+    "avg_cutoff_2024": 24.55
+  },
+  {
+    "school_id": "SPS",
+    "school_name": "Trường Đại Học Sư Phạm TPHCM",
+    "school_short_name": "HCMUE",
+    "province_name": "TP Hồ Chí Minh",
+    "major_count": 67,
+    "avg_cutoff_2024": 25.8
+  },
+  {
+    "school_id": "TMU",
+    "school_name": "Trường Đại Học Thương Mại",
+    "school_short_name": "TMU",
+    "province_name": "Hà Nội",
+    "major_count": 70,
+    "avg_cutoff_2024": 22.78
+  },
+  {
+    "school_id": "YHB",
+    "school_name": "Trường Đại Học Y Hà Nội",
+    "school_short_name": "HMU",
+    "province_name": "Hà Nội",
+    "major_count": 23,
+    "avg_cutoff_2024": 30.37
+  },
+  {
+    "school_id": "NTH",
+    "school_name": "Trường Đại học Ngoại thương",
+    "school_short_name": "FTU",
+    "province_name": "Hà Nội",
+    "major_count": 69,
+    "avg_cutoff_2024": 27.77
+  },
+  {
+    "school_id": "HNM",
+    "school_name": "Trường Đại học Thủ Đô Hà Nội",
+    "school_short_name": "HNMU",
+    "province_name": "Hà Nội",
+    "major_count": 33,
+    "avg_cutoff_2024": 19.97
+  },
+  {
+    "school_id": "BKA",
+    "school_name": "Đại Học Bách Khoa Hà Nội",
+    "school_short_name": "HUST",
+    "province_name": "Hà Nội",
+    "major_count": 111,
+    "avg_cutoff_2024": 42.59
+  },
+  {
+    "school_id": "DCN",
+    "school_name": "Đại Học Công Nghiệp Hà Nội",
+    "school_short_name": "HAUI",
+    "province_name": "Hà Nội",
+    "major_count": 81,
+    "avg_cutoff_2024": 23.81
+  },
+  {
+    "school_id": "KHA",
+    "school_name": "Đại Học Kinh Tế Quốc Dân",
+    "school_short_name": "NEU",
+    "province_name": "Hà Nội",
+    "major_count": 100,
+    "avg_cutoff_2024": 24.11
+  },
+  {
+    "school_id": "YDS",
+    "school_name": "Đại Học Y Dược TPHCM",
+    "school_short_name": "UMP",
+    "province_name": "TP Hồ Chí Minh",
+    "major_count": 25,
+    "avg_cutoff_2024": 114.24
+  }
+]

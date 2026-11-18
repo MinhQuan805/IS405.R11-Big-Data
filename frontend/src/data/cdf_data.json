@@ -1,0 +1,2452 @@
+{
+  "A00": [
+    {
+      "score": 1.7,
+      "candidate_count": 1,
+      "cdf_leq": 1e-05,
+      "rank_pct_gt": 0.99999,
+      "candidates_above": 165461,
+      "total_candidates": 165462
+    },
+    {
+      "score": 6.15,
+      "candidate_count": 2,
+      "cdf_leq": 5e-05,
+      "rank_pct_gt": 0.99995,
+      "candidates_above": 165453,
+      "total_candidates": 165462
+    },
+    {
+      "score": 6.8,
+      "candidate_count": 2,
+      "cdf_leq": 0.00013,
+      "rank_pct_gt": 0.99987,
+      "candidates_above": 165440,
+      "total_candidates": 165462
+    },
+    {
+      "score": 7.25,
+      "candidate_count": 5,
+      "cdf_leq": 0.00032,
+      "rank_pct_gt": 0.99968,
+      "candidates_above": 165409,
+      "total_candidates": 165462
+    },
+    {
+      "score": 7.6,
+      "candidate_count": 5,
+      "cdf_leq": 0.00055,
+      "rank_pct_gt": 0.99945,
+      "candidates_above": 165371,
+      "total_candidates": 165462
+    },
+    {
+      "score": 8.0,
+      "candidate_count": 8,
+      "cdf_leq": 0.00091,
+      "rank_pct_gt": 0.99909,
+      "candidates_above": 165312,
+      "total_candidates": 165462
+    },
+    {
+      "score": 8.35,
+      "candidate_count": 14,
+      "cdf_leq": 0.00147,
+      "rank_pct_gt": 0.99853,
+      "candidates_above": 165219,
+      "total_candidates": 165462
+    },
+    {
+      "score": 8.75,
+      "candidate_count": 12,
+      "cdf_leq": 0.00218,
+      "rank_pct_gt": 0.99782,
+      "candidates_above": 165102,
+      "total_candidates": 165462
+    },
+    {
+      "score": 9.1,
+      "candidate_count": 31,
+      "cdf_leq": 0.00326,
+      "rank_pct_gt": 0.99674,
+      "candidates_above": 164922,
+      "total_candidates": 165462
+    },
+    {
+      "score": 9.5,
+      "candidate_count": 23,
+      "cdf_leq": 0.00489,
+      "rank_pct_gt": 0.99511,
+      "candidates_above": 164653,
+      "total_candidates": 165462
+    },
+    {
+      "score": 9.85,
+      "candidate_count": 66,
+      "cdf_leq": 0.00705,
+      "rank_pct_gt": 0.99295,
+      "candidates_above": 164295,
+      "total_candidates": 165462
+    },
+    {
+      "score": 10.2,
+      "candidate_count": 112,
+      "cdf_leq": 0.00978,
+      "rank_pct_gt": 0.99022,
+      "candidates_above": 163843,
+      "total_candidates": 165462
+    },
+    {
+      "score": 10.6,
+      "candidate_count": 118,
+      "cdf_leq": 0.01397,
+      "rank_pct_gt": 0.98603,
+      "candidates_above": 163151,
+      "total_candidates": 165462
+    },
+    {
+      "score": 10.95,
+      "candidate_count": 184,
+      "cdf_leq": 0.01869,
+      "rank_pct_gt": 0.98131,
+      "candidates_above": 162369,
+      "total_candidates": 165462
+    },
+    {
+      "score": 11.35,
+      "candidate_count": 183,
+      "cdf_leq": 0.02511,
+      "rank_pct_gt": 0.97489,
+      "candidates_above": 161308,
+      "total_candidates": 165462
+    },
+    {
+      "score": 11.7,
+      "candidate_count": 266,
+      "cdf_leq": 0.0324,
+      "rank_pct_gt": 0.9676,
+      "candidates_above": 160101,
+      "total_candidates": 165462
+    },
+    {
+      "score": 12.1,
+      "candidate_count": 328,
+      "cdf_leq": 0.04244,
+      "rank_pct_gt": 0.95756,
+      "candidates_above": 158440,
+      "total_candidates": 165462
+    },
+    {
+      "score": 12.45,
+      "candidate_count": 357,
+      "cdf_leq": 0.05222,
+      "rank_pct_gt": 0.94778,
+      "candidates_above": 156821,
+      "total_candidates": 165462
+    },
+    {
+      "score": 12.85,
+      "candidate_count": 529,
+      "cdf_leq": 0.0664,
+      "rank_pct_gt": 0.9336,
+      "candidates_above": 154475,
+      "total_candidates": 165462
+    },
+    {
+      "score": 13.2,
+      "candidate_count": 498,
+      "cdf_leq": 0.07928,
+      "rank_pct_gt": 0.92072,
+      "candidates_above": 152344,
+      "total_candidates": 165462
+    },
+    {
+      "score": 13.6,
+      "candidate_count": 683,
+      "cdf_leq": 0.09784,
+      "rank_pct_gt": 0.90216,
+      "candidates_above": 149274,
+      "total_candidates": 165462
+    },
+    {
+      "score": 13.95,
+      "candidate_count": 572,
+      "cdf_leq": 0.11363,
+      "rank_pct_gt": 0.88637,
+      "candidates_above": 146660,
+      "total_candidates": 165462
+    },
+    {
+      "score": 14.3,
+      "candidate_count": 216,
+      "cdf_leq": 0.13086,
+      "rank_pct_gt": 0.86914,
+      "candidates_above": 143810,
+      "total_candidates": 165462
+    },
+    {
+      "score": 14.7,
+      "candidate_count": 622,
+      "cdf_leq": 0.15488,
+      "rank_pct_gt": 0.84512,
+      "candidates_above": 139836,
+      "total_candidates": 165462
+    },
+    {
+      "score": 15.05,
+      "candidate_count": 226,
+      "cdf_leq": 0.17568,
+      "rank_pct_gt": 0.82432,
+      "candidates_above": 136393,
+      "total_candidates": 165462
+    },
+    {
+      "score": 15.45,
+      "candidate_count": 650,
+      "cdf_leq": 0.20256,
+      "rank_pct_gt": 0.79744,
+      "candidates_above": 131946,
+      "total_candidates": 165462
+    },
+    {
+      "score": 15.8,
+      "candidate_count": 166,
+      "cdf_leq": 0.22616,
+      "rank_pct_gt": 0.77384,
+      "candidates_above": 128040,
+      "total_candidates": 165462
+    },
+    {
+      "score": 16.2,
+      "candidate_count": 633,
+      "cdf_leq": 0.25492,
+      "rank_pct_gt": 0.74508,
+      "candidates_above": 123281,
+      "total_candidates": 165462
+    },
+    {
+      "score": 16.55,
+      "candidate_count": 131,
+      "cdf_leq": 0.28113,
+      "rank_pct_gt": 0.71887,
+      "candidates_above": 118944,
+      "total_candidates": 165462
+    },
+    {
+      "score": 16.95,
+      "candidate_count": 617,
+      "cdf_leq": 0.31164,
+      "rank_pct_gt": 0.68836,
+      "candidates_above": 113898,
+      "total_candidates": 165462
+    },
+    {
+      "score": 17.3,
+      "candidate_count": 132,
+      "cdf_leq": 0.34005,
+      "rank_pct_gt": 0.65995,
+      "candidates_above": 109197,
+      "total_candidates": 165462
+    },
+    {
+      "score": 17.65,
+      "candidate_count": 14,
+      "cdf_leq": 0.36853,
+      "rank_pct_gt": 0.63147,
+      "candidates_above": 104485,
+      "total_candidates": 165462
+    },
+    {
+      "score": 18.05,
+      "candidate_count": 61,
+      "cdf_leq": 0.40129,
+      "rank_pct_gt": 0.59871,
+      "candidates_above": 99062,
+      "total_candidates": 165462
+    },
+    {
+      "score": 18.4,
+      "candidate_count": 18,
+      "cdf_leq": 0.42956,
+      "rank_pct_gt": 0.57044,
+      "candidates_above": 94386,
+      "total_candidates": 165462
+    },
+    {
+      "score": 18.8,
+      "candidate_count": 54,
+      "cdf_leq": 0.46214,
+      "rank_pct_gt": 0.53786,
+      "candidates_above": 88995,
+      "total_candidates": 165462
+    },
+    {
+      "score": 19.15,
+      "candidate_count": 9,
+      "cdf_leq": 0.48936,
+      "rank_pct_gt": 0.51064,
+      "candidates_above": 84491,
+      "total_candidates": 165462
+    },
+    {
+      "score": 19.55,
+      "candidate_count": 39,
+      "cdf_leq": 0.52316,
+      "rank_pct_gt": 0.47684,
+      "candidates_above": 78899,
+      "total_candidates": 165462
+    },
+    {
+      "score": 19.9,
+      "candidate_count": 11,
+      "cdf_leq": 0.54996,
+      "rank_pct_gt": 0.45004,
+      "candidates_above": 74464,
+      "total_candidates": 165462
+    },
+    {
+      "score": 20.3,
+      "candidate_count": 29,
+      "cdf_leq": 0.58225,
+      "rank_pct_gt": 0.41775,
+      "candidates_above": 69121,
+      "total_candidates": 165462
+    },
+    {
+      "score": 20.65,
+      "candidate_count": 14,
+      "cdf_leq": 0.60789,
+      "rank_pct_gt": 0.39211,
+      "candidates_above": 64879,
+      "total_candidates": 165462
+    },
+    {
+      "score": 21.05,
+      "candidate_count": 24,
+      "cdf_leq": 0.63995,
+      "rank_pct_gt": 0.36005,
+      "candidates_above": 59574,
+      "total_candidates": 165462
+    },
+    {
+      "score": 21.4,
+      "candidate_count": 15,
+      "cdf_leq": 0.66293,
+      "rank_pct_gt": 0.33707,
+      "candidates_above": 55772,
+      "total_candidates": 165462
+    },
+    {
+      "score": 21.75,
+      "candidate_count": 2175,
+      "cdf_leq": 0.69437,
+      "rank_pct_gt": 0.30563,
+      "candidates_above": 50570,
+      "total_candidates": 165462
+    },
+    {
+      "score": 22.15,
+      "candidate_count": 17,
+      "cdf_leq": 0.71577,
+      "rank_pct_gt": 0.28423,
+      "candidates_above": 47030,
+      "total_candidates": 165462
+    },
+    {
+      "score": 22.5,
+      "candidate_count": 2126,
+      "cdf_leq": 0.74566,
+      "rank_pct_gt": 0.25434,
+      "candidates_above": 42083,
+      "total_candidates": 165462
+    },
+    {
+      "score": 22.9,
+      "candidate_count": 15,
+      "cdf_leq": 0.76478,
+      "rank_pct_gt": 0.23522,
+      "candidates_above": 38920,
+      "total_candidates": 165462
+    },
+    {
+      "score": 23.25,
+      "candidate_count": 2071,
+      "cdf_leq": 0.79306,
+      "rank_pct_gt": 0.20694,
+      "candidates_above": 34241,
+      "total_candidates": 165462
+    },
+    {
+      "score": 23.65,
+      "candidate_count": 14,
+      "cdf_leq": 0.80967,
+      "rank_pct_gt": 0.19033,
+      "candidates_above": 31491,
+      "total_candidates": 165462
+    },
+    {
+      "score": 24.0,
+      "candidate_count": 2013,
+      "cdf_leq": 0.83633,
+      "rank_pct_gt": 0.16367,
+      "candidates_above": 27081,
+      "total_candidates": 165462
+    },
+    {
+      "score": 24.4,
+      "candidate_count": 26,
+      "cdf_leq": 0.8519,
+      "rank_pct_gt": 0.1481,
+      "candidates_above": 24504,
+      "total_candidates": 165462
+    },
+    {
+      "score": 24.75,
+      "candidate_count": 1877,
+      "cdf_leq": 0.87625,
+      "rank_pct_gt": 0.12375,
+      "candidates_above": 20475,
+      "total_candidates": 165462
+    },
+    {
+      "score": 25.1,
+      "candidate_count": 109,
+      "cdf_leq": 0.88941,
+      "rank_pct_gt": 0.11059,
+      "candidates_above": 18298,
+      "total_candidates": 165462
+    },
+    {
+      "score": 25.5,
+      "candidate_count": 1774,
+      "cdf_leq": 0.91226,
+      "rank_pct_gt": 0.08774,
+      "candidates_above": 14517,
+      "total_candidates": 165462
+    },
+    {
+      "score": 25.85,
+      "candidate_count": 65,
+      "cdf_leq": 0.92317,
+      "rank_pct_gt": 0.07683,
+      "candidates_above": 12712,
+      "total_candidates": 165462
+    },
+    {
+      "score": 26.25,
+      "candidate_count": 1504,
+      "cdf_leq": 0.94217,
+      "rank_pct_gt": 0.05783,
+      "candidates_above": 9568,
+      "total_candidates": 165462
+    },
+    {
+      "score": 26.6,
+      "candidate_count": 27,
+      "cdf_leq": 0.95167,
+      "rank_pct_gt": 0.04833,
+      "candidates_above": 7997,
+      "total_candidates": 165462
+    },
+    {
+      "score": 27.0,
+      "candidate_count": 1200,
+      "cdf_leq": 0.96759,
+      "rank_pct_gt": 0.03241,
+      "candidates_above": 5362,
+      "total_candidates": 165462
+    },
+    {
+      "score": 27.35,
+      "candidate_count": 5,
+      "cdf_leq": 0.97476,
+      "rank_pct_gt": 0.02524,
+      "candidates_above": 4176,
+      "total_candidates": 165462
+    },
+    {
+      "score": 27.85,
+      "candidate_count": 2,
+      "cdf_leq": 0.986,
+      "rank_pct_gt": 0.014,
+      "candidates_above": 2316,
+      "total_candidates": 165462
+    },
+    {
+      "score": 28.35,
+      "candidate_count": 1,
+      "cdf_leq": 0.99374,
+      "rank_pct_gt": 0.00626,
+      "candidates_above": 1036,
+      "total_candidates": 165462
+    },
+    {
+      "score": 30.0,
+      "candidate_count": 8,
+      "cdf_leq": 1.0,
+      "rank_pct_gt": 0.0,
+      "candidates_above": 0,
+      "total_candidates": 165462
+    }
+  ],
+  "A01": [
+    {
+      "score": 5.5,
+      "candidate_count": 1,
+      "cdf_leq": 1e-05,
+      "rank_pct_gt": 0.99999,
+      "candidates_above": 148926,
+      "total_candidates": 148927
+    },
+    {
+      "score": 6.5,
+      "candidate_count": 1,
+      "cdf_leq": 5e-05,
+      "rank_pct_gt": 0.99995,
+      "candidates_above": 148919,
+      "total_candidates": 148927
+    },
+    {
+      "score": 7.2,
+      "candidate_count": 2,
+      "cdf_leq": 0.00012,
+      "rank_pct_gt": 0.99988,
+      "candidates_above": 148909,
+      "total_candidates": 148927
+    },
+    {
+      "score": 7.6,
+      "candidate_count": 3,
+      "cdf_leq": 0.00022,
+      "rank_pct_gt": 0.99978,
+      "candidates_above": 148894,
+      "total_candidates": 148927
+    },
+    {
+      "score": 8.0,
+      "candidate_count": 1,
+      "cdf_leq": 0.00038,
+      "rank_pct_gt": 0.99962,
+      "candidates_above": 148871,
+      "total_candidates": 148927
+    },
+    {
+      "score": 8.35,
+      "candidate_count": 9,
+      "cdf_leq": 0.00065,
+      "rank_pct_gt": 0.99935,
+      "candidates_above": 148830,
+      "total_candidates": 148927
+    },
+    {
+      "score": 8.7,
+      "candidate_count": 14,
+      "cdf_leq": 0.00108,
+      "rank_pct_gt": 0.99892,
+      "candidates_above": 148766,
+      "total_candidates": 148927
+    },
+    {
+      "score": 9.05,
+      "candidate_count": 8,
+      "cdf_leq": 0.0015,
+      "rank_pct_gt": 0.9985,
+      "candidates_above": 148703,
+      "total_candidates": 148927
+    },
+    {
+      "score": 9.45,
+      "candidate_count": 24,
+      "cdf_leq": 0.00228,
+      "rank_pct_gt": 0.99772,
+      "candidates_above": 148587,
+      "total_candidates": 148927
+    },
+    {
+      "score": 9.8,
+      "candidate_count": 10,
+      "cdf_leq": 0.0033,
+      "rank_pct_gt": 0.9967,
+      "candidates_above": 148436,
+      "total_candidates": 148927
+    },
+    {
+      "score": 10.15,
+      "candidate_count": 3,
+      "cdf_leq": 0.00484,
+      "rank_pct_gt": 0.99516,
+      "candidates_above": 148206,
+      "total_candidates": 148927
+    },
+    {
+      "score": 10.55,
+      "candidate_count": 17,
+      "cdf_leq": 0.00724,
+      "rank_pct_gt": 0.99276,
+      "candidates_above": 147849,
+      "total_candidates": 148927
+    },
+    {
+      "score": 10.9,
+      "candidate_count": 10,
+      "cdf_leq": 0.01017,
+      "rank_pct_gt": 0.98983,
+      "candidates_above": 147412,
+      "total_candidates": 148927
+    },
+    {
+      "score": 11.25,
+      "candidate_count": 140,
+      "cdf_leq": 0.01424,
+      "rank_pct_gt": 0.98576,
+      "candidates_above": 146806,
+      "total_candidates": 148927
+    },
+    {
+      "score": 11.6,
+      "candidate_count": 208,
+      "cdf_leq": 0.0195,
+      "rank_pct_gt": 0.9805,
+      "candidates_above": 146023,
+      "total_candidates": 148927
+    },
+    {
+      "score": 11.95,
+      "candidate_count": 142,
+      "cdf_leq": 0.02461,
+      "rank_pct_gt": 0.97539,
+      "candidates_above": 145262,
+      "total_candidates": 148927
+    },
+    {
+      "score": 12.3,
+      "candidate_count": 36,
+      "cdf_leq": 0.03185,
+      "rank_pct_gt": 0.96815,
+      "candidates_above": 144183,
+      "total_candidates": 148927
+    },
+    {
+      "score": 12.65,
+      "candidate_count": 8,
+      "cdf_leq": 0.04081,
+      "rank_pct_gt": 0.95919,
+      "candidates_above": 142850,
+      "total_candidates": 148927
+    },
+    {
+      "score": 13.0,
+      "candidate_count": 488,
+      "cdf_leq": 0.05315,
+      "rank_pct_gt": 0.94685,
+      "candidates_above": 141012,
+      "total_candidates": 148927
+    },
+    {
+      "score": 13.35,
+      "candidate_count": 604,
+      "cdf_leq": 0.06662,
+      "rank_pct_gt": 0.93338,
+      "candidates_above": 139006,
+      "total_candidates": 148927
+    },
+    {
+      "score": 13.7,
+      "candidate_count": 226,
+      "cdf_leq": 0.07891,
+      "rank_pct_gt": 0.92109,
+      "candidates_above": 137175,
+      "total_candidates": 148927
+    },
+    {
+      "score": 14.05,
+      "candidate_count": 30,
+      "cdf_leq": 0.09626,
+      "rank_pct_gt": 0.90374,
+      "candidates_above": 134591,
+      "total_candidates": 148927
+    },
+    {
+      "score": 14.4,
+      "candidate_count": 3,
+      "cdf_leq": 0.11447,
+      "rank_pct_gt": 0.88553,
+      "candidates_above": 131879,
+      "total_candidates": 148927
+    },
+    {
+      "score": 14.75,
+      "candidate_count": 1149,
+      "cdf_leq": 0.13876,
+      "rank_pct_gt": 0.86124,
+      "candidates_above": 128262,
+      "total_candidates": 148927
+    },
+    {
+      "score": 15.1,
+      "candidate_count": 991,
+      "cdf_leq": 0.16235,
+      "rank_pct_gt": 0.83765,
+      "candidates_above": 124749,
+      "total_candidates": 148927
+    },
+    {
+      "score": 15.45,
+      "candidate_count": 264,
+      "cdf_leq": 0.18191,
+      "rank_pct_gt": 0.81809,
+      "candidates_above": 121836,
+      "total_candidates": 148927
+    },
+    {
+      "score": 15.8,
+      "candidate_count": 35,
+      "cdf_leq": 0.21176,
+      "rank_pct_gt": 0.78824,
+      "candidates_above": 117389,
+      "total_candidates": 148927
+    },
+    {
+      "score": 16.15,
+      "candidate_count": 3,
+      "cdf_leq": 0.23974,
+      "rank_pct_gt": 0.76026,
+      "candidates_above": 113223,
+      "total_candidates": 148927
+    },
+    {
+      "score": 16.5,
+      "candidate_count": 1903,
+      "cdf_leq": 0.27489,
+      "rank_pct_gt": 0.72511,
+      "candidates_above": 107989,
+      "total_candidates": 148927
+    },
+    {
+      "score": 16.85,
+      "candidate_count": 1114,
+      "cdf_leq": 0.30546,
+      "rank_pct_gt": 0.69454,
+      "candidates_above": 103436,
+      "total_candidates": 148927
+    },
+    {
+      "score": 17.2,
+      "candidate_count": 225,
+      "cdf_leq": 0.33033,
+      "rank_pct_gt": 0.66967,
+      "candidates_above": 99732,
+      "total_candidates": 148927
+    },
+    {
+      "score": 17.5,
+      "candidate_count": 2311,
+      "cdf_leq": 0.37041,
+      "rank_pct_gt": 0.62959,
+      "candidates_above": 93763,
+      "total_candidates": 148927
+    },
+    {
+      "score": 17.85,
+      "candidate_count": 1099,
+      "cdf_leq": 0.40377,
+      "rank_pct_gt": 0.59623,
+      "candidates_above": 88794,
+      "total_candidates": 148927
+    },
+    {
+      "score": 18.2,
+      "candidate_count": 193,
+      "cdf_leq": 0.43031,
+      "rank_pct_gt": 0.56969,
+      "candidates_above": 84842,
+      "total_candidates": 148927
+    },
+    {
+      "score": 18.55,
+      "candidate_count": 17,
+      "cdf_leq": 0.47331,
+      "rank_pct_gt": 0.52669,
+      "candidates_above": 78438,
+      "total_candidates": 148927
+    },
+    {
+      "score": 18.9,
+      "candidate_count": 6,
+      "cdf_leq": 0.50555,
+      "rank_pct_gt": 0.49445,
+      "candidates_above": 73637,
+      "total_candidates": 148927
+    },
+    {
+      "score": 19.25,
+      "candidate_count": 2747,
+      "cdf_leq": 0.55061,
+      "rank_pct_gt": 0.44939,
+      "candidates_above": 66927,
+      "total_candidates": 148927
+    },
+    {
+      "score": 19.6,
+      "candidate_count": 806,
+      "cdf_leq": 0.58104,
+      "rank_pct_gt": 0.41896,
+      "candidates_above": 62393,
+      "total_candidates": 148927
+    },
+    {
+      "score": 19.95,
+      "candidate_count": 71,
+      "cdf_leq": 0.60622,
+      "rank_pct_gt": 0.39378,
+      "candidates_above": 58644,
+      "total_candidates": 148927
+    },
+    {
+      "score": 20.3,
+      "candidate_count": 10,
+      "cdf_leq": 0.64936,
+      "rank_pct_gt": 0.35064,
+      "candidates_above": 52219,
+      "total_candidates": 148927
+    },
+    {
+      "score": 20.65,
+      "candidate_count": 8,
+      "cdf_leq": 0.67685,
+      "rank_pct_gt": 0.32315,
+      "candidates_above": 48126,
+      "total_candidates": 148927
+    },
+    {
+      "score": 21.0,
+      "candidate_count": 2685,
+      "cdf_leq": 0.71698,
+      "rank_pct_gt": 0.28302,
+      "candidates_above": 42148,
+      "total_candidates": 148927
+    },
+    {
+      "score": 21.35,
+      "candidate_count": 465,
+      "cdf_leq": 0.74175,
+      "rank_pct_gt": 0.25825,
+      "candidates_above": 38460,
+      "total_candidates": 148927
+    },
+    {
+      "score": 21.7,
+      "candidate_count": 24,
+      "cdf_leq": 0.76156,
+      "rank_pct_gt": 0.23844,
+      "candidates_above": 35509,
+      "total_candidates": 148927
+    },
+    {
+      "score": 22.05,
+      "candidate_count": 6,
+      "cdf_leq": 0.79765,
+      "rank_pct_gt": 0.20235,
+      "candidates_above": 30135,
+      "total_candidates": 148927
+    },
+    {
+      "score": 22.4,
+      "candidate_count": 7,
+      "cdf_leq": 0.81797,
+      "rank_pct_gt": 0.18203,
+      "candidates_above": 27109,
+      "total_candidates": 148927
+    },
+    {
+      "score": 22.75,
+      "candidate_count": 2174,
+      "cdf_leq": 0.8503,
+      "rank_pct_gt": 0.1497,
+      "candidates_above": 22294,
+      "total_candidates": 148927
+    },
+    {
+      "score": 23.1,
+      "candidate_count": 171,
+      "cdf_leq": 0.86703,
+      "rank_pct_gt": 0.13297,
+      "candidates_above": 19803,
+      "total_candidates": 148927
+    },
+    {
+      "score": 23.45,
+      "candidate_count": 8,
+      "cdf_leq": 0.88118,
+      "rank_pct_gt": 0.11882,
+      "candidates_above": 17695,
+      "total_candidates": 148927
+    },
+    {
+      "score": 23.8,
+      "candidate_count": 10,
+      "cdf_leq": 0.90699,
+      "rank_pct_gt": 0.09301,
+      "candidates_above": 13850,
+      "total_candidates": 148927
+    },
+    {
+      "score": 24.15,
+      "candidate_count": 4,
+      "cdf_leq": 0.91971,
+      "rank_pct_gt": 0.08029,
+      "candidates_above": 11957,
+      "total_candidates": 148927
+    },
+    {
+      "score": 24.5,
+      "candidate_count": 1406,
+      "cdf_leq": 0.94039,
+      "rank_pct_gt": 0.05961,
+      "candidates_above": 8877,
+      "total_candidates": 148927
+    },
+    {
+      "score": 24.85,
+      "candidate_count": 45,
+      "cdf_leq": 0.95049,
+      "rank_pct_gt": 0.04951,
+      "candidates_above": 7373,
+      "total_candidates": 148927
+    },
+    {
+      "score": 25.2,
+      "candidate_count": 3,
+      "cdf_leq": 0.95866,
+      "rank_pct_gt": 0.04134,
+      "candidates_above": 6156,
+      "total_candidates": 148927
+    },
+    {
+      "score": 25.55,
+      "candidate_count": 6,
+      "cdf_leq": 0.97148,
+      "rank_pct_gt": 0.02852,
+      "candidates_above": 4247,
+      "total_candidates": 148927
+    },
+    {
+      "score": 25.9,
+      "candidate_count": 3,
+      "cdf_leq": 0.97722,
+      "rank_pct_gt": 0.02278,
+      "candidates_above": 3392,
+      "total_candidates": 148927
+    },
+    {
+      "score": 26.35,
+      "candidate_count": 4,
+      "cdf_leq": 0.98592,
+      "rank_pct_gt": 0.01408,
+      "candidates_above": 2096,
+      "total_candidates": 148927
+    },
+    {
+      "score": 26.9,
+      "candidate_count": 1,
+      "cdf_leq": 0.99211,
+      "rank_pct_gt": 0.00789,
+      "candidates_above": 1175,
+      "total_candidates": 148927
+    },
+    {
+      "score": 27.45,
+      "candidate_count": 1,
+      "cdf_leq": 0.99613,
+      "rank_pct_gt": 0.00387,
+      "candidates_above": 576,
+      "total_candidates": 148927
+    },
+    {
+      "score": 28.35,
+      "candidate_count": 1,
+      "cdf_leq": 0.99934,
+      "rank_pct_gt": 0.00066,
+      "candidates_above": 99,
+      "total_candidates": 148927
+    },
+    {
+      "score": 29.75,
+      "candidate_count": 1,
+      "cdf_leq": 1.0,
+      "rank_pct_gt": 0.0,
+      "candidates_above": 0,
+      "total_candidates": 148927
+    }
+  ],
+  "B00": [
+    {
+      "score": 4.05,
+      "candidate_count": 1,
+      "cdf_leq": 2e-05,
+      "rank_pct_gt": 0.99998,
+      "candidates_above": 46596,
+      "total_candidates": 46597
+    },
+    {
+      "score": 6.2,
+      "candidate_count": 1,
+      "cdf_leq": 0.00019,
+      "rank_pct_gt": 0.99981,
+      "candidates_above": 46588,
+      "total_candidates": 46597
+    },
+    {
+      "score": 6.75,
+      "candidate_count": 1,
+      "cdf_leq": 0.00036,
+      "rank_pct_gt": 0.99964,
+      "candidates_above": 46580,
+      "total_candidates": 46597
+    },
+    {
+      "score": 7.2,
+      "candidate_count": 2,
+      "cdf_leq": 0.00077,
+      "rank_pct_gt": 0.99923,
+      "candidates_above": 46561,
+      "total_candidates": 46597
+    },
+    {
+      "score": 7.55,
+      "candidate_count": 4,
+      "cdf_leq": 0.00135,
+      "rank_pct_gt": 0.99865,
+      "candidates_above": 46534,
+      "total_candidates": 46597
+    },
+    {
+      "score": 7.9,
+      "candidate_count": 6,
+      "cdf_leq": 0.00212,
+      "rank_pct_gt": 0.99788,
+      "candidates_above": 46498,
+      "total_candidates": 46597
+    },
+    {
+      "score": 8.3,
+      "candidate_count": 21,
+      "cdf_leq": 0.00382,
+      "rank_pct_gt": 0.99618,
+      "candidates_above": 46419,
+      "total_candidates": 46597
+    },
+    {
+      "score": 8.65,
+      "candidate_count": 12,
+      "cdf_leq": 0.00577,
+      "rank_pct_gt": 0.99423,
+      "candidates_above": 46328,
+      "total_candidates": 46597
+    },
+    {
+      "score": 9.05,
+      "candidate_count": 30,
+      "cdf_leq": 0.00822,
+      "rank_pct_gt": 0.99178,
+      "candidates_above": 46214,
+      "total_candidates": 46597
+    },
+    {
+      "score": 9.4,
+      "candidate_count": 15,
+      "cdf_leq": 0.01131,
+      "rank_pct_gt": 0.98869,
+      "candidates_above": 46070,
+      "total_candidates": 46597
+    },
+    {
+      "score": 9.75,
+      "candidate_count": 13,
+      "cdf_leq": 0.01564,
+      "rank_pct_gt": 0.98436,
+      "candidates_above": 45868,
+      "total_candidates": 46597
+    },
+    {
+      "score": 10.15,
+      "candidate_count": 18,
+      "cdf_leq": 0.02208,
+      "rank_pct_gt": 0.97792,
+      "candidates_above": 45568,
+      "total_candidates": 46597
+    },
+    {
+      "score": 10.5,
+      "candidate_count": 23,
+      "cdf_leq": 0.02929,
+      "rank_pct_gt": 0.97071,
+      "candidates_above": 45232,
+      "total_candidates": 46597
+    },
+    {
+      "score": 10.85,
+      "candidate_count": 69,
+      "cdf_leq": 0.03764,
+      "rank_pct_gt": 0.96236,
+      "candidates_above": 44843,
+      "total_candidates": 46597
+    },
+    {
+      "score": 11.25,
+      "candidate_count": 26,
+      "cdf_leq": 0.04884,
+      "rank_pct_gt": 0.95116,
+      "candidates_above": 44321,
+      "total_candidates": 46597
+    },
+    {
+      "score": 11.6,
+      "candidate_count": 102,
+      "cdf_leq": 0.06183,
+      "rank_pct_gt": 0.93817,
+      "candidates_above": 43716,
+      "total_candidates": 46597
+    },
+    {
+      "score": 12.0,
+      "candidate_count": 59,
+      "cdf_leq": 0.07636,
+      "rank_pct_gt": 0.92364,
+      "candidates_above": 43039,
+      "total_candidates": 46597
+    },
+    {
+      "score": 12.35,
+      "candidate_count": 179,
+      "cdf_leq": 0.09363,
+      "rank_pct_gt": 0.90637,
+      "candidates_above": 42234,
+      "total_candidates": 46597
+    },
+    {
+      "score": 12.7,
+      "candidate_count": 208,
+      "cdf_leq": 0.11149,
+      "rank_pct_gt": 0.88851,
+      "candidates_above": 41402,
+      "total_candidates": 46597
+    },
+    {
+      "score": 13.1,
+      "candidate_count": 216,
+      "cdf_leq": 0.13351,
+      "rank_pct_gt": 0.86649,
+      "candidates_above": 40376,
+      "total_candidates": 46597
+    },
+    {
+      "score": 13.45,
+      "candidate_count": 239,
+      "cdf_leq": 0.15319,
+      "rank_pct_gt": 0.84681,
+      "candidates_above": 39459,
+      "total_candidates": 46597
+    },
+    {
+      "score": 13.85,
+      "candidate_count": 279,
+      "cdf_leq": 0.17954,
+      "rank_pct_gt": 0.82046,
+      "candidates_above": 38231,
+      "total_candidates": 46597
+    },
+    {
+      "score": 14.2,
+      "candidate_count": 235,
+      "cdf_leq": 0.20154,
+      "rank_pct_gt": 0.79846,
+      "candidates_above": 37206,
+      "total_candidates": 46597
+    },
+    {
+      "score": 14.55,
+      "candidate_count": 85,
+      "cdf_leq": 0.22413,
+      "rank_pct_gt": 0.77587,
+      "candidates_above": 36153,
+      "total_candidates": 46597
+    },
+    {
+      "score": 14.95,
+      "candidate_count": 255,
+      "cdf_leq": 0.25405,
+      "rank_pct_gt": 0.74595,
+      "candidates_above": 34759,
+      "total_candidates": 46597
+    },
+    {
+      "score": 15.3,
+      "candidate_count": 88,
+      "cdf_leq": 0.27787,
+      "rank_pct_gt": 0.72213,
+      "candidates_above": 33649,
+      "total_candidates": 46597
+    },
+    {
+      "score": 15.65,
+      "candidate_count": 16,
+      "cdf_leq": 0.30511,
+      "rank_pct_gt": 0.69489,
+      "candidates_above": 32379,
+      "total_candidates": 46597
+    },
+    {
+      "score": 16.05,
+      "candidate_count": 83,
+      "cdf_leq": 0.33682,
+      "rank_pct_gt": 0.66318,
+      "candidates_above": 30902,
+      "total_candidates": 46597
+    },
+    {
+      "score": 16.4,
+      "candidate_count": 12,
+      "cdf_leq": 0.36661,
+      "rank_pct_gt": 0.63339,
+      "candidates_above": 29514,
+      "total_candidates": 46597
+    },
+    {
+      "score": 16.8,
+      "candidate_count": 42,
+      "cdf_leq": 0.39827,
+      "rank_pct_gt": 0.60173,
+      "candidates_above": 28039,
+      "total_candidates": 46597
+    },
+    {
+      "score": 17.15,
+      "candidate_count": 7,
+      "cdf_leq": 0.42679,
+      "rank_pct_gt": 0.57321,
+      "candidates_above": 26710,
+      "total_candidates": 46597
+    },
+    {
+      "score": 17.5,
+      "candidate_count": 294,
+      "cdf_leq": 0.45582,
+      "rank_pct_gt": 0.54418,
+      "candidates_above": 25357,
+      "total_candidates": 46597
+    },
+    {
+      "score": 17.9,
+      "candidate_count": 9,
+      "cdf_leq": 0.48449,
+      "rank_pct_gt": 0.51551,
+      "candidates_above": 24021,
+      "total_candidates": 46597
+    },
+    {
+      "score": 18.25,
+      "candidate_count": 335,
+      "cdf_leq": 0.51454,
+      "rank_pct_gt": 0.48546,
+      "candidates_above": 22621,
+      "total_candidates": 46597
+    },
+    {
+      "score": 18.65,
+      "candidate_count": 7,
+      "cdf_leq": 0.54179,
+      "rank_pct_gt": 0.45821,
+      "candidates_above": 21351,
+      "total_candidates": 46597
+    },
+    {
+      "score": 19.0,
+      "candidate_count": 370,
+      "cdf_leq": 0.57059,
+      "rank_pct_gt": 0.42941,
+      "candidates_above": 20009,
+      "total_candidates": 46597
+    },
+    {
+      "score": 19.35,
+      "candidate_count": 356,
+      "cdf_leq": 0.59781,
+      "rank_pct_gt": 0.40219,
+      "candidates_above": 18741,
+      "total_candidates": 46597
+    },
+    {
+      "score": 19.75,
+      "candidate_count": 393,
+      "cdf_leq": 0.62547,
+      "rank_pct_gt": 0.37453,
+      "candidates_above": 17452,
+      "total_candidates": 46597
+    },
+    {
+      "score": 20.1,
+      "candidate_count": 300,
+      "cdf_leq": 0.64989,
+      "rank_pct_gt": 0.35011,
+      "candidates_above": 16313,
+      "total_candidates": 46597
+    },
+    {
+      "score": 20.45,
+      "candidate_count": 66,
+      "cdf_leq": 0.66873,
+      "rank_pct_gt": 0.33127,
+      "candidates_above": 15436,
+      "total_candidates": 46597
+    },
+    {
+      "score": 20.85,
+      "candidate_count": 234,
+      "cdf_leq": 0.69934,
+      "rank_pct_gt": 0.30066,
+      "candidates_above": 14010,
+      "total_candidates": 46597
+    },
+    {
+      "score": 21.2,
+      "candidate_count": 47,
+      "cdf_leq": 0.71593,
+      "rank_pct_gt": 0.28407,
+      "candidates_above": 13236,
+      "total_candidates": 46597
+    },
+    {
+      "score": 21.6,
+      "candidate_count": 200,
+      "cdf_leq": 0.74445,
+      "rank_pct_gt": 0.25555,
+      "candidates_above": 11908,
+      "total_candidates": 46597
+    },
+    {
+      "score": 21.95,
+      "candidate_count": 27,
+      "cdf_leq": 0.75928,
+      "rank_pct_gt": 0.24072,
+      "candidates_above": 11217,
+      "total_candidates": 46597
+    },
+    {
+      "score": 22.3,
+      "candidate_count": 6,
+      "cdf_leq": 0.78338,
+      "rank_pct_gt": 0.21662,
+      "candidates_above": 10094,
+      "total_candidates": 46597
+    },
+    {
+      "score": 22.7,
+      "candidate_count": 23,
+      "cdf_leq": 0.80082,
+      "rank_pct_gt": 0.19918,
+      "candidates_above": 9281,
+      "total_candidates": 46597
+    },
+    {
+      "score": 23.05,
+      "candidate_count": 3,
+      "cdf_leq": 0.82525,
+      "rank_pct_gt": 0.17475,
+      "candidates_above": 8142,
+      "total_candidates": 46597
+    },
+    {
+      "score": 23.45,
+      "candidate_count": 20,
+      "cdf_leq": 0.84151,
+      "rank_pct_gt": 0.15849,
+      "candidates_above": 7385,
+      "total_candidates": 46597
+    },
+    {
+      "score": 23.8,
+      "candidate_count": 8,
+      "cdf_leq": 0.86443,
+      "rank_pct_gt": 0.13557,
+      "candidates_above": 6316,
+      "total_candidates": 46597
+    },
+    {
+      "score": 24.15,
+      "candidate_count": 5,
+      "cdf_leq": 0.8772,
+      "rank_pct_gt": 0.1228,
+      "candidates_above": 5721,
+      "total_candidates": 46597
+    },
+    {
+      "score": 24.55,
+      "candidate_count": 4,
+      "cdf_leq": 0.89776,
+      "rank_pct_gt": 0.10224,
+      "candidates_above": 4764,
+      "total_candidates": 46597
+    },
+    {
+      "score": 24.9,
+      "candidate_count": 1,
+      "cdf_leq": 0.90956,
+      "rank_pct_gt": 0.09044,
+      "candidates_above": 4214,
+      "total_candidates": 46597
+    },
+    {
+      "score": 25.25,
+      "candidate_count": 398,
+      "cdf_leq": 0.92809,
+      "rank_pct_gt": 0.07191,
+      "candidates_above": 3350,
+      "total_candidates": 46597
+    },
+    {
+      "score": 25.65,
+      "candidate_count": 3,
+      "cdf_leq": 0.93873,
+      "rank_pct_gt": 0.06127,
+      "candidates_above": 2855,
+      "total_candidates": 46597
+    },
+    {
+      "score": 26.0,
+      "candidate_count": 336,
+      "cdf_leq": 0.95468,
+      "rank_pct_gt": 0.04532,
+      "candidates_above": 2111,
+      "total_candidates": 46597
+    },
+    {
+      "score": 26.45,
+      "candidate_count": 3,
+      "cdf_leq": 0.96345,
+      "rank_pct_gt": 0.03655,
+      "candidates_above": 1702,
+      "total_candidates": 46597
+    },
+    {
+      "score": 26.8,
+      "candidate_count": 1,
+      "cdf_leq": 0.97661,
+      "rank_pct_gt": 0.02339,
+      "candidates_above": 1089,
+      "total_candidates": 46597
+    },
+    {
+      "score": 27.15,
+      "candidate_count": 1,
+      "cdf_leq": 0.98268,
+      "rank_pct_gt": 0.01732,
+      "candidates_above": 806,
+      "total_candidates": 46597
+    },
+    {
+      "score": 27.75,
+      "candidate_count": 139,
+      "cdf_leq": 0.99322,
+      "rank_pct_gt": 0.00678,
+      "candidates_above": 316,
+      "total_candidates": 46597
+    },
+    {
+      "score": 28.3,
+      "candidate_count": 1,
+      "cdf_leq": 0.9974,
+      "rank_pct_gt": 0.0026,
+      "candidates_above": 120,
+      "total_candidates": 46597
+    },
+    {
+      "score": 30.0,
+      "candidate_count": 1,
+      "cdf_leq": 1.0,
+      "rank_pct_gt": 0.0,
+      "candidates_above": 0,
+      "total_candidates": 46597
+    }
+  ],
+  "C00": [
+    {
+      "score": 2.75,
+      "candidate_count": 1,
+      "cdf_leq": 0.0,
+      "rank_pct_gt": 1.0,
+      "candidates_above": 309990,
+      "total_candidates": 309991
+    },
+    {
+      "score": 5.5,
+      "candidate_count": 5,
+      "cdf_leq": 7e-05,
+      "rank_pct_gt": 0.99993,
+      "candidates_above": 309968,
+      "total_candidates": 309991
+    },
+    {
+      "score": 6.25,
+      "candidate_count": 9,
+      "cdf_leq": 0.00028,
+      "rank_pct_gt": 0.99972,
+      "candidates_above": 309905,
+      "total_candidates": 309991
+    },
+    {
+      "score": 6.9,
+      "candidate_count": 5,
+      "cdf_leq": 0.00057,
+      "rank_pct_gt": 0.99943,
+      "candidates_above": 309815,
+      "total_candidates": 309991
+    },
+    {
+      "score": 7.6,
+      "candidate_count": 29,
+      "cdf_leq": 0.00135,
+      "rank_pct_gt": 0.99865,
+      "candidates_above": 309573,
+      "total_candidates": 309991
+    },
+    {
+      "score": 8.3,
+      "candidate_count": 30,
+      "cdf_leq": 0.00265,
+      "rank_pct_gt": 0.99735,
+      "candidates_above": 309168,
+      "total_candidates": 309991
+    },
+    {
+      "score": 8.8,
+      "candidate_count": 47,
+      "cdf_leq": 0.00432,
+      "rank_pct_gt": 0.99568,
+      "candidates_above": 308651,
+      "total_candidates": 309991
+    },
+    {
+      "score": 9.3,
+      "candidate_count": 77,
+      "cdf_leq": 0.00671,
+      "rank_pct_gt": 0.99329,
+      "candidates_above": 307911,
+      "total_candidates": 309991
+    },
+    {
+      "score": 9.78,
+      "candidate_count": 2,
+      "cdf_leq": 0.00961,
+      "rank_pct_gt": 0.99039,
+      "candidates_above": 307013,
+      "total_candidates": 309991
+    },
+    {
+      "score": 10.3,
+      "candidate_count": 111,
+      "cdf_leq": 0.01407,
+      "rank_pct_gt": 0.98593,
+      "candidates_above": 305628,
+      "total_candidates": 309991
+    },
+    {
+      "score": 10.7,
+      "candidate_count": 279,
+      "cdf_leq": 0.0186,
+      "rank_pct_gt": 0.9814,
+      "candidates_above": 304224,
+      "total_candidates": 309991
+    },
+    {
+      "score": 11.03,
+      "candidate_count": 1,
+      "cdf_leq": 0.02291,
+      "rank_pct_gt": 0.97709,
+      "candidates_above": 302890,
+      "total_candidates": 309991
+    },
+    {
+      "score": 11.45,
+      "candidate_count": 372,
+      "cdf_leq": 0.02997,
+      "rank_pct_gt": 0.97003,
+      "candidates_above": 300700,
+      "total_candidates": 309991
+    },
+    {
+      "score": 11.9,
+      "candidate_count": 53,
+      "cdf_leq": 0.03823,
+      "rank_pct_gt": 0.96177,
+      "candidates_above": 298140,
+      "total_candidates": 309991
+    },
+    {
+      "score": 12.25,
+      "candidate_count": 422,
+      "cdf_leq": 0.04662,
+      "rank_pct_gt": 0.95338,
+      "candidates_above": 295540,
+      "total_candidates": 309991
+    },
+    {
+      "score": 12.5,
+      "candidate_count": 501,
+      "cdf_leq": 0.0532,
+      "rank_pct_gt": 0.9468,
+      "candidates_above": 293500,
+      "total_candidates": 309991
+    },
+    {
+      "score": 12.85,
+      "candidate_count": 833,
+      "cdf_leq": 0.06373,
+      "rank_pct_gt": 0.93627,
+      "candidates_above": 290236,
+      "total_candidates": 309991
+    },
+    {
+      "score": 13.13,
+      "candidate_count": 3,
+      "cdf_leq": 0.07162,
+      "rank_pct_gt": 0.92838,
+      "candidates_above": 287788,
+      "total_candidates": 309991
+    },
+    {
+      "score": 13.43,
+      "candidate_count": 3,
+      "cdf_leq": 0.08052,
+      "rank_pct_gt": 0.91948,
+      "candidates_above": 285032,
+      "total_candidates": 309991
+    },
+    {
+      "score": 13.78,
+      "candidate_count": 3,
+      "cdf_leq": 0.09468,
+      "rank_pct_gt": 0.90532,
+      "candidates_above": 280642,
+      "total_candidates": 309991
+    },
+    {
+      "score": 14.08,
+      "candidate_count": 2,
+      "cdf_leq": 0.1058,
+      "rank_pct_gt": 0.8942,
+      "candidates_above": 277194,
+      "total_candidates": 309991
+    },
+    {
+      "score": 14.3,
+      "candidate_count": 350,
+      "cdf_leq": 0.11686,
+      "rank_pct_gt": 0.88314,
+      "candidates_above": 273766,
+      "total_candidates": 309991
+    },
+    {
+      "score": 14.6,
+      "candidate_count": 1411,
+      "cdf_leq": 0.133,
+      "rank_pct_gt": 0.867,
+      "candidates_above": 268761,
+      "total_candidates": 309991
+    },
+    {
+      "score": 14.87,
+      "candidate_count": 1,
+      "cdf_leq": 0.14574,
+      "rank_pct_gt": 0.85426,
+      "candidates_above": 264812,
+      "total_candidates": 309991
+    },
+    {
+      "score": 15.15,
+      "candidate_count": 49,
+      "cdf_leq": 0.15951,
+      "rank_pct_gt": 0.84049,
+      "candidates_above": 260543,
+      "total_candidates": 309991
+    },
+    {
+      "score": 15.42,
+      "candidate_count": 2,
+      "cdf_leq": 0.17389,
+      "rank_pct_gt": 0.82611,
+      "candidates_above": 256087,
+      "total_candidates": 309991
+    },
+    {
+      "score": 15.7,
+      "candidate_count": 1098,
+      "cdf_leq": 0.19221,
+      "rank_pct_gt": 0.80779,
+      "candidates_above": 250409,
+      "total_candidates": 309991
+    },
+    {
+      "score": 15.95,
+      "candidate_count": 1057,
+      "cdf_leq": 0.20731,
+      "rank_pct_gt": 0.79269,
+      "candidates_above": 245726,
+      "total_candidates": 309991
+    },
+    {
+      "score": 16.25,
+      "candidate_count": 1597,
+      "cdf_leq": 0.22843,
+      "rank_pct_gt": 0.77157,
+      "candidates_above": 239181,
+      "total_candidates": 309991
+    },
+    {
+      "score": 16.47,
+      "candidate_count": 1,
+      "cdf_leq": 0.23943,
+      "rank_pct_gt": 0.76057,
+      "candidates_above": 235771,
+      "total_candidates": 309991
+    },
+    {
+      "score": 16.77,
+      "candidate_count": 3,
+      "cdf_leq": 0.26229,
+      "rank_pct_gt": 0.73771,
+      "candidates_above": 228684,
+      "total_candidates": 309991
+    },
+    {
+      "score": 17.05,
+      "candidate_count": 291,
+      "cdf_leq": 0.28112,
+      "rank_pct_gt": 0.71888,
+      "candidates_above": 222845,
+      "total_candidates": 309991
+    },
+    {
+      "score": 17.3,
+      "candidate_count": 248,
+      "cdf_leq": 0.29889,
+      "rank_pct_gt": 0.70111,
+      "candidates_above": 217337,
+      "total_candidates": 309991
+    },
+    {
+      "score": 17.58,
+      "candidate_count": 6,
+      "cdf_leq": 0.31724,
+      "rank_pct_gt": 0.68276,
+      "candidates_above": 211651,
+      "total_candidates": 309991
+    },
+    {
+      "score": 17.85,
+      "candidate_count": 2360,
+      "cdf_leq": 0.34358,
+      "rank_pct_gt": 0.65642,
+      "candidates_above": 203483,
+      "total_candidates": 309991
+    },
+    {
+      "score": 18.12,
+      "candidate_count": 5,
+      "cdf_leq": 0.36283,
+      "rank_pct_gt": 0.63717,
+      "candidates_above": 197516,
+      "total_candidates": 309991
+    },
+    {
+      "score": 18.42,
+      "candidate_count": 7,
+      "cdf_leq": 0.38254,
+      "rank_pct_gt": 0.61746,
+      "candidates_above": 191407,
+      "total_candidates": 309991
+    },
+    {
+      "score": 18.7,
+      "candidate_count": 843,
+      "cdf_leq": 0.4046,
+      "rank_pct_gt": 0.5954,
+      "candidates_above": 184568,
+      "total_candidates": 309991
+    },
+    {
+      "score": 19.0,
+      "candidate_count": 2969,
+      "cdf_leq": 0.43388,
+      "rank_pct_gt": 0.56612,
+      "candidates_above": 175491,
+      "total_candidates": 309991
+    },
+    {
+      "score": 19.26,
+      "candidate_count": 1,
+      "cdf_leq": 0.45411,
+      "rank_pct_gt": 0.54589,
+      "candidates_above": 169220,
+      "total_candidates": 309991
+    },
+    {
+      "score": 19.6,
+      "candidate_count": 2244,
+      "cdf_leq": 0.48234,
+      "rank_pct_gt": 0.51766,
+      "candidates_above": 160470,
+      "total_candidates": 309991
+    },
+    {
+      "score": 19.9,
+      "candidate_count": 4,
+      "cdf_leq": 0.50255,
+      "rank_pct_gt": 0.49745,
+      "candidates_above": 154204,
+      "total_candidates": 309991
+    },
+    {
+      "score": 20.16,
+      "candidate_count": 1,
+      "cdf_leq": 0.52311,
+      "rank_pct_gt": 0.47689,
+      "candidates_above": 147831,
+      "total_candidates": 309991
+    },
+    {
+      "score": 20.43,
+      "candidate_count": 3,
+      "cdf_leq": 0.54348,
+      "rank_pct_gt": 0.45652,
+      "candidates_above": 141518,
+      "total_candidates": 309991
+    },
+    {
+      "score": 20.7,
+      "candidate_count": 438,
+      "cdf_leq": 0.56488,
+      "rank_pct_gt": 0.43512,
+      "candidates_above": 134883,
+      "total_candidates": 309991
+    },
+    {
+      "score": 21.05,
+      "candidate_count": 37,
+      "cdf_leq": 0.59701,
+      "rank_pct_gt": 0.40299,
+      "candidates_above": 124922,
+      "total_candidates": 309991
+    },
+    {
+      "score": 21.4,
+      "candidate_count": 1,
+      "cdf_leq": 0.62351,
+      "rank_pct_gt": 0.37649,
+      "candidates_above": 116709,
+      "total_candidates": 309991
+    },
+    {
+      "score": 21.68,
+      "candidate_count": 4,
+      "cdf_leq": 0.64355,
+      "rank_pct_gt": 0.35645,
+      "candidates_above": 110496,
+      "total_candidates": 309991
+    },
+    {
+      "score": 22.1,
+      "candidate_count": 1461,
+      "cdf_leq": 0.68223,
+      "rank_pct_gt": 0.31777,
+      "candidates_above": 98505,
+      "total_candidates": 309991
+    },
+    {
+      "score": 22.41,
+      "candidate_count": 1,
+      "cdf_leq": 0.70197,
+      "rank_pct_gt": 0.29803,
+      "candidates_above": 92385,
+      "total_candidates": 309991
+    },
+    {
+      "score": 22.76,
+      "candidate_count": 1,
+      "cdf_leq": 0.73527,
+      "rank_pct_gt": 0.26473,
+      "candidates_above": 82064,
+      "total_candidates": 309991
+    },
+    {
+      "score": 23.1,
+      "candidate_count": 1133,
+      "cdf_leq": 0.7578,
+      "rank_pct_gt": 0.2422,
+      "candidates_above": 75081,
+      "total_candidates": 309991
+    },
+    {
+      "score": 23.45,
+      "candidate_count": 72,
+      "cdf_leq": 0.77622,
+      "rank_pct_gt": 0.22378,
+      "candidates_above": 69370,
+      "total_candidates": 309991
+    },
+    {
+      "score": 23.85,
+      "candidate_count": 733,
+      "cdf_leq": 0.81063,
+      "rank_pct_gt": 0.18937,
+      "candidates_above": 58703,
+      "total_candidates": 309991
+    },
+    {
+      "score": 24.26,
+      "candidate_count": 1,
+      "cdf_leq": 0.84096,
+      "rank_pct_gt": 0.15904,
+      "candidates_above": 49301,
+      "total_candidates": 309991
+    },
+    {
+      "score": 24.83,
+      "candidate_count": 6,
+      "cdf_leq": 0.87293,
+      "rank_pct_gt": 0.12707,
+      "candidates_above": 39392,
+      "total_candidates": 309991
+    },
+    {
+      "score": 25.42,
+      "candidate_count": 6,
+      "cdf_leq": 0.9026,
+      "rank_pct_gt": 0.0974,
+      "candidates_above": 30194,
+      "total_candidates": 309991
+    },
+    {
+      "score": 25.95,
+      "candidate_count": 3,
+      "cdf_leq": 0.92842,
+      "rank_pct_gt": 0.07158,
+      "candidates_above": 22189,
+      "total_candidates": 309991
+    },
+    {
+      "score": 26.58,
+      "candidate_count": 2,
+      "cdf_leq": 0.95971,
+      "rank_pct_gt": 0.04029,
+      "candidates_above": 12489,
+      "total_candidates": 309991
+    },
+    {
+      "score": 27.6,
+      "candidate_count": 7,
+      "cdf_leq": 0.98747,
+      "rank_pct_gt": 0.01253,
+      "candidates_above": 3884,
+      "total_candidates": 309991
+    },
+    {
+      "score": 29.75,
+      "candidate_count": 1,
+      "cdf_leq": 1.0,
+      "rank_pct_gt": 0.0,
+      "candidates_above": 0,
+      "total_candidates": 309991
+    }
+  ],
+  "D01": [
+    {
+      "score": 3.5,
+      "candidate_count": 1,
+      "cdf_leq": 0.0,
+      "rank_pct_gt": 1.0,
+      "candidates_above": 360244,
+      "total_candidates": 360245
+    },
+    {
+      "score": 5.7,
+      "candidate_count": 1,
+      "cdf_leq": 3e-05,
+      "rank_pct_gt": 0.99997,
+      "candidates_above": 360233,
+      "total_candidates": 360245
+    },
+    {
+      "score": 6.5,
+      "candidate_count": 3,
+      "cdf_leq": 9e-05,
+      "rank_pct_gt": 0.99991,
+      "candidates_above": 360214,
+      "total_candidates": 360245
+    },
+    {
+      "score": 7.15,
+      "candidate_count": 1,
+      "cdf_leq": 0.00021,
+      "rank_pct_gt": 0.99979,
+      "candidates_above": 360171,
+      "total_candidates": 360245
+    },
+    {
+      "score": 7.7,
+      "candidate_count": 6,
+      "cdf_leq": 0.00038,
+      "rank_pct_gt": 0.99962,
+      "candidates_above": 360109,
+      "total_candidates": 360245
+    },
+    {
+      "score": 8.35,
+      "candidate_count": 13,
+      "cdf_leq": 0.00072,
+      "rank_pct_gt": 0.99928,
+      "candidates_above": 359985,
+      "total_candidates": 360245
+    },
+    {
+      "score": 8.9,
+      "candidate_count": 6,
+      "cdf_leq": 0.00102,
+      "rank_pct_gt": 0.99898,
+      "candidates_above": 359879,
+      "total_candidates": 360245
+    },
+    {
+      "score": 9.45,
+      "candidate_count": 22,
+      "cdf_leq": 0.00161,
+      "rank_pct_gt": 0.99839,
+      "candidates_above": 359665,
+      "total_candidates": 360245
+    },
+    {
+      "score": 10.05,
+      "candidate_count": 15,
+      "cdf_leq": 0.0026,
+      "rank_pct_gt": 0.9974,
+      "candidates_above": 359309,
+      "total_candidates": 360245
+    },
+    {
+      "score": 10.5,
+      "candidate_count": 89,
+      "cdf_leq": 0.00386,
+      "rank_pct_gt": 0.99614,
+      "candidates_above": 358856,
+      "total_candidates": 360245
+    },
+    {
+      "score": 10.9,
+      "candidate_count": 6,
+      "cdf_leq": 0.00515,
+      "rank_pct_gt": 0.99485,
+      "candidates_above": 358388,
+      "total_candidates": 360245
+    },
+    {
+      "score": 11.3,
+      "candidate_count": 7,
+      "cdf_leq": 0.00711,
+      "rank_pct_gt": 0.99289,
+      "candidates_above": 357682,
+      "total_candidates": 360245
+    },
+    {
+      "score": 11.67,
+      "candidate_count": 2,
+      "cdf_leq": 0.00952,
+      "rank_pct_gt": 0.99048,
+      "candidates_above": 356816,
+      "total_candidates": 360245
+    },
+    {
+      "score": 12.0,
+      "candidate_count": 425,
+      "cdf_leq": 0.0131,
+      "rank_pct_gt": 0.9869,
+      "candidates_above": 355527,
+      "total_candidates": 360245
+    },
+    {
+      "score": 12.35,
+      "candidate_count": 449,
+      "cdf_leq": 0.01723,
+      "rank_pct_gt": 0.98277,
+      "candidates_above": 354038,
+      "total_candidates": 360245
+    },
+    {
+      "score": 12.68,
+      "candidate_count": 1,
+      "cdf_leq": 0.02115,
+      "rank_pct_gt": 0.97885,
+      "candidates_above": 352625,
+      "total_candidates": 360245
+    },
+    {
+      "score": 13.03,
+      "candidate_count": 1,
+      "cdf_leq": 0.02903,
+      "rank_pct_gt": 0.97097,
+      "candidates_above": 349788,
+      "total_candidates": 360245
+    },
+    {
+      "score": 13.3,
+      "candidate_count": 29,
+      "cdf_leq": 0.03522,
+      "rank_pct_gt": 0.96478,
+      "candidates_above": 347556,
+      "total_candidates": 360245
+    },
+    {
+      "score": 13.58,
+      "candidate_count": 4,
+      "cdf_leq": 0.04252,
+      "rank_pct_gt": 0.95748,
+      "candidates_above": 344929,
+      "total_candidates": 360245
+    },
+    {
+      "score": 13.85,
+      "candidate_count": 1173,
+      "cdf_leq": 0.05397,
+      "rank_pct_gt": 0.94603,
+      "candidates_above": 340802,
+      "total_candidates": 360245
+    },
+    {
+      "score": 14.13,
+      "candidate_count": 1,
+      "cdf_leq": 0.0639,
+      "rank_pct_gt": 0.9361,
+      "candidates_above": 337224,
+      "total_candidates": 360245
+    },
+    {
+      "score": 14.35,
+      "candidate_count": 1420,
+      "cdf_leq": 0.07536,
+      "rank_pct_gt": 0.92464,
+      "candidates_above": 333097,
+      "total_candidates": 360245
+    },
+    {
+      "score": 14.65,
+      "candidate_count": 3,
+      "cdf_leq": 0.08868,
+      "rank_pct_gt": 0.91132,
+      "candidates_above": 328297,
+      "total_candidates": 360245
+    },
+    {
+      "score": 14.92,
+      "candidate_count": 6,
+      "cdf_leq": 0.10357,
+      "rank_pct_gt": 0.89643,
+      "candidates_above": 322935,
+      "total_candidates": 360245
+    },
+    {
+      "score": 15.16,
+      "candidate_count": 1,
+      "cdf_leq": 0.11982,
+      "rank_pct_gt": 0.88018,
+      "candidates_above": 317079,
+      "total_candidates": 360245
+    },
+    {
+      "score": 15.43,
+      "candidate_count": 5,
+      "cdf_leq": 0.13812,
+      "rank_pct_gt": 0.86188,
+      "candidates_above": 310489,
+      "total_candidates": 360245
+    },
+    {
+      "score": 15.68,
+      "candidate_count": 6,
+      "cdf_leq": 0.15871,
+      "rank_pct_gt": 0.84129,
+      "candidates_above": 303071,
+      "total_candidates": 360245
+    },
+    {
+      "score": 15.93,
+      "candidate_count": 7,
+      "cdf_leq": 0.18099,
+      "rank_pct_gt": 0.81901,
+      "candidates_above": 295044,
+      "total_candidates": 360245
+    },
+    {
+      "score": 16.2,
+      "candidate_count": 298,
+      "cdf_leq": 0.20505,
+      "rank_pct_gt": 0.79495,
+      "candidates_above": 286375,
+      "total_candidates": 360245
+    },
+    {
+      "score": 16.43,
+      "candidate_count": 11,
+      "cdf_leq": 0.22948,
+      "rank_pct_gt": 0.77052,
+      "candidates_above": 277577,
+      "total_candidates": 360245
+    },
+    {
+      "score": 16.7,
+      "candidate_count": 286,
+      "cdf_leq": 0.25687,
+      "rank_pct_gt": 0.74313,
+      "candidates_above": 267708,
+      "total_candidates": 360245
+    },
+    {
+      "score": 17.0,
+      "candidate_count": 7603,
+      "cdf_leq": 0.30629,
+      "rank_pct_gt": 0.69371,
+      "candidates_above": 249905,
+      "total_candidates": 360245
+    },
+    {
+      "score": 17.25,
+      "candidate_count": 7835,
+      "cdf_leq": 0.33659,
+      "rank_pct_gt": 0.66341,
+      "candidates_above": 238991,
+      "total_candidates": 360245
+    },
+    {
+      "score": 17.45,
+      "candidate_count": 256,
+      "cdf_leq": 0.34522,
+      "rank_pct_gt": 0.65478,
+      "candidates_above": 235883,
+      "total_candidates": 360245
+    },
+    {
+      "score": 17.67,
+      "candidate_count": 9,
+      "cdf_leq": 0.37635,
+      "rank_pct_gt": 0.62365,
+      "candidates_above": 224665,
+      "total_candidates": 360245
+    },
+    {
+      "score": 17.91,
+      "candidate_count": 1,
+      "cdf_leq": 0.40829,
+      "rank_pct_gt": 0.59171,
+      "candidates_above": 213162,
+      "total_candidates": 360245
+    },
+    {
+      "score": 18.2,
+      "candidate_count": 210,
+      "cdf_leq": 0.44166,
+      "rank_pct_gt": 0.55834,
+      "candidates_above": 201138,
+      "total_candidates": 360245
+    },
+    {
+      "score": 18.45,
+      "candidate_count": 192,
+      "cdf_leq": 0.47495,
+      "rank_pct_gt": 0.52505,
+      "candidates_above": 189146,
+      "total_candidates": 360245
+    },
+    {
+      "score": 18.77,
+      "candidate_count": 1,
+      "cdf_leq": 0.53384,
+      "rank_pct_gt": 0.46616,
+      "candidates_above": 167931,
+      "total_candidates": 360245
+    },
+    {
+      "score": 19.08,
+      "candidate_count": 7,
+      "cdf_leq": 0.56681,
+      "rank_pct_gt": 0.43319,
+      "candidates_above": 156054,
+      "total_candidates": 360245
+    },
+    {
+      "score": 19.41,
+      "candidate_count": 2,
+      "cdf_leq": 0.60524,
+      "rank_pct_gt": 0.39476,
+      "candidates_above": 142212,
+      "total_candidates": 360245
+    },
+    {
+      "score": 19.66,
+      "candidate_count": 1,
+      "cdf_leq": 0.63603,
+      "rank_pct_gt": 0.36397,
+      "candidates_above": 131118,
+      "total_candidates": 360245
+    },
+    {
+      "score": 19.95,
+      "candidate_count": 84,
+      "cdf_leq": 0.66667,
+      "rank_pct_gt": 0.33333,
+      "candidates_above": 120078,
+      "total_candidates": 360245
+    },
+    {
+      "score": 20.35,
+      "candidate_count": 1457,
+      "cdf_leq": 0.7234,
+      "rank_pct_gt": 0.2766,
+      "candidates_above": 99645,
+      "total_candidates": 360245
+    },
+    {
+      "score": 20.67,
+      "candidate_count": 13,
+      "cdf_leq": 0.74988,
+      "rank_pct_gt": 0.25012,
+      "candidates_above": 90105,
+      "total_candidates": 360245
+    },
+    {
+      "score": 20.93,
+      "candidate_count": 2,
+      "cdf_leq": 0.77522,
+      "rank_pct_gt": 0.22478,
+      "candidates_above": 80977,
+      "total_candidates": 360245
+    },
+    {
+      "score": 21.25,
+      "candidate_count": 6926,
+      "cdf_leq": 0.81822,
+      "rank_pct_gt": 0.18178,
+      "candidates_above": 65484,
+      "total_candidates": 360245
+    },
+    {
+      "score": 21.58,
+      "candidate_count": 4,
+      "cdf_leq": 0.8389,
+      "rank_pct_gt": 0.1611,
+      "candidates_above": 58034,
+      "total_candidates": 360245
+    },
+    {
+      "score": 21.95,
+      "candidate_count": 37,
+      "cdf_leq": 0.86022,
+      "rank_pct_gt": 0.13978,
+      "candidates_above": 50356,
+      "total_candidates": 360245
+    },
+    {
+      "score": 22.33,
+      "candidate_count": 3,
+      "cdf_leq": 0.89237,
+      "rank_pct_gt": 0.10763,
+      "candidates_above": 38772,
+      "total_candidates": 360245
+    },
+    {
+      "score": 22.7,
+      "candidate_count": 30,
+      "cdf_leq": 0.90845,
+      "rank_pct_gt": 0.09155,
+      "candidates_above": 32981,
+      "total_candidates": 360245
+    },
+    {
+      "score": 23.1,
+      "candidate_count": 206,
+      "cdf_leq": 0.93342,
+      "rank_pct_gt": 0.06658,
+      "candidates_above": 23985,
+      "total_candidates": 360245
+    },
+    {
+      "score": 23.45,
+      "candidate_count": 10,
+      "cdf_leq": 0.94414,
+      "rank_pct_gt": 0.05586,
+      "candidates_above": 20122,
+      "total_candidates": 360245
+    },
+    {
+      "score": 23.9,
+      "candidate_count": 12,
+      "cdf_leq": 0.96173,
+      "rank_pct_gt": 0.03827,
+      "candidates_above": 13786,
+      "total_candidates": 360245
+    },
+    {
+      "score": 24.3,
+      "candidate_count": 8,
+      "cdf_leq": 0.97465,
+      "rank_pct_gt": 0.02535,
+      "candidates_above": 9131,
+      "total_candidates": 360245
+    },
+    {
+      "score": 24.7,
+      "candidate_count": 6,
+      "cdf_leq": 0.9801,
+      "rank_pct_gt": 0.0199,
+      "candidates_above": 7170,
+      "total_candidates": 360245
+    },
+    {
+      "score": 25.2,
+      "candidate_count": 9,
+      "cdf_leq": 0.9881,
+      "rank_pct_gt": 0.0119,
+      "candidates_above": 4287,
+      "total_candidates": 360245
+    },
+    {
+      "score": 25.65,
+      "candidate_count": 4,
+      "cdf_leq": 0.99367,
+      "rank_pct_gt": 0.00633,
+      "candidates_above": 2278,
+      "total_candidates": 360245
+    },
+    {
+      "score": 26.3,
+      "candidate_count": 4,
+      "cdf_leq": 0.99796,
+      "rank_pct_gt": 0.00204,
+      "candidates_above": 736,
+      "total_candidates": 360245
+    },
+    {
+      "score": 27.05,
+      "candidate_count": 2,
+      "cdf_leq": 0.99954,
+      "rank_pct_gt": 0.00046,
+      "candidates_above": 166,
+      "total_candidates": 360245
+    },
+    {
+      "score": 29.0,
+      "candidate_count": 1,
+      "cdf_leq": 1.0,
+      "rank_pct_gt": 0.0,
+      "candidates_above": 0,
+      "total_candidates": 360245
+    }
+  ]
+}

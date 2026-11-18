@@ -1,0 +1,314 @@
+{
+  "seasonal_radar": [
+    {
+      "month": "Tháng 1",
+      "BKA": 28,
+      "KHA": 25,
+      "NTH": 22,
+      "QHI": 20,
+      "industry_cntt": 35,
+      "industry_semiconductor": 20
+    },
+    {
+      "month": "Tháng 2",
+      "BKA": 32,
+      "KHA": 28,
+      "NTH": 26,
+      "QHI": 24,
+      "industry_cntt": 38,
+      "industry_semiconductor": 22
+    },
+    {
+      "month": "Tháng 3",
+      "BKA": 45,
+      "KHA": 40,
+      "NTH": 38,
+      "QHI": 35,
+      "industry_cntt": 48,
+      "industry_semiconductor": 32
+    },
+    {
+      "month": "Tháng 4",
+      "BKA": 62,
+      "KHA": 58,
+      "NTH": 55,
+      "QHI": 50,
+      "industry_cntt": 60,
+      "industry_semiconductor": 45
+    },
+    {
+      "month": "Tháng 5",
+      "BKA": 78,
+      "KHA": 74,
+      "NTH": 72,
+      "QHI": 68,
+      "industry_cntt": 75,
+      "industry_semiconductor": 60
+    },
+    {
+      "month": "Tháng 6 (Thi)",
+      "BKA": 95,
+      "KHA": 92,
+      "NTH": 90,
+      "QHI": 88,
+      "industry_cntt": 92,
+      "industry_semiconductor": 78
+    },
+    {
+      "month": "Tháng 7 (Điểm)",
+      "BKA": 100,
+      "KHA": 98,
+      "NTH": 96,
+      "QHI": 95,
+      "industry_cntt": 100,
+      "industry_semiconductor": 92
+    },
+    {
+      "month": "Tháng 8 (NV)",
+      "BKA": 92,
+      "KHA": 88,
+      "NTH": 89,
+      "QHI": 84,
+      "industry_cntt": 88,
+      "industry_semiconductor": 80
+    },
+    {
+      "month": "Tháng 9",
+      "BKA": 50,
+      "KHA": 48,
+      "NTH": 46,
+      "QHI": 42,
+      "industry_cntt": 55,
+      "industry_semiconductor": 48
+    },
+    {
+      "month": "Tháng 10",
+      "BKA": 35,
+      "KHA": 32,
+      "NTH": 30,
+      "QHI": 28,
+      "industry_cntt": 42,
+      "industry_semiconductor": 36
+    },
+    {
+      "month": "Tháng 11",
+      "BKA": 30,
+      "KHA": 27,
+      "NTH": 25,
+      "QHI": 24,
+      "industry_cntt": 38,
+      "industry_semiconductor": 30
+    },
+    {
+      "month": "Tháng 12",
+      "BKA": 32,
+      "KHA": 28,
+      "NTH": 27,
+      "QHI": 25,
+      "industry_cntt": 40,
+      "industry_semiconductor": 32
+    }
+  ],
+  "industry_hotness": [
+    {
+      "industry": "Công nghệ thông tin & AI",
+      "search_volume": 98,
+      "growth_yoy": "+18.4%",
+      "peak_score": 28.5,
+      "heat_level": "Rất cao"
+    },
+    {
+      "industry": "Thiết kế Vi mạch & Bán dẫn",
+      "search_volume": 89,
+      "growth_yoy": "+142.6%",
+      "peak_score": 27.8,
+      "heat_level": "Bùng nổ"
+    },
+    {
+      "industry": "Kinh tế & Tài chính Fintech",
+      "search_volume": 84,
+      "growth_yoy": "+8.2%",
+      "peak_score": 27.5,
+      "heat_level": "Cao"
+    },
+    {
+      "industry": "Y Đa khoa & Dược học",
+      "search_volume": 76,
+      "growth_yoy": "+4.1%",
+      "peak_score": 28.2,
+      "heat_level": "Ổn định cao"
+    },
+    {
+      "industry": "Khoa học Dữ liệu & Big Data",
+      "search_volume": 82,
+      "growth_yoy": "+38.5%",
+      "peak_score": 27.0,
+      "heat_level": "Rất cao"
+    },
+    {
+      "industry": "Sư phạm Toán & Tin",
+      "search_volume": 70,
+      "growth_yoy": "+12.0%",
+      "peak_score": 26.8,
+      "heat_level": "Cao"
+    },
+    {
+      "industry": "Luật & Logistics",
+      "search_volume": 68,
+      "growth_yoy": "+6.5%",
+      "peak_score": 26.2,
+      "heat_level": "Trung bình"
+    }
+  ],
+  "geo_provinces": [
+    {
+      "province": "Hà Nội",
+      "code": "HN",
+      "search_intensity": 100,
+      "candidates": 108500,
+      "region": "Miền Bắc"
+    },
+    {
+      "province": "TP. Hồ Chí Minh",
+      "code": "HCM",
+      "search_intensity": 96,
+      "candidates": 94200,
+      "region": "Miền Nam"
+    },
+    {
+      "province": "Đà Nẵng",
+      "code": "DN",
+      "search_intensity": 82,
+      "candidates": 16400,
+      "region": "Miền Trung"
+    },
+    {
+      "province": "Nghệ An",
+      "code": "NA",
+      "search_intensity": 88,
+      "candidates": 38600,
+      "region": "Miền Trung"
+    },
+    {
+      "province": "Nam Định",
+      "code": "ND",
+      "search_intensity": 85,
+      "candidates": 24100,
+      "region": "Miền Bắc"
+    },
+    {
+      "province": "Hải Phòng",
+      "code": "HP",
+      "search_intensity": 80,
+      "candidates": 26300,
+      "region": "Miền Bắc"
+    },
+    {
+      "province": "Thanh Hóa",
+      "code": "TH",
+      "search_intensity": 84,
+      "candidates": 39500,
+      "region": "Miền Trung"
+    },
+    {
+      "province": "Bình Dương",
+      "code": "BD",
+      "search_intensity": 75,
+      "candidates": 15800,
+      "region": "Miền Nam"
+    },
+    {
+      "province": "Đồng Nai",
+      "code": "DNI",
+      "search_intensity": 72,
+      "candidates": 34200,
+      "region": "Miền Nam"
+    },
+    {
+      "province": "Cần Thơ",
+      "code": "CT",
+      "search_intensity": 70,
+      "candidates": 12800,
+      "region": "Miền Tây"
+    },
+    {
+      "province": "Thái Bình",
+      "code": "TB",
+      "search_intensity": 78,
+      "candidates": 22400,
+      "region": "Miền Bắc"
+    },
+    {
+      "province": "Bắc Ninh",
+      "code": "BN",
+      "search_intensity": 76,
+      "candidates": 18200,
+      "region": "Miền Bắc"
+    },
+    {
+      "province": "Thừa Thiên Huế",
+      "code": "TTH",
+      "search_intensity": 68,
+      "candidates": 14100,
+      "region": "Miền Trung"
+    },
+    {
+      "province": "Quảng Ninh",
+      "code": "QN",
+      "search_intensity": 67,
+      "candidates": 16900,
+      "region": "Miền Bắc"
+    },
+    {
+      "province": "Khánh Hòa",
+      "code": "KH",
+      "search_intensity": 64,
+      "candidates": 14500,
+      "region": "Miền Trung"
+    }
+  ],
+  "trends_vs_cutoff": [
+    {
+      "year": 2020,
+      "trend_index": 72,
+      "cutoff_bka_cntt": 29.04,
+      "cutoff_kha_kinhte": 27.8,
+      "correlation": 0.84
+    },
+    {
+      "year": 2021,
+      "trend_index": 78,
+      "cutoff_bka_cntt": 28.43,
+      "cutoff_kha_kinhte": 28.15,
+      "correlation": 0.86
+    },
+    {
+      "year": 2022,
+      "trend_index": 84,
+      "cutoff_bka_cntt": 28.29,
+      "cutoff_kha_kinhte": 28.2,
+      "correlation": 0.88
+    },
+    {
+      "year": 2023,
+      "trend_index": 91,
+      "cutoff_bka_cntt": 29.42,
+      "cutoff_kha_kinhte": 28.35,
+      "correlation": 0.91
+    },
+    {
+      "year": 2024,
+      "trend_index": 96,
+      "cutoff_bka_cntt": 29.65,
+      "cutoff_kha_kinhte": 28.6,
+      "correlation": 0.93
+    },
+    {
+      "year": 2025,
+      "trend_index": 100,
+      "cutoff_bka_cntt": 29.8,
+      "cutoff_kha_kinhte": 28.85,
+      "correlation": 0.94
+    }
+  ]
+}
